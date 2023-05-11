@@ -315,6 +315,7 @@ namespace Launcher
 
                 var response = task.Result;
 
+
                 using Stream sm = response.Content.ReadAsStream();
                 using MemoryStream ms = new();
                 sm.CopyTo(ms);
@@ -654,11 +655,11 @@ namespace Launcher
 
         private void AMain_FormClosed(object sender, FormClosedEventArgs e)
         {
-                MoveOldFilesToCurrent();
+            MoveOldFilesToCurrent();
 
-                Launch_pb?.Dispose();
-                Close_pb?.Dispose();
-                Environment.Exit(0);
+            Launch_pb?.Dispose();
+            Close_pb?.Dispose();
+            Environment.Exit(0);
         }
 
         private static string[] suffixes = new[] { " B", " KB", " MB", " GB", " TB", " PB" };
@@ -708,5 +709,20 @@ namespace Launcher
                     File.Move(oldFilename, originalFilename);
             }
         }
-    } 
+
+        private void Main_browser_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Name_label_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TotalProg_pb_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

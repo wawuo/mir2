@@ -37,7 +37,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.9" />
-    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1587.40" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1774.30" />
     <PackageReference Include="NAudio" Version="2.1.0" />
   </ItemGroup>
 
@@ -46,6 +46,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="Microsoft.DirectX.Direct3DX">
+      <HintPath>E:\Release\Microsoft.DirectX.Direct3DX.dll</HintPath>
+    </Reference>
     <Reference Include="SlimDX">
       <HintPath>..\Components\SlimDX.dll</HintPath>
     </Reference>

@@ -199,7 +199,17 @@ namespace Client
 
         public static void Load()
         {
-            GameLanguage.LoadClientLanguage(@".\Language.ini");
+            if ( File.Exists(@".\Language-cn.ini")) //是否存在语言文件， 
+            {
+                GameLanguage.LoadClientLanguage(@".\Language-cn.ini");  //加载语言文件
+            }
+            else
+            {
+                GameLanguage.LoadClientLanguage(@".\Language.ini");
+            }
+
+
+          
 
             if (!Directory.Exists(DataPath)) Directory.CreateDirectory(DataPath);
             if (!Directory.Exists(MapPath)) Directory.CreateDirectory(MapPath);
