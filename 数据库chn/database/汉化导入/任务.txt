@@ -1,0 +1,154 @@
+Assistant's Request,BichonProvince,0,BichonProvince/BorderVillage/1,Deliver Leaves to CraftsLady,,,,1,255,0,31
+The CraftLady's Request,BichonProvince,0,BichonProvince/BorderVillage/2,Deliver GingerTea to Assistant Jane,,,,1,255,1,31
+Talk with the Butcher,BichonProvince,0,BichonProvince/BorderVillage/3,Speak to Butcher John at 293:603,,,,1,255,2,31
+Hunt for the Butcher,BichonProvince,0,BichonProvince/BorderVillage/4,Return to Butcher John at 293:603,,,,1,255,3,31
+The Smith's 1st Test,BichonProvince,0,BichonProvince/BorderVillage/5,Return to Blacksmith Smith at 297:612,,,,1,255,0,31
+Smith's 2nd Test,BichonProvince,0,BichonProvince/BorderVillage/6,Return to Blacksmith Smith at 297:612,,,,1,255,5,31
+Meet the Warrior Instructor,BichonProvince,0,BichonProvince/BorderVillage/7,Speak to Master_Wa at 110:317,,,,4,255,0,1
+Test for the Fencing Skill,BichonProvince,0,BichonProvince/BorderVillage/8,Return to Master_Wa at 110:317,,,,4,255,7,1
+To Bichon,BichonProvince,0,BichonProvince/BorderVillage/9,Speak to Peter in BichonWall at 328:258,,,,4,255,8,1
+Meet the Mage Instructor,BichonProvince,0,BichonProvince/BorderVillage/10,Speak with the MasterMage at 314:474,,,,4,255,0,2
+Test for the Fireball Skill,BichonProvince,0,BichonProvince/BorderVillage/11,Return to MasterMage at 314:474,,,,4,255,10,2
+To Bichon,BichonProvince,0,BichonProvince/BorderVillage/12,Speak to Peter in BichonWall at 328:258,,,,4,255,11,2
+Meet the Taoist Instructor,BichonProvince,0,BichonProvince/BorderVillage/13,Search for the HighPriest Last seen at 429:475 ,,,,4,255,0,4
+Test for the Healing Skill,BichonProvince,0,BichonProvince/BorderVillage/14,Return to the HighPriest at 429:475,,,,4,255,13,4
+To Bichon,BichonProvince,0,BichonProvince/BorderVillage/15,Speak to Peter in BichonWall at 328:258,,,,4,255,14,4
+Meet the Assassin Instructor,BichonProvince,0,BichonProvince/BorderVillage/16,Speak with Assassin Cloud at 101:411,,,,4,255,0,8
+Test for FatalSword Skill,BichonProvince,0,BichonProvince/BorderVillage/17,Return to Cloud at 101:411,,,,4,255,16,8
+To Bichon,BichonProvince,0,BichonProvince/BorderVillage/18,Speak to Peter in BichonWall at 328:258,,,,4,255,17,8
+Meet the Archer Instructor,BichonProvince,0,BichonProvince/BorderVillage/19,Speak with the Captain at 320:477,,,,4,255,0,16
+Test for Focus Skill,BichonProvince,0,BichonProvince/BorderVillage/20,Return to the Captain at 320:477,,,,4,255,19,16
+To Bichon,BichonProvince,0,BichonProvince/BorderVillage/21,Speak to Peter in BichonWall at 328:258,,,,4,255,20,16
+Forest Yeti's Threat,BichonProvince,0,BichonProvince/BichonWall/1,Return to MirGuide Peter in BichonWall,,,,6,255,0,31
+!Attack Oma,BichonProvince,0,BichonProvince/BichonWall/2,,,,,7,255,22,31
+Help Blacksmith Jang,BichonProvince,0,BichonProvince/BichonWall/3,Speak to Blacksmith Jang in WoomyonWoods,,,,7,255,23,31
+Hunt CannibalPlants,WoomyonWoods,0,WoomyonWoods/Wilderness/1,Return to MirGuide Peter in BichonWall,,,,7,255,24,31
+Ingredients for the Antidote,BichonProvince,0,BichonProvince/BichonWall/4,Return to MirGuide Peter in BichonWall,,,,9,255,25,31
+Errands,BichonProvince,0,BichonProvince/BichonWall/5,Speak with MongchonScout at the Tavern 290:293,,,,9,255,26,31
+Find the Web,BichonProvince,0,BichonProvince/BichonWall/6,Return to Samuel at 324:291,,,,10,255,0,31
+Deliver Repair Oil,BichonProvince,0,BichonProvince/BichonWall/7,Travel to SerpentValley and Deliver to Bradly at 517:492 ,,,,10,255,0,31
+Lost Ring,SerpentValley,0,SerpentValley/Village/1,Return to Blacksmith Bradly in SerpentValley,,,,10,255,29,31
+Deliver the Ring,SerpentValley,0,SerpentValley/Village/2,Deliver the JadeRing to Melissa in SerpentValley,,,,10,255,30,31
+Messenger,SerpentValley,0,SerpentValley/Village/3,Deliver BluePill to Blacksmith Bradly,,,,10,255,31,31
+Cure the Insomnia,SerpentValley,0,SerpentValley/Village/4,Return to Robert at 505:479,,,,10,255,0,31
+Secret Recipe Delivery,SerpentValley,0,SerpentValley/Village/5,Deliver the Recipe to CraftsLady in BichonWall,,,,10,255,0,31
+SerpentValley,BichonProvince,0,SerpentValley/Village/6,Travel to SerpentValley and Speak to the InnKeeper,,,,10,255,27,31
+Ingredients for Snake Wine,SerpentValley,0,SerpentValley/Village/7,Return to InnKeeper at 517:466,,,,10,255,35,31
+Wine Delivery,SerpentValley,0,SerpentValley/Village/8,Return to MongchonScout with the Wine.,,,,10,255,36,31
+Find Ebony Fruit,SerpentValley,0,SerpentValley/Village/9,Return to InnKeeper at 517:466,,,,10,255,0,31
+Greetings to the Old Man,SerpentValley,0,SerpentValley/Village/10,Travel to WoomyonWoods and Visit Melissas Grandfather,,,,12,255,33,31
+Clean Up,WoomyonWoods,0,WoomyonWoods/Wilderness/2,Return back to MasterShok at 312:73,,,,12,255,39,31
+Grandads Request,WoomyonWoods,0,WoomyonWoods/Wilderness/3,Travel to BichonWall and Speak with Sarah 313:271,,,,12,255,40,31
+Way to Mongchon,BichonProvince,0,SerpentValley/Village/16,Return to Bruce in Mongchon's Blacksmith,,,,13,255,0,31
+Help Needed,BichonProvince,0,SerpentValley/Village/11,Speak to Robert in SerpentValley,,,,13,255,0,31
+Help Sandford,SerpentValley,0,SerpentValley/Village/12,Travel to PrajnaIsland Speak to Sandford. Boat leaves fom BorderVillage,,,,13,255,43,31
+Red Snake's Teeth,PrajnaIsland,0,PrajnaIsland/PIVillage/1,Hunt RedSnakes and Return to Robert in SerpentValley,,,,13,255,44,31
+Skeleton Bones,BichonProvince,0,BichonProvince/BichonWall/9,Return to MirGuide Peter in BichonWall,,,,14,255,0,31
+Sister's Ring,BichonProvince,0,BichonProvince/BichonWall/10,Return to Diana in BichonWall 306:276,,,,14,255,0,31
+Deliver Supplies to the Border,BichonProvince,0,BichonProvince/BorderVillage/22,Deliver the Relics to Ruben in BorderVillage,,,,14,255,0,31
+Dangerous Skeleton,BichonProvince,0,BichonProvince/BichonWall/11,Return to Jason in BichonWall 296:220,,,,14,255,0,31
+Cook Book Delivery,BichonProvince,0,WoomyonWoods/Castle-GI/Town/1,Deliver the CookBook to Jim in CastleGi-Ryoong ,,,,16,255,0,31
+CraftLady's CanniTea,BichonProvince,0,BichonProvince/BichonWall/12,Speak with CraftsLady in BichWall ,,,,16,255,0,31
+Ingredients for CanniTea,BichonProvince,0,BichonProvince/BichonWall/13,Return to the CraftsLady in BichonWall,,,,16,255,51,31
+Deliver CanniTea,BichonProvince,0,BichonProvince/BichonWall/14,Deliver CanniTea to MirGuide,,,,16,255,52,31
+Zombies in the Mines,BichonProvince,0,BichonProvince/BichonWall/15,Return to Blacksmith Bill in BichonWall,Kill Zombies in BichonDeadMines,,,17,255,0,31
+Restocking Supplies,BichonProvince,0,BichonProvince/BichonWall/16,Return to CraftsLady in BichonWall,,,,17,255,0,31
+Bat Wings,BichonProvince,0,BichonProvince/BichonWall/17,Return to Butcher Sarah in BichonWall,,,,17,255,0,31
+Collect Information,BichonProvince,0,BichonProvince/1,Take CaveReport to Kyle at the South East Gate.,,,,255,255,0,31
+Danger in the Cave,BichonProvince,0,BichonProvince/BichonWall/18,Return BoneElites head to Kyle in BichonWall,,,,18,255,57,31
+Rare Ore,BichonProvince,0,BichonProvince/BichonWall/19,Return to Blacksmith Bill in BichonWall,,,,18,255,0,31
+Help the Farmers,BichonProvince,0,BichonProvince/BichonWall/20,Return to the Examiner in BichonWall,,,,18,255,0,31
+Part Time Job,BichonProvince,0,WoomyonWoods/Castle-GI/Town/2,Travel to WoomyonWoods and speak to MasterShok,,,,18,255,58,31
+Exterminate,WoomyonWoods,0,WoomyonWoods/Castle-GI/Town/3,Return to MasterShok in WoomyonWoods,,,,18,255,61,31
+Finding a Friend's Remains,BichonProvince,0,BichonProvince/DeadMine/1,Find Vincents Friend in BichonDeadMines,,,,18,255,0,31
+Return the Necklace,BichonProvince,0,BichonProvince/BichonWall/21,Return the Necklace to Blacksmith Vincent in BichonWall,,,,18,255,63,31
+Revenge on Zombies,BichonProvince,0,BichonProvince/DeadMine/2,Return to Eddie in BichonWall at 298:317,,,,18,255,0,31
+The Best Healthy Food,WoomyonWoods,0,WoomyonWoods/Wilderness/InsectCave/1,Return to MasterShok in WoomyonWoods,,,,19,255,62,31
+Medicine Research,WoomyonWoods,0,WoomyonWoods/Wilderness/InsectCave/2,Return the Blood back to Helen in WoomyonWoods,,,,19,255,0,31
+Finding a Lost Item,WoomyonWoods,0,WoomyonWoods/Wilderness/InsectCave/3,Return the Blood back to Helen in WoomyonWoods,,,,19,255,67,31
+Find my Friend,WoomyonWoods,0,WoomyonWoods/Wilderness/InsectCave/4,Search for Helens friend Soho in InsectCave,,,,19,255,68,31
+Poisoned Friend,InsectCave,0,WoomyonWoods/Wilderness/InsectCave/5,Find and return Soho Backpack,,,,19,255,69,31
+Lost Item,InsectCave,0,WoomyonWoods/Wilderness/InsectCave/6,Return the Lost Items to Soho,,,,19,255,70,31
+News from a Friend,InsectCave,0,WoomyonWoods/TaoistVillage/1 ,Return to Helen in WoomyonWoods,,,,19,255,71,31
+Research Report,WoomyonWoods,0,SerpentValley/Village/13,Deliver MobBlood to Dr.Kim in SerpentValley,,,,19,255,72,31
+Free the Souls from Zombies,SerpentValley,0,SerpentValley/Serpent Mines/1,Return to the VulnerableSon, At SerpentDeadMine Entrance.,,,0,20,255,0
+Wipe Out,SerpentValley,0,SerpentValley/Serpent Mines/2,Return to Chandler in SerpentValley,,,,20,255,0,31
+Bloody Sword,SerpentValley,0,SerpentValley/Serpent Mines/3,Return to Blacksmith Bradly in SerpentValley,,,,20,255,0,31
+Call from the Dead,SerpentValley,0,SerpentValley/Village/14,,,,,20,255,0,31
+Hidden Box,MongchonProvince,0,SerpentValley/Serpent Mines/4,,,,,20,255,77,31
+Darkness from the Mines,SerpentValley,0,SerpentValley/Serpent Mines/5,Search for the Darkness within the SerpentDeadMines,,,,20,255,0,31
+Secret of the Skull,SerpentDeadMine,0,SerpentValley/Serpent Mines/6,Return the HiddenScroll to Dr.Kim,,,,20,255,79,31
+Dark Shadow,SerpentValley,0,SerpentValley/Serpent Mines/7,Return to Dr.Kim in SerpentValley,,,,20,255,80,31
+White Serpent,SerpentValley,0,SerpentValley/Serpent Mines/8,Return the Collector in SerpentValley,,,,21,255,0,31
+Material for Clothing,SerpentValley,0,SerpentValley/Village/15,Travel to TaoVillage and speak to Sam at 206:319,,,,21,255,0,31
+Missing Materials,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/2,Return to Sam in TaoVillage with the Materials,,,,21,255,83,31
+Save the Cursed Souls,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/3,Return to MasterMK in TaoVillage,,,,22,255,0,31
+Uniform Order Status,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/4,Travel to BichonWall Drapery Shop and speak with Ann,,,,22,255,0,31
+Locate the Carriage,BichonProvince,0,WoomyonWoods/TaoistVillage/Tao Village/5,Search for the Missing Carriage on the way to TaoVillage,,,,22,255,86,31
+Zombies Attack on Carriage,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/6,Return to LeadTrainer at 227:269 ,,,,22,255,87,31
+Zombies Hunt,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/7,Return to LeadTrainer in TaoVillage 227:269,,,,22,255,88,31
+Gathering Material,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/8,Return to Jerald to TaoVillage 234:301,,,,22,255,0,31
+Help the Lumberer,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/9,Return the LumberAxe to Sigmund in TaoVillage 166:339,,,,22,255,0,31
+Deep into the Woods,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/10,Return to Jerry in TaoVillage,,,,22,255,0,31
+Runaway Student,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/11,Search for the missing Student in TreePath,,,,22,255,0,31
+Bad News,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/12,Return the TraineeRing to Hubert in TaoVillage 194:297,,,,22,255,93,31
+Letters to Parents,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/13,Deliver SkysLetter to Sir.Mogu in BichonWall Tavern,,,,23,255,0,31
+Cooking Beef Rib Stew,BichonProvince,0,BichonProvince/BichonWall/22,Deliver BeefRib to Butcher Han in WoomyonWoods,,,,23,255,0,31
+Danger (WoomyonWoods),WoomyonWoods,0,WoomyonWoods/Castle-GI/Town/4,Travel to WoomyonWoods and Warn SubjugationLead.,,,,23,255,0,31
+Monster Hunt in Wooma,WoomyonWoods,0,WoomyonWoods/Castle-GI/Town/5,Return to SubjugationLead in WoomyonWoods,,,,23,255,97,31
+Boss Mob Hunt,WoomyonWoods,0,WoomyonWoods/Castle-GI/Town/6,Return to SubjugationLead in WoomyonWoods,,,,23,255,98,31
+Deadly Attack,WoomyonWoods,0,WoomyonWoods/Castle-GI/Town/7,Return to SubjagationManager in BichonWall with an update.,,,,23,255,99,31
+Boss Mob of Woomyon,WoomyonWoods,0,WoomyonWoods/Castle-GI/Town/8,Return to MasterShok 312:73,,,,23,255,0,31
+Trip to Mongchon,BichonProvince,0,BichonProvince/BichonWall/23,Travel to MongchonWall via SerpentValley and Speak with Edwin,,,,24,255,0,31
+Abnormal Creatures,MongchonProvince,0,MongchonProvince/Bug Cave/1,Return to Daniel in MongchonWall,,,,24,255,0,31
+Lost Sword,MongchonProvince,0,MongchonProvince/Bug Cave/2,Return to Charleys lost sword.,,,,24,255,0,31
+Lost Soul,DeathValley,0,MongchonProvince/Bug Cave/3,,,,,24,255,0,31
+Lost Soul's Remains,DeathValley,0,MongchonProvince/Bug Cave/4,Return to the LostSoul on S_1FofDungeon 202:204,,,,24,255,105,31
+Last Words,DeathValley,0,MongchonProvince/Bug Cave/5,Return Necklace to Rachel in MongchonWall,,,,24,255,106,31
+Antique Book,MongchonProvince,0,MongchonProvince/SabukWall/1,Return the Book back to Collector in MongchonWall,,,,25,255,111,31
+Find More Antique Books,MongchonProvince,0,MongchonProvince/SabukWall/2,Return the Books back to Collector in MongchonWall,,,,25,255,108,31
+Meet with Mr.Wang,MongchonProvince,0,MongchonProvince/SabukWall/3,Travel East to SabukWall and Speak with Mr.Wang,,,,25,255,0,31
+Secret Path,MongchonProvince,0,MongchonProvince/SabukWall/4,Return to Mr.Wang once found all the pillars,,,,25,255,110,31
+Saftey of Secret Path,MongchonProvince,0,MongchonProvince/SabukWall/5,,,,,25,255,111,31
+Insomnia,MongchonProvince,0,MongchonProvince/StoneTomb/1,Return to Jessica in MongchonWall,,,,26,255,0,31
+Threats to Mongchon,MongchonProvince,0,MongchonProvince/StoneTomb/2,Return to MongchonDelegate in MongchonWall,,,,26,255,0,31
+Eliminate WhiteBoar,MongchonProvince,0,MongchonProvince/StoneTomb/3,Return to MongchonDelegate in MongchonWall,,,,26,255,114,31
+Report to the Manager,MongchonProvince,0,MongchonProvince/MudWall/1,Speak to SubjugationManager in BichonWall,,,,26,255,115,31
+Check Supply Path,BichonProvince,0,BichonProvince/BichonWall/24,Speak with CaveGuide.,,,,27,255,0,31
+Zombies in MineralMine,TaoVillage,0,WoomyonWoods/TaoistVillage/WW Mines/1,Return to CaveGuide in TaoVillage once the threat has been reduced.,,,,27,255,117,31
+Message to BichonExaminer,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/14,Travel to BichonWall and talk to BichonExaminer 341:258,,,,27,255,118,31
+CorpsFlower,BichonProvince,0,BichonProvince/BichonWall/25,Return to Samuel in BichonWall after you retrieve all CorpsFlowers,,,,28,255,0,31
+Save Prajna,PrajnaIsland,0,PrajnaIsland\PIVillage/2,Return to the Inspector in PrajnaIsland,,,,28,255,0,31
+Skeleton Hunt 1,PrajnaIsland,0,PrajnaIsland/PranjaStoneCave/1,Return to MirGuide Edward in PrajnaIsland,,,,28,255,121,31
+Skeleton Hunt 2,PrajnaIsland,0,PrajnaIsland/PranjaStoneCave/2,Return to MirGuide Edward in PrajnaIsland,,,,28,255,122,31
+Skull Collector,PrajnaIsland,0,PrajnaIsland/PranjaStoneCave/3,Return to the Collector once retrieved all the Skulls,,,,29,255,0,31
+Visit the VillageChief,PrajnaIsland,0,PrajnaIsland/PIVillage/3,Travel up the Stairs and speak with the VillageChief,,,,31,255,0,31
+The VillageChief's Request,PrajnaIsland,0,PrajnaIsland/PIVillage/4,Travel to TaoVillage and speak with the LeadTrainer,,,,31,255,125,31
+Stolen Book,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/15,Return to LeadTrainer in TaoVillage,,,,31,255,126,31
+Returning a Book,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/16,Return the Book to VillageChief in PrajnaIsland,,,,31,255,127,31
+New Poison,TaoVillage,0,WoomyonWoods/TaoistVillage/TreePath/1,Return to Janey in TaoVillage 179:296,,,,32,255,0,31
+Wanted!,TaoVillage,0,WoomyonWoods/TaoistVillage/TreePath/2,Return to the Investigator in TaoVillage,,,,34,255,0,31
+Ancient Mobs,PrajnaIsland,0,PrajnaIsland/PranjaTemple/1,Return to the Inspector in PrajnaIsland,,,,35,255,0,31
+Mobs from Prajna,PrajnaIsland,0,PrajnaIsland/PranjaTemple/2,Return to the VillageChief in PrajnaIsland,,,,36,255,0,31
+Guards from Prajna,PrajnaIsland,0,PrajnaIsland/PranjaTemple/3,Return to the VillageChief in PrajnaIsland,,,,36,255,132,31
+Ingredient from Prajna,PrajnaIsland,0,PrajnaIsland/PIVillage/5,Deliver the Algae to MongchonWall CraftsLady,,,,37,255,0,31
+Find Passage to Ruins,MongchonProvince,0,MongchonProvince/StoneTomb/4,Return to MongchonDelegate in MongchonWall,,,,38,255,0,31
+Shipping Relics,MongchonProvince,0,MongchonProvince/StoneTomb/5,Return to the Collector in MongchonWall,,,,39,255,135,31
+Rare Medicine,MongchonProvince,0,MongchonProvince/StoneTomb/6,Return to Kevin in MongchonWall at 346:334,,,,40,255,0,31
+Force Recruit,WasteLands,0,WasteLand/Red Cave/1,Return to the Excavenger in WasteLand 265:238,,,,45,255,0,31
+Dangerous as ever,WasteLands,0,WasteLand/Red Cave/2,Return to the Excavenger in WasteLand 265:238,,,,45,255,138,31
+Chestnut Request,BichonProvince,0,BichonProvince/BichonWall/Board/1,Return to BichonWall Board.,,,,10,20,0,31
+Gathering of Bones,BichonProvince,1,BichonProvince/BichonWall/Board/2,Return to BichonWall Board.,,,,15,22,0,31
+Boar Tooth,MongchonProvince,2,MongchonProvince/MudWall/Board/1,Return to MudWall Board.,,,,22,32,0,31
+Holy Sword Quest,HolySword Quest,0,HolySword/1,Return to the Apprentice,,,,35,255,0,31
+Holy Sword Quest,HolySword Quest,0,HolySword/2,Return to Perry in TaoVillage,,,,35,255,143,31
+Holy Sword Quest,HolySword Quest,0,HolySword/3,,,,,35,255,144,31
+Holy Sword Quest,HolySword Quest,0,HolySword/4,Return to Big Taoist,,,,35,255,145,31
+Holy Sword Quest,HolySword Quest,0,HolySword/5,Return to Big Taoist,,,,35,255,146,31
+Holy Sword Quest,HolySword Quest,0,HolySword/6,Return to Big Taoist  for further information.,,,,35,255,147,31
+Holy Sword Quest,HolySword Quest,0,HolySword/7,Return to Big Taoist,,,,35,255,148,31
+Holy Sword Quest,HolySword Quest,0,HolySword/8,Return to Big Taoist,,,,35,255,149,31
+Holy Sword Quest,HolySword Quest,0,HolySword/9,Return to Big Taoist,,,,35,255,150,31
+AncientOmaCavern,OmaCavern,0,BichonProvince/OmaCavern/1,,,Search for the Ancient Scyther.,,10,255,0,31
+AncientOmaCavern,OmaCavern,0,BichonProvince/OmaCavern/2,Return to the stone.,,,,10,65535,152,31
+Emperors Problem,BichonProvince,0,999,,,,Increase the Emperors Morale.,1,65535,0,31
