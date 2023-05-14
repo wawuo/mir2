@@ -27,12 +27,12 @@ GOTO @CheckLevel
 #IF
 LEVEL < 22
 #ACT
-改变LEVEL 22
+CreateGuildCheck
 GOTO @GiveHorn
 #ELSEACT
 GOTO @GiveHorn
 
-[@给角]
+[@GiveHorn]
 #＃ACT
 CHECKITEM WoomaHorn 1
 GIVEITEM WoomaHorn 2
