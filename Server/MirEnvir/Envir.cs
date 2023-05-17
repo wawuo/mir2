@@ -882,8 +882,8 @@ namespace Server.MirEnvir
                         info.Sold = true;
                         MailCharacter(info.CurrentBuyerInfo, item: info.Item, customMessage: message);
 
-                        MessageAccount(info.CurrentBuyerInfo.AccountInfo, string.Format("You bought {0} for {1:#,##0} Gold", info.Item.FriendlyName, info.CurrentBid), ChatType.Hint);
-                        MessageAccount(info.SellerInfo.AccountInfo, string.Format("You sold {0} for {1:#,##0} Gold", info.Item.FriendlyName, info.CurrentBid), ChatType.Hint);
+                        MessageAccount(info.CurrentBuyerInfo.AccountInfo, string.Format("You bought {0} for {1:#,##0} 金币", info.Item.FriendlyName, info.CurrentBid), ChatType.Hint);
+                        MessageAccount(info.SellerInfo.AccountInfo, string.Format("You sold {0} for {1:#,##0} 金币", info.Item.FriendlyName, info.CurrentBid), ChatType.Hint);
                     }
                     else
                     {

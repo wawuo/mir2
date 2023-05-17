@@ -618,7 +618,7 @@
             this.label64.Name = "label64";
             this.label64.Size = new System.Drawing.Size(30, 13);
             this.label64.TabIndex = 40;
-            this.label64.Text = "Slots";
+            this.label64.Text = "槽位";
             // 
             // label63
             // 
@@ -627,7 +627,7 @@
             this.label63.Name = "label63";
             this.label63.Size = new System.Drawing.Size(76, 13);
             this.label63.TabIndex = 39;
-            this.label63.Text = "Curse chance:";
+            this.label63.Text = "诅咒:";
             // 
             // label62
             // 
@@ -636,7 +636,7 @@
             this.label62.Name = "label62";
             this.label62.Size = new System.Drawing.Size(31, 13);
             this.label62.TabIndex = 38;
-            this.label62.Text = "Luck";
+            this.label62.Text = "幸运";
             // 
             // label61
             // 
@@ -645,7 +645,7 @@
             this.label61.Name = "label61";
             this.label61.Size = new System.Drawing.Size(72, 13);
             this.label61.TabIndex = 37;
-            this.label61.Text = "Attack Speed";
+            this.label61.Text = "攻击速度";
             // 
             // label60
             // 
@@ -654,7 +654,7 @@
             this.label60.Name = "label60";
             this.label60.Size = new System.Drawing.Size(73, 13);
             this.label60.TabIndex = 36;
-            this.label60.Text = "Poison Attack";
+            this.label60.Text = "毒物攻击";
             // 
             // label59
             // 
@@ -663,7 +663,7 @@
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(47, 13);
             this.label59.TabIndex = 35;
-            this.label59.Text = "Freezing";
+            this.label59.Text = "冰冻";
             // 
             // label58
             // 
@@ -672,7 +672,7 @@
             this.label58.Name = "label58";
             this.label58.Size = new System.Drawing.Size(81, 13);
             this.label58.TabIndex = 34;
-            this.label58.Text = "Critical Damage";
+            this.label58.Text = "严重伤害";
             // 
             // label57
             // 
@@ -681,7 +681,7 @@
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(61, 13);
             this.label57.TabIndex = 33;
-            this.label57.Text = "CriticalRate";
+            this.label57.Text = "关键率";
             // 
             // label56
             // 
@@ -690,7 +690,7 @@
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(88, 13);
             this.label56.TabIndex = 32;
-            this.label56.Text = "Poison Recovery";
+            this.label56.Text = "中毒恢复";
             // 
             // label55
             // 
@@ -699,7 +699,7 @@
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(83, 13);
             this.label55.TabIndex = 31;
-            this.label55.Text = "Mana Recovery";
+            this.label55.Text = "法力恢复";
             // 
             // label54
             // 
@@ -708,7 +708,7 @@
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(87, 13);
             this.label54.TabIndex = 30;
-            this.label54.Text = "Health Recovery";
+            this.label54.Text = "体力恢复";
             // 
             // label53
             // 
@@ -717,7 +717,7 @@
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(71, 13);
             this.label53.TabIndex = 29;
-            this.label53.Text = "Poison Resist";
+            this.label53.Text = "抵抗毒药";
             // 
             // label52
             // 
@@ -726,7 +726,7 @@
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(68, 13);
             this.label52.TabIndex = 28;
-            this.label52.Text = "Magic Resist";
+            this.label52.Text = "魔法抗性";
             // 
             // label51
             // 
@@ -735,7 +735,7 @@
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(38, 13);
             this.label51.TabIndex = 27;
-            this.label51.Text = "Strong";
+            this.label51.Text = "强壮";
             // 
             // label50
             // 
@@ -744,7 +744,7 @@
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(45, 13);
             this.label50.TabIndex = 26;
-            this.label50.Text = "Max Mp";
+            this.label50.Text = "最大 Mp";
             // 
             // label49
             // 
@@ -753,7 +753,7 @@
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(44, 13);
             this.label49.TabIndex = 25;
-            this.label49.Text = "Max Hp";
+            this.label49.Text = "最大 Hp";
             // 
             // label48
             // 
@@ -762,7 +762,7 @@
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(57, 13);
             this.label48.TabIndex = 24;
-            this.label48.Text = "Max Agility";
+            this.label48.Text = "最大 敏捷";
             // 
             // label47
             // 
@@ -771,7 +771,7 @@
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(75, 13);
             this.label47.TabIndex = 23;
-            this.label47.Text = "Max Accuracy";
+            this.label47.Text = "最大 准确";
             // 
             // label46
             // 
@@ -780,7 +780,7 @@
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(43, 13);
             this.label46.TabIndex = 22;
-            this.label46.Text = "Max Sc";
+            this.label46.Text = "最大 道力";
             // 
             // label45
             // 
@@ -789,7 +789,7 @@
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(45, 13);
             this.label45.TabIndex = 21;
-            this.label45.Text = "Max Mc";
+            this.label45.Text = "最大 魔法";
             // 
             // label44
             // 
@@ -798,7 +798,7 @@
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(44, 13);
             this.label44.TabIndex = 20;
-            this.label44.Text = "Max Dc";
+            this.label44.Text = "最大 攻击";
             // 
             // label43
             // 
@@ -807,7 +807,7 @@
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(51, 13);
             this.label43.TabIndex = 19;
-            this.label43.Text = "Max Mac";
+            this.label43.Text = "最大 魔防";
             // 
             // label42
             // 
@@ -816,7 +816,7 @@
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(43, 13);
             this.label42.TabIndex = 18;
-            this.label42.Text = "Max Ac";
+            this.label42.Text = "最大 物防";
             // 
             // label41
             // 
@@ -825,7 +825,7 @@
             this.label41.Name = "label41";
             this.label41.Size = new System.Drawing.Size(73, 13);
             this.label41.TabIndex = 17;
-            this.label41.Text = "Max Durability";
+            this.label41.Text = "最大 耐用";
             // 
             // groupBox6
             // 

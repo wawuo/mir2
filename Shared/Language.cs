@@ -13,6 +13,7 @@
                          AttackMode_EnemyGuild = "[Mode: Enemy Guild]",
                          AttackMode_RedBrown = "[Mode: Red/Brown]",
                          AttackMode_All = "[Mode: Attack All]",
+                         HP_DrainRate = "HP Drain Rate: {0}%", 
 
                          LogOutTip = "Do you want to log out of Legend of Mir?",
                          ExitTip = "Do you want to quit Legend of Mir?",
@@ -238,23 +239,43 @@
                          WhisperLover = "Whisper Lover";
 
     //Server
-    public static string Welcome = "Welcome to the {0} Server.",
-                         OnlinePlayers = "Online Players: {0}",
-                         WeaponLuck = "Luck dwells within your weapon.",
-                         WeaponCurse = "Curse dwells within your weapon.",
-                         WeaponNoEffect = "No effect.",
-                         InventoryIncreased = "Inventory size increased.",
-                         FaceToTrade = "You must face someone to trade.",
-                         NoTownTeleport = "You cannot use Town Teleports here",
-                         CanNotRandom = "You cannot use Random Teleports here",
-                         CanNotDungeon = "You cannot use Dungeon Escapes here",
-                         CannotResurrection = "You cannot use Resurrection Scrolls whilst alive",
-                         CanNotDrop = "You cannot drop items on this map",
-                         NewMail = "New mail has arrived.",
-                         CouldNotFindPlayer = "Could not find player {0}",
-                         BeenPoisoned = "You have been poisoned",
-                         AllowingMentorRequests = "You're now allowing mentor requests.",
-                         BlockingMentorRequests = "You're now blocking mentor requests.";
+
+    //public static string Welcome = "Welcome to the {0} Server.",
+    //                   OnlinePlayers = "Online Players: {0}",
+    //                 WeaponLuck = "Luck dwells within your weapon.",
+    //               WeaponCurse = "Curse dwells within your weapon.",
+    //               WeaponNoEffect = "No effect.",
+    //                InventoryIncreased = "Inventory size increased.",
+    //                FaceToTrade = "You must face someone to trade.",
+    //                     NoTownTeleport = "You cannot use Town Teleports here",
+    //                     CanNotRandom = "You cannot use Random Teleports here",
+    //                     CanNotDungeon = "You cannot use Dungeon Escapes here",
+    //                     CannotResurrection = "You cannot use Resurrection Scrolls whilst alive",
+    //                     CanNotDrop = "You cannot drop items on this map",
+    //                     NewMail = "New mail has arrived.",
+    //                     CouldNotFindPlayer = "Could not find player {0}",
+    //                     BeenPoisoned = "You have been poisoned",
+    //                     AllowingMentorRequests = "You're now allowing mentor requests.",
+    //                     BlockingMentorRequests = "You're now blocking mentor requests."; 
+
+    public static string Welcome = "欢迎来到{0}服务器.",
+                            OnlinePlayers = "在线玩家： {0}",
+                            WeaponLuck = "已往你的武器里注入运气.",
+                            WeaponCurse = "已往你的武器里注入诅咒",
+                            WeaponNoEffect = "没有效果.",
+                            InventoryIncreased = "库存量增加.",
+                            FaceToTrade = "你必须面对某人进行交易.",
+                            NoTownTeleport = "你不能在这里使用城镇传送",
+                            CanNotRandom = "你不能在这里使用随机传送",
+                            CanNotDungeon = "你不能在这里使用地下城逃亡",
+                            CannotResurrection = "你不能在活着时使用复活卷轴",
+                            CanNotDrop = "你不能在这张地图上投掷物品",
+                            NewMail = "新邮件已经到达.",
+                            CouldNotFindPlayer = "无法找到玩家{0}",
+                            BeenPoisoned = "你已经被毒死了",
+                            AllowingMentorRequests = "你现在允许导师请求.",
+                            BlockingMentorRequests = "你现在阻止了导师的请求.";
+
 
     //common
     public static string LowLevel = "You are not a high enough level.",
@@ -294,6 +315,7 @@
         GameLanguage.AttackMode_EnemyGuild = reader.ReadString("Language", "AttackMode_EnemyGuild", GameLanguage.AttackMode_EnemyGuild);
         GameLanguage.AttackMode_RedBrown = reader.ReadString("Language", "AttackMode_RedBrown", GameLanguage.AttackMode_RedBrown);
         GameLanguage.AttackMode_All = reader.ReadString("Language", "AttackMode_All", GameLanguage.AttackMode_All);
+        GameLanguage.HP_DrainRate = reader.ReadString("Language", "HP_DrainRate", GameLanguage.HP_DrainRate);
 
         GameLanguage.LogOutTip = reader.ReadString("Language", "LogOutTip", GameLanguage.LogOutTip);
         GameLanguage.ExitTip = reader.ReadString("Language", "ExitTip", GameLanguage.ExitTip);
@@ -538,6 +560,7 @@
         reader.Write("Language", "AttackMode_EnemyGuild", GameLanguage.AttackMode_EnemyGuild);
         reader.Write("Language", "AttackMode_RedBrown", GameLanguage.AttackMode_RedBrown);
         reader.Write("Language", "AttackMode_All", GameLanguage.AttackMode_All);
+        reader.Write("Language", "HP_DrainRate", GameLanguage.HP_DrainRate);
 
         reader.Write("Language", "LogOutTip", GameLanguage.LogOutTip);
         reader.Write("Language", "ExitTip", GameLanguage.ExitTip);

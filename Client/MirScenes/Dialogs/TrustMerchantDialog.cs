@@ -45,7 +45,7 @@ namespace Client.MirScenes.Dialogs
 
         private readonly string consignmentText = $"1. Consignment is {Globals.ConsignmentCost} gold per item \r\n\r\n2. 1% of sale price is paid to Trust Merchant " +
             $"at sale end\r\n\r\n3. Maximum {Globals.ConsignmentLength} days of item sale registration until item is removed\r\n\r\n4. Maximum of unlimited " +
-            $"items allowed for sale\r\n\r\n5. Sale price can be set between: {Globals.MinConsignment} - {Globals.MaxConsignment} gold";
+            $"items allowed for sale\r\n\r\n5. Sale price can be set between: {Globals.MinConsignment} - {Globals.MaxConsignment} 金币";
 
         private readonly string auctionText = $"1. Auction cost is {Globals.AuctionCost} gold, max starting bid is {Globals.MaxStartingBid} gold per item \r\n\r\n2. 1% of final bid price is paid to Trust Merchant " +
             $"at auction end\r\n\r\n3. Maximum {Globals.ConsignmentLength} days of item sale registration, afterwards the item will be sent to highest bidder\r\n\r\n4. Maximum of unlimited " +

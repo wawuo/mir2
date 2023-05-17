@@ -14,36 +14,23 @@ namespace Server
         public const int Day = 24 * Hour, Hour = 60 * Minute, Minute = 60 * Second, Second = 1000;
 
         public static readonly string EnvirPath = Path.Combine(".", "Envir"),
-            ConfigPath = Path.Combine(".", "配置"),
-            MapPath = Path.Combine(".", "地图"),
-            ExportPath = Path.Combine(".", "输出"),
-            GuildPath = Path.Combine(".", "行会"),
-            ConquestsPath = Path.Combine(".", "征服"),
+           
+
+
+              ConfigPath = Path.Combine(".", "Configs"),
+             MapPath = Path.Combine(".", "Maps"),
+           ExportPath = Path.Combine(".", "Exports"),
+           GuildPath = Path.Combine(".", "Guilds"),
+           ConquestsPath = Path.Combine(".", "Conquests"),
             NPCPath = Path.Combine(EnvirPath, "NPCs"),
             GoodsPath = Path.Combine(EnvirPath, "Goods"),
-            RecipePath = Path.Combine(EnvirPath, "配方"),
-            QuestPath = Path.Combine(EnvirPath, "任务"),
-            DropPath = Path.Combine(EnvirPath, "掉落"),
-            RoutePath = Path.Combine(EnvirPath, "路由"),
-            NameListPath = Path.Combine(EnvirPath, "名称列表"),
-            ValuePath = Path.Combine(EnvirPath, "数值"),
-            NoticePath = Path.Combine(EnvirPath, "通知.txt");
-
-
-         // ConfigPath = Path.Combine(".", "Configs"),
-          //   MapPath = Path.Combine(".", "Maps"),
-      //      ExportPath = Path.Combine(".", "Exports"),
-      //      GuildPath = Path.Combine(".", "Guilds"),
-      //      ConquestsPath = Path.Combine(".", "Conquests"),
-      //      NPCPath = Path.Combine(EnvirPath, "NPCs"),
-       //     GoodsPath = Path.Combine(EnvirPath, "Goods"),
-       ///    RecipePath = Path.Combine(EnvirPath, "Recipe"),
-       //     QuestPath = Path.Combine(EnvirPath, "Quests"),
-       //     DropPath = Path.Combine(EnvirPath, "Drops"),
-       //     RoutePath = Path.Combine(EnvirPath, "Routes"),
-       //     NameListPath = Path.Combine(EnvirPath, "NameLists"),
-       //     ValuePath = Path.Combine(EnvirPath, "Values"),
-       //     NoticePath = Path.Combine(EnvirPath, "Notice.txt");
+           RecipePath = Path.Combine(EnvirPath, "Recipe"),
+            QuestPath = Path.Combine(EnvirPath, "Quests"),
+            DropPath = Path.Combine(EnvirPath, "Drops"),
+            RoutePath = Path.Combine(EnvirPath, "Routes"),
+          NameListPath = Path.Combine(EnvirPath, "NameLists"),
+            ValuePath = Path.Combine(EnvirPath, "Values"),
+            NoticePath = Path.Combine(EnvirPath, "Notice.txt");
 
         private static readonly InIReader Reader = new InIReader(Path.Combine(ConfigPath, "Setup.ini"));
 
@@ -567,7 +554,7 @@ namespace Server
             LoadWorldMap();
             LoadHeroSettings();
 
-            GameLanguage.LoadServerLanguage(Path.Combine(ConfigPath, "Language.ini"));
+            GameLanguage.LoadServerLanguage(Path.Combine(ConfigPath, @".\Language.ini"));
         }
 
         public static void LoadNotice()

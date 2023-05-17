@@ -184,7 +184,7 @@ namespace Client.MirScenes.Dialogs
 
             PaymentTypeGold = new MirCheckBox
             {
-                LabelText = "Buy with Gold",
+                LabelText = "Buy with 金币",
                 Location = new Point(250, 449),
                 Parent = this,
                 Hint = "Buy item(s) with Gold.",

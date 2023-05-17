@@ -750,7 +750,7 @@ namespace Client.MirObjects
 
                 if (min == 0)
                 {
-                    GameScene.Scene.ChatDialog.ReceiveChat(FreeSpace(Inventory) == 0 ? GameLanguage.NoBagSpace : "You do not have enough weight.", ChatType.System);
+                    GameScene.Scene.ChatDialog.ReceiveChat(FreeSpace(Inventory) == 0 ? GameLanguage.NoBagSpace : "负重不够.", ChatType.System);
 
                     item.Count = 0;
                     return;
@@ -766,7 +766,7 @@ namespace Client.MirObjects
                 max = item.Count;
                 if (item.Count == 0)
                 {
-                    GameScene.Scene.ChatDialog.ReceiveChat("You do not have enough weight.", ChatType.System);
+                    GameScene.Scene.ChatDialog.ReceiveChat("负重不够.", ChatType.System);
                     return;
                 }
             }

@@ -734,7 +734,7 @@ namespace Client.MirScenes.Dialogs
 
                 if (SelectedItem.Weight > (MapObject.User.Stats[Stat.BagWeight] - MapObject.User.CurrentBagWeight))
                 {
-                    GameScene.Scene.ChatDialog.ReceiveChat("You do not have enough weight.", ChatType.System);
+                    GameScene.Scene.ChatDialog.ReceiveChat("负重不够.", ChatType.System);
                     return;
                 }
 
@@ -1281,7 +1281,7 @@ namespace Client.MirScenes.Dialogs
                     default: return;
                 }
 
-                text += " Gold";
+                text += " 金币";
             }
 
             InfoLabel.Text = text;
@@ -1981,7 +1981,7 @@ namespace Client.MirScenes.Dialogs
 
             if (RecipeItem.Weight > (MapObject.User.Stats[Stat.BagWeight] - MapObject.User.CurrentBagWeight))
             {
-                GameScene.Scene.ChatDialog.ReceiveChat("You do not have enough weight.", ChatType.System);
+                GameScene.Scene.ChatDialog.ReceiveChat("负重不够.", ChatType.System);
                 return;
             }
 

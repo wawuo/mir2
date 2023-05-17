@@ -327,7 +327,7 @@ namespace Client.MirControls
             }
             else
             {
-                amountBox = new MirAmountBox("Purchase", Item.Image, string.Format("Value: {0:#,##0} Gold", Item.Price()));
+                amountBox = new MirAmountBox("Purchase", Item.Image, string.Format("Value: {0:#,##0} 金币", Item.Price()));
 
                 amountBox.OKButton.Click += (o, e) =>
                 {
