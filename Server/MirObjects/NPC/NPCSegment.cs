@@ -66,7 +66,10 @@ namespace Server.MirObjects
 
         public void AddVariable(MapObject player, string key, string value)
         {
-            Regex regex = new Regex(@"[A-Za-z][0-9]");
+            // Regex regex = new Regex(@"[A-Za-z][0-9]");
+
+            Regex regex = new Regex(@"[\u4e00-\u9fa5_a - zA - Z0 - 9]");
+            
 
             if (!regex.Match(key).Success) return;
 
@@ -82,7 +85,9 @@ namespace Server.MirObjects
 
         public string FindVariable(MapObject player, string key)
         {
-            Regex regex = new Regex(@"\%[A-Za-z][0-9]");
+            //Regex regex = new Regex(@"\%[A-Za-z][0-9]");
+            Regex regex = new Regex(@"\%[\u4e00-\u9fa5_a - zA - Z0 - 9]");
+            
 
             if (!regex.Match(key).Success) return key;
 
