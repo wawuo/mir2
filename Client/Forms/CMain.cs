@@ -269,6 +269,19 @@ namespace Client
             }
         }
         public static void CMain_MouseDown(object sender, MouseEventArgs e)
+        // 这段代码定义了一个名为 CMain_MouseDown 的静态方法，该方法接受两个参数：sender 和 e。它的用途是处理鼠标按下事件。
+
+        //在该方法中，首先检查当前活动控件是否为文本框，并且可以失去焦点，如果是，则清除程序的活动控件。
+        //其次，它检查鼠标按下的按钮是否为鼠标右键，同时确保选中的单元格为 null（未选中）或者拾取金币为 false（未拾取）。
+        //最后，它调用 MirScene.ActiveScene 的 OnMouseDown 方法，并将 MouseEventArgs 对象 e 作为参数传递给它。
+
+        //MirScene 是一个 Mir2 源游戏中的场景类。该类封装了与特定场景相关的功能，例如游戏场景、角色选择场景等。
+        //OnMouseDown() 方法是在 MirScene 类中定义的虚拟方法，可以被子类覆盖以实现特定场景的自定义鼠标按下效果。
+        //名称建议意思为 "当鼠标按下时"。该方法接受 MouseEventArgs 对象作为参数，其中包含关于鼠标事件的信息，例如按下的按钮和按下的位置。
+        //通过覆盖该方法并在其中编写自己的代码，您可以根据需要自定义如何响应鼠标按下事件。
+
+        //try-catch 块用于捕获可能发生的异常，并打印到日志中，这可以帮助程序员在调试期间找到错误。
+        //SaveError(ex.ToString()) 是一个自定义方法，它将异常详情写入一个日志文件中以进行记录或排查工作。
         {
             if (Program.Form.ActiveControl is TextBox)
             {
@@ -579,7 +592,7 @@ namespace Client
 
             if (MirScene.ActiveScene == GameScene.Scene)
             {
-                GameScene.Scene.MapControl.FloorValid = false; 
+                GameScene.Scene.MapControl.FloorValid = false;
                 GameScene.Scene.TextureValid = false;
             }
 
@@ -654,13 +667,13 @@ namespace Client
 
             Program.Form.CenterToScreen();
         }
-            
+
 
         #region ScreenCapture
 
         //private Bitmap CaptureScreen()
         //{
-            
+
         //}
 
         #endregion

@@ -5,6 +5,7 @@ using Server.MirObjects;
 using Server.MirObjects.Monsters;
 using System.Collections.Concurrent;
 using System.Diagnostics;
+using System.Diagnostics.Eventing.Reader;
 using System.Net;
 using System.Net.Sockets;
 using System.Numerics;
@@ -772,6 +773,11 @@ namespace Server.MirEnvir
             var oldLights = Lights;
 
             var hours = Now.Hour * 2 % 24;
+            if (true)
+            {
+            
+            }
+
             if (hours == 6 || hours == 7)
                 Lights = LightSetting.Dawn;
             else if (hours >= 8 && hours <= 15)

@@ -250,5 +250,32 @@ namespace Launcher
         {
 
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void 白天_Click(object sender, EventArgs e)
+        {
+            //private void FPScap_pb_Click(object sender, EventArgs e)
+            //{
+            //    Settings.FPSCap = !Settings.FPSCap;
+
+            //    FPScap_pb.Image = Settings.FPSCap
+            //            ? Client.Resources.Images.Config_Check_On
+            //            : Client.Resources.Images.Config_Check_Off1;
+            //}
+
+
+
+            Settings.白天 = !Settings.白天;
+
+            白天_pb.Image = Settings.白天
+                        ? Client.Resources.Images.Config_Check_On
+                        : Client.Resources.Images.Config_Check_Off1;
+
+
+        }
     }
 }
