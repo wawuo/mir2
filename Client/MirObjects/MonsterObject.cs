@@ -40,6 +40,13 @@ namespace Client.MirObjects
                     default:
                         return new Point(0, 0);
                 }
+                    //这段代码是一个属性的get方法，用于获取手动偏移位置（ManualLocationOffset），用于在场景中展示怪物人物等模型位置的微调。
+                    //在该方法中，使用了 switch ... case 控制语句，根据不同的情况返回相应的 Point 对象。
+                    //BaseImage 表示当前对象的基础图像。
+                    //当 BaseImage 为 Monster.EvilMir 时，返回 Point(-21, -15) ，表示在 EvilMir 图像上向左移动 21 像素，向上移动 15 像素。
+                    //当 BaseImage 为对应的墙壁子类对象时，返回 Point(-10, 0) ，表示水平向左移动 10 像素。
+                    //当 BaseImage 为 Monster.GiGateEast 时，返回 Point(-45,7)，表示水平向左移动 45 像素和竖直向下移动 7 像素。
+                    //如果以上几种情况都不符合，则返回 Point(0, 0)，表示没有偏移。    
             }
         }
 

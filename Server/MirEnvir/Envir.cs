@@ -12,6 +12,7 @@ using System.Numerics;
 using System.Text.RegularExpressions;
 using S = ServerPackets;
 
+
 namespace Server.MirEnvir
 {
     public class MobThread
@@ -773,10 +774,8 @@ namespace Server.MirEnvir
             var oldLights = Lights;
 
             var hours = Now.Hour * 2 % 24;
-            if (true)
-            {
-            
-            }
+                 
+
 
             if (hours == 6 || hours == 7)
                 Lights = LightSetting.Dawn;

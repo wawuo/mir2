@@ -9861,6 +9861,19 @@ namespace Client.MirScenes
 
             if (mail.Gold > 0)
             {
+                //  这段代码大概是实现邮件系统中金币邮件信息的显示，下面是具体解释：
+                //  if (mail.Gold > 0)；//首先判断收到的邮件里面是否有金币。如果邮件中不含金币或者金币数量小于等于 0，那么邮件框(MailLabel)将不会显示金币信息。
+                //  MirLabel goldLabel = new MirLabel；//创建一个新的 MirLabel 对象，用于显示金币信息。
+                //  goldLabel.AutoSize = true; //开启AutoSize属性，表示该 label 的大小将自动调整以适应其文本内容。
+                //  goldLabel.ForeColour = Color.White; //设置 label 文本颜色为白色字体。
+                //  goldLabel.Location = new Point(4, MailLabel.DisplayRectangle.Bottom); //定位这个 label 的位置，在邮件框的底部留 4 像素的空隙。goldLabel.OutLine = true; 添加 label 的边框。
+                //  goldLabel.Parent = MailLabel; //设置这个 label 的父控件为 MailLabel ，即把这个 label 放在邮件框上来显示。
+                //  goldLabel.Text = "Gold: " + mail.Gold; //设置 label 显示的文本为 "Gold："加上邮件中的金币数量(mail.Gold)，例如： "Gold: 200"。
+                //  MailLabel.Size = new Size(Math.Max(MailLabel.Size.Width, goldLabel.DisplayRectangle.Right + 4), Math.Max(MailLabel.Size.Height, goldLabel.DisplayRectangle.Bottom));
+                //  最后，根据 goldLabel 的大小动态调整邮件框的大小。Size 属性用于指定控件的宽度和高度，这里使用了 Math.Max 方法来得到最大值。
+                //  例如说： MailLabel 显示的邮件正文内容之前就已经自适应调整过大小，此时如果 goldLabel 的右边界超出了 MailLabel ，
+                //  那么将以其中更大的长度作为 MailLabel 的大小，使邮件框足够容纳显示金币数量。当然，如果 goldLabel 不会造成 MailLabel 更加宽或更加长的话，那么 MailLabel 那原有的大小不变。
+                      
                 MirLabel goldLabel = new MirLabel
                 {
                     AutoSize = true,
@@ -9882,7 +9895,7 @@ namespace Client.MirScenes
                 Location = new Point(4, MailLabel.DisplayRectangle.Bottom),
                 OutLine = true,
                 Parent = MailLabel,
-                Text = mail.Opened ? "[Old]" : "[New]"
+                Text = mail.Opened ? "[旧的]" : "[新的]"
             };
 
             MailLabel.Size = new Size(Math.Max(MailLabel.Size.Width, openedLabel.DisplayRectangle.Right + 4),
@@ -10070,8 +10083,8 @@ namespace Client.MirScenes
             ItemRentingDialog.Reset();
             ItemRentDialog.Reset();
 
-            var messageBox = new MirMessageBox("Item rental cancelled.\r\n" +
-                                               "To complete item rental please face the other party throughout the transaction.");
+            var messageBox = new MirMessageBox("物品租赁被取消.\r\n" +
+                                               "为了完成物品租赁，请在整个交易过程中面对对方.");
             messageBox.Show();
         }
 
@@ -10987,40 +11000,53 @@ namespace Client.MirScenes
 
             #region Night Lights
             Color darkness;
-
-            switch (setting)
+            //开关照明
+            if (Settings.白天!=true)
             {
-                case LightSetting.Night:
-                    {
-                        switch (MapDarkLight)
+                switch (setting)
+                    //这里设置场景光线
+                {
+                    case LightSetting.Night:
                         {
-                            case 1:
-                                darkness = Color.FromArgb(255, 20, 20, 20);
-                                break;
-                            case 2:
-                                darkness = Color.LightSlateGray;
-                                break;
-                            case 3:
-                                darkness = Color.SkyBlue;
-                                break;
-                            case 4:
-                                darkness = Color.Goldenrod;
-                                break;
-                            default:
-                                darkness = Color.Black;
-                                break;
+                            switch (MapDarkLight)
+                            {
+                                case 1:
+                                    darkness = Color.FromArgb(255, 20, 20, 20);
+                                    break;
+                                case 2:
+                                    darkness = Color.LightSlateGray;
+                                    break;
+                                case 3:
+                                    darkness = Color.SkyBlue;
+                                    break;
+                                case 4:
+                                    darkness = Color.Goldenrod;
+                                    break;
+                                default:
+                                    darkness = Color.Black;
+                                    break;
+                            }
                         }
-                    }
-                    break;
-                case LightSetting.Evening:
-                case LightSetting.Dawn:
-                    darkness = Color.FromArgb(255, 50, 50, 50);
-                    break;
-                default:
-                case LightSetting.Day:
-                    darkness = Color.FromArgb(255, 255, 255, 255);
-                    break;
+                        break;
+                    case LightSetting.Evening:
+                    case LightSetting.Dawn:
+                        darkness = Color.FromArgb(255, 50, 50, 50);
+                        break;
+                    default:
+                    case LightSetting.Day:
+                        darkness = Color.FromArgb(255, 255, 255, 255);
+                        break;
+                }                         
+
             }
+            else
+            {
+                //case LightSetting.Day:全白天
+                darkness = Color.FromArgb(255, 255, 255, 255);
+                
+            }
+
+           
 
             if (MapObject.User.Poison.HasFlag(PoisonType.Blindness))
             {
@@ -12037,6 +12063,15 @@ namespace Client.MirScenes
         }
 
         private bool CanWalk(MirDirection dir)
+
+        //  该方法用于检查角色是否可以朝指定方向移动。
+        //  该方法中调用了EmptyCell函数，以检查将要进入的下一个格子是否为空，
+        //   并且不能进入当前位置为陷阱石头的地图块。该方法返回一个布尔型值，
+        //    表示角色是否可以朝指定方向移动。
+        //    其中, EmptyCell 表示检查该位置是否为空。PointMove 函数用于根据给定点、宽度和高度以及移动距离和方向计算新的点位置。
+        //    MirDirection 是枚举类型，表示八个可能的方向之一。函数CanWalk接受一个 MirDirection 参数作为输入，
+        //    并返回一个布尔型值，指示是否可以向该方向行走。
+
         {
             return EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 1)) && !User.InTrapRock;
         }
@@ -12097,14 +12132,25 @@ namespace Client.MirScenes
 
         private bool CanRun(MirDirection dir)
         {
-            if (User.InTrapRock) return false;
-            if (User.CurrentBagWeight > User.Stats[Stat.BagWeight]) return false;
-            if (User.CurrentWearWeight > User.Stats[Stat.BagWeight]) return false;
-            if (CanWalk(dir) && EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 2)))
+            //判断玩家是否可以跑动
+            //此方法接收一个参数，表示当前玩家希望行进的方向。
+            //在方法中首先对一些基本条件进行了判断：                                
+            //如果任何条件不满足，返回 false，表示不能跑动。如果满足，则进一步计算，分别满足以下两个条件之一即可：
+            //如果条件均不满足，则返回 false，表示不能跑动。如果满足则返回 true，表示可以跑动。
+
+            if (User.InTrapRock) return false; //判断玩家是否处在陷阱石区域内；如果任何条件不满足，返回 false
+            if (User.CurrentBagWeight > User.Stats[Stat.BagWeight]) return false; //判断当前背包物品的重量是否超过了最大承载重量。如果任何条件不满足，返回 false
+            if (User.CurrentWearWeight > User.Stats[Stat.BagWeight]) return false; //判断当前穿戴物品的重量是否超过了最大承载重量。如果任何条件不满足，返回 false
+            if (CanWalk(dir) && EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 2))) //玩家沿着指定方向行走至少两个步长且目标点为空块（函数 CanWalk 和 EmptyCell 分别判断是否可以走路以及该点是否为空）；并且此时玩家不存在以下情况之一，即骑乘坐骑或者启动冲刺模式并非偷偷摸摸模式。
+
             {
                 if (User.RidingMount || User.Sprint && !User.Sneaking)
                 {
                     return EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 3));
+                    //这段代码通过函数 EmptyCell() 判断当前玩家朝着指定方向是否可以行走三格。
+                    //调用了 Functions.PointMove 函数，该函数接收当前玩家的坐标和移动方向、移动距离等参数，返回一个 Point 对象。此处传入了 User.CurrentLocation 作为起始坐标，dir 表示玩家所希望的行进方向，3 表示需要进行的前进步数。
+                    //如果返回的点为空地则返回 true，表示能够行走；否则返回 false，表示无法行走。
+
                 }
 
                 return true;

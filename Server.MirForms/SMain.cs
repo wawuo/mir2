@@ -452,5 +452,11 @@ namespace Server
         {
             Envir.IPBlocks.Clear();
         }
+
+        private void 设置ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            管理设置 adminSettingsForm = new 管理设置();
+            adminSettingsForm.ShowDialog();
+        }
     }
 }

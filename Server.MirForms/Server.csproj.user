@@ -43,6 +43,9 @@
     <Compile Update="Database\QuestInfoForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="管理页面窗体.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="SMain.cs">
       <SubType>Form</SubType>
     </Compile>

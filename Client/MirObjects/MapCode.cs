@@ -1,4 +1,6 @@
-﻿namespace Client.MirObjects
+﻿using static System.Windows.Forms.VisualStyles.VisualStyleElement.ProgressBar;
+
+namespace Client.MirObjects
 {
     public class CellInfo
     {
@@ -52,7 +54,17 @@
                 return mo.ObjectID == ObjectID;
             });
         }
+
         public void DrawObjects()
+
+        // 方法定义，用于从当前地图中绘制所有存活着或已死亡的对象。
+        //方法遍历CellObjects，该 CellObjects 是一个包含所有对象的列表。
+        //如果给定对象还没有死亡，就通过调用它的Draw方法将其绘制出来。
+        //否则，也就是说，当物体已经死亡时，会检查它的类型是否为 Monster，然后根据它的 BaseImage 属性来决定是否将其绘制出来。
+        //如果其BaseImage属性是一些墙等不会消失的模型，则仍然会绘制出来，并且其他种类对象都将被忽略。
+         //该方法没有参数，其作用仅限于在屏幕上绘制对象，不返回任何值。
+
+
         {
             if (CellObjects == null) return;
 
@@ -225,6 +237,19 @@
 
         private void LoadMapType0()
         {
+
+            //这段代码看起来很可能是游戏中加载地图数据的方法之一，它适用于类型为 0 的地图。
+            //方法详细的读取字节数组 Bytes 中的各个数据，然后填充 MapCells 数组，这个数组存储了地图下标和每个坐标上的元素。
+            //通过读取Bytes中的信息，该函数大致可以推断出以下几个性质：
+            //地图的宽度和高度信息分别位于字节数组 Bytes 的前两个字节（offset = 0）
+            //循环遍历整个地图，将位置的背景索引、中间索引和前景索引等分别读取到MapCells[x, y]的对应属性(offset = 52)
+            //图片的编号在读取时使用short类型两个字节存储（即转换为16 - bit有符号整数），并且FrontIndex属性会加2。
+            //部分图片使用了附加比特位进行数据处理。
+            //代码进一步处理包括读取门指针、帧动画计时器和其他显而易见的元素。FishingCell 属性在光照值处得到设置，表示当前位置是否可以进行钓鱼。
+            //这种类型的地图不太可能有块处理方式(chunk processing)。
+            //总之，该方法的目的是解析一个类型为 0 的地图格式并在 MapCells 数组中存储其元素，并从字节数组中提供逐个细节。
+            //此方法没有输入参数，对地图数据和对象进行操作，并不返回任何结果。
+
             try
             {
                 int offset = 0;

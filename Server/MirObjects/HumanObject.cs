@@ -2369,6 +2369,18 @@ namespace Server.MirObjects
         {
             return false;
         }
+
+        //以下代码
+        // 这段代码是游戏中处理角色行走操作的主方法。它接收玩家所希望移动到的位置信息，并在确保能够进行此次移动的前提条件下，完成对角色的一系列实时更新。
+        //该方法首先判断当前是否允许移动 CanMove 和行走 CanWalk 。如果不允许，则将无法进行当前行走操作，并通过网络消息对玩家当前的位置信息进行广播。
+        //随后，通过将当前方向和目标位置信息传递给静态类函数，返回进行此次行走过后的新坐标 location 。然后，检查是否可通过此次行走到达新坐标位置。如果无法到达，则直接跳过本次行走并通过网络消息对玩家当前的坐标信息进行广播。
+        //进一步，如果该地图上的门未能完全打开，则也视为无法行走，并同样对所在的位置信息进行广播。
+        //之后，在该目标位置检查该处是否有其他地图对象进行阻挡或碰撞。如果被阻挡，则同样跳过本次行走，将当前信息进行广播并返回 false ；否则，可以执行该次行走。
+        //之后，若玩家具有专注状态 BuffType.Concentration , 则取消其专注状态，获取更高的移动速度；若处于潜行状态 Hidden，则取消潜行效果；然后，设置新的方向，检查移动后的位置是否会引发其它事件。
+        //之后，将玩家从当前坐标所在的 Cell 中删除，并更新该角色相关信息。包括：更新行动时间 ActionTime，设置转向 Direction，广播玩家最新位置信息，设置安全区状态 InSafeZone，设置“步数”计数器 _stepCounter，处理马匹忠诚度 DecreaseMountLoyalty 等逻辑。
+        //总之，该段代码实现了游戏中玩家行走的核心功能，并通过对现有状态进行检查和优化等一系列操作，提升大量的游戏体验。
+
+
         public bool Walk(MirDirection dir)
         {
             if (!CanMove || !CanWalk)
@@ -2405,12 +2417,30 @@ namespace Server.MirObjects
                         if (!NPC.Visible || !NPC.VisibleLog[Info.Index]) continue;
                     }
                     else
-                        if (!ob.Blocking || (CheckCellTime && ob.CellTime >= Envir.Time)) continue;
+                        // if (!ob.Blocking || (CheckCellTime && ob.CellTime >= Envir.Time)) continue;
+                            if (ob.Blocking && !穿越)
+                            {
+                                if (CheckCellTime && ob.CellTime >= Envir.Time) continue;
+                                if (ob.Race == ObjectType.Player || ob.Race == ObjectType.Monster)
+                                    return false;  // 将角色或怪物视为障碍，仍需继续循环
+                            }
 
-                    Enqueue(new S.UserLocation { Direction = Direction, Location = CurrentLocation });
-                    return false;
+                            // 增加无视阻碍的条件检查
+                            if (Race == ObjectType.Monster && 穿越)
+                            {
+                                bool canMove = ob == null || ob.Race == ObjectType.Spell || ob.Dead || ob.AI == 7;
+
+                                if (!canMove) continue;
+                            }
+
+                            Enqueue(new S.UserLocation { Direction = Direction, Location = CurrentLocation });
+                            return false;
+                   
                 }
             }
+
+          
+
 
             if (HasBuff(BuffType.Concentration, out Buff concentration))
             {

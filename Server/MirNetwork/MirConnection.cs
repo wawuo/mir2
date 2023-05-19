@@ -982,6 +982,12 @@ namespace Server.MirNetwork
             Enqueue(new S.LogOutSuccess { Characters = Account.GetSelectInfo() });
         }
 
+        //以下代码是将游戏中玩家的转向（ Turn ）、行走（ Walk ）和奔跑（ Run ）三种行为进行了封装。
+        //这三个方法首先判断当前游戏阶段是否处于游戏中。如果处于游戏中，则判断当前行动时间是否已经到达，如果未到达则将该操作请求添加到重新尝试队列中等待下次执行，
+        //否则直接执行对应的转向、行走或奔跑操作。
+        //其中，重新尝试队列 _retryList 是一个在主线程中进行实时轮询的数据结构，它会检测是否有需要重新尝试的操作，并且在下一次进行尝试。
+        //总之，这段代码采用极佳的优化方式——流畅地管理大量的游戏事件，保证了程序的高效性和稳定性。
+
         private void Turn(C.Turn p)
         {
             if (Stage != GameStage.Game) return;

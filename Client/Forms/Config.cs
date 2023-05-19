@@ -256,18 +256,8 @@ namespace Launcher
 
         }
 
-        private void 白天_Click(object sender, EventArgs e)
+        public void 白天_Click(object sender, EventArgs e)
         {
-            //private void FPScap_pb_Click(object sender, EventArgs e)
-            //{
-            //    Settings.FPSCap = !Settings.FPSCap;
-
-            //    FPScap_pb.Image = Settings.FPSCap
-            //            ? Client.Resources.Images.Config_Check_On
-            //            : Client.Resources.Images.Config_Check_Off1;
-            //}
-
-
 
             Settings.白天 = !Settings.白天;
 
@@ -275,6 +265,11 @@ namespace Launcher
                         ? Client.Resources.Images.Config_Check_On
                         : Client.Resources.Images.Config_Check_Off1;
 
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
 
         }
     }

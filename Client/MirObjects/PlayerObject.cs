@@ -17,6 +17,12 @@ namespace Client.MirObjects
             get { return ObjectType.Player; }
         }
 
+
+        //重写了 Blocking 属性，它是从一个抽象的类继承来的。
+        //这个属性的 get 访问器返回一个 bool 类型的值，它根据 Dead 的值来判断对象是否是阻挡物。
+        //如果 Dead 是 false，就返回 true，表示对象是阻挡物。
+        //如果 Dead 是 true，就返回 false，表示对象不是阻挡物。
+
         public override bool Blocking
         {
             get { return !Dead; }
@@ -26,6 +32,11 @@ namespace Client.MirObjects
         public MirClass Class;
         public byte Hair;
         public ushort Level;
+
+        //定义了一些 MLibrary 类型的变量，它们可能是用来存储一些图像或者动画的库。它们分别是 WeaponLibrary1，WeaponEffectLibrary1，WeaponLibrary2，HairLibrary，WingLibrary，MountLibrary。
+        //定义了一些 int 类型的变量，它们可能是用来表示一些属性或者偏移量的值。它们分别是 Armour，Weapon，WeaponEffect，ArmourOffSet，HairOffSet，WeaponOffSet，WingOffset，MountOffset。
+        //定义了一些 int 类型的变量，它们可能是用来表示一些声音的编号。它们分别是 DieSound，FlinchSound，AttackSound。
+
 
         public MLibrary WeaponLibrary1, WeaponEffectLibrary1, WeaponLibrary2, HairLibrary, WingLibrary, MountLibrary;
         public int Armour, Weapon, WeaponEffect, ArmourOffSet, HairOffSet, WeaponOffSet, WingOffset, MountOffset;

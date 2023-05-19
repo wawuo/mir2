@@ -15,5 +15,8 @@
     <EmbeddedResource Update="Forms\AMain.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Update="Forms\Config.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>
