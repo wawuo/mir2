@@ -455,8 +455,10 @@ namespace Server
 
         private void 设置ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            管理设置 adminSettingsForm = new 管理设置();
-            adminSettingsForm.ShowDialog();
+            Form1 管理页面Form = new Form1();
+
+            管理页面Form.ShowDialog();
+          
         }
     }
 }

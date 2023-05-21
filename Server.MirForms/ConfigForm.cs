@@ -59,6 +59,7 @@ namespace Server
         {
             Settings.VersionPath = VPathTextBox.Text;
             Settings.CheckVersion = VersionCheckBox.Checked;
+           
 
             IPAddress tempIP;
             if (IPAddress.TryParse(IPAddressTextBox.Text, out tempIP))
@@ -190,6 +191,11 @@ namespace Server
         private void StartHTTPCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             Settings.StartHTTPService = StartHTTPCheckBox.Checked;
+        }
+
+        private void VersionCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

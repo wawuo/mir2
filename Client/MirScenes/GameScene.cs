@@ -20,6 +20,7 @@ namespace Client.MirScenes
         public static bool Observing;
         public static bool AllowObserve;
 
+
         public static UserObject User
         {
             get { return MapObject.User; }
@@ -808,6 +809,7 @@ namespace Client.MirScenes
 
         public void ChangePetMode()
         {
+            //宠物
             switch (PMode)
             {
                 case PetMode.Both:
@@ -830,6 +832,7 @@ namespace Client.MirScenes
 
         public void ChangeAttackMode()
         {
+            //攻击模式：如行会、和平
             switch (AMode)
             {
                 case AttackMode.Peace:
@@ -855,6 +858,7 @@ namespace Client.MirScenes
 
         public void UseSpell(int key)
         {
+            //使用魔法、技能
             UserObject actor = User;
             if (key > 16)
             {
@@ -11690,6 +11694,17 @@ namespace Client.MirScenes
 
             if (AutoPath)
             {
+                //
+                //是一个控制自动寻路的函数或方法的一部分。如果 AutoPath 为真，则表示用户正在自动寻路。
+                //如果当前路径（ CurrentPath ）为空，则将自动寻路标志 AutoPath 设为无效。如果有路径，将使用路径查找器（ PathFinder ）查找从当前位置到最后一个节点的路径。
+                //    如果找到了路径且路径数不为零，则将该路径设置为当前路径。
+                //如果未找到路径，则将自动寻路标志设置为无效并返回。
+                //然后，将获取当前所在节点，如果当前路径中包含该节点，将从待完成的节点列表中删除该节点及其之前的所有节点。
+                //    接下来，代码将检查当前路径中是否有未完成的节点，如果有，则将检查用户是否可以跑向下一个节点，
+                //    如果可以，则设定用户的下一步操作为跑步（ MirAction.Running ）；否则，将检查是否可以行走（ MirAction.Walking ），
+                //    如果可以，则设定用户的下一步操作为行走（ MirAction.Walking ）。如果无法跑步或行走，则返回。
+                //
+
                 if (CurrentPath == null || CurrentPath.Count == 0)
                 {
                     AutoPath = false;
@@ -12055,8 +12070,9 @@ namespace Client.MirScenes
             {
                 MapObject ob = Objects[i];
 
-                if (ob.CurrentLocation == p && ob.Blocking)
-                    return false;
+               // if (ob.CurrentLocation == p || ob.Blocking)
+                    if (ob.CurrentLocation == p && ob.Blocking)
+                        return false;
             }
 
             return true;
@@ -12073,32 +12089,54 @@ namespace Client.MirScenes
         //    并返回一个布尔型值，指示是否可以向该方向行走。
 
         {
-            return EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 1)) && !User.InTrapRock;
+            //return EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 1)) && !User.InTrapRock;
+            return !User.InTrapRock;
         }
 
+        //private bool CanWalk(MirDirection dir, out MirDirection outDir)
+        //{
+        //    outDir = dir;
+        //    if (User.InTrapRock) return false;            
+
+        //    if (EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 1)))
+        //        return true;
+
+        //    dir = Functions.NextDir(outDir);
+        //    if (EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 1)))
+        //    {
+        //        outDir = dir;
+        //        return true;
+        //    }
+
+        //    dir = Functions.PreviousDir(outDir);
+        //    if (EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 1)))
+        //    {
+        //        outDir = dir;
+        //        return true;
+        //    }
+
+        //    return false;
+        //}
         private bool CanWalk(MirDirection dir, out MirDirection outDir)
         {
+            //这里成功的穿人了
             outDir = dir;
-            if (User.InTrapRock) return false;            
-            
-            if (EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 1)))
-                return true;
+            if (User.InTrapRock) return false;
 
+            // Try the given direction
+            outDir = dir;
+            return true;
+
+            // Try the next direction
             dir = Functions.NextDir(outDir);
-            if (EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 1)))
-            {
-                outDir = dir;
-                return true;
-            }
+            outDir = dir;
+            return true;
 
+            // Try the previous direction
             dir = Functions.PreviousDir(outDir);
-            if (EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 1)))
-            {
-                outDir = dir;
-                return true;
-            }
+            outDir = dir;
+            return true;
 
-            return false;
         }
 
         private bool CheckDoorOpen(Point p)
@@ -12132,6 +12170,9 @@ namespace Client.MirScenes
 
         private bool CanRun(MirDirection dir)
         {
+            bool canWalkTwoSteps = EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 2));
+            bool canWalkThreeSteps = EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 3));
+
             //判断玩家是否可以跑动
             //此方法接收一个参数，表示当前玩家希望行进的方向。
             //在方法中首先对一些基本条件进行了判断：                                
@@ -12141,11 +12182,16 @@ namespace Client.MirScenes
             if (User.InTrapRock) return false; //判断玩家是否处在陷阱石区域内；如果任何条件不满足，返回 false
             if (User.CurrentBagWeight > User.Stats[Stat.BagWeight]) return false; //判断当前背包物品的重量是否超过了最大承载重量。如果任何条件不满足，返回 false
             if (User.CurrentWearWeight > User.Stats[Stat.BagWeight]) return false; //判断当前穿戴物品的重量是否超过了最大承载重量。如果任何条件不满足，返回 false
-            if (CanWalk(dir) && EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 2))) //玩家沿着指定方向行走至少两个步长且目标点为空块（函数 CanWalk 和 EmptyCell 分别判断是否可以走路以及该点是否为空）；并且此时玩家不存在以下情况之一，即骑乘坐骑或者启动冲刺模式并非偷偷摸摸模式。
+               // if (CanWalk(dir) && EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 2))) //玩家沿着指定方向行走至少两个步长且目标点为空块（函数 CanWalk 和 EmptyCell 分别判断是否可以走路以及该点是否为空）；并且此时玩家不存在以下情况之一，即骑乘坐骑或者启动冲刺模式并非偷偷摸摸模式。
+             
 
+            if (CanWalk(dir) && canWalkTwoSteps)
             {
+
+                //if (User.RidingMount || User.Sprint && !User.Sneaking && canWalkThreeSteps)
                 if (User.RidingMount || User.Sprint && !User.Sneaking)
                 {
+
                     return EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 3));
                     //这段代码通过函数 EmptyCell() 判断当前玩家朝着指定方向是否可以行走三格。
                     //调用了 Functions.PointMove 函数，该函数接收当前玩家的坐标和移动方向、移动距离等参数，返回一个 Point 对象。此处传入了 User.CurrentLocation 作为起始坐标，dir 表示玩家所希望的行进方向，3 表示需要进行的前进步数。

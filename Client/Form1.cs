@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Server
+namespace Client
 {
-    public partial class 管理设置 : Form
+    public partial class Form1 : Form
     {
-        public 管理设置()
+        public Form1()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

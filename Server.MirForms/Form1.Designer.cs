@@ -1,6 +1,6 @@
 ﻿namespace Server
 {
-    partial class 管理设置
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -28,19 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
+            checkBox1 = new CheckBox();
             SuspendLayout();
             // 
-            // 管理设置
+            // checkBox1
             // 
-            AutoScaleDimensions = new SizeF(7F, 17F);
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(47, 34);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(91, 24);
+            checkBox1.TabIndex = 0;
+            checkBox1.Text = "切换穿怪";
+            checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Name = "管理设置";
-            Text = "管理设置页面";
-            Load += Form1_Load;
+            ClientSize = new Size(416, 459);
+            Controls.Add(checkBox1);
+            Name = "Form1";
+            Text = "Form1";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private CheckBox checkBox1;
     }
 }

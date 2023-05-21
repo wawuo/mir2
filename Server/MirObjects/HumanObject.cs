@@ -3,17 +3,22 @@ using Server.MirEnvir;
 using Server.MirNetwork;
 using System.Numerics;
 using S = ServerPackets;
+using Shared;
 
 namespace Server.MirObjects
 {
     public class HumanObject : MapObject
     {
+        bool 穿怪 = Shared.变量.穿怪;
         public override ObjectType Race
         {
             get { return ObjectType.Player; }
         }
 
         public CharacterInfo Info;
+       
+
+        
 
         protected MirConnection connection;
         public virtual MirConnection Connection
@@ -219,7 +224,8 @@ namespace Server.MirObjects
         {
             get
             {
-                return !Dead && !Observer;
+                  return !Dead && !Observer;
+              //  return false;
             }
         }
         public HumanObject() { }
@@ -2405,6 +2411,9 @@ namespace Server.MirObjects
 
 
             Cell cell = CurrentMap.GetCell(location);
+          
+             
+
             if (cell.Objects != null)
             {
                 for (int i = 0; i < cell.Objects.Count; i++)
@@ -2417,26 +2426,24 @@ namespace Server.MirObjects
                         if (!NPC.Visible || !NPC.VisibleLog[Info.Index]) continue;
                     }
                     else
-                        // if (!ob.Blocking || (CheckCellTime && ob.CellTime >= Envir.Time)) continue;
-                            if (ob.Blocking && !穿越)
-                            {
-                                if (CheckCellTime && ob.CellTime >= Envir.Time) continue;
-                                if (ob.Race == ObjectType.Player || ob.Race == ObjectType.Monster)
-                                    return false;  // 将角色或怪物视为障碍，仍需继续循环
-                            }
+                    
+                        //if (false)
+                        //{
+                        //    if (!ob.Blocking || (CheckCellTime && ob.CellTime >= Envir.Time)) continue;
+                        //}
 
-                            // 增加无视阻碍的条件检查
-                            if (Race == ObjectType.Monster && 穿越)
-                            {
-                                bool canMove = ob == null || ob.Race == ObjectType.Spell || ob.Dead || ob.AI == 7;
+                        //else
+                        //{
+                            if (!(CheckCellTime && ob.CellTime >= Envir.Time)) continue;
 
-                                if (!canMove) continue;
-                            }
+                        //}
+                        //else
 
-                            Enqueue(new S.UserLocation { Direction = Direction, Location = CurrentLocation });
-                            return false;
-                   
-                }
+                        Enqueue(new S.UserLocation { Direction = Direction, Location = CurrentLocation });
+                        return false;
+                        // return true;
+                    }
+                
             }
 
           

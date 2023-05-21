@@ -2,11 +2,18 @@
 using Server.MirEnvir;
 using Server.MirObjects.Monsters;
 using S = ServerPackets;
+using Server;
 
 namespace Server.MirObjects
 {
+
+     
+
     public abstract class MapObject
     {
+
+
+        
         protected static MessageQueue MessageQueue
         {
             get { return MessageQueue.Instance; }

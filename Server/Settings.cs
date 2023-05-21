@@ -86,6 +86,7 @@ namespace Server
         public static int AllowedResolution = 1024;
 
         //Optional
+        public static bool 穿怪 = true;
         public static bool SafeZoneBorder = false,
                            SafeZoneHealing = false,
                            GameMasterEffect = false,
