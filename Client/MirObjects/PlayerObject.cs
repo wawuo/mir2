@@ -7,6 +7,7 @@ using S = ServerPackets;
 using C = ClientPackets;
 using Client.MirScenes.Dialogs;
 using System.Reflection;
+using Microsoft.VisualBasic.ApplicationServices;
 
 namespace Client.MirObjects
 {
@@ -895,7 +896,13 @@ namespace Client.MirObjects
 
             if (colour != DrawColour) GameScene.Scene.MapControl.TextureValid = false;
         }
+
         public virtual void SetAction()
+        //{
+        //    SetAction(ObjectType);
+        //}
+
+        //public virtual void SetAction(ObjectType objectType)
         {
             if (NextAction != null && !GameScene.CanMove)
             {
@@ -1378,34 +1385,56 @@ namespace Client.MirObjects
                             break;
                         case MirAction.Attack1:
                         case MirAction.MountAttack:
-
+                            
                             if (!RidingMount)
                             {
                                 if (GameScene.User.Slaying && TargetObject != null)
                                     Spell = Spell.Slaying;
 
-                                if (GameScene.User.Thrusting && GameScene.Scene.MapControl.HasTarget(Functions.PointMove(CurrentLocation, Direction, 2)))
+                                //if (GameScene.User.Thrusting && GameScene.Scene.MapControl.HasTarget(Functions.PointMove(CurrentLocation, Direction, 2)))
+                                //    Spell = Spell.Thrusting;
+
+                                if (GameScene.User.Thrusting && TargetObject != null || GameScene.Scene.MapControl.HasTarget(Functions.PointMove(CurrentLocation, Direction, 1))||  GameScene.Scene.MapControl.HasTarget(Functions.PointMove(CurrentLocation, Direction, 2))) 
+                                {
+                                    //刀刀速杀可能在这里设置
                                     Spell = Spell.Thrusting;
-
-                                if (GameScene.User.HalfMoon)
-                                {
-                                    if (TargetObject != null || GameScene.Scene.MapControl.CanHalfMoon(CurrentLocation, Direction))
-                                    {
-                                        magic = User.GetMagic(Spell.HalfMoon);
-                                        if (magic != null && magic.BaseCost + magic.LevelCost * magic.Level <= User.MP)
-                                            Spell = Spell.HalfMoon;
-                                    }
                                 }
 
-                                if (GameScene.User.CrossHalfMoon)
-                                {
-                                    if (TargetObject != null || GameScene.Scene.MapControl.CanCrossHalfMoon(CurrentLocation))
-                                    {
-                                        magic = User.GetMagic(Spell.CrossHalfMoon);
-                                        if (magic != null && magic.BaseCost + magic.LevelCost * magic.Level <= User.MP)
-                                            Spell = Spell.CrossHalfMoon;
-                                    }
-                                }
+                                          //List<MapObject> targets = MapObject.GetTargets(CurrentLocation, Globals.MaxHalfMoonRange);
+
+                                 if (TargetObject != null || GameScene.Scene.MapControl.CanCrossHalfMoon(CurrentLocation))
+                                        {
+                                                MirDirection leftDir = Functions.PreviousDir(Direction);
+                                                MirDirection rightDir = Functions.NextDir(Direction);
+                                                  int 人数 =0;
+                                                if (GameScene.User.Thrusting)
+                                                {
+                                                    if (GameScene.Scene.MapControl.HasTarget(Functions.PointMove(CurrentLocation, Direction, 1)))
+                                                    {
+                                                        人数++;// 指定方向上两格处有目标
+                                                    }
+
+                                                    if (GameScene.Scene.MapControl.HasTarget(Functions.PointMove(CurrentLocation, leftDir, 1)))
+                                                    {
+                                                    人数++; // 左侧方向上两格处有目标
+                                                    }
+
+                                                    if (GameScene.Scene.MapControl.HasTarget(Functions.PointMove(CurrentLocation, rightDir, 1)))
+                                                    {
+                                                    人数++; // 右侧方向上两格处有目标
+                                                    }
+                                                }
+
+
+                                                magic = User.GetMagic(Spell.CrossHalfMoon);
+                                    if (人数 >= 2 && magic != null && magic.BaseCost + magic.LevelCost * magic.Level <= User.MP)
+                                    { Spell = Spell.CrossHalfMoon; }
+                                            //else
+                                            //{
+                                            //     Spell = Spell.Thrusting;
+                                            // }
+                                   }
+                                 
 
                                 if (GameScene.User.DoubleSlash)
                                 {

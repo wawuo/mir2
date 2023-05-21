@@ -3671,7 +3671,7 @@ namespace Client.MirScenes.Dialogs
                     SkillButton.Hint = string.Format("攻杀剑术 \n\n命中准确度和破坏力将根据\n技能等级水平增加.\n被动技能\n当前技能等级\n {0}\n下次升级 {1}", Magic.Level, Magic.Level == 0 ? Magic.Level1 : Magic.Level == 1 ? Magic.Level2 : Magic.Level == 2 ? Magic.Level3 : 0);
                     break;
                 case Spell.Thrusting:
-                    SkillButton.Hint = string.Format("Dark Damage\nThrusting \n\nIncreases the reach of your hits destructive power\nwill increase in accordance with practive level.\n当前技能等级\n {0}\n下次升级 {1}", Magic.Level, Magic.Level == 0 ? Magic.Level1 : Magic.Level == 1 ? Magic.Level2 : Magic.Level == 2 ? Magic.Level3 : 0);
+                    SkillButton.Hint = string.Format("黑暗伤害\n刺杀剑术 \n\nIncreases the reach of your hits destructive power\nwill increase in accordance with practive level.\n当前技能等级\n {0}\n下次升级 {1}", Magic.Level, Magic.Level == 0 ? Magic.Level1 : Magic.Level == 1 ? Magic.Level2 : Magic.Level == 2 ? Magic.Level3 : 0);
                     break;
                 case Spell.Rage:
                     SkillButton.Hint = string.Format("内力 \n\n法力消耗 {2}\n\n强化你的内力以提高其能量，在一定时间内增加攻击力和持续时间.\n攻击力和持续时间将取决于技能等级.\n技能使用后需要等待再次使用.\n\n当前技能等级\n {0}\n下次升级 {1}", Magic.Level, Magic.Level == 0 ? Magic.Level1 : Magic.Level == 1 ? Magic.Level2 : Magic.Level == 2 ? Magic.Level3 : 0, Magic.BaseCost);

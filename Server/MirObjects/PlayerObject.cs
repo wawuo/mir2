@@ -7,6 +7,7 @@ using System.Text.RegularExpressions;
 using Timer = Server.MirEnvir.Timer;
 using Server.MirObjects.Monsters;
 using System.Threading;
+using Shared;
 
 namespace Server.MirObjects
 {
@@ -1075,11 +1076,19 @@ namespace Server.MirObjects
             Connection.Stage = GameStage.Game;
 
             Enqueue(new S.StartGame { Result = 4, Resolution = Settings.AllowedResolution });
-            ReceiveChat(string.Format(GameLanguage.Welcome, GameLanguage.GameName), ChatType.Hint);
+            ReceiveChat(string.Format(GameLanguage.Welcome, GameLanguage.GameName), ChatType.Hint);//广播
+            if (变量.穿怪)
+            {
+                ReceiveChat("游戏现在开启了穿怪.", ChatType.Hint);
+            }
+            else
+            {
+                ReceiveChat("游戏现在不能穿怪.", ChatType.Hint);
+            }
 
             if (Settings.TestServer)
             {
-                ReceiveChat("Game is currently in test mode.", ChatType.Hint);
+                ReceiveChat("游戏现在是测试模式.", ChatType.Hint);
                 Chat("@GAMEMASTER");
             }
 
@@ -1099,7 +1108,7 @@ namespace Server.MirObjects
                 if (MyGuild == null)
                 {
                     Info.GuildIndex = -1;
-                    ReceiveChat("You have been removed from the guild.", ChatType.System);
+                    ReceiveChat("你已被从公会除名.", ChatType.System);
                 }
                 else
                 {
@@ -1108,7 +1117,7 @@ namespace Server.MirObjects
                     {
                         MyGuild = null;
                         Info.GuildIndex = -1;
-                        ReceiveChat("You have been removed from the guild.", ChatType.System);
+                        ReceiveChat("你已被从公会除名.", ChatType.System);
                     }
                 }
             }

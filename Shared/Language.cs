@@ -790,6 +790,7 @@
             return;
         }
         InIReader reader = new InIReader(languageIniPath);
+        //可能 是翻译文件
         GameLanguage.Welcome = reader.ReadString("Language", "Welcome", GameLanguage.Welcome);
         GameLanguage.OnlinePlayers = reader.ReadString("Language", "OnlinePlayers", GameLanguage.OnlinePlayers);
         GameLanguage.LowLevel = reader.ReadString("Language", "LowLevel", GameLanguage.LowLevel);
