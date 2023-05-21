@@ -735,6 +735,7 @@ namespace Server.MirObjects
 
         public override void Process()
         {
+            //宠物？？攻击或AI
             base.Process();
 
             if (Node == null || Info == null) return;

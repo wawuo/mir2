@@ -757,6 +757,10 @@ namespace Server.MirObjects
 
         public bool CheckStacked()
         {
+            //这个函数是在 MapObject 类中用来检查当前对象是否与其他对象重叠的方法。具体来讲，它会检查当前对象所处的单元格中是否存在其他阻挡物体，如果存在则返回 true，否则返回 false。
+            //在函数中，首先获取当前对象所处的单元格（ CurrentMap.GetCell(CurrentLocation) ），然后遍历该单元格中的所有对象（ cell.Objects ）。如果该对象是当前对象本身或者不是阻挡物体，则跳过该对象，否则就返回 true 表示当前对象与其他对象重叠了。
+            // 如果遍历完所有对象后都没有找到与当前对象重叠的对象，则返回 false 表示当前对象没有与其他对象重叠。
+            //用于宠物或人物所有的随从
             Cell cell = CurrentMap.GetCell(CurrentLocation);
 
             if (cell.Objects != null)

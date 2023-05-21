@@ -12063,6 +12063,10 @@ namespace Client.MirScenes
 
         public bool EmptyCell(Point p)
         {
+            //这段代码的主要功能是判断地图上给定位置 p 是否为空（可通行）。具体的实现逻辑如下：
+            // 1.如果该点的后景 BackImage 属性的 0x20000000 位掩码或前景 FrontImage 属性的 0x8000 位掩码存在，则认为该点不可通行，直接返回 false。 
+            //2.对于当前点内所有角色 / 怪物，如果存在任意一个角色 / 怪物的位置（CurrentLocation）与传入的点相同并且拥有阻挡属性（Blocking），则认为该点被阻挡，无法通过，直接返回 false。
+            // 3.如果以上两个条件都没有触发出口条件，则认为该点是可以通过的，返回 true。 需要注意的是，由于缺少完整上下文信息（如 M2CellInfo、MapObject 等定义和类型）以及其他函数调用之类的细节信息，所以该段代码只能根据代码片段粗略估计其大致功能和实现逻辑，某些细节和约束条件的解释可能存在误差。
             if ((M2CellInfo[p.X, p.Y].BackImage & 0x20000000) != 0 || (M2CellInfo[p.X, p.Y].FrontImage & 0x8000) != 0) // + (M2CellInfo[P.X, P.Y].FrontImage & 0x7FFF) != 0)
                 return false;
 
@@ -12072,7 +12076,8 @@ namespace Client.MirScenes
 
                // if (ob.CurrentLocation == p || ob.Blocking)
                     if (ob.CurrentLocation == p && ob.Blocking)
-                        return false;
+                      //  return false;
+                      return true;
             }
 
             return true;
@@ -12089,55 +12094,55 @@ namespace Client.MirScenes
         //    并返回一个布尔型值，指示是否可以向该方向行走。
 
         {
-            //return EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 1)) && !User.InTrapRock;
-            return !User.InTrapRock;
+            return EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 1)) && !User.InTrapRock;
+           // return !User.InTrapRock;
         }
 
-        //private bool CanWalk(MirDirection dir, out MirDirection outDir)
-        //{
-        //    outDir = dir;
-        //    if (User.InTrapRock) return false;            
-
-        //    if (EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 1)))
-        //        return true;
-
-        //    dir = Functions.NextDir(outDir);
-        //    if (EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 1)))
-        //    {
-        //        outDir = dir;
-        //        return true;
-        //    }
-
-        //    dir = Functions.PreviousDir(outDir);
-        //    if (EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 1)))
-        //    {
-        //        outDir = dir;
-        //        return true;
-        //    }
-
-        //    return false;
-        //}
         private bool CanWalk(MirDirection dir, out MirDirection outDir)
         {
-            //这里成功的穿人了
             outDir = dir;
             if (User.InTrapRock) return false;
 
-            // Try the given direction
-            outDir = dir;
-            return true;
+            if (EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 1)))
+                return true;
 
-            // Try the next direction
             dir = Functions.NextDir(outDir);
-            outDir = dir;
-            return true;
+            if (EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 1)))
+            {
+                outDir = dir;
+                return true;
+            }
 
-            // Try the previous direction
             dir = Functions.PreviousDir(outDir);
-            outDir = dir;
-            return true;
+            if (EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 1)))
+            {
+                outDir = dir;
+                return true;
+            }
 
+            return false;
         }
+        //private bool CanWalk(MirDirection dir, out MirDirection outDir)
+        //{
+        //    //这里成功的步行穿人了
+        //    outDir = dir;
+        //    if (User.InTrapRock) return false;
+
+        //    // Try the given direction
+        //    outDir = dir;
+        //    return true;
+
+        //    // Try the next direction
+        //    dir = Functions.NextDir(outDir);
+        //    outDir = dir;
+        //    return true;
+
+        //    // Try the previous direction
+        //    dir = Functions.PreviousDir(outDir);
+        //    outDir = dir;
+        //    return true;
+
+        //}
 
         private bool CheckDoorOpen(Point p)
         {
@@ -12170,8 +12175,8 @@ namespace Client.MirScenes
 
         private bool CanRun(MirDirection dir)
         {
-            bool canWalkTwoSteps = EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 2));
-            bool canWalkThreeSteps = EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 3));
+            //bool canWalkTwoSteps = EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 2));
+            //bool canWalkThreeSteps = EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 3));
 
             //判断玩家是否可以跑动
             //此方法接收一个参数，表示当前玩家希望行进的方向。
@@ -12182,10 +12187,10 @@ namespace Client.MirScenes
             if (User.InTrapRock) return false; //判断玩家是否处在陷阱石区域内；如果任何条件不满足，返回 false
             if (User.CurrentBagWeight > User.Stats[Stat.BagWeight]) return false; //判断当前背包物品的重量是否超过了最大承载重量。如果任何条件不满足，返回 false
             if (User.CurrentWearWeight > User.Stats[Stat.BagWeight]) return false; //判断当前穿戴物品的重量是否超过了最大承载重量。如果任何条件不满足，返回 false
-               // if (CanWalk(dir) && EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 2))) //玩家沿着指定方向行走至少两个步长且目标点为空块（函数 CanWalk 和 EmptyCell 分别判断是否可以走路以及该点是否为空）；并且此时玩家不存在以下情况之一，即骑乘坐骑或者启动冲刺模式并非偷偷摸摸模式。
+           
+            if(CanWalk(dir) && EmptyCell(Functions.PointMove(User.CurrentLocation, dir, 2))) //玩家沿着指定方向行走至少两个步长且目标点为空块（函数 CanWalk 和 EmptyCell 分别判断是否可以走路以及该点是否为空）；并且此时玩家不存在以下情况之一，即骑乘坐骑或者启动冲刺模式并非偷偷摸摸模式。
              
-
-            if (CanWalk(dir) && canWalkTwoSteps)
+           // if (CanWalk(dir) && canWalkTwoSteps)
             {
 
                 //if (User.RidingMount || User.Sprint && !User.Sneaking && canWalkThreeSteps)

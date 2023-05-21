@@ -2427,21 +2427,14 @@ namespace Server.MirObjects
                     }
                     else
                     
-                        //if (false)
-                        //{
-                        //    if (!ob.Blocking || (CheckCellTime && ob.CellTime >= Envir.Time)) continue;
-                        //}
+                     
+                            if (!ob.Blocking || (CheckCellTime && ob.CellTime >= Envir.Time ||穿怪)) continue; //步行穿怪
 
-                        //else
-                        //{
-                            if (!(CheckCellTime && ob.CellTime >= Envir.Time)) continue;
+                    // if (!ob.Blocking || (CheckCellTime && ob.CellTime >= Envir.Time )) continue;
 
-                        //}
-                        //else
-
-                        Enqueue(new S.UserLocation { Direction = Direction, Location = CurrentLocation });
+                    Enqueue(new S.UserLocation { Direction = Direction, Location = CurrentLocation });
                         return false;
-                        // return true;
+                        
                     }
                 
             }
@@ -2501,6 +2494,7 @@ namespace Server.MirObjects
 
             for (int i = 0; i < cell.Objects.Count; i++)
             {
+                //地形法术：如安全区边界等
                 if (cell.Objects[i].Race != ObjectType.Spell) continue;
                 SpellObject ob = (SpellObject)cell.Objects[i];
 
@@ -2512,6 +2506,7 @@ namespace Server.MirObjects
         }
         public bool Run(MirDirection dir)
         {
+            
             var steps = RidingMount || ActiveSwiftFeet && !Sneaking ? 3 : 2;
 
             if (!CanMove || !CanWalk || !CanRun)
@@ -2569,8 +2564,8 @@ namespace Server.MirObjects
                             if (!NPC.Visible || !NPC.VisibleLog[Info.Index]) continue;
                         }
                         else
-                            if (!ob.Blocking || (CheckCellTime && ob.CellTime >= Envir.Time)) continue;
-
+                            if (!ob.Blocking || (CheckCellTime && ob.CellTime >= Envir.Time || 穿怪)) continue; //跑步穿怪
+                            //if (!ob.Blocking ||(CheckCellTime && ob.CellTime >= Envir.Time)) continue;
                         Enqueue(new S.UserLocation { Direction = Direction, Location = CurrentLocation });
                         return false;
                     }
