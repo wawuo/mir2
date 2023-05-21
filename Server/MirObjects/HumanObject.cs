@@ -9,7 +9,7 @@ namespace Server.MirObjects
 {
     public class HumanObject : MapObject
     {
-        bool 穿怪 = Shared.变量.穿怪;
+        
         public override ObjectType Race
         {
             get { return ObjectType.Player; }
@@ -2411,8 +2411,8 @@ namespace Server.MirObjects
 
 
             Cell cell = CurrentMap.GetCell(location);
-          
-             
+
+
 
             if (cell.Objects != null)
             {
@@ -2420,22 +2420,46 @@ namespace Server.MirObjects
                 {
                     MapObject ob = cell.Objects[i];
 
-                    if (ob.Race == ObjectType.Merchant && Race == ObjectType.Player)
+                    if (变量.穿怪)
                     {
-                        NPCObject NPC = (NPCObject)ob;
-                        if (!NPC.Visible || !NPC.VisibleLog[Info.Index]) continue;
-                    }
-                    else
-                    
-                     
-                            if (!ob.Blocking || (CheckCellTime && ob.CellTime >= Envir.Time ||穿怪)) continue; //步行穿怪
+                        if (ob.Race == ObjectType.Merchant && Race == ObjectType.Player)
+                        {
+                            NPCObject NPC = (NPCObject)ob;
+                            if (!NPC.Visible || !NPC.VisibleLog[Info.Index]) continue;
+                        }
+                        else
 
-                    // if (!ob.Blocking || (CheckCellTime && ob.CellTime >= Envir.Time )) continue;
+                          if (!(CheckCellTime && ob.CellTime >= Envir.Time)) continue;
 
-                    Enqueue(new S.UserLocation { Direction = Direction, Location = CurrentLocation });
+                         //步行穿怪
+
+                        // if (!ob.Blocking || (CheckCellTime && ob.CellTime >= Envir.Time )) continue;
+                        Enqueue(new S.UserLocation { Direction = Direction, Location = CurrentLocation });
                         return false;
-                        
                     }
+                    if (!变量.穿怪)
+                    {
+                        if (ob.Race == ObjectType.Merchant && Race == ObjectType.Player)
+                        {
+                            NPCObject NPC = (NPCObject)ob;
+                            if (!NPC.Visible || !NPC.VisibleLog[Info.Index]) continue;
+                        }
+                        else
+
+
+                                if (!ob.Blocking || (CheckCellTime && ob.CellTime >= Envir.Time)) continue;
+
+                         //不穿怪
+
+                        // if (!ob.Blocking || (CheckCellTime && ob.CellTime >= Envir.Time )) continue;
+
+                        Enqueue(new S.UserLocation { Direction = Direction, Location = CurrentLocation });
+                        return false;
+                    }
+
+
+
+                } 
                 
             }
 
@@ -2557,17 +2581,32 @@ namespace Server.MirObjects
                     for (int i = 0; i < cell.Objects.Count; i++)
                     {
                         MapObject ob = cell.Objects[i];
-
-                        if (ob.Race == ObjectType.Merchant && Race == ObjectType.Player)
+                        if (变量.穿怪)
                         {
-                            NPCObject NPC = (NPCObject)ob;
-                            if (!NPC.Visible || !NPC.VisibleLog[Info.Index]) continue;
-                        }
-                        else
-                            if (!ob.Blocking || (CheckCellTime && ob.CellTime >= Envir.Time || 穿怪)) continue; //跑步穿怪
+                            if (ob.Race == ObjectType.Merchant && Race == ObjectType.Player)
+                            {
+                                NPCObject NPC = (NPCObject)ob;
+                                if (!NPC.Visible || !NPC.VisibleLog[Info.Index]) continue;
+                            }
+                            else
+                            if (!(CheckCellTime && ob.CellTime >= Envir.Time)) continue ; //跑步穿怪
                             //if (!ob.Blocking ||(CheckCellTime && ob.CellTime >= Envir.Time)) continue;
-                        Enqueue(new S.UserLocation { Direction = Direction, Location = CurrentLocation });
-                        return false;
+                            Enqueue(new S.UserLocation { Direction = Direction, Location = CurrentLocation });
+                            return false;
+                        }
+                        if (!变量.穿怪)
+                        {
+                            if (ob.Race == ObjectType.Merchant && Race == ObjectType.Player)
+                            {
+                                NPCObject NPC = (NPCObject)ob;
+                                if (!NPC.Visible || !NPC.VisibleLog[Info.Index]) continue;
+                            }
+                            else
+                           // if (!ob.Blocking || (CheckCellTime && ob.CellTime >= Envir.Time || !变量.穿怪)) continue; //跑步穿怪
+                             if (!ob.Blocking ||(CheckCellTime && ob.CellTime >= Envir.Time)) continue;  //不穿怪
+                            Enqueue(new S.UserLocation { Direction = Direction, Location = CurrentLocation });
+                            return false;
+                        }
                     }
                 }
                 if (CheckMovement(location)) return false;

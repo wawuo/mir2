@@ -455,9 +455,9 @@ namespace Server
 
         private void 设置ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form1 管理页面Form = new Form1();
+            myForm1 myForm1 = new myForm1();
 
-            管理页面Form.ShowDialog();
+            myForm1.ShowDialog();
           
         }
     }

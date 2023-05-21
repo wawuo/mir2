@@ -1,6 +1,6 @@
 ﻿namespace Server
 {
-    partial class Form1
+    partial class myForm1
     {
         /// <summary>
         /// Required designer variable.
@@ -28,34 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            checkBox1 = new CheckBox();
+            切换穿怪cb = new CheckBox();
             SuspendLayout();
             // 
-            // checkBox1
+            // 切换穿怪cb
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(47, 34);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(91, 24);
-            checkBox1.TabIndex = 0;
-            checkBox1.Text = "切换穿怪";
-            checkBox1.UseVisualStyleBackColor = true;
-            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
+            切换穿怪cb.AutoSize = true;
+            切换穿怪cb.Location = new Point(12, 12);
+            切换穿怪cb.Name = "切换穿怪cb";
+            切换穿怪cb.Size = new Size(91, 24);
+            切换穿怪cb.TabIndex = 0;
+            切换穿怪cb.Text = "切换穿怪";
+            切换穿怪cb.UseVisualStyleBackColor = true;
+            切换穿怪cb.CheckedChanged += 切换穿怪cb_CheckedChanged;
             // 
-            // Form1
+            // myForm1
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(416, 459);
-            Controls.Add(checkBox1);
-            Name = "Form1";
-            Text = "Form1";
+            Controls.Add(切换穿怪cb);
+            MaximizeBox = false;
+            MinimizeBox = false;
+            Name = "myForm1";
+            Text = "管理配置";
+            Load += 设置Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private CheckBox checkBox1;
+        private CheckBox 切换穿怪cb;
     }
 }

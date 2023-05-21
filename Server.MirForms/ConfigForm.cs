@@ -57,57 +57,81 @@ namespace Server
 
         public void Save()
         {
+            // 将路径文本框中的文本设置为版本路径
             Settings.VersionPath = VPathTextBox.Text;
+            // 将版本勾选框的值设置为是否检查版本
             Settings.CheckVersion = VersionCheckBox.Checked;
-           
+            Settings.CheckVersion = VersionCheckBox.Checked;
 
             IPAddress tempIP;
+            // 如果能够解析IP地址文本框中的内容，就将该值设置为服务器IP地址，该值作为字符串存储
             if (IPAddress.TryParse(IPAddressTextBox.Text, out tempIP))
                 Settings.IPAddress = tempIP.ToString();
 
+            // 将是否开启HTTP服务勾选框的值保存为设置对象中的相应属性值
             Settings.StartHTTPService = StartHTTPCheckBox.Checked;
+            // 查询HTTP IP地址文本框中的值是否能够正确解析，如果能，则将该值赋给设置对象的相应属性值
             if (tryParseHttp())
                 Settings.HTTPIPAddress = HTTPIPAddressTextBox.Text.ToString();
-
+            // 同理，查询可信任HTTP IP地址文本框中的值是否能够正确解析，如果能，则将该值赋给设置对象的相应属性值
             if (tryParseTrustedHttp())
                 Settings.HTTPTrustedIPAddress = HTTPTrustedIPAddressTextBox.Text.ToString();
 
             ushort tempshort;
             int tempint;
 
+            // 如果能够解析端口号文本框中的内容，就将该值保存到设置对象中的相应属性值
             if (ushort.TryParse(PortTextBox.Text, out tempshort))
                 Settings.Port = tempshort;
 
+            // 如果能够解析超时时间文本框中的内容，就将该值保存到设置对象中的相应属性值
             if (ushort.TryParse(TimeOutTextBox.Text, out tempshort))
                 Settings.TimeOut = tempshort;
 
+            // 如果能够解析最大用户数文本框中的内容，就将该值保存到设置对象中的相应属性值
             if (ushort.TryParse(MaxUserTextBox.Text, out tempshort))
                 Settings.MaxUser = tempshort;
 
+            // 如果能够解析重新登录延迟时间文本框中的内容，就将该值保存到设置对象中的相应属性值
             if (ushort.TryParse(RelogDelayTextBox.Text, out tempshort))
                 Settings.RelogDelay = tempshort;
 
+            // 如果能够解析自动保存延迟时间文本框中的内容，就将该值保存到设置对象中的相应属性值
             if (ushort.TryParse(SaveDelayTextBox.Text, out tempshort))
                 Settings.SaveDelay = tempshort;
 
+            // 将是否允许创建新账户勾选框的值保存到设置对象中的相应属性值
             Settings.AllowNewAccount = AccountCheckBox.Checked;
+            // 将是否允许修改密码勾选框的值保存到设置对象中的相应属性值
             Settings.AllowChangePassword = PasswordCheckBox.Checked;
+            // 将是否允许登录勾选框的值保存到设置对象中的相应属性值
             Settings.AllowLogin = LoginCheckBox.Checked;
+            // 将是否允许创建新角色勾选框的值保存到设置对象中的相应属性值
             Settings.AllowNewCharacter = NCharacterCheckBox.Checked;
+            // 将是否允许删除角色勾选框的值保存到设置对象中的相应属性值
             Settings.AllowDeleteCharacter = DCharacterCheckBox.Checked;
+            // 将是否允许开始游戏勾选框的值保存到设置对象中的相应属性值
             Settings.AllowStartGame = StartGameCheckBox.Checked;
+            // 将是否允许创建刺客勾选框的值保存到设置对象中的相应属性值
             Settings.AllowCreateAssassin = AllowAssassinCheckBox.Checked;
+            // 将是否允许创建弓箭手勾选框的值保存到设置对象中的相应属性值
             Settings.AllowCreateArcher = AllowArcherCheckBox.Checked;
 
+            // 如果能够解析分辨率文本框中的内容，就将该值保存到设置对象中的相应属性值
             if (int.TryParse(Resolution_textbox.Text, out tempint))
                 Settings.AllowedResolution = tempint;
 
+            // 将是否开启安全区域边界勾选框的值保存到设置对象中的相应属性值
             Settings.SafeZoneBorder = SafeZoneBorderCheckBox.Checked;
+            // 将是否开启安全区域治疗效果勾选框的值保存到设置对象中的相应属性值
             Settings.SafeZoneHealing = SafeZoneHealingCheckBox.Checked;
+            // 将是否开启GM效果勾选框的值保存到设置对象中的相应属性值
             Settings.GameMasterEffect = gameMasterEffect_CheckBox.Checked;
+            // 如果能够解析行消息时间文本框中的内容，就将该值保存到设置对象中的相应属性值
             if (int.TryParse(lineMessageTimeTextBox.Text, out tempint))
                 Settings.LineMessageTimer = tempint;
         }
+    
 
         private void IPAddressCheck(object sender, EventArgs e)
         {
@@ -194,6 +218,11 @@ namespace Server
         }
 
         private void VersionCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
         {
 
         }

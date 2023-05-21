@@ -1,6 +1,7 @@
 ﻿using System.Security.Cryptography;
 using Server.MirDatabase;
 using Server.MirObjects;
+using Shared;
 
 namespace Server
 {
@@ -333,6 +334,7 @@ namespace Server
             //General
             VersionPath = Reader.ReadString("General", "VersionPath", VersionPath);
             CheckVersion = Reader.ReadBoolean("General", "CheckVersion", CheckVersion);
+            穿怪 = Reader.ReadBoolean("General", "穿怪", 穿怪);
             RelogDelay = Reader.ReadUInt16("General", "RelogDelay", RelogDelay);
             GMPassword = Reader.ReadString("General", "GMPassword", GMPassword);
             Multithreaded = Reader.ReadBoolean("General", "Multithreaded", Multithreaded);
@@ -597,6 +599,7 @@ namespace Server
         {
             //General
             Reader.Write("General", "VersionPath", VersionPath);
+            Reader.Write("General","穿怪",穿怪);
             Reader.Write("General", "CheckVersion", CheckVersion);
             Reader.Write("General", "RelogDelay", RelogDelay);
             Reader.Write("General", "Multithreaded", Multithreaded);
