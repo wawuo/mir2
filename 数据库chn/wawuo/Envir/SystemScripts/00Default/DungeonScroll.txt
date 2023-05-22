@@ -1,0 +1,207 @@
+;;DungeonScroll
+[@_UseItem(4)]
+#SAY
+Which Dungeon would you like to visit?
+ 
+传送 Region: <BichonProvince/@BPD1>
+传送 Region: <SerpentValley/@SVD1>
+传送 Region: <MongchonProvince/@MPD1>
+传送 Region: <WoomyonWoods(S)/@WWSD1>
+传送 Region: <WoomyonWoods(N)/@WWND1>
+Please <Show me some more/@DungeonPage2> Locations
+
+[@DungeonPage2]
+#SAY
+传送 Region: <SeokchoValley/@SeoVD1>
+传送 Region: <CastleGi-Ryoong/@CGCD1>
+传送 Region: <PrajnaIsland/@PID1>
+传送 Region: <PastBichon/@PBD1> Required Level43
+传送 Region: <WasteLands/@WLD1>
+ 
+ 
+<返回/@_UseItem(50)>
+ 
+[@BPD1]
+#SAY
+Available Dungeons in BichonProvince.
+ 
+传送 to: <OmaCavern/@OC1>
+传送 to: <DeadMines/@DM1>
+<返回/@_UseItem(50)>
+
+[@SVD1]
+#SAY
+Available Dungeons in SerpentValley.
+ 
+传送 to: <SerpentDeadMines/@SDM1>
+传送 to: <ViperCave/@VC1>
+<返回/@_UseItem(50)>
+
+[@MPD1]
+#SAY
+Available Dungeons in MonchonProvince.
+ 
+传送 to: <BugCave/@BC1>
+传送 to: <StoneTemple/@ST1>
+传送 to: <SabukSecretCave/@SSC1>
+传送 to: <ZumaTemple/@ZT1>
+传送 to: <FoxTemple/@FT1>
+<返回/@_UseItem(50)>
+
+[@WWSD1]
+#SAY
+Available Dungeons in WoomyonWoods(S).
+ 
+传送 to: <InsectCave/@IC1>
+传送 to: <WoomaTemple/@WT1>
+<返回/@_UseItem(50)>
+
+[@WWND1]
+#SAY
+Available Dungeons in WoomyonWoods(N).
+ 
+传送 to: <MineralMines/@MM1>
+传送 to: <TreePath/@TP1>
+传送 to: <RedValley/@RV1>
+传送 to: <DarkForest/@DF1>
+
+<返回/@_UseItem(50)>
+
+[@SeoVD1]
+#SAY
+Available Dungeons in SeokchoValley.
+ 
+传送 to: <TrollMines/@TM1>
+<返回/@DungeonPage2>
+
+[@CGCD1]
+#SAY
+Available Dungeons in CastleGi-Ryoong.
+ 
+传送 to: <BlackDragonDungeon/@BDD1>
+传送 to: <DragonCavern/@DC1>
+<返回/@DungeonPage2>
+
+
+[@PID1]
+#SAY
+Available Dungeons in PrajnaIsland.
+ 
+传送 to: <PrajnaStoneCave/@PSC1>
+传送 to: <PrajnaTemple/@PT1>
+<返回/@DungeonPage2>
+
+[@PBD1]
+#IF
+LEVEL > 42
+#SAY
+Available Dungeons in PastBichon.
+ 
+传送 to: <EvilMirPalace/@EM1>
+<返回/@DungeonPage2>
+
+#ELSESAY
+Sorry you aint the correct level.
+ 
+<返回/@DungeonPage2>
+
+[@WLD1]
+#SAY
+Available Dungeons in WasteLands.
+ 
+传送 to: <RedCave/@RC1>
+传送 to: <HellCavern/@HC1>
+<返回/@DungeonPage2>
+
+[@OC1]
+#ACT
+MOVE 0 144 40
+
+[@DM1]
+#ACT
+MOVE 0 659 219
+
+[@SDM1]
+#ACT
+MOVE 2 562 175
+
+[@VC1]
+#ACT
+MOVE LABY01
+
+[@BC1]
+#ACT
+MOVE 3 144 92
+
+[@ST1]
+#ACT
+MOVE D710 28 17
+
+[@SSC1]
+#ACT
+MOVE D701 166 132
+
+[@ZT1]
+#ACT
+MOVE 0157 15 19
+
+[@FT1]
+#ACT
+MOVE 3 654 763
+
+[@IC1]
+#ACT
+MOVE 1 209 523
+
+[@WT1]
+#ACT
+MOVE 1 88 203
+
+[@MM1]
+#ACT
+MOVE 11 44 318
+
+[@TP1]
+#ACT
+MOVE 11 354 243
+
+[@RV1]
+#ACT
+MOVE 12 319 129
+
+[@DF1]
+#ACT
+MOVE 11 180 195
+
+[@TM1]
+#ACT
+MOVE UMM 43 107
+
+[@BDD1]
+#ACT
+MOVE 4 61 70
+
+[@DC1]
+#ACT
+MOVE 4 47 212
+
+[@PSC1]
+#ACT
+MOVE 5 523 615
+
+[@PT1]
+#ACT
+MOVE 5 569 425
+
+[@RC1]
+#ACT
+MOVE HELL00  245 246
+
+[@HC1]
+#ACT
+MOVE HELL00 244 148
+
+[@EM1]
+#ACT
+MOVE D2081 30 50
+

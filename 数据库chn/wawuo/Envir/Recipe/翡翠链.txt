@@ -1,0 +1,11 @@
+[Recipe]
+Amount 1
+Chance 100
+Gold 1000
+
+[Tools]
+
+[Ingredients]
+银矿 1 12000
+娜迦项链
+黑线 10

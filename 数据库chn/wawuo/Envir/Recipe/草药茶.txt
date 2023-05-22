@@ -1,0 +1,11 @@
+[Recipe]
+Amount 1
+Chance 100
+Gold 300
+
+[Tools]
+
+[Ingredients]
+食人果
+食人叶
+太阳药水

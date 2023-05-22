@@ -1,0 +1,53 @@
+;Gold
+1/5 Gold 25
+
+;Pots + Other
+1/5 (HP)药物小量 
+1/5 (MP)药物小量 
+
+;Weapons
+
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+
+
+;CraftingMaterials
+1/2 蛆虫药丸 
+1/10 蛆虫药丸 
+
+;Quests
+1/5 遗物 Q
+1/200 古老的镰刀 Q

@@ -1,0 +1,66 @@
+;Gold
+1/1 Gold 30000
+
+;Pots + Other
+1/1 (HP)药物大量
+1/1 (MP)药物大量
+1/1 (HP)药物大量
+1/1 (MP)药物大量
+1/1 (HP)药物XL
+1/1 (MP)药物XL
+1/1 (HP)药物XL
+1/1 (MP)药物XL
+1/1 太阳药水(中)
+1/1 太阳药水(中)
+1/1 太阳药水(中)
+1/1 祝福油
+1/2 祝福油
+
+1/10 觉醒的灵魂0
+
+
+
+;Weapons
+
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+
+
+;CraftingMaterials
+
+
+;Quests
+

@@ -1,0 +1,279 @@
+1/2 Gold 20000
+
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水(中)
+1/1 太阳药水(中)
+1/1 太阳药水(中)
+1/1 太阳药水(中)
+1/1 太阳药水(中)
+1/1 太阳药水(中)
+1/1 太阳药水(中)
+1/1 太阳药水
+1/2 祝福油
+1/5 金条
+
+1/140 黑虎盔甲(男)
+1/140 黑虎盔甲(女)
+1/140 莲花盔甲(男)
+1/140 莲花盔甲(女)
+1/140 仙鹤盔甲(男)
+1/140 仙鹤盔甲(女)
+1/140 隐形盔甲(男)
+1/140 隐形盔甲(女)
+1/170 红色黑暗盔甲(男)
+1/170 红色黑暗盔甲(女)
+1/170 蓝色深色护甲(男)
+1/170 蓝色深色护甲(女)
+1/170 鳞甲(男)
+1/170 鳞甲(女)
+1/170 绿色深色护甲(男)
+1/170 绿色深色护甲(女)
+1/170 金色深色护甲(男)
+1/170 金色深色护甲(女)
+1/400 WatcherSuit(男)
+1/400 WatcherSuit(女)
+1/1700 HeavenRedArmour(男)
+1/1700 HeavenRedArmour(女)
+1/1700 HeavenGrnArmour(男)
+1/1700 HeavenGrnArmour(女)
+1/1700 天堂之铠(男)
+1/1700 天堂之铠(女)
+1/1700 HeavenGoldArmour(男)
+1/1700 HeavenGoldArmour(女)
+
+1/100 玛吉之刃
+1/300 力量之弓
+1/300 战神之剑
+1/300 巫术之刃
+1/300 创天之剑
+1/50 冰封之剑
+1/50 狰狞之弓
+1/50 锌刀
+1/50 征服者之矛
+1/50 混蛋之剑
+1/450 黑虎之锤
+1/450 致命之弓
+1/450 屠宰刀
+1/450 洛托斯之杖
+1/450 鹤鸣扇
+1/700 野蛮人之剑
+1/700 阿普斯弓
+1/700 生死剑
+1/700 狂龙之刃
+1/700 骨头CarvedFan
+
+1/40 伟大的头盔
+1/40 智慧头盔
+1/40 道冠
+1/40 皇家头盔
+1/100 闪亮的头盔
+1/150 PuiYuHelmet
+1/150 WatcherHelmet
+
+
+1/50 誓约环
+1/50 五元素戒指
+1/50 红宝戒指
+1/105 恶魔之戒
+1/105 驱邪戒指
+1/155 Gold龙戒
+
+1/50 双天王护身符
+1/50 神圣护身符
+1/50 诅咒护身符
+1/105 WildTitan护身符
+1/105 Enchanted护身符
+1/105 FiveElement护身符
+1/155 WatcherGloves
+
+1/50 残缺的项链
+1/50 巫术之锚
+1/50 净化的镜子
+1/100 邪恶三角
+1/100 净化的十字架
+1/100 金刚项链
+
+1/10 勇敢球
+1/10 魔法之球
+1/10 灵魂之球
+1/20 保护球
+1/20 屠魔球
+1/40 风暴球
+1/40 敏捷球
+1/40 精度球
+1/40 毒药球
+1/40 冰冻球
+1/40 幻觉球
+1/40 耐力球
+1/45 耐用性球
+
+1/30 Holy健康石
+1/30 Holy魔法石
+1/30 Holy动力石
+1/40 HolyAcStone
+1/40 HolyAmcStone
+1/40 HolyDefenseStone
+1/30 HolyDC攻击石
+1/30 HolyMC石
+1/30 HolySC石
+
+
+;Boots
+1/300 WatcherBoots
+
+
+;Shield
+1/650 OrcsShield
+
+1/300 DefenderRing
+1/300 DefenderGlove
+1/300 DefenderNecklace
+1/100 (H)恶魔面具
+1/100 (H)紫金石
+1/100 (H)鲲鹏之泪
+1/100 (H)WheelOfLunar
+1/100 (H)红魔戒指
+1/100 (H)云戒指
+1/100 (H)毒药戒指
+1/80 ArmouredMedal
+1/50 HollowMedal
+1/200 AscendedRing
+1/200 AscendedWheel
+1/200 AscendedNecklace
+1/200 AscendedHelmet
+1/200 AscendedBoots
+1/200 AscendedBelt
+
+;other
+1/550 InfernoRing
+1/550 InfernoNecklace
+1/550 InfernoWheel
+1/550 InfernoBoots
+1/550 InfernoBelt
+1/550 InfernoShield
+1/550 InfernoHelmet
+1/1200 HeatsBanes
+1/1200 WidowsWail
+1/1200 ThorsBattleAxe
+1/1200 OathKeeper
+1/450 TrollCap
+1/450 TrollRing
+1/450 TrollBand
+1/450 TrollChains
+1/450 S陷阱ofTrolls
+1/450 TrollLeathers
+1/200 TerrapinNecklace
+1/200 TerrapinBracelet
+1/200 TerrapinRing
+1/300 TerrapinShield
+1/500 TrollsRobe(男)
+1/500 TrollsRobe(女)
+
+1/100 DefensiveMedal
+1/100 OffensiveMedal
+
+1/100 SmasherGlove
+1/100 暴风雪Glove
+1/100 MistyGlove
+1/100 SlicerGlove
+1/100 SmasherNecklace
+1/100 暴风雪Necklace
+1/100 MistyNecklace
+1/100 SlicerNecklace
+1/100 SmasherRing
+1/100 暴风雪Ring
+1/100 MistyRing
+1/100 SlicerRing
+
+1/900 HavokBraveArmour(男)
+1/900 HavokBraveArmour(女)
+1/900 HavokMagicArmour(男)
+1/900 HavokMagicArmour(女)
+1/900 Havok灵魂护甲(男)
+1/900 Havok灵魂护甲(女)
+1/900 HavokSinArmour(男)
+1/900 HavokSinArmour(女)
+
+1/400 神奇的项链
+1/400 天体之镯
+1/400 天使之戒
+
+1/1200 FrozenBelt
+1/1200 FrozenNecklace
+1/1200 FrozenRing
+1/1200 FrozenBoots
+1/900 FrozenWheel
+1/1200 FrozenSlayer
+1/1200 FrozenStaff
+1/1200 FrozenWand
+1/1200 Frozen匕首s
+1/1200 FrozenBow
+
+;Books
+;Warrior
+1/25 火焰之剑
+1/30 十字半月
+1/50 双闸刀
+1/60 狮子吼
+1/70 禁锢
+1/120 SliceN骰子
+1/140 BladeStorm
+1/150 刀锋雪崩
+1/700 保护场
+1/800 愤怒
+1/900 怒击
+1/1000 反击
+1/1500 不朽的皮肤
+
+;Wizard
+1/10 寒霜紧缩
+1/25 冰风暴
+1/30 火焰破坏者
+1/50 吸血术
+1/100 DragNet
+1/150 镜像
+1/190 火焰场
+1/700 暴风雪
+1/800 魔力助推器
+1/900 流星打击
+1/1000 快速移动
+1/1100 冰刺
+1/1200 FrozenRains
+1/1300 LavaKing
+1/1600 风暴逃逸
+
+;Taoist
+1/50 幻觉
+1/50 净化
+1/30 终极强化器
+1/30 能量反击器
+1/25 召唤神术
+1/100治愈圈
+1/200 召唤圣德瓦
+1/500 诅咒
+1/800 转世
+1/900 毒云
+1/1100 能量护盾
+1/1000 宠物强化器
+1/1300 HolyShield
+1/1600 HeadShot
+
+;Assassin
+1/50 火焰喷射
+1/75 陷阱
+1/60 迅捷脚步
+1/100 CrescentSlash
+1/600 黑暗之躯
+
+

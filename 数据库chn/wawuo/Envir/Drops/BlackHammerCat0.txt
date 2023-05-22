@@ -1,0 +1,53 @@
+;Gold
+1/10 Gold 1600
+
+;Pots + Other
+1/15 (HP)药物XL
+1/15 (MP)药物XL
+1/30 太阳药水
+1/30 太阳药水
+
+;Weapons
+
+
+;Armour
+
+
+;Helmets
+1/13000 BloodDragonHelmet
+
+;Necklace
+1/13000 Blood龙纹项链
+
+;Bracelets
+1/13000 BloodDragonBrace
+
+;Rings
+1/13000 Blood龙戒
+
+;Shoes
+1/13000 Blood龙靴
+
+;Belts
+1/13000 BloodDragonBelt
+
+;Medals
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+
+
+;CraftingMaterials
+
+
+;Quests
+

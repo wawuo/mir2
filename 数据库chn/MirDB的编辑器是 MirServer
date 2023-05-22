@@ -1,0 +1,7 @@
+MirDB的编辑器是 MirServer 项目组开发的一款可视化编辑器工具，您可以从以下网址下载到最新版本的 MirDB 编辑器：
+
+https://github.com/mirserver/MirDBEditor/releases
+
+此外，您也可以从该页面访问到所有以往版本的 MirDB 编辑器。请确保已安装 .NET Framework 4.7.2 或更高版本才能运行这个工具。
+
+请注意，MirDB 是一个专为创世纪开发而设计的数据库库，如果您想要读取其他游戏数据库文件，需要先了解该二进制文件的格式和结构并编写相应的程序进行解析。

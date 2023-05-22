@@ -1,0 +1,70 @@
+[@Main]
+#IF
+ISADMIN
+#SAY
+你好 {<$USERNAME>/KHAKI}, 我名叫 {<$NPCNAME>/KHAKI}.
+我看到你正穿着: {<$BELT>/CORAL}
+<购买/@Buy> Belt
+<出售/@Sell> Belt
+<修理/@Repair> Belt
+<Special Repair/@SRepair> Belt
+
+#ELSEACT
+MOVE 0 300 300
+ 
+[@Buy]
+#SAY
+购买
+ 
+<返回/@Main>
+
+[@Sell]
+#SAY
+出售
+ 
+<返回/@Main>
+
+[@Repair]
+#SAY
+修理
+ 
+<返回/@Main>
+
+[@SRepair]
+#SAY
+特别修理
+ 
+<返回/@Main>
+
+
+[Types]
+9
+
+[Trade]
+腰带
+白金腰带
+白金腰带(H)
+红玉腰带
+红玉腰带(H)
+翡翠腰带
+翡翠腰带(H)
+力量腰带1
+力量腰带2
+力量腰带3
+力量腰带4
+力量腰带5
+沙龙腰带
+闪亮的腰带
+黑暗腰带
+清波腰带(WAR)
+清波腰带(WIZ)
+清波腰带(TAO)
+清波腰带(ASSA)
+清波腰带(ARCH)
+皮腰带
+链带
+青铜腰带
+钢带
+金腰带
+金刚腰带
+火焰抓手

@@ -1,0 +1,20 @@
+;Gold
+1/5 Gold 1000
+
+;Potions
+1/15 (HP)药物大量
+1/15 (MP)药物大量
+1/250 太阳药水
+1/500 太阳药水(中)
+
+;Crafting Material
+1/80 大骨
+1/60 猛犸象皮
+1/80 铠甲书(MC)
+1/80 锈迹斑斑的盔甲
+1/10 BraveryFragment
+1/10 MagicFragment
+1/10 SoulFragment
+1/10 ProtectionFragment
+1/10 EvilSlayerFragment
+1/10 DurabilityFragment

@@ -1,0 +1,25 @@
+[@Description]
+The {Border village/Yellow} is in trouble! More guards are
+getting injured with frequent attacks from 
+monsters. {Ruben/LimeGreen} asked for {遗物/LightSteelBlue} for the injured.
+
+[@TaskDescription]
+Collect 10 {遗物/LightSteelBlue} by hunting {CaveMaggots/Crimson}
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+遗物 10
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+1700
+
+[@GoldReward]
+1700

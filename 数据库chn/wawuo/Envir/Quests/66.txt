@@ -1,0 +1,29 @@
+[@Description]
+I cant really see that well. My sight is getting
+worse as I age. I heard my sight will get better if
+I eat bug eyes. Could you get {虫眼s/LightSteelBlue} for me?
+I hear that {HoroBlaster/Crimson} and {BlueHoroBlaster/Crimson} ones
+are the best.
+
+[@TaskDescription]
+Kill {HoroBlaster/Crimson} and {BluHoroBlaster/Crimson} and Collect 
+12 {虫眼/LightSteelBlue}
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+虫眼 12
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+3800
+
+[@GoldReward]
+3800

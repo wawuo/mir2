@@ -1,0 +1,16 @@
+[@MAIN]
+#SAY
+你好 traveller. How can i help you?
+ 
+<Access/@Storage> Storage
+
+<关闭/@exit>
+
+
+
+[@Storage]
+#SAY
+What item do you want to store or withdraw?
+ 
+<返回/@Main> - <关闭/@exit>
+

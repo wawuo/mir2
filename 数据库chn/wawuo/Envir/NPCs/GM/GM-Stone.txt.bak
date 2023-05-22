@@ -1,0 +1,60 @@
+[@Main]
+#IF
+ISADMIN
+#SAY
+你好 {<$USERNAME>/KHAKI}, 我名叫 {<$NPCNAME>/KHAKI}.
+我看到你正穿着: {<$STONE>/CORAL}
+<购买/@Buy> Stone
+<出售/@Sell> Stone
+
+#ELSEACT
+MOVE 0 300 300
+
+[@Sell]
+#SAY
+出售
+ 
+<返回/@Main>
+
+[@Buy]
+#SAY
+购买
+ 
+<返回/@Main>
+
+
+[Types]
+11
+
+[Trade]
+HealthStone(S)
+HealthStone(男)
+HealthStone(L)
+HealthStone(XL)
+HealthStone
+MagicStone(S)
+MagicStone(男)
+MagicStone(L)
+MagicStone(XL)
+MagicStone
+PowerStone(S)
+PowerStone(男)
+PowerStone(L)
+PowerStone(XL)
+PowerStone
+DCStone(S)
+DCStone(男)
+DCStone(L)
+DCStone(XL)
+DCStone
+MCStone(S)
+MCStone(男)
+MCStone(L)
+MCStone(XL)
+MCStone
+SCStone(S)
+SCStone(男)
+SCStone(L)
+SCStone(XL)
+SCStone
+FrozenStone

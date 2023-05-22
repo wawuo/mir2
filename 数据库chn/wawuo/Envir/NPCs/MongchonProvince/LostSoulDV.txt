@@ -1,0 +1,13 @@
+[@main]
+#SAY
+Ahh...where am i?
+
+<退出/@exit>
+
+
+[Quests]
+105
+-105
+106
+-106
+107

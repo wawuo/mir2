@@ -1,0 +1,28 @@
+[@Description]
+That body seems to be one {Vincent/LimeGreen} is looking 
+for. The necklace matches the description 
+{Vincent/LimeGreen} gave.
+
+[@TaskDescription]
+Return the {古老的颈链/LightSteelBlue} to {Vincent/LimeGreen}.
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+古老的颈链 1
+
+[@FixedRewards]
+
+[@SelectRewards]
+坚韧的手套
+魔幻手镯
+
+[@ExpReward]
+3616
+
+[@GoldReward]
+935

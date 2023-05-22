@@ -1,0 +1,12 @@
+[Recipe]
+Amount 1
+Chance 100
+Gold 100
+
+[Tools]
+
+[Ingredients]
+虫腿 10
+大妈的牙齿 10
+虫眼 10
+虫壳 10

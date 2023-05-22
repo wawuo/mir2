@@ -1,0 +1,290 @@
+;Gold
+1/1 Gold 30000
+1/20 金条
+
+;Pots + Other
+1/1 (HP)药物XL
+1/1 (MP)药物XL
+1/1 (HP)药物XL
+1/1 (MP)药物XL
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水(中)
+1/1 太阳药水(中)
+
+1/1 太阳药水
+1/1 太阳药水
+1/2 太阳药水
+1/2 太阳药水
+1/1 太阳药水
+1/2 太阳药水
+
+1/100 解毒药水(L)
+1/100 魔药(大)
+1/100 道教药物(L)
+
+1/1 祝福油
+1/10 Golden祝福油
+
+
+1/1 Awakeningbox 
+1/1 觉醒的灵魂0 
+
+
+;Weapons
+1/70 战魂之刃
+1/70 火焰弓
+1/70 魔法镰刀
+1/70 石竹扇
+1/40 冷冻刀
+1/60 屠龙刀
+1/60 诅咒恶灵弓
+1/60 黑龙杖
+1/60 黑龙魂之剑
+1/200 屠龙者
+1/200 龙杖
+1/200 灵魂之剑
+1/200 皇家刀片
+1/450 战神之剑
+1/450 力量之弓
+1/450 巫术之刃
+1/450 创天之剑
+1/450 玛吉之刃
+1/150 龙王刀
+1/600 TagandaSlayer
+1/600 TagandaStaff
+1/600 TagandaFan 
+1/600 TagandaSlayers
+1/2000 LordSlayerBlade
+1/2000 LordSlayerStaff
+1/2000 LordSlayerFan
+1/2000 LordSlayerBlades
+
+
+;Armour
+1/30 铆钉盔甲(男)
+1/30 铆钉盔甲(女)
+1/30 钢制盔甲(男)
+1/30 钢制盔甲(女)
+1/30 龙袍(男)
+1/30 龙袍(女)
+1/30 泰坦巨人盔甲(男)
+1/30 泰坦巨人盔甲(女)
+1/30 皇家盔甲(男)
+1/30 皇家盔甲(女)
+1/700 TagandaRobe(男)
+1/700 TagandaRobe(女) 
+1/700 TagandaCloak(男)
+1/700 TagandaCloak(女)
+1/700 TagandaArmour(男)
+1/700 TagandaArmour(女)
+1/1000 天堂之铠(男)
+1/1000 天堂之铠(女)
+1/1000 HeavenArcheyRobe(男)
+1/1000 HeavenArcheyRobe(女)
+1/1200 HeavenGrnArmour(男)
+1/1200 HeavenGrnArmour(女)
+1/1200 HeavenRedArmour(男)
+1/1200 HeavenRedArmour(女)
+1/1200 天堂之铠(男)
+1/1200 天堂之铠(女)
+1/1200 HeavenGoldArmour(男)
+1/1200 HeavenGoldArmour(女)
+1/6000 LordSlayerArmour(男)
+1/6000 LordSlayerArmour(女)
+
+;Helmets
+1/55 道冠
+1/55 智慧头盔
+1/55 伟大的头盔
+1/45 MajesticHelmet
+1/75 ExternalHelmet
+1/700 TagandaHelmet
+1/6000 LordSlayerHelmet
+
+;Necklace
+1/20 爪子项链
+1/20 生命项链
+1/20 珍珠项链
+1/55 恶魔的铃铛
+1/55 灵魂项链
+1/55 绿珠
+1/85 英雄项链
+1/85 金刚石项链
+1/85 MeteoriteOfArchey 
+1/85 安魂曲项链
+1/45 MajesticNecklace
+1/75 ExternalNecklace
+1/700 TagandaNecklace
+1/6000 LordSlayerNecklace
+
+
+;Bracelets
+1/20 灵魂之泉手镯
+1/20 骑士手镯
+1/20 纯洁手镯
+1/65 圣道轮
+1/65 灵魂改造者
+1/65 白塔手套
+1/45 MajesticWheel
+1/75 ExternalWheel
+1/700 TagandaBracelet
+1/6000 LordSlayerBracelet
+
+;Rings
+1/20 龙戒
+1/20 红宝石戒指
+1/20 铂金戒指
+1/45 力量之环
+1/45 紫罗兰指环
+1/45 泰坦之环
+1/55 无边无际指环
+1/55 泰戈尔指环
+1/55 雷霆之心
+1/45 MajesticRing
+1/75 ExternalRing
+1/700 TagandaRing
+1/6000 LordSlayerRing
+
+
+1/320 火焰之环
+1/1020 护身戒指
+1/1020 麻痹戒指
+1/820 复活戒指
+1/760 隐身戒指
+1/1320 传送戒指
+
+;Shoes
+1/40 MajesticBoots
+1/75 ExternalBoots
+1/700 TagandaBoots
+1/100 闪光的鞋子
+1/6000 LordSlayerBoots
+
+;Belts
+1/40 MajesticBelt
+1/75 ExternalBelt
+1/700 TagandaBelt
+1/100 闪亮的腰带
+1/6000 LordSlayerBelt
+
+;Medals
+1/300 TagandaMedal
+1/200 OffensiveMedal
+1/200 DefensiveMedal
+
+;Shields
+1/150 PredatorShield
+1/170 PlasmaShield
+1/190 SeekerShield
+1/150 FlechetteShield
+1/170 SpikeShield
+1/190 ArmouredShield
+1/600 TagandaShield
+1/400 LunarPlate
+1/600 OrcsShield
+
+;Pads
+
+
+;Stone
+1/300 TagandaElement
+
+;Runes
+1/400 PinPointRune
+1/400 EvasiveRune
+1/400 EnrageRune
+1/400 IronWallRune
+1/400 SpeedyMagicianRune
+
+;Gems/Orbs
+1/20 勇敢宝石
+1/20 灵魂宝石
+1/20 魔法宝石
+1/50 保护宝石
+1/50 屠龙宝典
+1/25 耐用性宝石
+1/50 毒药宝石
+1/50 冰冻宝石
+
+1/100 勇敢球
+1/100 灵魂之球
+1/100 风暴球
+1/100 魔法之球
+1/130 耐用性球
+1/140 精度球
+1/140 敏捷球
+1/300 毒药球
+1/300 冰冻球
+1/200 耐力球
+1/200 幻觉球
+
+;Books
+;Warrior
+1/25 火焰之剑
+1/30 十字半月
+1/50 双闸刀
+1/50 狮子吼
+1/50 禁锢
+1/60 BladeStorm
+1/150 刀锋雪崩
+1/120 保护场
+1/140 愤怒
+1/160 怒击
+1/180 斩击爆裂
+1/200 反击
+1/260 不朽的皮肤
+
+;Wizard
+1/10 寒霜紧缩
+1/25 冰风暴
+1/30 火焰破坏者
+1/400 火焰场
+1/50 吸血术
+1/150 镜像
+1/120 暴风雪
+1/140 魔力助推器
+1/160 流星打击
+1/200 快速移动
+1/220 冰刺
+1/240 FrozenRains
+1/260 LavaKing
+1/300 风暴逃逸
+
+
+;Taosit
+1/25 召唤神术
+1/30 终极强化器
+1/30 能量反击器
+1/50 净化
+1/50 幻觉
+1/100治愈圈
+1/100 召唤圣德瓦
+1/120 诅咒
+1/140 毒云
+1/180 宠物强化器
+1/200 能量护盾
+1/230 HolyShield
+1/260 HeadShot
+
+;Assassin
+1/25 CrescentSlash
+1/30 月光
+1/50 猎手
+1/100 迅捷脚步
+1/120 黑暗之躯
+1/140 出血
+1/180 ShadowStep
+1/230 月雾
+1/260 怒击Waves
+
+;Archer
+1/25 捆绑射击
+1/30 召唤蟾蜍
+1/50 毒药射击
+1/100 残废射击
+1/140 召唤蛇类
+1/180 汽油弹
+1/260 与自然同在
+
+;CraftingMaterials

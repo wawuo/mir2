@@ -1,0 +1,31 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人...
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+欢迎客人, 我名叫 Wayne 我是一个大师级工匠.. 
+我专门研究武器装备已经很多年了
+ 
+<Special/@SRepair> Repair Weapon.
+ 
+<关闭/@exit>
+
+[@SRepair]
+#SAY
+Traveller, You are lucky... We have the materials to do Special repairs.
+ 
+ 
+<关闭/@exit>
+
+[Types]
+1
+
+[Quests]

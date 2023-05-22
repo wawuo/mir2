@@ -1,0 +1,25 @@
+;Gold 
+1/10 Gold 5000
+
+;Potions
+1/5 太阳药水
+1/5 太阳药水
+1/5 太阳药水
+1/5 太阳药水
+1/5 太阳药水
+
+;Armours
+
+;Rings
+
+;Bracelets
+
+;Necklaces
+
+;Stones
+
+;Crafting Material
+
+;Books
+
+;Other

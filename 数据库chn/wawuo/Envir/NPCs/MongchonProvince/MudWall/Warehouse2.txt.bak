@@ -1,0 +1,69 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人...
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+你好 旅行者、 欢迎。我能为你做什么? 
+ 
+<Exchange/@mbind> 材料
+ 
+<关闭/@exit>
+
+[@mbind]
+#SAY
+我可以用金条、金条包和金柜换成{Gold/Gold}.
+告诉我你的愿望。
+ 
+交换: <金条/@GBar>  变成  {Gold/GOLD} --收费{(2000 Gold)/Gold}
+交换: <金条包/@GBBundle>  变成  {Gold/GOLD} --收费{(10000 Gold)/Gold}
+交换: <金柜/@GChest>  变成  {Gold/GOLD} --收费{(20000 Gold)/Gold}
+<返回/@main> - <关闭/@exit>
+
+[@GBar]
+#IF
+CHECKITEM 金条 1
+#ACT
+TAKEITEM 金条 1
+GIVEGOLD 998000
+#ELSESAY
+你没有 金条 用来交换...
+请搞清楚再来.
+ 
+<返回/@mbind> - <关闭/@exit>
+
+[@GBBundle]
+#IF
+CHECKITEM 金条包 1
+#ACT
+TAKEITEM 金条包 1
+GIVEGOLD 4990000
+#ELSESAY
+你没有 金条包 用来交换...
+请搞清楚再来.
+ 
+<返回/@mbind> - <关闭/@exit>
+
+[@GChest]
+#IF
+CHECKITEM 金柜 1
+#ACT
+TAKEITEM 金柜 1
+GIVEGOLD 9980000
+#ELSESAY
+你没有 金柜 用来交换...
+请搞清楚再来.
+ 
+<返回/@mbind> - <关闭/@exit>
+
+[Quests]
+-77
+78
+-78

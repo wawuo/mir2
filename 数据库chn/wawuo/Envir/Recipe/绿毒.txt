@@ -1,0 +1,11 @@
+[Recipe]
+Amount 4
+Chance 100
+Gold 100
+
+[Tools]
+
+[Ingredients]
+乌木果实
+蜘蛛牙 2
+食人叶 4

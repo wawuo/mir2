@@ -1,0 +1,190 @@
+[@main]
+#SAY
+你好 {<$USERNAME>/KHAKI}, Want a boost?
+
+<Yes/@Yes> <No/@Exit>
+
+[@YES]
+#IF
+CHECKCLASS Warrior
+#ACT
+GOTO @Warrior
+ELSESAY
+#IF
+CHECKCLASS Wizard
+#ACT
+GOTO @Wizard
+ELSESAY
+#IF
+CHECKCLASS Taoist
+#ACT
+GOTO @Taoist
+ELSESAY
+#IF
+CHECKCLASS Assassin
+#ACT
+GOTO @Assassin
+
+[@Warrior]
+#ACT
+GIVEITEM 黑虎盔甲(男) 1
+GIVEITEM 黑虎盔甲(女) 1
+GIVEITEM 国王头盔 1
+GIVEITEM 黑虎之锤 1
+GIVEITEM 塔拉贡项链 1	
+GIVEITEM 双天王护身符 2
+GIVEITEM 誓约环	2
+GIVEITEM 黑暗腰带	1
+GIVEITEM 黑暗之靴 1
+GIVEITEM HolyDCStone 1
+#SAY
+<Spells/@SpellsWarrior>
+
+[@SpellsWarrior]
+#ACT
+GIVESKILL 击剑 3
+GIVESKILL 杀人 3
+GIVESKILL 刺杀 3
+GIVESKILL Half Moon 3
+GIVESKILL Shoulder Dash 3
+GIVESKILL Twin Drake Blade 3
+GIVESKILL En陷阱ment 3
+GIVESKILL 狮子吼 3
+GIVESKILL 十字半月 3
+GIVESKILL 刀锋雪崩 3
+GIVESKILL 保护场 3
+GIVESKILL 愤怒 3
+GIVESKILL 怒击 3
+GIVESKILL 反击 3
+GIVESKILL 怒击 3
+GIVESKILL 斩击爆裂 3
+GIVESKILL 不朽的皮肤 3
+#SAY
+<Level/@Level>
+
+[@Wizard]
+#ACT
+GIVEITEM 莲花盔甲(男) 1
+GIVEITEM 莲花盔甲(女) 1
+GIVEITEM 巫术头盔 1
+GIVEITEM 塔拉贡项链 1
+GIVEITEM 诅咒护身符 2
+GIVEITEM 红宝戒指 2
+GIVEITEM 黑暗腰带	1
+GIVEITEM 黑暗之靴 1
+GIVEITEM HolyMCStone 1
+GIVEITEM 洛托斯之杖 1
+#SAY
+<Spells/@SpellsWizard>
+
+[@SpellsWizard]
+#ACT
+GIVESKILL Fireball 3
+GIVESKILL Repulse 3
+GIVESKILL 电击 3
+GIVESKILL GreatFireball 3
+GIVESKILL 地狱之火 3
+GIVESKILL Thunderbolt 3
+GIVESKILL 传送 3
+GIVESKILL Firewall 3
+GIVESKILL Lighning 3
+GIVESKILL Frostcrunch 3
+GIVESKILL Thunderstorm 3
+GIVESKILL Magicshield 3
+GIVESKILL Turnundead 3
+GIVESKILL 吸血术 3
+GIVESKILL 冰风暴 3
+GIVESKILL 火焰破坏者 3
+GIVESKILL 镜像 3
+GIVESKILL Flamefield 3
+GIVESKILL 暴风雪 3
+GIVESKILL 魔力助推器 3
+GIVESKILL 流星打击 3
+GIVESKILL Cataclysm 3
+GIVESKILL 冰刺 3
+GIVESKILL FireBounce 3
+#SAY
+<Level/@Level>
+
+[@Taoist]
+#ACT
+GIVEITEM 仙鹤盔甲(男) 1
+GIVEITEM 仙鹤盔甲(女) 1
+GIVEITEM 净化面具 1
+GIVEITEM 塔拉贡项链 1
+GIVEITEM 神圣护身符 2
+GIVEITEM 五元素戒指 2
+GIVEITEM 黑暗腰带	1
+GIVEITEM 黑暗之靴 1 
+GIVEITEM HolySCStone 1
+#SAY
+<Spells/@SpellsTaoist>
+
+[@SpellsTaoist]
+#ACT
+GIVESKILL 疗伤 3
+GIVESKILL 精神之剑 3
+GIVESKILL 中毒 3
+GIVESKILL SoulFireball 3
+GIVESKILL 召唤骷髅 3
+GIVESKILL 躲藏 3
+GIVESKILL 大规模躲藏 3
+GIVESKILL 灵魂盾牌 3
+GIVESKILL 启示 3
+GIVESKILL 受祝福的盔甲 3
+GIVESKILL 能量反击器 3
+GIVESKILL 陷阱六边形 3
+GIVESKILL 净化 
+GIVESKILL 大规模治疗 3
+GIVESKILL 幻觉 3
+GIVESKILL 终极强化器 3
+GIVESKILL 召唤神术 3
+GIVESKILL 转世 3
+GIVESKILL 召唤圣德瓦 3
+GIVESKILL 诅咒 3
+GIVESKILL 瘟疫 3
+GIVESKILL 毒云 3
+GIVESKILL 能量护盾 3
+GIVESKILL PetEnhancer 3
+GIVESKILL 治愈圈 3
+#SAY
+<Level/@Level>
+
+[@Assassin]
+#ACT
+GIVEITEM 隐形盔甲(男) 1
+GIVEITEM 隐形盔甲(女) 1
+GIVEITEM 恶魔之影 1
+GIVEITEM 塔拉贡项链 1
+GIVEITEM 双天王护身符 2
+GIVEITEM 誓约环	2
+GIVEITEM 黑暗腰带	1
+GIVEITEM 黑暗之靴 1
+GIVEITEM HolyDCStone 1
+#SAY
+<Spells/@SpellsAssassin>
+
+[@SpellsAssassin]
+#ACT
+GIVESKILL Fatalsword 3
+GIVESKILL Doubleslash 3
+GIVESKILL 障碍物 3
+GIVESKILL 轻功 3
+GIVESKILL Heavenlysword 3
+GIVESKILL 火焰喷射
+ 3
+GIVESKILL 陷阱 3
+GIVESKILL 毒剑 3
+GIVESKILL 月光 3
+GIVESKILL 猎手 3
+GIVESKILL Swiftfeet 3
+GIVESKILL 黑暗之躯
+ 3
+GIVESKILL 出血 3
+GIVESKILL 月雾 3
+#SAY
+<Level/@Level>
+
+[@Level]
+#ACT
+CHANGELEVEL 55

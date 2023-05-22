@@ -1,0 +1,9 @@
+[@MAIN]
+#SAY
+The 骨头s.. They look freshly eaten.
+ 
+<关闭/@exit>
+
+[Quests]
+-79
+80

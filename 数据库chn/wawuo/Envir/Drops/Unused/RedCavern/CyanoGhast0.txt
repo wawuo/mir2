@@ -1,0 +1,53 @@
+;Gold
+1/5 Gold 850
+
+;Pots + Other
+1/20 (HP)药物大量
+1/20 (MP)药物大量
+1/25 (HP)药物XL
+1/25 (MP)药物XL
+
+;Weapons
+
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+
+
+;CraftingMaterials
+
+
+;Quests
+

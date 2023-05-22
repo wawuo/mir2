@@ -1,0 +1,303 @@
+;Level 1
+;Gold
+1/33 Gold 12553 LV1
+
+;Pots + Other
+1/10 (HP)药物XL LV1
+1/10 (MP)药物XL LV1
+
+;Weapons
+1/150 力量斧 LV1
+1/150 长弓 LV1
+1/200 净化者之剑 LV1  
+1/200 武术剑 LV1
+1/200 钩镰枪 LV1
+1/200 克利斯之剑 LV1
+
+;Helmets Rare
+1/1000 MysteryCap[1d] LV1
+
+;Bracelets Rare
+1/900 神秘的轮子[1d] LV1
+
+;Rings Rare
+1/1000 神秘戒指[1d] LV1
+
+;Pads
+1/1300 MysteriousGuards[1d] LV1
+
+;Stone
+1/2500 ItemMineJewl[1d] LV1
+1/2500 ExperienceMineJewl[1d] LV1
+1/3500 BloodJewl[1d] LV1
+
+;Gems
+1/3200 耐用性宝石 LV1
+1/3200 保护宝石 LV1
+1/3200 屠龙宝典 LV1
+
+;Level 2
+;Gold
+1/33 Gold 12553 LV2
+
+;Pots + Other
+1/10 (HP)药物XL LV2
+1/10 (MP)药物XL LV2
+
+;Weapons
+1/150 长弓 LV2
+1/150 力量斧 LV2
+1/200 净化者之剑 LV2  
+1/200 武术剑 LV2
+1/200 钩镰枪 LV2
+1/200 克利斯之剑 LV2
+
+;Helmets Rare
+1/1000 MysteryCap[1d] LV2
+
+;Bracelets Rare
+1/900 神秘的轮子[1d] LV2
+
+;Rings Rare
+1/1000 神秘戒指[1d] LV2
+
+;Pads
+1/1300 MysteriousGuards[1d] LV2
+
+;Stone
+1/2500 ItemMineJewl[1d] LV2
+1/2500 ExperienceMineJewl[1d] LV2
+1/3500 BloodJewl[1d] LV2
+
+;Gems
+1/3200 耐用性宝石 LV2
+1/3200 保护宝石 LV2
+1/3200 屠龙宝典 LV2
+
+;Level 3
+;Gold
+1/33 Gold 12553 LV3
+
+;Pots + Other
+1/10 (HP)药物XL LV3
+1/10 (MP)药物XL LV3
+
+;Weapons
+1/150 力量斧 LV3
+1/150 长弓 LV3
+1/200 净化者之剑 LV3  
+1/200 武术剑 LV3
+1/200 钩镰枪 LV3
+1/200 克利斯之剑 LV3
+
+;Helmets Rare
+1/1000 MysteryCap[1d] LV3
+
+;Bracelets Rare
+1/900 神秘的轮子[1d] LV3
+
+;Rings Rare
+1/1000 神秘戒指[1d] LV3
+
+;Pads
+1/1300 MysteriousGuards[1d] LV3
+
+;Stone
+1/2500 ItemMineJewl[1d] LV3
+1/2500 ExperienceMineJewl[1d] LV3
+1/3500 BloodJewl[1d] LV3
+
+;Gems
+1/3200 耐用性宝石 LV3
+1/3200 保护宝石 LV3
+1/3200 屠龙宝典 LV3
+
+;Level 4
+;Gold
+1/33 Gold 12553 LV4
+
+;Pots + Other
+1/10 (HP)药物XL LV4
+1/10 (MP)药物XL LV4
+
+;Weapons
+1/150 力量斧 LV4
+1/150 长弓 LV4
+1/200 净化者之剑 LV4  
+1/200 武术剑 LV4
+1/200 钩镰枪 LV4
+1/200 克利斯之剑 LV4
+
+;Helmets Rare
+1/1000 MysteryCap[1d] LV4
+
+;Bracelets Rare
+1/900 神秘的轮子[1d] LV4
+
+;Rings Rare
+1/1000 神秘戒指[1d] LV4
+
+;Pads
+1/1300 MysteriousGuards[1d] LV4
+
+;Stone
+1/2500 ItemMineJewl[1d] LV4
+1/2500 ExperienceMineJewl[1d] LV4
+1/3500 BloodJewl[1d] LV4
+
+;Gems
+1/3200 耐用性宝石 LV4
+1/3200 保护宝石 LV4
+1/3200 屠龙宝典 LV4
+
+;Level 5
+;Gold
+1/33 Gold 12553 LV5
+
+;Pots + Other
+1/10 (HP)药物XL LV5
+1/10 (MP)药物XL LV5
+
+;Weapons
+1/150 力量斧 LV5
+1/150 长弓 LV5
+1/200 净化者之剑 LV5  
+1/200 武术剑 LV5
+1/200 钩镰枪 LV5
+1/200 克利斯之剑 LV5
+
+;Helmets Rare
+1/1000 MysteryCap[1d] LV5
+
+;Bracelets Rare
+1/900 神秘的轮子[1d] LV5
+
+;Rings Rare
+1/1000 神秘戒指[1d] LV5
+
+;Pads
+1/1300 MysteriousGuards[1d] LV5
+
+;Stone
+1/2500 ItemMineJewl[1d] LV5
+1/2500 ExperienceMineJewl[1d] LV5
+1/3500 BloodJewl[1d] LV5
+
+;Gems
+1/3200 耐用性宝石 LV5
+1/3200 保护宝石 LV5
+1/3200 屠龙宝典 LV5
+
+;Level 6
+;Gold
+1/33 Gold 12553 LV6
+
+;Pots + Other
+1/10 (HP)药物XL LV6
+1/10 (MP)药物XL LV6
+
+;Weapons
+1/150 力量斧 LV6
+1/150 长弓 LV6
+1/200 净化者之剑 LV6  
+1/200 武术剑 LV6
+1/200 钩镰枪 LV6
+1/200 克利斯之剑 LV6
+
+;Helmets Rare
+1/1000 MysteryCap[1d] LV6
+
+;Bracelets Rare
+1/900 神秘的轮子[1d] LV6
+
+;Rings Rare
+1/1000 神秘戒指[1d] LV6
+
+;Pads
+1/1300 MysteriousGuards[1d] LV6
+
+;Stone
+1/2500 ItemMineJewl[1d] LV6
+1/2500 ExperienceMineJewl[1d] LV6
+1/3500 BloodJewl[1d] LV6
+
+;Gems
+1/3200 耐用性宝石 LV6
+1/3200 保护宝石 LV6
+1/3200 屠龙宝典 LV6
+
+;Level 7
+;Gold
+1/33 Gold 12553 LV7
+
+;Pots + Other
+1/10 (HP)药物XL LV7
+1/10 (MP)药物XL LV7
+
+;Weapons
+1/150 力量斧 LV7
+1/150 长弓 LV7
+1/200 净化者之剑 LV7  
+1/200 武术剑 LV7
+1/200 钩镰枪 LV7
+1/200 克利斯之剑 LV7
+
+;Helmets Rare
+1/1000 MysteryCap[1d] LV7
+
+;Bracelets Rare
+1/900 神秘的轮子[1d] LV7
+
+;Rings Rare
+1/1000 神秘戒指[1d] LV7
+
+;Pads
+1/1300 MysteriousGuards[1d] LV7
+
+;Stone
+1/2500 ItemMineJewl[1d] LV7
+1/2500 ExperienceMineJewl[1d] LV7
+1/3500 BloodJewl[1d] LV7
+
+;Gems
+1/3200 耐用性宝石 LV7
+1/3200 保护宝石 LV7
+1/3200 屠龙宝典 LV7
+
+;Level 8
+;Gold
+1/33 Gold 12553 LV8
+
+;Pots + Other
+1/10 (HP)药物XL LV8
+1/10 (MP)药物XL LV8
+
+;Weapons
+1/150 力量斧 LV8
+1/150 长弓 LV8
+1/200 净化者之剑 LV8  
+1/200 武术剑 LV8
+1/200 钩镰枪 LV8
+1/200 克利斯之剑 LV8
+
+;Helmets Rare
+1/1000 MysteryCap[1d] LV8
+
+;Bracelets Rare
+1/900 神秘的轮子[1d] LV8
+
+;Rings Rare
+1/1000 神秘戒指[1d] LV8
+
+;Pads
+1/1300 MysteriousGuards[1d] LV8
+
+;Stone
+1/2500 ItemMineJewl[1d] LV8
+1/2500 ExperienceMineJewl[1d] LV8
+1/3500 BloodJewl[1d] LV8
+
+;Gems
+1/3200 耐用性宝石 LV8
+1/3200 保护宝石 LV8
+1/3200 屠龙宝典 LV8

@@ -1,0 +1,27 @@
+[@Description]
+I need your help. I have a Order.. A strange One. 
+Can you travel to the local Cave? and collect some 
+{清洁的骷髅头's/LightSteelBlue}.
+
+[@TaskDescription]
+Collect 20 {清洁的骷髅头's/LightSteelBlue} by hunting {骨头Archer's/Crimson}, 
+{骨头Blademan/Crimson} and {骨头Spearman/Crimson}.
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+清洁的骷髅头 20
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+18500
+
+[@GoldReward]
+18500

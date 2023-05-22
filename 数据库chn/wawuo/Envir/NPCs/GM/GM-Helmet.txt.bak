@@ -1,0 +1,74 @@
+[@Main]
+#IF
+ISADMIN
+#SAY
+你好 {<$USERNAME>/KHAKI}, 我名叫 {<$NPCNAME>/KHAKI}.
+我看到你正穿着: {<$HELMET>/CORAL}
+<购买/@Buy> Helmet
+<出售/@Sell> Helmet
+<修理/@Repair> Helmet
+<特别修理/@SRepair> Helmet
+
+#ELSEACT
+MOVE 0 300 300
+ 
+[@Buy]
+#SAY
+购买
+ 
+<返回/@Main>
+
+[@Sell]
+#SAY
+出售
+ 
+<返回/@Main>
+
+[@Repair]
+#SAY
+修理
+ 
+<返回/@Main>
+
+[@SRepair]
+#SAY
+特别修理
+ 
+<返回/@Main>
+
+
+[Types]
+4
+
+[Trade]
+SpiritHelmet
+RecallHelmet
+MirHelmet
+帽子
+MysteryHelmet
+TarragonHelmet
+RaidersHelmet
+SparklingHelmet
+HelmetOfDarkness
+CheongboHelmet(WAR)
+CheongboHelmet(WIZ)
+CheongboHelmet(TAO)
+CheongboHelmet(ASSA)
+CheongboHelmet(ARCH)
+青铜头盔
+双闸刀
+BrassHelmet
+GoldenTiara
+SkeletonHelmet
+ShamanHelmet
+SteelHelmet
+HelmetOfHero
+BlackIronHelmet
+GreatHelmet
+WisdomCoronet
+TaoCoronet
+RoyalHelmet
+HelmetOfKings
+HelmetOfSorcery
+PurifiedMask
+DemonShadow

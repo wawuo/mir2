@@ -1,0 +1,95 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 100
+#SAY
+我不会帮助像你这样的恶人...
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+你好，我是 Gilbert, 流浪的战士.
+我把人和货物快速、安全地运送到其他地方. 
+只要支付费用，我就会护送你到任何地方.
+那么你怎么说?
+ 
+我要使用这个 <Service/@tele>
+下次吧 <Time/@exit> 
+
+[@tele]
+#SAY
+你想去哪个地方?
+
+我的服务费是 2000         金币
+
+<<比奇城/@BichonWall>>
+<<蛇谷/@Serpent>>
+<<盟重土城/@MudWall>>
+<<道教之家/@TaoVillage>>
+<<吉良城堡/@CastleGi>>
+<<沃玛营地/@Camp>>
+
+[@BichonWall]
+#IF
+CHECKGOLD > 1999
+#ACT
+MOVE 0 296 222
+TAKEGOLD 2000
+#ELSEACT
+GOTO @gold
+
+[@Serpent]
+#IF
+CHECKGOLD > 1999
+#ACT
+MOVE 2 500 485
+TAKEGOLD 2000
+#ELSEACT
+GOTO @gold
+
+[@MudWall]
+#IF
+CHECKGOLD > 1999
+#ACT
+MOVE 3 361 342
+TAKEGOLD 2000
+#ELSEACT
+GOTO @gold
+
+[@TaoVillage]
+#IF
+CHECKGOLD > 1999
+#ACT
+MOVE 11 163 337
+TAKEGOLD 2000
+#ELSEACT
+GOTO @gold
+
+[@CastleGi]
+#IF
+CHECKGOLD > 1999
+#ACT
+MOVE 4 264 257
+TAKEGOLD 2000
+#ELSEACT
+GOTO @gold
+
+[@Camp]
+#IF
+CHECKGOLD > 1999
+#ACT
+MOVE 1 315 82
+TAKEGOLD 2000
+#ELSEACT
+GOTO @gold
+
+[@gold]
+#SAY
+对不起，你没有足够的         金币
+
+<退出/@Exit>
+
+[Quests]

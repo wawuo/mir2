@@ -1,0 +1,11 @@
+[Recipe]
+Amount 10
+Chance 80
+Gold 100
+
+[Tools]
+
+
+[Ingredients]
+黑线 3
+大骨 1

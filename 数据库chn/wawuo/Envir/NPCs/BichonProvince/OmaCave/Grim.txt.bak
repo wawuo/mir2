@@ -1,0 +1,63 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人...
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+你好 Traveller. You found me hiding away from
+the scary monsters.
+ 
+<查看/@BuySell> 商店
+<修理/@Repair> 布帘.
+<Talk/@talk> about CastleBichon
+ 
+<关闭/@exit>
+
+[@BuySell]
+#SAY
+Which item would you like to出售或购买?
+<返回 购买/@BuyBack>
+ 
+<返回/@main>
+
+[@BuyBack]
+#SAY
+这些是仍然可以购买回来的物品.
+ 
+<返回/@main>
+
+[@Repair]
+#SAY
+你是不是想修理 drapery piece?
+ 
+<返回/@main>
+
+
+[Types]
+2
+4
+9
+10
+
+[Trade]
+布衣(男)
+布衣(女)
+轻甲(男)
+轻甲(女)
+中型护甲(男)
+中型护甲(女)
+青铜头盔
+双闸刀
+皮腰带
+低帮鞋
+
+
+
+

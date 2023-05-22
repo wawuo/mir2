@@ -1,0 +1,48 @@
+[@Main]
+#IF
+ISADMIN
+#SAY
+你好 {<$USERNAME>/KHAKI}, 我名叫 {<$NPCNAME>/KHAKI}.
+I see you're holding: {<$TORCH>/CORAL}
+<购买/@Buy> Grocery
+<出售/@Sell> Grocery
+
+#ELSEACT
+MOVE 0 300 300
+
+[@Buy]
+#SAY
+购买
+ 
+<返回/@Main>
+
+[@Sell]
+#SAY
+出售
+ 
+<返回/@Main>
+
+
+[Types]
+8
+12
+17
+
+[Trade]
+蜡烛
+火炬
+EnternalFlame
+小贩火炬
+Dragon火炬
+修复油
+WarGodOil
+BenedictionOil
+随机传送卷
+地牢逃脱
+城镇传送阵
+传送首页
+Anc传送
+绿毒
+红色毒药
+护身符
+复活护身符

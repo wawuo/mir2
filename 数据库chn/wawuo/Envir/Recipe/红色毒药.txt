@@ -1,0 +1,11 @@
+[Recipe]
+Amount 5
+Chance 100
+Gold 100
+
+[Tools]
+
+[Ingredients]
+蛆虫药丸
+蝎子的尾巴
+食人叶 4

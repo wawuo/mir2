@@ -1,0 +1,95 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人...
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+你好，我是 Denzel, 流浪的战士.
+我把人和货物快速、安全地运送到其他地方. 
+Just pay the fee then I'll escort you to anywhere.
+那么你怎么说?
+ 
+我要使用这个 <Service/@tele>
+下次吧 <Time/@exit> 
+
+[@tele]
+#SAY
+你想去哪个地方?
+ 
+我的服务费是 2000         金币
+
+<<边境村/@Border>>
+<<比奇城/@BichonWall>>
+<<蛇谷/@Serpent>>
+<<盟重土城/@MudWall>>
+<<道教之家/@TaoVillage>>
+<<沃玛营地/@Camp>>
+
+[@Border]
+#IF
+CHECKGOLD > 1999
+#ACT
+MOVE 0 289 617
+TAKEGOLD 2000
+#ELSEACT
+GOTO @gold
+
+[@BichonWall]
+#IF
+CHECKGOLD > 1999
+#ACT
+MOVE 0 296 222
+TAKEGOLD 2000
+#ELSEACT
+GOTO @gold
+
+[@Serpent]
+#IF
+CHECKGOLD > 1999
+#ACT
+MOVE 2 500 485
+TAKEGOLD 2000
+#ELSEACT
+GOTO @gold
+
+[@MudWall]
+#IF
+CHECKGOLD > 1999
+#ACT
+MOVE 3 361 342
+TAKEGOLD 2000
+#ELSEACT
+GOTO @gold
+
+[@TaoVillage]
+#IF
+CHECKGOLD > 1999
+#ACT
+MOVE 11 163 337
+TAKEGOLD 2000
+#ELSEACT
+GOTO @gold
+
+[@Camp]
+#IF
+CHECKGOLD > 1999
+#ACT
+MOVE 1 315 82
+TAKEGOLD 2000
+#ELSEACT
+GOTO @gold
+
+[@gold]
+#SAY
+对不起，你没有足够的         金币
+
+<退出/@Exit>
+
+[Quests]

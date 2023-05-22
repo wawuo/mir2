@@ -1,0 +1,29 @@
+[@Description]
+欢迎来到{边境村/Yellow}，{年轻的旅行者/Red}。
+在开始旅程之前
+你能帮我一个忙吗？
+
+[@TaskDescription]
+送 {大食人的叶子/LightSteelBlue} 给 {CraftLady/LimeGreen}
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+大食人的叶子 5
+
+[@FixedRewards]
+(HP)药物小量
+
+[@SelectRewards]
+
+[@ExpReward]
+10
+
+[@GoldReward]
+
+// Pickup - Assistant_Jane 0 284 606
+// Hand In - CraftsLady_Jude 0 294 619

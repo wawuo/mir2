@@ -1,0 +1,19 @@
+;Gold
+1/5 Gold 1650
+
+;Potions
+1/5 (HP)药物XL
+1/5 (MP)药物XL
+1/10 太阳药水
+1/10 太阳药水
+
+
+1/12000 SmasherGlove
+1/12000 暴风雪Glove
+1/12000 MistyGlove
+1/12000 SlicerGlove
+
+1/40000 闪亮的腰带
+1/40000 闪光的鞋子
+1/40000 闪亮的头盔
+1/60000 PuiYuHelmet

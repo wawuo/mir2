@@ -1,0 +1,117 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人...
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+你好旅行者。我能为你做什么? 
+
+我看到你正穿着: {<$ARMOUR>/CORAL}
+我看到你正穿着: {<$HELMET>/CORAL}
+我看到你正穿着: {<$BELT>/CORAL}
+我看到你正穿着: {<$BOOTS>/CORAL}
+
+<查看/@BuySell> 商店
+<修理/@Repair> 布帘.
+<Talk/@talk> about CastleBichon
+ 
+<关闭/@exit>
+
+[@BuySell]
+#SAY
+Which item would you like to出售或购买?
+<返回 购买/@BuyBack>
+ 
+<返回/@main>
+
+[@BuyBack]
+#SAY
+这些是仍然可以购买回来的物品.
+ 
+<返回/@main>
+
+[@Repair]
+#SAY
+你是不是想修理 drapery piece?
+ 
+<返回/@main>
+
+
+[Types]
+2
+4
+9
+10
+
+[Trade]
+布衣(男)
+布衣(女)
+轻甲(男)
+轻甲(女)
+青铜头盔
+双闸刀
+皮腰带
+低帮鞋
+
+[Quests]
+-86
+87
+156
+
+[@talk]
+#IF
+CHECK [540] 1
+#ACT
+GOTO @MAIN1-1
+#ELSEACT
+GOTO @CHECK2
+
+[@CHECK2]
+#IF
+CHECK [541] 1
+#ACT
+GOTO @MAIN1-2
+#ELSEACT
+GOTO @MAIN1-3
+
+[@MAIN1-1]
+#SAY
+你好 traveler.. I have been hearing good things about 
+the Emperors good deeds.
+ 
+<关闭/@exit>
+
+[@MAIN1-2]
+#SAY
+你好 again traveler.. Its a fine day is it not.
+ 
+<关闭/@exit>
+
+[@MAIN1-3]
+#IF
+CHECKQUEST 157 1
+#SAY
+Thankyou traveler you have saved me some time.
+And boy o boy doesn't she talk a lot of rubbish..
+ 
+So you want my help spreading the good deed's of the <Emperor/@Emperor>?
+<关闭/@exit>
+#ELSESAY
+How about you do something for me first? 
+ 
+<Close@exit>
+
+[@Emperor]
+#ACT
+SET [541] 1
+#SAY
+Very well traveler.. 
+ 
+<关闭/@exit>

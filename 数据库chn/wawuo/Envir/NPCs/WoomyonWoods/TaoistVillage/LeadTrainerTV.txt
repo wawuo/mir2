@@ -1,0 +1,27 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人...
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+你好 Mirian, We need to improve on how we teach our 
+Taoists.
+
+<关闭/@exit>
+
+[Quests]
+86
+-88
+89
+-89
+-126
+127
+-127
+128

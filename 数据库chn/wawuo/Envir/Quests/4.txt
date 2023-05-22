@@ -1,0 +1,28 @@
+[@Description]
+You are the traveller {Jane/LimeGreen} recommended.
+Please can you hunt {Deer/Crimson} and bring me some 
+{Deer 肉类/LightSteelBlue}. If you want to know more about 
+butchering please press "H".
+
+[@TaskDescription]
+Collect {Deer 肉类/LightSteelBlue} by Hunting {Deer's/Crimson}
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+鹿茸 5
+
+[@CarryItems]
+
+[@FixedRewards]
+老铜环
+
+[@SelectRewards]
+
+[@ExpReward]
+80
+
+[@GoldReward]
+20

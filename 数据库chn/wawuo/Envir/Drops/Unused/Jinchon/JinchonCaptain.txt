@@ -1,0 +1,1288 @@
+;Level 1
+;Gold
+1/1 Gold 30000 LV1
+1/20 金条 LV1
+
+;Pots + Other
+1/1 太阳药水 LV1
+1/1 太阳药水 LV1
+1/2 太阳药水 LV1
+1/1 太阳药水 LV1
+1/1 太阳药水 LV1
+1/2 太阳药水 LV1
+1/1 太阳药水 LV1
+1/2 太阳药水 LV1
+1/1 太阳药水 LV1
+1/2 太阳药水 LV1
+1/1 太阳药水 LV1
+1/3 太阳药水 LV1
+
+1/1 祝福油 LV1
+1/10 Golden祝福油 LV1
+
+1/2 觉醒的灵魂0 LV1
+1/2 觉醒的灵魂0 LV1
+
+
+
+;Weapons
+1/6000 JinchonSlayer LV1
+1/6000 JinchonStaff LV1
+1/6000 Jinchon羽毛s LV1
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Gems/Orbs
+1/5 保护宝石 LV1
+1/5 屠龙宝典 LV1
+1/10 勇敢宝石 LV1
+1/10 魔法宝石 LV1
+1/10 灵魂宝石 LV1
+1/15 准确度宝石 LV1
+1/15 敏捷宝石 LV1
+1/15 毒药宝石 LV1
+1/15 冰冻宝石 LV1
+1/20 风暴宝石 LV1
+1/20 幻觉宝石 LV1
+1/20 耐力宝石 LV1
+
+1/75 保护球 LV1
+1/75 屠魔球 LV1
+1/100 勇敢球 LV1
+1/100 魔法之球 LV1
+1/100 灵魂之球 LV1
+1/200 精度球 LV1
+1/200 敏捷球 LV1
+1/200 毒药球 LV1
+1/200 冰冻球 LV1
+1/200 风暴球 LV1
+1/200 耐力球 LV1
+1/200 幻觉球 LV1
+
+;Books
+;Warrior
+1/105 火焰之剑 LV1
+1/110 狮子吼 LV1
+1/115 BladeStorm LV1
+1/120 十字半月 LV1
+1/125 刀锋雪崩 LV1
+1/130 保护场 LV1
+1/135 愤怒 LV1
+1/140 反击 LV1
+1/145 斩击爆裂 LV1
+1/150 怒击 LV1
+1/155 不朽的皮肤 LV1
+
+
+;Wizard
+1/90 吸血术 LV1
+1/105 冰风暴 LV1
+1/110 火焰破坏者 LV1
+1/115 镜像 LV1
+1/120 火焰场 LV1
+1/125 暴风雪 LV1
+1/130 FrozenRains LV1
+1/135 魔力助推器 LV1
+1/140 流星打击 LV1
+1/145 LavaKing LV1
+1/150 冰刺 LV1
+1/155 风暴逃逸 LV1
+1/160 快速移动 LV1
+
+
+;Taoist
+1/90 终极强化器 LV1
+1/100治愈圈 LV1
+1/105 召唤神术 LV1
+1/110 转世 LV1
+1/115 召唤圣德瓦 LV1
+1/120 诅咒 LV1
+1/125 瘟疫 LV1
+1/130 毒云 LV1
+1/135 能量护盾 LV1
+1/140 宠物强化器 LV1
+1/145 HeadShot LV1
+1/150 HolyShield LV1
+
+
+;Assassin
+1/80 火焰喷射 LV1
+1/85 CrescentSlash LV1
+1/105 陷阱 LV1
+1/110 毒剑 LV1
+1/115 月光 LV1
+1/120 猎手 LV1
+1/125 迅捷脚步 LV1
+1/150 黑暗之躯 LV1
+
+1/80 元素屏障 LV1
+1/85 捆绑射击 LV1
+1/105 召唤蟾蜍 LV1
+1/110 毒药射击 LV1
+1/125 残废射击 LV1
+1/150 召唤蛇类 LV1
+
+;CraftingMaterials
+
+
+;Quests
+
+;Level 2
+;Gold
+1/1 Gold 30000 LV2
+1/20 金条 LV2
+
+;Pots + Other
+1/1 太阳药水 LV2
+1/1 太阳药水 LV2
+1/2 太阳药水 LV2
+1/1 太阳药水 LV2
+1/1 太阳药水 LV2
+1/2 太阳药水 LV2
+1/1 太阳药水 LV2
+1/2 太阳药水 LV2
+1/1 太阳药水 LV2
+1/2 太阳药水 LV2
+1/1 太阳药水 LV2
+1/3 太阳药水 LV2
+
+1/1 祝福油 LV2
+1/10 Golden祝福油 LV2
+
+1/2 觉醒的灵魂0 LV2
+1/2 觉醒的灵魂0 LV2
+
+
+
+;Weapons
+1/6000 JinchonSlayer LV2
+1/6000 JinchonStaff LV2
+1/6000 Jinchon羽毛s LV2
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Gems/Orbs
+1/5 保护宝石 LV2
+1/5 屠龙宝典 LV2
+1/10 勇敢宝石 LV2
+1/10 魔法宝石 LV2
+1/10 灵魂宝石 LV2
+1/15 准确度宝石 LV2
+1/15 敏捷宝石 LV2
+1/15 毒药宝石 LV2
+1/15 冰冻宝石 LV2
+1/20 风暴宝石 LV2
+1/20 幻觉宝石 LV2
+1/20 耐力宝石 LV2
+
+1/75 保护球 LV2
+1/75 屠魔球 LV2
+1/100 勇敢球 LV2
+1/100 魔法之球 LV2
+1/100 灵魂之球 LV2
+1/200 精度球 LV2
+1/200 敏捷球 LV2
+1/200 毒药球 LV2
+1/200 冰冻球 LV2
+1/200 风暴球 LV2
+1/200 耐力球 LV2
+1/200 幻觉球 LV2
+
+;Books
+;Warrior
+1/105 火焰之剑 LV2
+1/110 狮子吼 LV2
+1/115 BladeStorm LV2
+1/120 十字半月 LV2
+1/125 刀锋雪崩 LV2
+1/130 保护场 LV2
+1/135 愤怒 LV2
+1/140 反击 LV2
+1/145 斩击爆裂 LV2
+1/150 怒击 LV2
+1/155 不朽的皮肤 LV2
+
+
+;Wizard
+1/90 吸血术 LV2
+1/105 冰风暴 LV2
+1/110 火焰破坏者 LV2
+1/115 镜像 LV2
+1/120 火焰场 LV2
+1/125 暴风雪 LV2
+1/130 FrozenRains LV2
+1/135 魔力助推器 LV2
+1/140 流星打击 LV2
+1/145 LavaKing LV2
+1/150 冰刺 LV2
+1/155 风暴逃逸 LV2
+1/160 快速移动 LV2
+
+
+;Taoist
+1/90 终极强化器 LV2
+1/100治愈圈 LV2
+1/105 召唤神术 LV2
+1/110 转世 LV2
+1/115 召唤圣德瓦 LV2
+1/120 诅咒 LV2
+1/125 瘟疫 LV2
+1/130 毒云 LV2
+1/135 能量护盾 LV2
+1/140 宠物强化器 LV2
+1/145 HeadShot LV2
+1/150 HolyShield LV2
+
+
+;Assassin
+1/80 火焰喷射 LV2
+1/85 CrescentSlash LV2
+1/105 陷阱 LV2
+1/110 毒剑 LV2
+1/115 月光 LV2
+1/120 猎手 LV2
+1/125 迅捷脚步 LV2
+1/150 黑暗之躯 LV2
+
+1/80 元素屏障 LV2
+1/85 捆绑射击 LV2
+1/105 召唤蟾蜍 LV2
+1/110 毒药射击 LV2
+1/125 残废射击 LV2
+1/150 召唤蛇类 LV2
+
+
+;CraftingMaterials
+
+
+;Quests
+
+;Level 3
+;Gold
+1/1 Gold 30000 LV3
+1/20 金条 LV3
+
+;Pots + Other
+1/1 太阳药水 LV3
+1/1 太阳药水 LV3
+1/2 太阳药水 LV3
+1/1 太阳药水 LV3
+1/1 太阳药水 LV3
+1/2 太阳药水 LV3
+1/1 太阳药水 LV3
+1/2 太阳药水 LV3
+1/1 太阳药水 LV3
+1/2 太阳药水 LV3
+1/1 太阳药水 LV3
+1/3 太阳药水 LV3
+
+1/1 祝福油 LV3
+1/10 Golden祝福油 LV3
+
+1/2 觉醒的灵魂0 LV3
+1/2 觉醒的灵魂0 LV3
+
+
+
+
+;Weapons
+1/6000 JinchonSlayer LV3
+1/6000 JinchonStaff LV3
+1/6000 Jinchon羽毛s LV3
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Gems/Orbs
+1/5 保护宝石 LV3
+1/5 屠龙宝典 LV3
+1/10 勇敢宝石 LV3
+1/10 魔法宝石 LV3
+1/10 灵魂宝石 LV3
+1/15 准确度宝石 LV3
+1/15 敏捷宝石 LV3
+1/15 毒药宝石 LV3
+1/15 冰冻宝石 LV3
+1/20 风暴宝石 LV3
+1/20 幻觉宝石 LV3
+1/20 耐力宝石 LV3
+
+1/75 保护球 LV3
+1/75 屠魔球 LV3
+1/100 勇敢球 LV3
+1/100 魔法之球 LV3
+1/100 灵魂之球 LV3
+1/200 精度球 LV3
+1/200 敏捷球 LV3
+1/200 毒药球 LV3
+1/200 冰冻球 LV3
+1/200 风暴球 LV3
+1/200 耐力球 LV3
+1/200 幻觉球 LV3
+
+;Books
+;Warrior
+1/105 火焰之剑 LV3
+1/110 狮子吼 LV3
+1/115 BladeStorm LV3
+1/120 十字半月 LV3
+1/125 刀锋雪崩 LV3
+1/130 保护场 LV3
+1/135 愤怒 LV3
+1/140 反击 LV3
+1/145 斩击爆裂 LV3
+1/150 怒击 LV3
+1/155 不朽的皮肤 LV3
+
+
+;Wizard
+1/90 吸血术 LV3
+1/105 冰风暴 LV3
+1/110 火焰破坏者 LV3
+1/115 镜像 LV3
+1/120 火焰场 LV3
+1/125 暴风雪 LV3
+1/130 FrozenRains LV3
+1/135 魔力助推器 LV3
+1/140 流星打击 LV3
+1/145 LavaKing LV3
+1/150 冰刺 LV3
+1/155 风暴逃逸 LV3
+1/160 快速移动 LV3
+
+
+;Taoist
+1/90 终极强化器 LV3
+1/100治愈圈 LV3
+1/105 召唤神术 LV3
+1/110 转世 LV3
+1/115 召唤圣德瓦 LV3
+1/120 诅咒 LV3
+1/125 瘟疫 LV3
+1/130 毒云 LV3
+1/135 能量护盾 LV3
+1/140 宠物强化器 LV3
+1/145 HeadShot LV3
+1/150 HolyShield LV3
+
+
+;Assassin
+1/80 火焰喷射 LV3
+1/85 CrescentSlash LV3
+1/105 陷阱 LV3
+1/110 毒剑 LV3
+1/115 月光 LV3
+1/120 猎手 LV3
+1/125 迅捷脚步 LV3
+1/150 黑暗之躯 LV3
+
+1/80 元素屏障 LV3
+1/85 捆绑射击 LV3
+1/105 召唤蟾蜍 LV3
+1/110 毒药射击 LV3
+1/125 残废射击 LV3
+1/150 召唤蛇类 LV3
+
+
+;CraftingMaterials
+
+
+;Quests
+
+;Level 4
+;Gold
+1/1 Gold 30000 LV4
+1/20 金条 LV4
+
+;Pots + Other
+1/1 太阳药水 LV4
+1/1 太阳药水 LV4
+1/2 太阳药水 LV4
+1/1 太阳药水 LV4
+1/1 太阳药水 LV4
+1/2 太阳药水 LV4
+1/1 太阳药水 LV4
+1/2 太阳药水 LV4
+1/1 太阳药水 LV4
+1/2 太阳药水 LV4
+1/1 太阳药水 LV4
+1/3 太阳药水 LV4
+
+1/1 祝福油 LV4
+1/10 Golden祝福油 LV4
+
+1/2 觉醒的灵魂0 LV4
+1/2 觉醒的灵魂0 LV4
+
+
+
+;Weapons
+1/6000 JinchonSlayer LV4
+1/6000 JinchonStaff LV4
+1/6000 Jinchon羽毛s LV4
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Gems/Orbs
+1/5 保护宝石 LV4
+1/5 屠龙宝典 LV4
+1/10 勇敢宝石 LV4
+1/10 魔法宝石 LV4
+1/10 灵魂宝石 LV4
+1/15 准确度宝石 LV4
+1/15 敏捷宝石 LV4
+1/15 毒药宝石 LV4
+1/15 冰冻宝石 LV4
+1/20 风暴宝石 LV4
+1/20 幻觉宝石 LV4
+1/20 耐力宝石 LV4
+
+1/75 保护球 LV4
+1/75 屠魔球 LV4
+1/100 勇敢球 LV4
+1/100 魔法之球 LV4
+1/100 灵魂之球 LV4
+1/200 精度球 LV4
+1/200 敏捷球 LV4
+1/200 毒药球 LV4
+1/200 冰冻球 LV4
+1/200 风暴球 LV4
+1/200 耐力球 LV4
+1/200 幻觉球 LV4
+
+;Books
+;Warrior
+1/105 火焰之剑 LV4
+1/110 狮子吼 LV4
+1/115 BladeStorm LV4
+1/120 十字半月 LV4
+1/125 刀锋雪崩 LV4
+1/130 保护场 LV4
+1/135 愤怒 LV4
+1/140 反击 LV4
+1/145 斩击爆裂 LV4
+1/150 怒击 LV4
+1/155 不朽的皮肤 LV4
+
+
+;Wizard
+1/90 吸血术 LV4
+1/105 冰风暴 LV4
+1/110 火焰破坏者 LV4
+1/115 镜像 LV4
+1/120 火焰场 LV4
+1/125 暴风雪 LV4
+1/130 FrozenRains LV4
+1/135 魔力助推器 LV4
+1/140 流星打击 LV4
+1/145 LavaKing LV4
+1/150 冰刺 LV4
+1/155 风暴逃逸 LV4
+1/160 快速移动 LV4
+
+
+;Taoist
+1/90 终极强化器 LV4
+1/100治愈圈 LV4
+1/105 召唤神术 LV4
+1/110 转世 LV4
+1/115 召唤圣德瓦 LV4
+1/120 诅咒 LV4
+1/125 瘟疫 LV4
+1/130 毒云 LV4
+1/135 能量护盾 LV4
+1/140 宠物强化器 LV4
+1/145 HeadShot LV4
+1/150 HolyShield LV4
+
+
+;Assassin
+1/80 火焰喷射 LV4
+1/85 CrescentSlash LV4
+1/105 陷阱 LV4
+1/110 毒剑 LV4
+1/115 月光 LV4
+1/120 猎手 LV4
+1/125 迅捷脚步 LV4
+1/150 黑暗之躯 LV4
+
+1/80 元素屏障 LV4
+1/85 捆绑射击 LV4
+1/105 召唤蟾蜍 LV4
+1/110 毒药射击 LV4
+1/125 残废射击 LV4
+1/150 召唤蛇类 LV4
+
+
+;CraftingMaterials
+
+
+;Quests
+
+;Level 5
+;Gold
+1/1 Gold 30000 LV5
+1/20 金条 LV5
+
+;Pots + Other
+1/1 太阳药水 LV5
+1/1 太阳药水 LV5
+1/2 太阳药水 LV5
+1/1 太阳药水 LV5
+1/1 太阳药水 LV5
+1/2 太阳药水 LV5
+1/1 太阳药水 LV5
+1/2 太阳药水 LV5
+1/1 太阳药水 LV5
+1/2 太阳药水 LV5
+1/1 太阳药水 LV5
+1/3 太阳药水 LV5
+
+1/1 祝福油 LV5
+1/10 Golden祝福油 LV5
+
+1/2 觉醒的灵魂0 LV5
+1/2 觉醒的灵魂0 LV5
+
+
+
+;Weapons
+1/6000 JinchonSlayer LV5
+1/6000 JinchonStaff LV5
+1/6000 Jinchon羽毛s LV5
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Gems/Orbs
+1/5 保护宝石 LV5
+1/5 屠龙宝典 LV5
+1/10 勇敢宝石 LV5
+1/10 魔法宝石 LV5
+1/10 灵魂宝石 LV5
+1/15 准确度宝石 LV5
+1/15 敏捷宝石 LV5
+1/15 毒药宝石 LV5
+1/15 冰冻宝石 LV5
+1/20 风暴宝石 LV5
+1/20 幻觉宝石 LV5
+1/20 耐力宝石 LV5
+
+1/75 保护球 LV5
+1/75 屠魔球 LV5
+1/100 勇敢球 LV5
+1/100 魔法之球 LV5
+1/100 灵魂之球 LV5
+1/200 精度球 LV5
+1/200 敏捷球 LV5
+1/200 毒药球 LV5
+1/200 冰冻球 LV5
+1/200 风暴球 LV5
+1/200 耐力球 LV5
+1/200 幻觉球 LV5
+
+;Books
+;Warrior
+1/105 火焰之剑 LV5
+1/110 狮子吼 LV5
+1/115 BladeStorm LV5
+1/120 十字半月 LV5
+1/125 刀锋雪崩 LV5
+1/130 保护场 LV5
+1/135 愤怒 LV5
+1/140 反击 LV5
+1/145 斩击爆裂 LV5
+1/150 怒击 LV5
+1/155 不朽的皮肤 LV5
+
+
+;Wizard
+1/90 吸血术 LV5
+1/105 冰风暴 LV5
+1/110 火焰破坏者 LV5
+1/115 镜像 LV5
+1/120 火焰场 LV5
+1/125 暴风雪 LV5
+1/130 FrozenRains LV5
+1/135 魔力助推器 LV5
+1/140 流星打击 LV5
+1/145 LavaKing LV5
+1/150 冰刺 LV5
+1/155 风暴逃逸 LV5
+1/160 快速移动 LV5
+
+
+;Taoist
+1/90 终极强化器 LV5
+1/100治愈圈 LV5
+1/105 召唤神术 LV5
+1/110 转世 LV5
+1/115 召唤圣德瓦 LV5
+1/120 诅咒 LV5
+1/125 瘟疫 LV5
+1/130 毒云 LV5
+1/135 能量护盾 LV5
+1/140 宠物强化器 LV5
+1/145 HeadShot LV5
+1/150 HolyShield LV5
+
+
+;Assassin
+1/80 火焰喷射 LV5
+1/85 CrescentSlash LV5
+1/105 陷阱 LV5
+1/110 毒剑 LV5
+1/115 月光 LV5
+1/120 猎手 LV5
+1/125 迅捷脚步 LV5
+1/150 黑暗之躯 LV5
+
+1/80 元素屏障 LV5
+1/85 捆绑射击 LV5
+1/105 召唤蟾蜍 LV5
+1/110 毒药射击 LV5
+1/125 残废射击 LV5
+1/150 召唤蛇类 LV5
+
+
+;CraftingMaterials
+
+
+;Quests
+
+;Level 6
+;Gold
+1/1 Gold 30000 LV6
+1/20 金条 LV6
+
+;Pots + Other
+1/1 太阳药水 LV6
+1/1 太阳药水 LV6
+1/2 太阳药水 LV6
+1/1 太阳药水 LV6
+1/1 太阳药水 LV6
+1/2 太阳药水 LV6
+1/1 太阳药水 LV6
+1/2 太阳药水 LV6
+1/1 太阳药水 LV6
+1/2 太阳药水 LV6
+1/1 太阳药水 LV6
+1/3 太阳药水 LV6
+
+1/1 祝福油 LV6
+1/10 Golden祝福油 LV6
+
+1/2 觉醒的灵魂0 LV6
+1/2 觉醒的灵魂0 LV6
+
+
+
+
+;Weapons
+1/6000 JinchonSlayer LV6
+1/6000 JinchonStaff LV6
+1/6000 Jinchon羽毛s LV6
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Gems/Orbs
+1/5 保护宝石 LV6
+1/5 屠龙宝典 LV6
+1/10 勇敢宝石 LV6
+1/10 魔法宝石 LV6
+1/10 灵魂宝石 LV6
+1/15 准确度宝石 LV6
+1/15 敏捷宝石 LV6
+1/15 毒药宝石 LV6
+1/15 冰冻宝石 LV6
+1/20 风暴宝石 LV6
+1/20 幻觉宝石 LV6
+1/20 耐力宝石 LV6
+
+1/75 保护球 LV6
+1/75 屠魔球 LV6
+1/100 勇敢球 LV6
+1/100 魔法之球 LV6
+1/100 灵魂之球 LV6
+1/200 精度球 LV6
+1/200 敏捷球 LV6
+1/200 毒药球 LV6
+1/200 冰冻球 LV6
+1/200 风暴球 LV6
+1/200 耐力球 LV6
+1/200 幻觉球 LV6
+
+;Books
+;Warrior
+1/105 火焰之剑 LV6
+1/110 狮子吼 LV6
+1/115 BladeStorm LV6
+1/120 十字半月 LV6
+1/125 刀锋雪崩 LV6
+1/130 保护场 LV6
+1/135 愤怒 LV6
+1/140 反击 LV6
+1/145 斩击爆裂 LV6
+1/150 怒击 LV6
+1/155 不朽的皮肤 LV6
+
+
+;Wizard
+1/90 吸血术 LV6
+1/105 冰风暴 LV6
+1/110 火焰破坏者 LV6
+1/115 镜像 LV6
+1/120 火焰场 LV6
+1/125 暴风雪 LV6
+1/130 FrozenRains LV6
+1/135 魔力助推器 LV6
+1/140 流星打击 LV6
+1/145 LavaKing LV6
+1/150 冰刺 LV6
+1/155 风暴逃逸 LV6
+1/160 快速移动 LV6
+
+
+;Taoist
+1/90 终极强化器 LV6
+1/100治愈圈 LV6
+1/105 召唤神术 LV6
+1/110 转世 LV6
+1/115 召唤圣德瓦 LV6
+1/120 诅咒 LV6
+1/125 瘟疫 LV6
+1/130 毒云 LV6
+1/135 能量护盾 LV6
+1/140 宠物强化器 LV6
+1/145 HeadShot LV6
+1/150 HolyShield LV6
+
+
+;Assassin
+1/80 火焰喷射 LV6
+1/85 CrescentSlash LV6
+1/105 陷阱 LV6
+1/110 毒剑 LV6
+1/115 月光 LV6
+1/120 猎手 LV6
+1/125 迅捷脚步 LV6
+1/150 黑暗之躯 LV6
+
+1/80 元素屏障 LV6
+1/85 捆绑射击 LV6
+1/105 召唤蟾蜍 LV6
+1/110 毒药射击 LV6
+1/125 残废射击 LV6
+1/150 召唤蛇类 LV6
+
+
+;CraftingMaterials
+
+
+;Quests
+
+;Level 7
+;Gold
+1/1 Gold 30000 LV7
+1/20 金条 LV7
+
+;Pots + Other
+1/1 太阳药水 LV7
+1/1 太阳药水 LV7
+1/2 太阳药水 LV7
+1/1 太阳药水 LV7
+1/1 太阳药水 LV7
+1/2 太阳药水 LV7
+1/1 太阳药水 LV7
+1/2 太阳药水 LV7
+1/1 太阳药水 LV7
+1/2 太阳药水 LV7
+1/1 太阳药水 LV7
+1/3 太阳药水 LV7
+
+1/1 祝福油 LV7
+1/10 Golden祝福油 LV7
+
+1/2 觉醒的灵魂0 LV7
+1/2 觉醒的灵魂0 LV7
+
+
+
+;Weapons
+1/6000 JinchonSlayer LV7
+1/6000 JinchonStaff LV7
+1/6000 Jinchon羽毛s LV7
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Gems/Orbs
+1/5 保护宝石 LV7
+1/5 屠龙宝典 LV7
+1/10 勇敢宝石 LV7
+1/10 魔法宝石 LV7
+1/10 灵魂宝石 LV7
+1/15 准确度宝石 LV7
+1/15 敏捷宝石 LV7
+1/15 毒药宝石 LV7
+1/15 冰冻宝石 LV7
+1/20 风暴宝石 LV7
+1/20 幻觉宝石 LV7
+1/20 耐力宝石 LV7
+
+1/75 保护球 LV7
+1/75 屠魔球 LV7
+1/100 勇敢球 LV7
+1/100 魔法之球 LV7
+1/100 灵魂之球 LV7
+1/200 精度球 LV7
+1/200 敏捷球 LV7
+1/200 毒药球 LV7
+1/200 冰冻球 LV7
+1/200 风暴球 LV7
+1/200 耐力球 LV7
+1/200 幻觉球 LV7
+
+;Books
+;Warrior
+1/105 火焰之剑 LV7
+1/110 狮子吼 LV7
+1/115 BladeStorm LV7
+1/120 十字半月 LV7
+1/125 刀锋雪崩 LV7
+1/130 保护场 LV7
+1/135 愤怒 LV7
+1/140 反击 LV7
+1/145 斩击爆裂 LV7
+1/150 怒击 LV7
+1/155 不朽的皮肤 LV7
+
+
+;Wizard
+1/90 吸血术 LV7
+1/105 冰风暴 LV7
+1/110 火焰破坏者 LV7
+1/115 镜像 LV7
+1/120 火焰场 LV7
+1/125 暴风雪 LV7
+1/130 FrozenRains LV7
+1/135 魔力助推器 LV7
+1/140 流星打击 LV7
+1/145 LavaKing LV7
+1/150 冰刺 LV7
+1/155 风暴逃逸 LV7
+1/160 快速移动 LV7
+
+
+;Taoist
+1/90 终极强化器 LV7
+1/100治愈圈 LV7
+1/105 召唤神术 LV7
+1/110 转世 LV7
+1/115 召唤圣德瓦 LV7
+1/120 诅咒 LV7
+1/125 瘟疫 LV7
+1/130 毒云 LV7
+1/135 能量护盾 LV7
+1/140 宠物强化器 LV7
+1/145 HeadShot LV7
+1/150 HolyShield LV7
+
+
+;Assassin
+1/80 火焰喷射 LV7
+1/85 CrescentSlash LV7
+1/105 陷阱 LV7
+1/110 毒剑 LV7
+1/115 月光 LV7
+1/120 猎手 LV7
+1/125 迅捷脚步 LV7
+1/150 黑暗之躯 LV7
+
+1/80 元素屏障 LV7
+1/85 捆绑射击 LV7
+1/105 召唤蟾蜍 LV7
+1/110 毒药射击 LV7
+1/125 残废射击 LV7
+1/150 召唤蛇类 LV7
+
+
+;CraftingMaterials
+
+
+;Quests
+
+;Level 8
+;Gold
+1/1 Gold 30000 LV8
+1/20 金条 LV8
+
+;Pots + Other
+1/1 太阳药水 LV8
+1/1 太阳药水 LV8
+1/2 太阳药水 LV8
+1/1 太阳药水 LV8
+1/1 太阳药水 LV8
+1/2 太阳药水 LV8
+1/1 太阳药水 LV8
+1/2 太阳药水 LV8
+1/1 太阳药水 LV8
+1/2 太阳药水 LV8
+1/1 太阳药水 LV8
+1/3 太阳药水 LV8
+
+1/1 祝福油 LV8
+1/10 Golden祝福油 LV8
+
+1/2 觉醒的灵魂0 LV8
+1/2 觉醒的灵魂0 LV8
+
+
+
+;Weapons
+1/6000 JinchonSlayer LV8
+1/6000 JinchonStaff LV8
+1/6000 Jinchon羽毛s LV8
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Gems/Orbs
+1/5 保护宝石 LV8
+1/5 屠龙宝典 LV8
+1/10 勇敢宝石 LV8
+1/10 魔法宝石 LV8
+1/10 灵魂宝石 LV8
+1/15 准确度宝石 LV8
+1/15 敏捷宝石 LV8
+1/15 毒药宝石 LV8
+1/15 冰冻宝石 LV8
+1/20 风暴宝石 LV8
+1/20 幻觉宝石 LV8
+1/20 耐力宝石 LV8
+
+1/75 保护球 LV8
+1/75 屠魔球 LV8
+1/100 勇敢球 LV8
+1/100 魔法之球 LV8
+1/100 灵魂之球 LV8
+1/200 精度球 LV8
+1/200 敏捷球 LV8
+1/200 毒药球 LV8
+1/200 冰冻球 LV8
+1/200 风暴球 LV8
+1/200 耐力球 LV8
+1/200 幻觉球 LV8
+
+;Books
+;Warrior
+1/105 火焰之剑 LV8
+1/110 狮子吼 LV8
+1/115 BladeStorm LV8
+1/120 十字半月 LV8
+1/125 刀锋雪崩 LV8
+1/130 保护场 LV8
+1/135 愤怒 LV8
+1/140 反击 LV8
+1/145 斩击爆裂 LV8
+1/150 怒击 LV8
+1/155 不朽的皮肤 LV8
+
+
+;Wizard
+1/90 吸血术 LV8
+1/105 冰风暴 LV8
+1/110 火焰破坏者 LV8
+1/115 镜像 LV8
+1/120 火焰场 LV8
+1/125 暴风雪 LV8
+1/130 FrozenRains LV8
+1/135 魔力助推器 LV8
+1/140 流星打击 LV8
+1/145 LavaKing LV8
+1/150 冰刺 LV8
+1/155 风暴逃逸 LV8
+1/160 快速移动 LV8
+
+
+;Taoist
+1/90 终极强化器 LV8
+1/100治愈圈 LV8
+1/105 召唤神术 LV8
+1/110 转世 LV8
+1/115 召唤圣德瓦 LV8
+1/120 诅咒 LV8
+1/125 瘟疫 LV8
+1/130 毒云 LV8
+1/135 能量护盾 LV8
+1/140 宠物强化器 LV8
+1/145 HeadShot LV8
+1/150 HolyShield LV8
+
+
+;Assassin
+1/80 火焰喷射 LV8
+1/85 CrescentSlash LV8
+1/105 陷阱 LV8
+1/110 毒剑 LV8
+1/115 月光 LV8
+1/120 猎手 LV8
+1/125 迅捷脚步 LV8
+1/150 黑暗之躯 LV8
+
+1/80 元素屏障 LV8
+1/85 捆绑射击 LV8
+1/105 召唤蟾蜍 LV8
+1/110 毒药射击 LV8
+1/125 残废射击 LV8
+1/150 召唤蛇类 LV8
+
+;CraftingMaterials
+
+
+;Quests
+

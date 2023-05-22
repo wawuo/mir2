@@ -1,0 +1,58 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人...
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+你好，我是 Harrison, 流浪的战士.
+我把人和货物快速、安全地运送到其他地方. 
+只要支付费用，我就会护送你到任何地方.
+那么你怎么说?
+ 
+我要使用这个 <Service/@tele>
+下次吧 <Time/@exit> 
+
+[@tele]
+#SAY
+你想去哪个地方?
+ 
+<<边境村/@Border>>
+<<比奇城/@BichonWall>>
+<<蛇谷/@Serpent>>
+<<盟重土城/@MudWall>>
+<<道教之家/@TaoVillage>>
+<<吉良城堡/@CastleGi>>
+
+[@Border]
+#ACT
+MOVE 0 289 617
+
+[@BichonWall]
+#ACT
+MOVE 0 296 222
+
+[@Serpent]
+#ACT
+MOVE 2 500 485
+
+[@MudWall]
+#ACT
+MOVE 3 361 342
+
+[@TaoVillage]
+#ACT
+MOVE 11 163 337
+
+[@CastleGi]
+#ACT
+MOVE 4 264 257
+
+[Quests]
+102

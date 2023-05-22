@@ -1,0 +1,5 @@
+[@MAIN]
+#SAY
+Me 与 my Squad was ambushed! becareful Traveler.
+ 
+<关闭/@exit>

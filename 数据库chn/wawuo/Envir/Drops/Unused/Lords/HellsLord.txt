@@ -1,0 +1,229 @@
+;Gold
+1/1 Gold 55000
+1/10 金条
+
+;Pots + Other
+1/1 (HP)药物XL
+1/2 (HP)药物XL
+1/1 (MP)药物XL
+1/2 (MP)药物XL
+1/1 太阳药水
+1/2 太阳药水
+1/1 太阳药水(中)
+1/2 太阳药水(中)
+1/1 太阳药水
+1/1 太阳药水
+1/2 太阳药水
+1/2 太阳药水
+1/1 太阳药水
+1/2 太阳药水
+
+1/1 祝福油
+1/10 Golden祝福油
+
+1/10 觉醒的灵魂0
+1/10 觉醒的灵魂0
+
+;Weapons
+1/450 战神之剑
+1/450 力量之弓
+1/450 巫术之刃
+1/450 创天之剑
+1/450 玛吉之刃
+
+1/800 冰封之剑
+1/800 征服者之矛
+1/800 混蛋之剑
+1/800 锌刀
+1/800 狰狞之弓
+
+1/1000 黑虎之锤
+1/1000 致命之弓
+1/1000 洛托斯之杖
+1/1000 鹤鸣扇
+1/1000 屠宰刀
+
+1/1100 野蛮人之剑
+1/1100 生死剑
+1/1100 骨头CarvedFan
+1/1100 狂龙之刃
+1/1100 阿普斯弓
+
+;Weapons Rare
+1/1600 WidowsWail
+1/1600 ThorsBattleAxe
+1/1600 OathKeeper
+1/1600 HeatsBanes
+
+;Armour
+1/300 黑虎盔甲(男)
+1/300 黑虎盔甲(女)
+1/300 莲花盔甲(男)
+1/300 莲花盔甲(女)
+1/300 仙鹤盔甲(男)
+1/300 仙鹤盔甲(女)
+1/300 隐形盔甲(男)
+1/300 隐形盔甲(女)
+
+;Armour Rare
+1/11500 天堂之铠(男)
+1/11500 天堂之铠(女)
+1/11500 HeavenRedArmour(男)
+1/11500 HeavenRedArmour(女)
+1/11500 HeavenGrnArmour(男)
+1/11500 HeavenGrnArmour(女)
+1/11500 HeavenGoldArmour(男)
+1/11500 HeavenGoldArmour(女)
+
+
+;Helmets
+1/25 英雄头盔
+1/40 伟大的头盔
+1/40 智慧头盔
+1/40 道冠
+1/40 皇家头盔
+1/360 闪亮的头盔
+1/360 CannibalHelmet
+1/360 PuiYuHelmet
+1/440 CannibalHelmet
+1/800 AscendedHelmet
+1/1000 InfernoHelmet
+
+
+;Necklace
+1/50 残缺的项链
+1/50 巫术之锚
+1/50 净化的镜子
+1/150 邪恶三角
+1/150 净化的十字架
+1/150 金刚项链
+1/450 海盗Necklace
+1/600 DefenderNecklace
+1/800 AscendedNecklace
+1/1000 InfernoNecklace
+
+
+;Bracelets
+1/50 双天王护身符
+1/50 神圣护身符
+1/50 诅咒护身符
+1/150 WildTitan护身符
+1/150 Enchanted护身符
+1/150 FiveElement护身符
+1/440 DemonWheel
+1/600 DefenderGlove
+1/800 AscendedWheel
+1/1000 InfernoWheel
+
+;Rings
+1/50 誓约环
+1/50 五元素戒指
+1/50 红宝戒指
+1/150 恶魔之戒
+1/150 驱邪戒指
+1/150 Gold龙戒
+1/450 SlasherRing
+1/600 DefenderRing
+1/800 AscendedRing
+1/1000 InfernoRing
+
+
+;Shoes
+1/800 AscendedBoots
+1/1000 InfernoBoots
+
+;Belts
+1/800 AscendedBelt
+1/1000 InfernoBelt
+
+;Medals
+
+
+;Shields
+1/1000 InfernoShield
+
+;Pads
+
+
+;Stone
+
+
+;Books
+;;Warrior
+1/100 SliceN骰子
+1/105 火焰之剑
+1/110 狮子吼
+1/115 BladeStorm
+1/120 十字半月
+1/125 刀锋雪崩
+1/130 保护场
+1/135 愤怒
+1/140 怒击
+1/500 反击
+1/900 斩击爆裂
+
+;;Wizard
+1/105 冰风暴
+1/110 火焰破坏者
+1/115 镜像
+1/120 火焰场
+1/135 暴风雪
+1/140 魔力助推器
+1/700 LavaKing
+1/750 FrozenRains
+1/900 风暴逃逸
+
+;;Taoist
+1/105 召唤神术
+1/110 转世
+1/115 召唤圣德瓦
+1/120 诅咒
+1/125 毒云
+1/135 宠物强化器
+1/140 能量护盾
+1/850 HeadShot
+1/1200 HolyShield
+
+;;Assassin
+1/200 迅捷脚步
+1/500 瘟疫
+1/500 出血
+1/900 月雾
+1/850 ShadowStep
+1/1280 怒击Waves
+
+;;Archer
+1/90 汽油弹
+1/100 延迟爆炸
+1/200 元素屏障
+1/500 捆绑射击
+1/750 召唤蟾蜍
+1/800 毒药射击
+1/900 残废射击
+1/1200 召唤蛇类
+1/1280 与自然同在
+
+;Gems/Orbs
+1/50 CriticalDamgeForge
+1/50 CriticalRateForge
+1/50 HpDrainForge
+1/50 ReflectForge
+1/75 SocketForge(G)
+
+1/30 勇敢球
+1/30 魔法之球
+1/30 灵魂之球
+1/25 保护球
+1/25 屠魔球
+1/20 耐用性球
+1/40 毒药球
+1/40 冰冻球
+1/40 精度球
+1/40 风暴球
+1/40 耐力球
+
+;CraftingMaterials
+
+
+;Quests
+

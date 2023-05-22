@@ -15,3 +15,25 @@ RangeAttack(int minAttackStat, int maxAttackStat, byte rangeAttackTypeNumber = 0
 ArrowAttack(int minAttackStat, int maxAttackStat, DefenceType type = DefenceType.MACAgility, int additionalDelay = 500)
 
 SinglePushAttack(int minAttackStat, int MaxAttackStat, DefenceType type = DefenceType.AC, int delay = 500)
+
+
+# 目前有以下预制的怪物攻击方法。
+
+## 这些方法可以在 Server.Library/MonsterObject.cs 的底部找到。
+## 所有方法都是虚拟的，因此可以被重写。
+PoisonTarget(int chanceToPoison, long poisonDuration, PoisonType poison, long poisonTickSpeed = 1000) - 毒害目标
+
+LineAttack(int distance, int additionalDelay = 500) - 直线攻击
+
+HalfmoonAttack(int delay = 500) - 半月攻击
+
+RangeAttack(int minAttackStat, int maxAttackStat, byte rangeAttackTypeNumber = 0, DefenceType type = DefenceType.MACAgility, int additionalDelay = 500) - 远程攻击
+
+ArrowAttack(int minAttackStat, int maxAttackStat, DefenceType type = DefenceType.MACAgility, int additionalDelay = 500) - 箭矢攻击
+
+SinglePushAttack(int minAttackStat, int MaxAttackStat, DefenceType type = DefenceType.AC, int delay = 500) - 单推攻击
+这些方法是在游戏中怪物的预制攻击方法，它们可以在 Server.Library/MonsterObject.cs 的底部找到。由于所有方法都是虚拟的，因此可以被重写。
+
+要使用这些方法，你需要在你的游戏代码中调用它们。例如，如果你想让怪物使用直线攻击，你可以在怪物的攻击代码中调用 LineAttack 方法。
+
+具体如何使用这些方法取决于你的游戏代码和逻辑。如果你需要更多帮助，可以提供更多关于你的游戏和代码的信息。

@@ -1,0 +1,87 @@
+;Gold
+1/5 Gold 850
+
+;Pots + Other
+1/20 (HP)药物大量
+1/20 (MP)药物大量
+1/25 (HP)药物XL
+1/25 (MP)药物XL
+
+;Weapons
+
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+1/15000 英雄项链
+1/15000 MeteoriteOfArchey 
+1/15000 金刚石项链
+1/15000 安魂曲项链
+
+
+;Necklace Rare
+1/18000 残缺的项链
+1/18000 巫术之锚
+1/18000 净化的镜子
+
+;Bracelets
+1/2800 炼金术士
+1/3900 八卦轮
+1/3900 吊马轮
+1/3900 福马轮
+1/4500 白塔手套
+1/4500 灵魂改造者
+1/4500 圣道轮
+
+
+;Bracelets Rare
+1/18000 双天王护身符
+1/18000 神圣护身符
+1/18000 诅咒护身符
+
+
+;Rings
+1/4000 泰戈尔指环
+1/4000 雷霆之心
+1/4000 无边无际指环
+1/5500 高贵之环
+1/5500 灵魂之环
+1/5500 大马精神之环
+1/5500 DestinyRing 
+
+
+;Rings Rare
+1/18000 誓约环
+1/18000 五元素戒指
+1/18000 红宝戒指
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+
+
+;CraftingMaterials
+
+
+;Quests
+

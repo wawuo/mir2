@@ -1,0 +1,640 @@
+;Level1
+;Gold
+1/1 Gold 1500 LV1
+
+;Pots + Other
+1/1 (HP)药物中量 LV1
+1/1 (MP)药物中量 LV1
+1/1 (HP)药物中量 LV1
+1/1 (MP)药物中量 LV1 
+1/2 太阳药水 LV1
+1/2 太阳药水(中) LV1
+ 
+1/30 解毒药水(S) LV1 
+1/30 魔药(小) LV1 
+1/30 道教药物(S) LV1 
+1/30 风暴药(S) LV1 
+1/30 肌力辅助剂(S) LV1
+1/30 魔法援助(S) LV1
+
+1/30 Awakeningbox LV1
+1/50 觉醒的灵魂0 LV1
+
+1/30 骨头EliteRune LV1
+
+;Weapon
+
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Medals Rare
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+
+
+;CraftingMaterials
+1/5 骨头 LV1
+1/10 大骨 LV1
+1/8  BraveryFragment LV1
+1/8  MagicFragment LV1
+1/8  SoulFragment LV1
+1/8  ProtectionFragment LV1
+1/8  EvilSlayerFragment LV1
+1/8  DurabilityFragment LV1
+
+;Quests
+1/1 骨头Heart Q LV1
+1/1 OmaCaveMap Q LV1
+
+;Level2
+;Gold
+1/1 Gold 1500 LV2
+
+;Pots + Other
+1/1 (HP)药物中量 LV2
+1/1 (MP)药物中量 LV2
+1/1 (HP)药物中量 LV2
+1/1 (MP)药物中量 LV2 
+1/2 太阳药水 LV2
+1/2 太阳药水(中) LV2
+ 
+1/30 解毒药水(S) LV2 
+1/30 魔药(小) LV2 
+1/30 道教药物(S) LV2 
+1/30 风暴药(S) LV2 
+1/30 肌力辅助剂(S) LV2
+1/30 魔法援助(S) LV2
+
+1/30 Awakeningbox LV2
+1/50 觉醒的灵魂0 LV2
+
+1/30 骨头EliteRune LV2
+
+;Weapon
+
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Medals Rare
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+
+
+;CraftingMaterials
+1/5 骨头 LV2
+1/10 大骨 LV2
+1/8  BraveryFragment LV2
+1/8  MagicFragment LV2
+1/8  SoulFragment LV2
+1/8  ProtectionFragment LV2
+1/8  EvilSlayerFragment LV2
+1/8  DurabilityFragment LV2
+
+;Quests
+1/1 骨头Heart Q LV2
+1/1 OmaCaveMap Q LV2
+
+;Level3
+;Gold
+1/1 Gold 1500 LV3
+
+;Pots + Other
+1/1 (HP)药物中量 LV3
+1/1 (MP)药物中量 LV3
+1/1 (HP)药物中量 LV3
+1/1 (MP)药物中量 LV3 
+1/2 太阳药水 LV3
+1/2 太阳药水(中) LV3
+ 
+1/30 解毒药水(S) LV3 
+1/30 魔药(小) LV3 
+1/30 道教药物(S) LV3 
+1/30 风暴药(S) LV3 
+1/30 肌力辅助剂(S) LV3
+1/30 魔法援助(S) LV3
+
+1/30 Awakeningbox LV3
+1/50 觉醒的灵魂0 LV3
+
+1/30 骨头EliteRune LV3
+
+;Weapon
+
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Medals Rare
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+
+
+;CraftingMaterials
+1/5 骨头 LV3
+1/10 大骨 LV3
+1/8  BraveryFragment LV3
+1/8  MagicFragment LV3
+1/8  SoulFragment LV3
+1/8  ProtectionFragment LV3
+1/8  EvilSlayerFragment LV3
+1/8  DurabilityFragment LV3
+
+;Quests
+1/1 骨头Heart Q LV3
+1/1 OmaCaveMap Q LV3
+
+;Level4
+;Gold
+1/1 Gold 1500 LV4
+
+;Pots + Other
+1/1 (HP)药物中量 LV4
+1/1 (MP)药物中量 LV4
+1/1 (HP)药物中量 LV4
+1/1 (MP)药物中量 LV4 
+1/2 太阳药水 LV4
+1/2 太阳药水(中) LV4
+ 
+1/30 解毒药水(S) LV4 
+1/30 魔药(小) LV4 
+1/30 道教药物(S) LV4 
+1/30 风暴药(S) LV4 
+1/30 肌力辅助剂(S) LV4
+1/30 魔法援助(S) LV4
+
+1/30 Awakeningbox LV4
+1/50 觉醒的灵魂0 LV4
+
+1/30 骨头EliteRune LV4
+
+;Weapon
+
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Medals Rare
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+
+
+;CraftingMaterials
+1/5 骨头 LV4
+1/10 大骨 LV4
+1/8  BraveryFragment LV4
+1/8  MagicFragment LV4
+1/8  SoulFragment LV4
+1/8  ProtectionFragment LV4
+1/8  EvilSlayerFragment LV4
+1/8  DurabilityFragment LV4
+
+;Quests
+1/1 骨头Heart Q LV4
+1/1 OmaCaveMap Q LV4
+
+;Level5
+;Gold
+1/1 Gold 1500 LV5
+
+;Pots + Other
+1/1 (HP)药物中量 LV5
+1/1 (MP)药物中量 LV5
+1/1 (HP)药物中量 LV5
+1/1 (MP)药物中量 LV5 
+1/2 太阳药水 LV5
+1/2 太阳药水(中) LV5
+ 
+1/30 解毒药水(S) LV5 
+1/30 魔药(小) LV5 
+1/30 道教药物(S) LV5 
+1/30 风暴药(S) LV5 
+1/30 肌力辅助剂(S) LV5
+1/30 魔法援助(S) LV5
+
+1/30 Awakeningbox LV5
+1/50 觉醒的灵魂0 LV5
+
+1/30 骨头EliteRune LV5
+
+;Weapon
+
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Medals Rare
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+
+
+;CraftingMaterials
+1/5 骨头 LV5
+1/10 大骨 LV5
+1/8  BraveryFragment LV5
+1/8  MagicFragment LV5
+1/8  SoulFragment LV5
+1/8  ProtectionFragment LV5
+1/8  EvilSlayerFragment LV5
+1/8  DurabilityFragment LV5
+
+;Quests
+1/1 骨头Heart Q LV5
+1/1 OmaCaveMap Q LV5
+
+;Level6
+;Gold
+1/1 Gold 1500 LV6
+
+;Pots + Other
+1/1 (HP)药物中量 LV6
+1/1 (MP)药物中量 LV6
+1/1 (HP)药物中量 LV6
+1/1 (MP)药物中量 LV6 
+1/2 太阳药水 LV6
+1/2 太阳药水(中) LV6
+ 
+1/30 解毒药水(S) LV6 
+1/30 魔药(小) LV6 
+1/30 道教药物(S) LV6 
+1/30 风暴药(S) LV6 
+1/30 肌力辅助剂(S) LV6
+1/30 魔法援助(S) LV6
+
+1/30 Awakeningbox LV6
+1/50 觉醒的灵魂0 LV6
+
+1/30 骨头EliteRune LV6
+
+;Weapon
+
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Medals Rare
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+
+
+;CraftingMaterials
+1/5 骨头 LV6
+1/10 大骨 LV6
+1/8  BraveryFragment LV6
+1/8  MagicFragment LV6
+1/8  SoulFragment LV6
+1/8  ProtectionFragment LV6
+1/8  EvilSlayerFragment LV6
+1/8  DurabilityFragment LV6
+
+;Quests
+1/1 骨头Heart Q LV6
+1/1 OmaCaveMap Q LV6
+
+;Level7
+;Gold
+1/1 Gold 1500 LV7
+
+;Pots + Other
+1/1 (HP)药物中量 LV7
+1/1 (MP)药物中量 LV7
+1/1 (HP)药物中量 LV7
+1/1 (MP)药物中量 LV7 
+1/2 太阳药水 LV7
+1/2 太阳药水(中) LV7
+ 
+1/30 解毒药水(S) LV7 
+1/30 魔药(小) LV7 
+1/30 道教药物(S) LV7 
+1/30 风暴药(S) LV7 
+1/30 肌力辅助剂(S) LV7
+1/30 魔法援助(S) LV7
+
+1/30 Awakeningbox LV7
+1/50 觉醒的灵魂0 LV7
+
+1/30 骨头EliteRune LV7
+
+;Weapon
+
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Medals Rare
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+
+
+;CraftingMaterials
+1/5 骨头 LV7
+1/10 大骨 LV7
+1/8  BraveryFragment LV7
+1/8  MagicFragment LV7
+1/8  SoulFragment LV7
+1/8  ProtectionFragment LV7
+1/8  EvilSlayerFragment LV7
+1/8  DurabilityFragment LV7
+
+;Quests
+1/1 骨头Heart Q LV7
+1/1 OmaCaveMap Q LV7
+
+;Level8
+;Gold
+1/1 Gold 1500 LV8
+
+;Pots + Other
+1/1 (HP)药物中量 LV8
+1/1 (MP)药物中量 LV8
+1/1 (HP)药物中量 LV8
+1/1 (MP)药物中量 LV8 
+1/2 太阳药水 LV8
+1/2 太阳药水(中) LV8
+ 
+1/30 解毒药水(S) LV8 
+1/30 魔药(小) LV8 
+1/30 道教药物(S) LV8 
+1/30 风暴药(S) LV8 
+1/30 肌力辅助剂(S) LV8
+1/30 魔法援助(S) LV8
+
+1/30 Awakeningbox LV8
+1/50 觉醒的灵魂0 LV8
+
+1/30 骨头EliteRune LV8
+
+;Weapon
+
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Medals Rare
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+
+
+;CraftingMaterials
+1/5 骨头 LV8
+1/10 大骨 LV8
+1/8  BraveryFragment LV8
+1/8  MagicFragment LV8
+1/8  SoulFragment LV8
+1/8  ProtectionFragment LV8
+1/8  EvilSlayerFragment LV8
+1/8  DurabilityFragment LV8
+
+;Quests
+1/1 骨头Heart Q LV8
+1/1 OmaCaveMap Q LV8
+

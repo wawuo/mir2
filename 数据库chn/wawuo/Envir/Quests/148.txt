@@ -1,0 +1,28 @@
+[@Description]
+Bring me {红月亮芯片/LightSteelBlue}.
+It's a ominous demonic sword.
+You should seek out the sword before someone 
+else gets it.
+
+[@TaskDescription]
+Kill {RedEvilApe's/Crimson} to find the {红月亮芯片/LightSteelBlue}.
+at 11:27 Walk in the corner and you will get through 
+the hidden door.
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+红月亮芯片 1
+
+[@FlagTasks]
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+
+[@GoldReward]

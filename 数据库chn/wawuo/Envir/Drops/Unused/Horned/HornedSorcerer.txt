@@ -1,0 +1,187 @@
+;Gold
+1/1 Gold 20000
+
+;Pots + Other
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 祝福油
+1/10 Golden祝福油
+
+
+1/10 觉醒的灵魂0
+1/10 觉醒的灵魂0
+
+;Weapons
+1/2150 野蛮人之剑
+1/2150 阿普斯弓
+1/2150 生死剑
+1/2150 骨头CarvedFan
+1/2150 狂龙之刃
+1/3150 HorneySlayer
+1/3150 HorneyScepter
+1/3150 Horney羽毛s
+1/3150 HorneyKives
+
+;Armour
+1/400 黑虎盔甲(男)
+1/400 黑虎盔甲(女)
+1/400 莲花盔甲(男)
+1/400 莲花盔甲(女)
+1/400 仙鹤盔甲(男)
+1/400 仙鹤盔甲(女)
+1/400 隐形盔甲(男)
+1/400 隐形盔甲(女)
+1/550 红色黑暗盔甲(男)
+1/550 红色黑暗盔甲(女)
+1/550 蓝色深色护甲(男)
+1/550 蓝色深色护甲(女)
+1/550 鳞甲(男)
+1/550 鳞甲(女)
+1/550 绿色深色护甲(男)
+1/550 绿色深色护甲(女)
+1/550 金色深色护甲(男)
+1/550 金色深色护甲(女)
+1/850 WatcherSuit(男)
+1/850 WatcherSuit(女)
+1/950 HorneySuit(男)
+1/950 HorneySuit(女)
+
+;Armour Rare
+1/5500 天堂之铠(男)
+1/5500 天堂之铠(女)
+1/5500 HeavenRedArmour(男)
+1/5500 HeavenRedArmour(女)
+1/5500 HeavenGrnArmour(男)
+1/5500 HeavenGrnArmour(女)
+1/5500 HeavenGoldArmour(男)
+1/5500 HeavenGoldArmour(女)
+
+;Helmets
+1/50 伟大的头盔
+1/50 智慧头盔
+1/50 道冠
+1/50 皇家头盔
+1/350 闪亮的头盔
+1/360 PuiYuHelmet
+1/670 WatcherHelmet
+
+;Helmets Rare
+1/700 HydraxHelmet
+
+;Necklace
+1/60 残缺的项链
+1/60 巫术之锚
+1/60 净化的镜子
+1/375 邪恶三角
+1/375 净化的十字架
+1/375 金刚项链
+1/600 DefenderNecklace
+
+;Necklace Rare
+1/700 HornedSorcerersPendant
+
+;Bracelets
+1/60 双天王护身符
+1/60 神圣护身符
+1/60 诅咒护身符
+1/370 WildTitan护身符
+1/375 Enchanted护身符
+1/375 FiveElement护身符
+1/675 WatcherGloves
+1/600 DefenderGlove
+
+;Bracelets Rare
+1/700 SackWarriorsGlove
+
+;Rings
+1/60 誓约环
+1/60 五元素戒指
+1/60 红宝戒指
+1/375 恶魔之戒
+1/375 驱邪戒指
+1/375 Gold龙戒
+1/600 DefenderRing
+
+;Rings Rare
+1/700 HornedWarriorsRing
+
+;Shoes
+1/650 WatcherBoots
+1/700 HornedCommandersBoots
+
+;Belts
+1/700 HornedSorcerersBelt
+
+;Medals
+1/700 HornedMedallion
+
+;Shields
+1/700 WereTigerShield
+
+;Pads
+1/700 HornedMagePads
+
+;Stone
+1/700 EyeOfKingHydrax
+
+;Gems/Orbs
+1/10 勇敢宝石
+1/10 魔法宝石 
+1/10 灵魂宝石
+1/15 保护宝石
+1/15 屠龙宝典
+1/15 耐用性宝石
+1/30 毒药宝石
+1/32 冰冻宝石
+1/35 准确度宝石
+1/35 风暴宝石
+1/40 耐力宝石
+1/50 QualityGem
+1/55 CriticalDamgeForge
+1/55 CriticalRateForge
+1/55 HpDrainForge
+1/55 ReflectForge
+
+
+;Books
+;;Warrior
+1/200 刀锋雪崩
+1/400 保护场
+1/500 愤怒
+1/600 反击
+
+;;Wizard
+1/200 镜像
+1/400 流星打击
+1/500 魔力助推器
+1/600 冰刺
+1/700 LavaKing
+1/850 FrozenRains
+
+;;Taoist
+1/400 转世
+1/400 毒云
+1/500 瘟疫
+1/700 宠物强化器
+1/850 HeadShot
+1/1000 HolyShield
+
+;;Assassion
+1/200 迅捷脚步
+1/400 黑暗之躯
+1/600 出血
+1/700 Moonmist
+1/850 ShadowStep
+1/900 怒击Waves
+
+;CraftingMaterials
+
+
+;Quests

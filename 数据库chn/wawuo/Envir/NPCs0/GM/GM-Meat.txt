@@ -1,0 +1,32 @@
+[@Main]
+#IF
+ISADMIN
+#Say
+Hello {<$USERNAME>/KHAKI}, my name is {<$NPCNAME>/KHAKI}.
+<Buy/@Buy> 肉类
+<Sell/@Sell> 肉类
+
+#ELSEACT
+MOVE 0 300 300
+ 
+[@Sell]
+#SAY
+Sell.
+ 
+<Back/@Main>
+
+[@Buy]
+#SAY
+Buy.
+ 
+<Back/@Main>
+
+
+[Types]
+15
+
+[Trade]
+鸡肉
+肉类
+Jerk
+鹿茸

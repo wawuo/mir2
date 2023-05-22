@@ -1,0 +1,11 @@
+[Recipe]
+Amount 1
+Chance 100
+Gold 100
+
+[Tools]
+
+[Ingredients]
+黑线 3
+大骨
+铜矿石 2

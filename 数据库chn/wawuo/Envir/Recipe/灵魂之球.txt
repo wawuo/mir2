@@ -1,0 +1,13 @@
+[Recipe]
+Amount 1
+Chance 20
+Gold 10000
+
+[Tools]
+工艺书
+
+[Ingredients]
+SC石
+道教药物(L)
+(MP)药物大量
+(HP)药物大量

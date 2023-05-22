@@ -1,0 +1,77 @@
+;Gold
+1/1 Gold 1000
+
+
+;Pots + Other
+1/1 (HP)药物中量
+1/1 (MP)药物中量
+1/1 (HP)药物大量
+1/1 (MP)药物大量
+1/1 (HP)药物中量
+1/1 (MP)药物中量
+1/1 (HP)药物大量
+1/1 (MP)药物大量
+1/1 太阳药水
+1/2 太阳药水
+1/1 太阳药水(中)
+1/2 太阳药水(中)
+1/15 风暴药(S)
+1/15 解毒药水(S)
+1/15 魔药(小)
+1/15 道教药物(S)
+1/20 祝福油 
+
+
+;Weapons
+
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Medals Rare
+
+
+;Shields
+
+
+;Shields Rare
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+
+
+;CraftingMaterials
+
+
+;Quests
+1/1 巫马之心 Q
+1/10 HeartLocket Q
+1/2 GuardianBlades Q
+

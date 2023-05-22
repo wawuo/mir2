@@ -1,0 +1,78 @@
+[@Main]
+#IF
+ISADMIN
+#SAY
+你好 {<$USERNAME>/KHAKI}, 我名叫 {<$NPCNAME>/KHAKI}.
+我看到你正穿着: {<$BOOTS>/CORAL}
+
+<购买/@Buy> Boot
+<出售/@Sell> Boot
+<修理/@Repair> Boot
+<Special Repair/@SRepair> Boot
+
+#ELSEACT
+MOVE 0 300 300
+ 
+[@Buy]
+#SAY
+购买
+ 
+<返回/@Main>
+
+[@Sell]
+#SAY
+出售
+ 
+<返回/@Main>
+
+[@Repair]
+#SAY
+修理
+ 
+<返回/@Main>
+
+[@SRepair]
+#SAY
+特别修理
+ 
+<返回/@Main>
+
+
+[Types]
+10
+
+[Trade]
+米尔靴
+白金鞋
+白金鞋(H)
+红玉鞋
+红色玉石鞋(H)
+翡翠鞋
+翡翠鞋(H)
+力量之靴1
+力量之靴2
+力量之靴3
+力量之靴4
+力量之靴5
+塔拉贡靴
+突击者之靴
+突击队靴1
+突击队靴2
+突击队靴3
+突击队靴4
+突击者之靴5
+闪光的鞋子
+黑暗之靴
+清波靴(WAR)
+清波靴(WIZ)
+清波靴(TAO)
+清波靴(ASSA)
+清波靴(ARCH)
+腐烂的鞋子
+低帮鞋
+皮靴
+丝绸靴
+黑靴
+龙靴
+红鳞鞋
+金纹靴

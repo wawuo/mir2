@@ -1,0 +1,107 @@
+;;Test Server Scroll
+[@_UseItem(1)]
+#INCLUDE [SystemScripts\00Default\TestServerScroll.txt] @Main
+
+;;PK Point Reduction
+[@_UseItem(2)]
+#ACT
+REDUCEPKPOINT 100
+
+;;Sex Change
+[@_UseItem(5)]
+#IF
+CHECKGENDER Male
+#ACT
+CHANGEGENDER
+LocalMessage "性别变更为女性。请重新登录以便生效." Hint
+#ELSEACT
+CHANGEGENDER
+LocalMessage "性别变更为男性。请重新登录以便生效." Hint
+
+;;ExtraDrop 24Hour
+[@_UseItem(6)]
+#ACT
+GIVEBUFF Drop 86400 20
+LocalMessage "Drop Increased by 20% for 1 Day." Hint
+
+;;蓝色八角形盒子
+[@_UseItem(7)]
+#ACT
+GIVEITEM 经验值30%3 1
+GIVEITEM 健康酒 1
+GIVEITEM 毁灭之酒 1
+GIVEITEM DCTorch3 1
+GIVEITEM 大风药水 1
+GIVEITEM 复活卷轴 1
+
+;;红色八角形盒子
+[@_UseItem(8)]
+#ACT
+GIVEITEM 经验值30%3 1
+GIVEITEM 健康酒 1
+GIVEITEM 魔法酒 1
+GIVEITEM MCTorch3 1
+GIVEITEM 复活卷轴 1
+
+;;绿色八角形盒子
+[@_UseItem(9)]
+#ACT
+GIVEITEM 经验值30%3 1
+GIVEITEM 健康酒 1
+GIVEITEM 灵魂酒 1
+GIVEITEM SCTorch3 1
+GIVEITEM 复活卷轴 1
+
+[@_UseItem(10)]
+#ACT
+GIVEITEM 护身符 3000
+
+;;PK Point 药酒
+[@_UseItem(11)]
+#ACT
+REDUCEPKPOINT 10
+
+;;BoxOfHolyWater 1 Day
+[@_UseItem(12)]
+#ACT
+GIVEITEM 威力药水[1d] 1
+GIVEITEM 防御灵药[1d] 1
+GIVEITEM 人药[1d] 1
+GIVEITEM 经验值20%[1d] 1
+
+;;钓鱼包
+[@_UseItem(13)]
+#ACT
+GIVEITEM 红色鱼竿[6M] 1
+GIVEITEM 高级卷轴 1
+GIVEITEM 高级浮筒 1
+GIVEITEM 探测仪 1
+GIVEITEM 高级鱼饵 7200
+
+;;金条/金条包/金盒
+[@_UseItem(500)]
+#IF
+CHECKGOLD <= 4293967295
+#ACT
+GIVEGOLD 1000000
+LocalMessage "Gained 1 Million Gold" Hint
+#ELSEACT
+GIVEITEM 金条 1
+
+[@_UseItem(501)]
+#IF
+CHECKGOLD <= 4289967295
+#ACT
+GIVEGOLD 5000000
+LocalMessage "Gained 5 Million Gold" Hint
+#ELSEACT
+GIVEITEM 金条包 1
+
+[@_UseItem(502)]
+#IF
+CHECKGOLD <= 4284967295
+#ACT
+GIVEGOLD 10000000
+LocalMessage "获得1000万金币" Hint
+#ELSEACT
+GIVEITEM 金盒 1

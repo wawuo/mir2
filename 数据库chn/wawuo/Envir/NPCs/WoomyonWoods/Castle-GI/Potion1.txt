@@ -1,0 +1,31 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人...
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+想购买什么样的药品?
+ 
+<交易/@Buy> Poison.
+ 
+<关闭/@exit>
+
+[@Buy]
+#SAY
+你想买什么药品?
+ 
+<关闭/@exit>
+ 
+[Types]
+13
+
+[Trade]
+绿毒
+红色毒药

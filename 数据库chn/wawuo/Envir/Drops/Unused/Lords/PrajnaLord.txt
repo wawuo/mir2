@@ -1,0 +1,206 @@
+;Gold
+1/1 Gold 22000
+
+;Pots + Other
+1/1 (HP)药物大量
+1/1 (HP)药物大量
+1/1 (HP)药物大量
+1/1 (HP)药物大量
+1/1 (MP)药物大量
+1/1 (MP)药物大量
+1/1 (MP)药物大量
+1/1 (MP)药物大量
+1/1 太阳药水
+1/1 太阳药水
+1/2 太阳药水
+1/1 太阳药水(中)
+1/1 太阳药水(中)
+1/2 太阳药水(中)
+
+1/2 祝福油
+
+
+1/1 Awakeningbox 
+1/1 觉醒的灵魂0 
+
+;Weapons
+1/90 屠龙者
+1/90 邪恶之弓
+1/90 皇家刀片
+1/90 龙杖
+1/90 灵魂之剑
+1/165 玛吉之刃
+1/115 战神之剑
+1/115 力量之弓
+1/115 巫术之刃
+1/115 创天之剑
+1/215 黑虎之锤
+1/215 致命之弓
+1/215 洛托斯之杖
+1/215 鹤鸣扇
+1/215 屠宰刀
+1/3000 LordSlayerBlade
+1/3000 LordSlayerStaff
+1/3000 LordSlayerFan
+1/3000 LordSlayerBlades
+
+;Armours
+1/3000 LordSlayerArmour(男)
+1/3000 LordSlayerArmour(女)
+
+;Helmet
+1/3000 LordSlayerHelmet
+
+;Necklace
+1/45 爪子项链
+1/45 生命项链
+1/45 珍珠项链
+1/60 绿珠
+1/60 恶魔的铃铛
+1/60 灵魂项链
+1/95 残缺的项链
+1/95 巫术之锚
+1/95 净化的镜子
+1/197 邪恶三角
+1/197 净化的十字架
+1/197 金刚项链
+
+;Necklace Rare
+1/1400 TerrapinNecklace
+1/3000 LordSlayerNecklace
+
+;Bracelets
+1/10 吊马轮
+1/10 福马轮
+1/10 八卦轮
+1/25 灵魂改造者
+1/25 圣道轮
+1/25 白塔手套
+1/95 双天王护身符
+1/95 神圣护身符
+1/95 诅咒护身符
+1/195 WildTitan护身符
+1/195 Enchanted护身符
+1/195 FiveElement护身符
+
+;Bracelets Rare
+1/1300 TerrapinBracelet
+1/3000 LordSlayerBracelet
+
+;Rings
+1/10 大马精神之环
+1/10 DestinyRing 
+1/10 高贵之环
+1/10 灵魂之环
+1/15 无边无际指环
+1/15 雷霆之心
+1/15 泰戈尔指环
+1/95 誓约环
+1/95 五元素戒指
+1/95 红宝戒指
+1/195 恶魔之戒
+1/195 驱邪戒指
+1/195 Gold龙戒
+
+;Rings Rare
+1/1300 TerrapinRing
+1/3000 LordSlayerRing
+
+;Shields
+1/1300 TerrapinShield
+
+;Shoes
+1/15 丝绸靴
+1/20 黑靴
+1/30 龙靴
+1/60 红鳞鞋
+1/3000 LordSlayerBoots
+
+;Belt
+1/3000 LordSlayerBelt
+
+;Stone
+1/50 HolyDC攻击石
+1/50 HolyMC石
+1/50 HolySC石
+1/50 Holy健康石
+1/50 Holy魔法石
+1/50 HolyACStone
+1/50 HolyAMC石
+1/50 HolyDefenseStone
+
+;Books
+;Warrior
+1/60 BladeStorm
+1/65 火焰之剑
+1/70 狮子吼
+1/75 BladeStorm
+1/80 十字半月
+1/85 刀锋雪崩
+1/90 保护场
+1/95 愤怒
+1/100 怒击
+1/220 反击
+
+;Wizard
+1/60 魔法盾
+1/65 冰风暴
+1/70 火焰破坏者
+1/75 镜像
+1/80 火焰场
+1/85 暴风雪
+1/220 魔力助推器
+
+;Taoist
+1/60 终极强化器
+1/65治愈圈
+1/70 召唤神术
+1/75 转世
+1/80 召唤圣德瓦
+1/85 诅咒
+1/90 毒云
+1/95 宠物强化器
+1/220 能量护盾
+
+;Assassin
+1/40 障碍物
+1/45 闪光冲刺
+1/50 轻功
+1/55 天堂之剑
+1/60 火焰喷射
+1/65 CrescentSlash
+1/70 陷阱
+1/75 毒剑
+1/80 月光
+1/120 猎手
+1/210 迅捷脚步
+
+;Archer
+1/40 双响炮
+1/45 冥想
+1/50 元素射击
+1/55 爆炸性陷阱
+1/60 专注力
+1/65 吸血鬼射击
+1/70 召唤吸血鬼
+1/75 后撤步
+1/80 延迟爆炸
+1/120 元素屏障
+1/120 捆绑射击
+1/210 召唤蟾蜍
+1/210 毒药射击
+
+;CraftingMaterials
+1/25 BraveryFragment
+1/25 MagicFragment
+1/25 SoulFragment
+1/25 ProtectionFragment
+1/25 EvilSlayerFragment
+1/25 DurabilityFragment
+1/25 StormFragment
+1/25 DisillusionFragment
+1/25 AccuracyFragment
+1/25 PoisonFragment
+1/25 FreezingFragment
+1/25 AgilityFragment
+1/25 EnduranceFragment

@@ -1,0 +1,432 @@
+[@main]
+Hello traveler, I'm the craft NPC for this cave.
+What can I help you with?
+
+<Craft Items/@craft>.
+<Close/@exit>
+
+
+[@craft]
+#SAY
+The following are the items i can forge.
+
+- AncientHeavyArmour  <Forge/@arm1>
+- AncientRobe         <Forge/@arm2>
+- AncientPlate        <Forge/@arm3>
+- AncientSuit         <Forge/@arm4>
+- 古代皮革      <Forge/@arm5>
+   
+* It will cost 20,000 Gold to forge an item.
+
+<Exit/@exit>
+
+[@arm1]
+#SAY
+* AncientHeavyArmour
+* Defense stats : Ac 6-20 - Amc 3-7 - Dc 0-1 - Hp +10.
+* Items required for forging,
+- 40 锈迹斑斑的盔甲
+- 34 犀牛皮
+- 32 猛犸象皮
+- 30 大骨
+- 12 盔甲书(DC)
+- 10 铂金
+-  5 强力绳索
+
+<Forge Now/@arm12>    <Back/@main>
+
+[@arm12]
+#IF
+GENDER MALE
+CHECKGOLD > 20000
+CHECKITEM 锈迹斑斑的盔甲 40
+CHECKITEM 犀牛皮 34
+CHECKITEM 猛犸象皮 32
+CHECKITEM 大骨 30
+CHECKITEM 盔甲书(DC) 12
+CHECKITEM 铂金 10
+CHECKITEM 强力绳索 5
+#ACT
+TAKEGOLD 20000
+TAKEITEM 锈迹斑斑的盔甲 40
+TAKEITEM 犀牛皮 34
+TAKEITEM 猛犸象皮 32
+TAKEITEM 大骨 30
+TAKEITEM 盔甲书(DC) 12
+TAKEITEM 铂金 10
+TAKEITEM 强力绳索 5
+GIVEITEM AncientHeavyArmour(M) 1
+LINEMESSAGE "You have forged AncientHeavyArmour." Hint
+BREAK
+CLOSE
+
+#ELSEACT
+GOTO @arm12F
+
+[@arm12F]
+#IF
+CHECKGOLD > 20000
+CHECKITEM 锈迹斑斑的盔甲 40
+CHECKITEM 犀牛皮 34
+CHECKITEM 猛犸象皮 32
+CHECKITEM 大骨 30
+CHECKITEM 盔甲书(DC) 12
+CHECKITEM 铂金 10
+CHECKITEM 强力绳索 5
+#ACT
+TAKEGOLD 20000
+TAKEITEM 锈迹斑斑的盔甲 40
+TAKEITEM 犀牛皮 34
+TAKEITEM 猛犸象皮 32
+TAKEITEM 大骨 30
+TAKEITEM 盔甲书(DC) 12
+TAKEITEM 铂金 10
+TAKEITEM 强力绳索 5
+GIVEITEM AncientHeavyArmour(F) 1
+LINEMESSAGE "You have forged AncientHeavyArmour." Hint
+BREAK
+CLOSE
+
+#ELSESAY
+You don't have enough ingredients.
+Please check again.In order to make the AncientHeavyArmour,
+* Items required for forging,
+- 40 锈迹斑斑的盔甲
+- 34 犀牛皮
+- 32 猛犸象皮
+- 30 大骨
+- 12 盔甲书(DC)
+- 10 铂金
+-  5 强力绳索
+
+<Back/@main>
+              
+[@arm2]
+#SAY
+* AncientRobe
+* Defense stats : Ac 4-14 - Amc 5-8 - Mc 0-7 - Hp +10. 
+* Items required for forging, 
+- 40 锈迹斑斑的盔甲
+- 34 野兽皮
+- 32 亡灵皮革
+- 30 大骨
+- 12 铠甲书(MC)
+- 10 铂金
+-  5 强力绳索
+
+<Forge Now/@arm23>    <Back/@main>
+
+
+[@arm23]
+#IF
+GENDER MALE
+CHECKGOLD > 20000
+CHECKITEM 锈迹斑斑的盔甲 40
+CHECKITEM 野兽皮 34
+CHECKITEM 亡灵皮革 32
+CHECKITEM 大骨 30
+CHECKITEM 铠甲书(MC) 12
+CHECKITEM 铂金 10
+CHECKITEM 强力绳索 5
+#ACT
+TAKEGOLD 20000
+TAKEITEM 锈迹斑斑的盔甲 40
+TAKEITEM 野兽皮 34
+TAKEITEM 亡灵皮革 32
+TAKEITEM 大骨 30
+TAKEITEM 铠甲书(MC) 12
+TAKEITEM 铂金 10
+TAKEITEM 强力绳索 5
+GIVEITEM AncientRobe(男) 1
+LINEMESSAGE "You have forged AncientRobe." Hint
+BREAK
+CLOSE
+
+#ELSEACT
+GOTO @arm23F
+
+[@arm23F]
+#IF
+CHECKGOLD > 20000
+CHECKITEM 锈迹斑斑的盔甲 40
+CHECKITEM 野兽皮 34
+CHECKITEM 亡灵皮革 32
+CHECKITEM 大骨 30
+CHECKITEM 铠甲书(MC) 12
+CHECKITEM 铂金 10
+CHECKITEM 强力绳索 5
+#ACT
+TAKEGOLD 20000
+TAKEITEM 锈迹斑斑的盔甲 40
+TAKEITEM 野兽皮 34
+TAKEITEM 亡灵皮革 32
+TAKEITEM 大骨 30
+TAKEITEM 铠甲书(MC) 12
+TAKEITEM 铂金 10
+TAKEITEM 强力绳索 5
+GIVEITEM AncientRobe(女) 1
+LINEMESSAGE "You have forged AncientRobe." Hint
+BREAK
+CLOSE
+
+#ELSESAY
+You don't have enough ingredients.
+Please check again.In order to make the AncientRobe, 
+* Items required for forging, 
+- 40 锈迹斑斑的盔甲
+- 34 野兽皮
+- 32 亡灵皮革
+- 30 大骨
+- 12 铠甲书(MC)
+- 10 铂金
+-  5 强力绳索   
+
+<Back/@main>   
+
+
+[@arm3]
+#SAY
+* AncientPlate
+* Defense stats : Ac 6-15 - Amc 5-10 - Sc 0-6 - Hp +10. 
+* Items required for forging, 
+- 40 锈迹斑斑的盔甲
+- 34 恶魔皮革
+- 32 轻型皮革
+- 30 大骨
+- 12 铠甲书(SC)
+- 10 铂金
+-  5 强力绳索
+
+<Forge Now/@arm33>    <Back/@main>
+
+
+[@arm33]
+#IF
+GENDER MALE
+CHECKGOLD > 20000
+CHECKITEM 锈迹斑斑的盔甲 40
+CHECKITEM 恶魔皮革 34
+CHECKITEM 轻型皮革 32
+CHECKITEM 大骨 30
+CHECKITEM 铠甲书(SC) 12
+CHECKITEM 铂金 10
+CHECKITEM 强力绳索 5
+#ACT
+TAKEGOLD 20000
+TAKEITEM 锈迹斑斑的盔甲 40
+TAKEITEM 恶魔皮革 34
+TAKEITEM 轻型皮革 32
+TAKEITEM 大骨 30
+TAKEITEM ArmourBookSC) 12
+TAKEITEM 铂金 10
+TAKEITEM 强力绳索 5
+GIVEitem AncientPlate(男) 1
+LINEMESSAGE "You have forged AncientPlate." Hint
+BREAK
+CLOSE
+
+#ELSEACT
+GOTO @arm33F
+
+[@arm33F]
+#IF
+CHECKGOLD > 20000
+CHECKITEM 锈迹斑斑的盔甲 40
+CHECKITEM 恶魔皮革 34
+CHECKITEM 轻型皮革 32
+CHECKITEM 大骨 30
+CHECKITEM 铠甲书(SC) 12
+CHECKITEM 铂金 10
+CHECKITEM 强力绳索 5
+#ACT
+TAKEGOLD 20000
+TAKEITEM 锈迹斑斑的盔甲 40
+TAKEITEM 恶魔皮革 34
+TAKEITEM 轻型皮革 32
+TAKEITEM 大骨 30
+TAKEITEM 铠甲书(SC) 12
+TAKEITEM 铂金 10
+TAKEITEM 强力绳索 5
+GIVEITEM AncientPlate(女) 1
+LINEMESSAGE "You have forged AncientPlate." Hint
+BREAK
+CLOSE
+
+#ELSESAY
+You don't have enough ingredients.
+Please check again.In order to make the AncientPlate, 
+* Items required for forging, 
+- 40 锈迹斑斑的盔甲
+- 34 恶魔皮革
+- 32 轻型皮革
+- 30 大骨
+- 12 铠甲书(SC)
+- 10 铂金
+-  5 强力绳索   
+
+<Back/@main>
+
+
+[@arm4]
+#SAY
+* AncientSuit
+* Defense stats : Ac 6-15 - Amc 5-10 - Dc 0-1 - Hp +10. 
+* Items required for forging, 
+- 40 锈迹斑斑的盔甲
+- 34 猛犸象皮
+- 32 狒狒皮
+- 30 大骨
+- 12 盔甲书(DC)
+- 10 铂金
+-  5 强力绳索
+
+<Forge Now/@arm43>    <Back/@main>
+
+
+[@arm43]
+#IF
+GENDER MALE
+CHECKGOLD > 20000
+CHECKITEM 锈迹斑斑的盔甲 40
+CHECKITEM 猛犸象皮 34
+CHECKITEM 狒狒皮 32
+CHECKITEM 大骨 30
+CHECKITEM 盔甲书(DC) 12
+CHECKITEM 铂金 10
+CHECKITEM 强力绳索 5
+#ACT
+TAKEGOLD 20000
+TAKEITEM 锈迹斑斑的盔甲 40
+TAKEITEM 猛犸象皮 34
+TAKEITEM 狒狒皮 32
+TAKEITEM 大骨 30
+TAKEITEM 盔甲书(DC) 12
+TAKEITEM 铂金 10
+TAKEITEM 强力绳索 5
+GIVEITEM AncientSuit(男) 1
+LINEMESSAGE "You have forged AncientSuit." Hint
+BREAK
+CLOSE
+
+#ELSEACT
+GOTO @arm43F
+
+[@arm43F]
+#IF
+CHECKGOLD > 20000
+CHECKITEM 锈迹斑斑的盔甲 40
+CHECKITEM 猛犸象皮 34
+CHECKITEM 狒狒皮 32
+CHECKITEM 大骨 30
+CHECKITEM 盔甲书(DC) 12
+CHECKITEM 铂金 10
+CHECKITEM 强力绳索 5
+#ACT
+TAKEGOLD 20000
+TAKEITEM 锈迹斑斑的盔甲 40
+TAKEITEM 恶魔皮革 34
+TAKEITEM 狒狒皮 32
+TAKEITEM 大骨 30
+TAKEITEM 盔甲书(DC) 12
+TAKEITEM 铂金 10
+TAKEITEM 强力绳索 5
+GIVEITEM AncientSuit(女) 1 
+LINEMESSAGE "You have forged AncientSuit." Hint
+BREAK
+CLOSE
+
+#ELSESAY
+You don't have enough ingredients.
+Please check again.In order to make the AncientSuit, 
+* Items required for forging, 
+- 40 锈迹斑斑的盔甲
+- 34 猛犸象皮
+- 32 狒狒皮
+- 30 大骨
+- 12 盔甲书(DC)
+- 10 铂金
+-  5 强力绳索   
+
+<Back/@main>                       
+
+[@arm5]
+#SAY
+* 古代皮革
+* Defense stats : Ac 4-16 - Amc 6-10 - Mc 1-2 - Hp +10. 
+* Items required for forging, 
+- 40 锈迹斑斑的盔甲
+- 34 野兽皮
+- 32 猛犸象皮
+- 30 大骨
+- 12 铠甲书(MC)
+- 10 铂金
+-  5 强力绳索
+
+<Forge Now/@arm53>    <Back/@main>
+
+
+[@arm53]
+#IF
+GENDER MALE
+CHECKGOLD > 20000
+CHECKITEM 锈迹斑斑的盔甲 40
+CHECKITEM 野兽皮 34
+CHECKITEM 猛犸象皮 32
+CHECKITEM 大骨 30
+CHECKITEM 铠甲书(MC) 12
+CHECKITEM 铂金 10
+CHECKITEM 强力绳索 5
+#ACT
+TAKEGOLD 20000
+TAKEITEM 锈迹斑斑的盔甲 40
+TAKEITEM 野兽皮 34
+TAKEITEM 猛犸象皮 32
+TAKEITEM 大骨 30
+TAKEITEM 铠甲书(MC) 12
+TAKEITEM 铂金 10
+TAKEITEM 强力绳索 5
+GIVEITEM 古代皮革(男) 1
+LINEMESSAGE "You have forged 古代皮革." Hint
+BREAK
+CLOSE
+
+#ELSEACT
+GOTO @arm53F
+
+[@arm53F]
+#IF
+CHECKGOLD > 20000
+CHECKITEM 锈迹斑斑的盔甲 40
+CHECKITEM 野兽皮 34
+CHECKITEM 猛犸象皮 32
+CHECKITEM 大骨 30
+CHECKITEM 铠甲书(MC) 12
+CHECKITEM 铂金 10
+CHECKITEM 强力绳索 5
+#ACT
+TAKEGOLD 20000
+TAKEITEM 锈迹斑斑的盔甲 40
+TAKEITEM 野兽皮 34
+TAKEITEM 猛犸象皮 32
+TAKEITEM 大骨 30
+TAKEITEM 铠甲书(MC) 12
+TAKEITEM 铂金 10
+TAKEITEM 强力绳索 5
+GIVEITEM 古代皮革(女) 1
+LINEMESSAGE "You have forged 古代皮革." Hint
+BREAK
+CLOSE
+
+#ELSESAY
+You don't have enough ingredients.
+Please check again.In order to make the 古代皮革, 
+* Items required for forging, 
+- 40 锈迹斑斑的盔甲
+- 34 野兽皮
+- 32 亡灵皮革
+- 30 大骨
+- 12 铠甲书(MC)
+- 10 铂金
+-  5 强力绳索   
+
+<Back/@main>                                                                                                                                                                                                                                               

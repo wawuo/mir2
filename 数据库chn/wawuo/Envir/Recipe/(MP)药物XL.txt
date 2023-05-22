@@ -1,0 +1,11 @@
+[Recipe]
+Amount 1
+Chance 100
+Gold 100
+
+[Tools]
+
+[Ingredients]
+蘑菇
+食人果
+(MP)药物大量

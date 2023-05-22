@@ -1,0 +1,32 @@
+[@Description]
+There have been icreasing numbers of 
+{SpittlingSpider's/Crimson} around the town. This monster 
+is poisonous and the antidote can only be made 
+from the {毒药袋/LightSteelBlue}.
+
+[@TaskDescription]
+Please find {毒药袋's/LightSteelBlue} by hunting 
+{SpittingSpider's/Crimson}.
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+毒药袋 10
+
+[@CarryItems]
+
+[@FixedRewards]
+坚固的皮革腰带
+
+[@SelectRewards]
+
+[@ExpReward]
+500
+
+[@GoldReward]
+125
+
+// Pickup - 
+// Hand In - MirGuide_Peter 0 328 258

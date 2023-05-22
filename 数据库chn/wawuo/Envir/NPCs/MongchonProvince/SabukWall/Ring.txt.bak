@@ -1,0 +1,53 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人...
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+欢迎。我能为你做什么?
+我看到你正穿着: {左: <$RING_L> 右: <$RING_R>/CORAL}
+
+<查看/@BuySell> 商店
+<修理/@Repair> Ring.
+ 
+<关闭/@Exit>
+
+[@BuySell]
+#SAY
+Which ring 想要出售或购买?
+<返回 购买/@BuyBack>. 
+ 
+<返回/@Main>
+
+[@BuyBack]
+#SAY
+这些是仍然可以购买回来的物品.
+ 
+<返回/@Main>
+
+[@Repair]
+#SAY
+你是不是想修理 ring?
+ 
+ 
+ 
+<返回/@Main>
+
+[Types]
+7
+
+[Trade]
+铜戒指
+六角戒指
+玻璃戒指
+喇叭戒指
+铁戒指
+白玉戒指
+蓝戒指
