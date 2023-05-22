@@ -2556,39 +2556,38 @@ namespace Server.MirObjects
                 }
                 Cell cell = CurrentMap.GetCell(location);
 
-                if (cell.Objects != null)
+                if (cell.Objects != null) // 如果单元格中有对象
                 {
-                    for (int i = 0; i < cell.Objects.Count; i++)
+                    for (int i = 0; i < cell.Objects.Count; i++) // 遍历每个对象
                     {
                         MapObject ob = cell.Objects[i];
-                        if (变量.穿怪)
+                        if (变量.穿怪) // 如果变量.穿怪为真
                         {
-                            if (ob.Race == ObjectType.Merchant && Race == ObjectType.Player)
+                            if (ob.Race == ObjectType.Merchant && Race == ObjectType.Player) // 如果对象是商人并且玩家的种族是玩家
                             {
                                 NPCObject NPC = (NPCObject)ob;
-                                if (!NPC.Visible || !NPC.VisibleLog[Info.Index]) continue;
+                                if (!NPC.Visible || !NPC.VisibleLog[Info.Index]) continue; // 检查 NPC 是否可见，如果不可见或不在玩家的可见日志中，则继续循环
                             }
-                            else
-                            if (!(CheckCellTime && ob.CellTime >= Envir.Time)) continue ; //跑步穿怪
-                            //if (!ob.Blocking ||(CheckCellTime && ob.CellTime >= Envir.Time)) continue;
-                            Enqueue(new S.UserLocation { Direction = Direction, Location = CurrentLocation });
+                            else if (!(CheckCellTime && ob.CellTime >= Envir.Time)) continue; // 检查单元格时间是否大于或等于当前时间，如果是，则继续循环
+
+                            Enqueue(new S.UserLocation { Direction = Direction, Location = CurrentLocation }); // 更新用户位置
                             return false;
                         }
-                        if (!变量.穿怪)
+                        if (!变量.穿怪) // 如果变量.穿怪为假
                         {
-                            if (ob.Race == ObjectType.Merchant && Race == ObjectType.Player)
+                            if (ob.Race == ObjectType.Merchant && Race == ObjectType.Player) // 如果对象是商人并且玩家的种族是玩家
                             {
                                 NPCObject NPC = (NPCObject)ob;
-                                if (!NPC.Visible || !NPC.VisibleLog[Info.Index]) continue;
+                                if (!NPC.Visible || !NPC.VisibleLog[Info.Index]) continue; // 检查 NPC 是否可见，如果不可见或不在玩家的可见日志中，则继续循环
                             }
-                            else
-                           // if (!ob.Blocking || (CheckCellTime && ob.CellTime >= Envir.Time || !变量.穿怪)) continue; //跑步穿怪
-                             if (!ob.Blocking ||(CheckCellTime && ob.CellTime >= Envir.Time)) continue;  //不穿怪
-                            Enqueue(new S.UserLocation { Direction = Direction, Location = CurrentLocation });
+                            else if (!ob.Blocking || (CheckCellTime && ob.CellTime >= Envir.Time)) continue; // 检查对象是否阻塞或单元格时间是否大于或等于当前时间，如果是，则继续循环
+
+                            Enqueue(new S.UserLocation { Direction = Direction, Location = CurrentLocation }); // 更新用户位置
                             return false;
                         }
                     }
                 }
+
                 if (CheckMovement(location)) return false;
 
             }
