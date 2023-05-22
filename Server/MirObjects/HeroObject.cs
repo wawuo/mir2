@@ -733,30 +733,31 @@ namespace Server.MirObjects
             }
         }
 
-        public override void Process()
+        public override void Process() //宠物？或AI，自动攻击
         {
-            //宠物？？攻击或AI
-            base.Process();
+            base.Process(); // 调用基类的 Process 方法
 
-            if (Node == null || Info == null) return;
+            if (Node == null || Info == null) return; // 如果 Node 或 Info 为空，则返回
 
+            // 如果目标不为空且（目标不在当前地图上或目标不是攻击目标或目标不在数据范围内）
             if (Target != null && (Target.CurrentMap != CurrentMap || !Target.IsAttackTarget(this) || !Functions.InRange(CurrentLocation, Target.CurrentLocation, Globals.DataRange)))
-                Target = null;
+                Target = null; // 清空目标
 
+            // 如果当前位置不在主人的数据范围内或当前地图不是主人所在的地图
             if (!Functions.InRange(CurrentLocation, Owner.CurrentLocation, Globals.DataRange) || CurrentMap != Owner.CurrentMap)
-                OwnerRecall();
+                OwnerRecall(); // 召回主人
 
-            if (Dead) return;            
+            if (Dead) return; // 如果已死亡，则返回
 
-            if (Owner.PMode == PetMode.MoveOnly || Owner.PMode == PetMode.None)
-                Target = null;
+            if (Owner.PMode == PetMode.MoveOnly || Owner.PMode == PetMode.None) // 如果主人的宠物模式为 MoveOnly 或 None
+                Target = null; // 清空目标
 
-            ProcessAutoPot();
-            ProcessStacking();
-            ProcessSearch();
-            ProcessAI();            
-            ProcessTarget();
-            ProcessRoam();
+            ProcessAutoPot(); // 处理自动药水
+            ProcessStacking(); // 处理堆叠
+            ProcessSearch(); // 处理搜索
+            ProcessAI(); // 处理 AI
+            ProcessTarget(); // 处理目标
+            ProcessRoam(); // 处理漫游
         }
 
         protected void ProcessAutoPot()
