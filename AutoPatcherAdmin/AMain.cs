@@ -242,7 +242,7 @@ namespace AutoPatcherAdmin
         {
             if (session.Opened) return;
 
-            Uri uri = null;
+            Uri? uri = null;
 
             if (!string.IsNullOrEmpty(Settings.Host))
             {

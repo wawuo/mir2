@@ -871,41 +871,41 @@ namespace Server.MirObjects
 
         protected virtual void ProcessTarget()
         {
-            if (CanCast && NextMagicSpell != Spell.None)
+            if (CanCast && NextMagicSpell != Spell.None) // 如果能够施法并且 NextMagicSpell 不为 None
             {
-                Magic(NextMagicSpell, NextMagicDirection, NextMagicTargetID, NextMagicLocation);
-                NextMagicSpell = Spell.None;
+                Magic(NextMagicSpell, NextMagicDirection, NextMagicTargetID, NextMagicLocation); // 施放魔法
+                NextMagicSpell = Spell.None; // 清空 NextMagicSpell
             }
 
-            if (Target == null || !CanAttack) return;
+            if (Target == null || !CanAttack) return; // 如果目标为空或角色不能攻击，则返回
 
-            TargetDistance = Functions.MaxDistance(CurrentLocation, Target.CurrentLocation);
+            TargetDistance = Functions.MaxDistance(CurrentLocation, Target.CurrentLocation); // 计算目标距离
 
-            if (InAttackRange())
+            if (InAttackRange()) // 如果目标在攻击范围内
             {
-                Attack();
+                Attack(); // 调用 Attack 方法进行攻击
 
-                if (Target != null && Target.Dead)
+                if (Target != null && Target.Dead) // 如果目标不为空且已死亡
                 {
-                    FindTarget();
+                    FindTarget(); // 调用 FindTarget 方法查找新的目标
                 }
 
                 return;
             }
 
-            MoveTo(Target.CurrentLocation);
+            MoveTo(Target.CurrentLocation); // 移动到目标位置
         }
 
         protected virtual void Attack()
         {
-            if (!Target.IsAttackTarget(Owner))
+            if (!Target.IsAttackTarget(Owner)) // 检查目标是否是主人的攻击目标
             {
-                Target = null;
+                Target = null; // 清空目标
                 return;
             }
 
-            Direction = Functions.DirectionFromPoint(CurrentLocation, Target.CurrentLocation);
-            Attack(Direction, Spell.None);
+            Direction = Functions.DirectionFromPoint(CurrentLocation, Target.CurrentLocation); // 计算方向
+            Attack(Direction, Spell.None); // 调用 Attack 方法执行攻击
         }
 
         protected virtual bool InAttackRange()
