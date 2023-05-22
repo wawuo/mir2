@@ -1,0 +1,8 @@
+[@Main]
+#SAY
+A missing Carriage. Content's seems to be missing.
+<关闭/@exit>
+
+[Quests]
+-87
+88

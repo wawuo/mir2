@@ -1,0 +1,54 @@
+;Gold
+1/1 Gold 2400
+
+;Potions
+1/8 太阳药水
+1/8 太阳药水
+
+
+;Bracelet
+
+
+;Weapons
+1/5000 云戒指
+1/5000 红魔戒指
+1/5000 毒药戒指
+1/5000 恶魔面具
+1/5000 紫金石
+1/5000 鲲鹏之泪
+1/10000 (H)WheelOfLunar
+
+;Armour
+1/9250 红色黑暗盔甲(男)
+1/9250 红色黑暗盔甲(女)
+1/9250 蓝色深色护甲(男)
+1/9250 蓝色深色护甲(女)
+1/9250 鳞甲(男)
+1/9250 鳞甲(女)
+1/9250 绿色深色护甲(男)
+1/9250 绿色深色护甲(女)
+1/9250 金色深色护甲(男)
+1/9350 金色深色护甲(女)
+
+1/1125 BraveryFragment
+1/1125 MagicFragment
+1/1125 SoulFragment
+1/1125 ProtectionFragment
+1/1125 EvilSlayerFragment
+1/1125 DurabilityFragment
+1/1125 StormFragment
+1/1125 DisillusionFragment
+1/1125 AccuracyFragment
+1/1125 PoisonFragment
+1/1125 FreezingFragment
+1/1125 AgilityFragment
+1/1125 EnduranceFragment
+1/1130 冰石
+1/1900 Armourcasttool 
+1/1900 半透明的Crystal
+1/1900 Armourbook(DC)
+1/1900 Armourbook(SC)
+1/1900 Armourbook(MC)
+1/1900 锈迹斑斑的盔甲
+1/1900 精神之书
+1/1900 浩劫水晶

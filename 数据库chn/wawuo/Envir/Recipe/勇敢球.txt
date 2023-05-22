@@ -1,0 +1,12 @@
+[Recipe]
+Amount 1
+Chance 20
+Gold 10000
+
+[Tools]
+工艺书
+
+[Ingredients]
+DC攻击石
+解毒药水(L)
+(HP)药物XL

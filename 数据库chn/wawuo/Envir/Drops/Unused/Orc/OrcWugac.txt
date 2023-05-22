@@ -1,0 +1,31 @@
+;Gold
+1/5 Gold 1650
+
+;Potions
+1/5 (HP)药物XL
+1/5 (MP)药物XL
+1/10 太阳药水
+1/10 太阳药水
+
+1/15000 SmasherRing
+1/15000 暴风雪Ring
+1/15000 MistyRing
+1/15000 SlicerRing
+
+;Assassin
+1/45100 锌刀
+1/55250 屠宰刀
+1/55550 狂龙之刃
+1/55650 撕裂者
+
+1/4000 Holy健康石
+1/4000 Holy魔法石
+1/4000 Holy动力石
+1/4000 HolyDC攻击石
+1/4000 HolyMC石
+1/4000 HolySC石
+1/4000 HolyAcStone
+1/4000 HolyDefenseStone
+
+1/2000 祝福油
+

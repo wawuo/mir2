@@ -1,0 +1,28 @@
+[@Description]
+Have you ever heard of {TreePath/Yellow}? It's such a 
+great place to gather resources. Please travel 
+there and collect the materials I require.
+
+[@TaskDescription]
+Please collect 10 {红线's/LightSteelBlue} and {黑线's/LightSteelBlue}
+by killing {VenomSpider's/Crimson} and {GreatSpider's/Crimson}
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+红线 10
+黑线 10
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+5900
+
+[@GoldReward]
+5900

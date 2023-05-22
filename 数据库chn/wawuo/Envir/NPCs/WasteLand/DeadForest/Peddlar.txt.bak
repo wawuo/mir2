@@ -1,0 +1,96 @@
+[@MAIN]
+#SAY
+你好 旅行者。我能帮你做什么?
+ 
+<查看/@BuySell> 商店 
+<想问/@Ask> about Item
+ 
+<关闭/@exit>
+
+[@BuySell]
+#SAY
+你想购买或出售什么物品?
+
+I see you're holding: {<$TORCH>/CORAL}
+I see you're holding: {<$AMULET>/CORAL}
+
+<返回购买/@BuyBack>
+ 
+<返回/@Main>
+
+[@BuyBack]
+#SAY
+这些是仍然可以购买回来的物品.
+ 
+<返回/@Main>
+
+[@Ask]
+#SAY
+I deal with <蜡烛/candle>,<Dungeonescape/dungeonescape>,
+<随机传送卷/randomteleport>,<修复油/repairoil> 与 so on forth.
+I have heard that there are <Townteleport/townteleport> which come
+from monsters only
+ 
+<返回/@Main>
+
+[@candle]
+#SAY
+蜡烛s are needed when it's dark. without a candle
+you can not see anything-even your foot for darkness.
+ 
+<返回/@Ask>
+
+[@dungeonescape]
+#SAY
+A Dungeonescape scroll is a magic paper that moves you promptly
+to certain fields near the last village you visited.
+The power of Dungeonescape scroll is weak compared with
+城镇传送阵 scrolls but it could still save your liefe.
+ 
+<返回/@Ask>
+
+[@randomteleport]
+#SAY
+A Randomteleport scroll is a magic paper that can
+make you randonly move to another place in the same map.
+For example if you were in a dungeon 1st floor, you will
+move to another place on that floor by using the RT.
+If situation is dangerous but you still have potions, use this
+to help you out of a tight situation.
+ 
+<返回/@Ask>
+
+[@repairoil]
+#SAY
+A 修复油 makes the durabillity of you hand weapon rise,
+but this oil doesn't special repair your weapon, so
+remember that then maximum durabillity of the weapon
+goes down as time goes by.
+If the weapon at your hand was not expensive,
+repair with this oil sometimes during hunting.
+This will make hunts last longer.
+ 
+<返回/@Ask>
+
+[@townteleport]
+#SAY
+城镇传送阵 scrolls carn't be made now because the ancient
+skill is lost.... however....
+I have heard that it may come randomly from Monsters
+and you can return to a village promptly by using it...
+ 
+<返回/@Ask>
+
+[Types]
+8
+12
+
+[Trade]
+蜡烛
+火炬
+随机传送卷
+地牢逃脱
+护身符
+修复油
+绿毒
+红色毒药

@@ -1,0 +1,156 @@
+;Gold
+1/1 Gold 25000
+
+;Pots + Other 
+1/1 (HP)药物中量 
+1/1 (MP)药物中量 
+1/1 (HP)药物中量 
+1/1 (MP)药物中量 
+1/2 太阳药水 
+1/2 太阳药水 
+1/2 太阳药水(中) 
+1/2 太阳药水(中)
+1/30 解毒药水(S) 
+1/30 魔药(小) 
+1/30 道教药物(S) 
+1/30 风暴药(S) 
+1/30 肌力辅助剂(S) 
+1/30 魔法援助(S)
+
+1/20 祝福油 
+
+1/30 Awakeningbox
+1/50 觉醒的灵魂0
+
+;Weapons
+1/20 钩状剑 
+1/20 三叉戟
+1/20 速度的刀刃 
+1/20 弯刀 
+1/30 钢斧 
+1/30 钢剑 
+1/50 王子匕首 
+1/50 武术剑 
+1/50 钩镰枪
+1/50 铁刀 
+1/50 克利斯之剑
+1/30 复合弓
+
+;Weapons Rare
+1/100 骨弓
+
+1/100 骨头Decapitator 
+
+;Armour
+1/15 轻甲(男) 
+1/15 轻甲(女)
+
+;Armour Rare
+1/40 中型护甲(男)
+1/40 中型护甲(女)
+1/100 骨头Robe(男)
+1/100 骨头Robe(女)
+
+;Helmets
+1/25 魔法头盔
+
+;Helmets Rare
+1/100 骨头Hood 
+
+;Necklace
+1/10 黑色项链 
+1/10 黑檀木项链 
+1/10 黄色项链 
+1/25 娜迦项链 
+1/25 琥珀项链 
+1/25 凤凰珠 
+1/20 灯笼项链 
+1/25 战士项链
+
+;Bracelets
+1/30 大手镯 
+1/25 硬手套 
+1/25 魔法手镯 
+1/70 黑檀木手镯 
+1/70 和尚手链 
+1/70 应变手镯 
+1/100 锋利的手镯 
+
+;Rings
+1/10 蓝戒指 
+1/40 黑戒指 
+1/40 蛇眼戒指 
+1/40 珍珠戒指 
+1/50 金戒指 
+1/45 骷髅戒指 
+
+
+;Shields
+1/50 RustyShield
+1/70 RustlessShield
+1/550 DruidShield
+1/650 PaladinShield
+1/700 KryptoniteShield
+1/800 AfflictedShield
+
+
+;Stone
+1/30 健康石(M) 
+1/30 魔法石(M) 
+1/30 动力石(M)
+1/50 DC攻击石(M) 
+1/50 MC石(M) 
+1/50 SC石(M)
+
+;Stone Rare
+1/40 ACStone(男)
+1/40 AMC石(M)
+1/40 DefenseStone(男)
+
+
+;Books
+;Warrior
+1/10 击剑
+1/20 杀人
+1/30 刺杀
+1/40 半月形
+
+;Wizard
+1/10 火球
+1/20 斥力 
+1/30 地狱之火
+1/40 大火球
+1/40 电击
+1/40 霹雳火 
+
+;Taoist
+1/10 疗伤
+1/16 精神之剑
+1/20 中毒
+1/30 大火球
+
+;Assassin 
+1/10 致命之剑
+1/40 双击
+1/40 障碍物
+
+;Archer
+1/10 焦点
+1/15 直击
+1/20 精神状态
+
+
+;CraftingMaterials
+1/5 骨头 
+1/5 骨头 
+1/10 大骨
+1/2  BraveryFragment
+1/2  MagicFragment
+1/2  SoulFragment
+1/2  ProtectionFragment
+1/2  EvilSlayerFragment
+1/2  DurabilityFragment
+
+;Quests
+1/1 骨头Heart Q
+1/1 OmaNaturalMap Q

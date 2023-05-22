@@ -1,0 +1,38 @@
+[@MAIN]
+#IF
+CHECK [539] 1
+#ACT
+GOTO @MAIN-1
+#ELSEACT
+GOTO @MAIN-2
+
+[@MAIN-1]
+#SAY
+你好 again traveler.. How are you on this fine day? 
+ 
+<关闭/@exit>
+
+[@MAIN-2]
+#IF
+CHECKQUEST 155 1
+#SAY
+Well you have proven yourself to me. 
+I shall inform those will <listen/@listen>.
+<关闭/@exit>
+#ELSESAY
+How can I trust you? I don't even know who you are.
+Maybe you could do something for me? 
+ 
+<关闭/@exit>
+
+[@listen]
+#ACT
+SET [539] 1
+#SAY
+Farewell traveler.
+ 
+<关闭/@exit>
+
+[Quests]
+155
+-155

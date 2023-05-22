@@ -1,0 +1,32 @@
+[@Description]
+I lost my bag because of the insects in the cave.
+They took all my belongings. Could you please
+get my stuff back? 
+
+[@TaskDescription]
+Kill {VoiletKekTal/Crimson}, {KekTal/Crimson} and {BlueHoroBlaster's/Crimson} 
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+采集手套 1
+采集工具 1
+绿草 5
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+硬钢剑
+乌木手镯
+和尚手镯
+丝绸鞋
+
+[@ExpReward]
+3800
+
+[@GoldReward]
+950

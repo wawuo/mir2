@@ -1,0 +1,46 @@
+;Gold
+1/15 Gold 1600
+
+;Potions
+1/5 (HP)药物大量 
+1/5 (MP)药物大量 
+1/5 (HP)药物大量 
+1/5 (MP)药物大量 
+
+1/25 解毒药水(M) 
+1/25 魔药(中) 
+1/25 道教药物(M) 
+1/25 风暴药(M) 
+1/25 肌力辅助剂(M) 
+1/25 魔法援助(M) 
+
+;Nothing
+1/100 入场券
+
+
+;Helmet Rare
+1/1600 ExternalHelmet
+
+
+;Necklaces Rare
+1/1600 ExternalNecklace
+
+
+;Bracelets Rare
+1/1600 ExternalWheel
+
+
+;Ring Rare
+1/1600 ExternalRing
+
+
+;Shoes Rare
+1/1500 ExternalBoots
+
+
+;Belts Rare
+1/1500 ExternalBelt
+
+
+;Quests
+1/10 Fox头骨 Q

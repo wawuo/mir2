@@ -1,0 +1,12 @@
+[Recipe]
+Amount 1
+Chance 100
+Gold 1000
+
+[Tools]
+
+[Ingredients]
+蜘蛛牙 10
+蛇眼戒指
+银矿 1 12000
+蜘蛛网 15

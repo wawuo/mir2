@@ -1,0 +1,1182 @@
+;Level 1
+;Gold
+1/4 Gold 1275 LV1
+
+;Pots + Other
+1/10 (HP)药物XL LV1
+1/10 (MP)药物XL LV1
+1/150 神秘之水 LV1
+
+;Weapons
+1/1500 力量斧 LV1
+1/1500 长弓 LV1
+1/2000 净化者之剑 LV1
+1/2000 武术剑 LV1
+1/2000 钩镰枪 LV1
+1/2000 克利斯之剑 LV1
+
+;Armour
+1/15000 钢制盔甲(男) LV1
+1/15000 钢制盔甲(女) LV1
+1/15000 龙袍(男) LV1
+1/15000 龙袍(女) LV1
+1/15000 泰坦巨人盔甲(男) LV1
+1/15000 泰坦巨人盔甲(女) LV1
+1/50000 黑虎盔甲(男) LV1
+1/50000 黑虎盔甲(女) LV1
+1/50000 莲花盔甲(女) LV1
+1/50000 莲花盔甲(男) LV1
+1/50000 仙鹤盔甲(女) LV1
+1/50000 仙鹤盔甲(男) LV1
+
+;Helmets
+1/10000 伟大的头盔 LV1
+1/10000 道冠 LV1
+1/10000 智慧头盔 LV1
+1/10000 MajesticHelmet LV1
+
+;Helmets Rare
+1/1500 MysteryCap[1d] LV1
+
+;Necklace
+1/3700 英雄项链 LV1
+1/3700 金刚石项链 LV1
+1/3700 安魂曲项链 LV1
+
+;Bracelets
+1/6000 炼金术士 LV1
+1/6000 八卦轮 LV1
+1/6000 吊马轮 LV1
+1/6000 福马轮 LV1
+1/7500 白塔手套 LV1
+1/7500 灵魂改造者 LV1
+1/7500 圣道轮 LV1
+
+;Bracelets Rare
+1/1300 神秘的轮子[1d] LV1
+
+;Rings
+1/3500 高贵之环 LV1
+1/3500 灵魂之环 LV1
+1/3500 大马精神之环 LV1
+1/5500 泰戈尔指环 LV1
+1/5500 雷霆之心 LV1
+1/5500 无边无际指环 LV1
+1/5500 MajesticRing LV1
+
+;Rings Rare
+1/1500 神秘戒指[1d] LV1
+
+;Shoes
+1/700 丝绸靴 LV1
+
+;Belts
+1/900 青铜腰带 LV1
+
+;Shields
+1/20000 PredatorShield LV1
+1/35000 PlasmaShield LV1
+
+;Medals
+1/25000 ArmouredMedal LV1
+1/30000 HollowMedal LV1
+
+;Pads
+1/1800 MysteriousGuards[1d] LV1
+
+;Stone
+1/500 DC攻击石(L) LV1
+1/500 MC石(L) LV1
+1/500 SC石(L) LV1
+1/1500 DC攻击石(XL) LV1
+1/1500 MC石(XL) LV1
+1/1500 SC石(XL) LV1
+1/3500 ItemMineJewl[1d] LV1
+1/3500 ExperienceMineJewl[1d] LV1
+1/5000 BloodJewl[1d] LV1
+
+;Books
+;Warrior
+1/5000 杀人 LV1
+1/5200 刺杀 LV1
+1/8000 半月形 LV1
+1/8500 肩部冲刺 LV1
+
+;Wizard
+1/5000 斥力 LV1
+1/5000 电击 LV1
+1/8000 大火球 LV1
+1/8000 地狱之火 LV1
+1/8000 霹雳火 LV1
+1/8000 传送 LV1
+1/10000 火焰弹 LV1
+1/10500 火墙 LV1
+
+;Taoist
+1/5000 精神之剑 LV1
+1/5000 中毒 LV1
+1/8000 大火球 LV1
+1/8000 召唤骷髅 LV1
+1/8500 隐身 LV1
+1/8500 范围隐身 LV1
+1/8500 灵魂盾牌 LV1
+1/10000 启示 LV1
+1/10000 受祝福的盔甲 LV1
+
+;Assassion
+1/5000 致命之剑 LV1
+1/8000 双击 LV1
+1/8000 障碍物 LV1
+1/10000 轻功 LV1
+
+;Archer
+1/5000 焦点 LV1
+1/5000 直击 LV1
+1/5000 精神状态 LV1
+1/8000 双响炮 LV1
+1/8000 冥想 LV1
+1/8000 元素射击 LV1
+1/10000 爆炸性陷阱 LV1
+1/10000 专注力 LV1
+1/10000 吸血鬼射击 LV1
+
+;Gems
+1/3200 耐用性宝石 LV1
+1/3200 保护宝石 LV1
+1/3200 屠龙宝典 LV1
+
+;Level 2
+;Gold
+1/4 Gold 1275 LV2
+
+;Pots + Other
+1/10 (HP)药物XL LV2
+1/10 (MP)药物XL LV2
+1/150 神秘之水 LV2
+
+;Weapons
+1/1500 力量斧 LV2
+1/1500 长弓 LV2
+1/2000 净化者之剑 LV2
+1/2000 武术剑 LV2
+1/2000 钩镰枪 LV2
+1/2000 克利斯之剑 LV2
+
+;Armour
+1/15000 钢制盔甲(男) LV2
+1/15000 钢制盔甲(女) LV2
+1/15000 龙袍(男) LV2
+1/15000 龙袍(女) LV2
+1/15000 泰坦巨人盔甲(男) LV2
+1/15000 泰坦巨人盔甲(女) LV2
+1/50000 黑虎盔甲(男) LV2
+1/50000 黑虎盔甲(女) LV2
+1/50000 莲花盔甲(女) LV2
+1/50000 莲花盔甲(男) LV2
+1/50000 仙鹤盔甲(女) LV2
+1/50000 仙鹤盔甲(男) LV2
+
+;Helmets
+1/10000 伟大的头盔 LV2
+1/10000 道冠 LV2
+1/10000 智慧头盔 LV2
+1/10000 MajesticHelmet LV2
+
+;Helmets Rare
+1/1500 MysteryCap[1d] LV2
+
+;Necklace
+1/3700 英雄项链 LV2
+1/3700 金刚石项链 LV2
+1/3700 安魂曲项链 LV2
+
+;Bracelets
+1/6000 炼金术士 LV2
+1/6000 八卦轮 LV2
+1/6000 吊马轮 LV2
+1/6000 福马轮 LV2
+1/7500 白塔手套 LV2
+1/7500 灵魂改造者 LV2
+1/7500 圣道轮 LV2
+
+;Bracelets Rare
+1/1300 神秘的轮子[1d] LV2
+
+;Rings
+1/3500 高贵之环 LV2
+1/3500 灵魂之环 LV2
+1/3500 大马精神之环 LV2
+1/5500 泰戈尔指环 LV2
+1/5500 雷霆之心 LV2
+1/5500 无边无际指环 LV2
+1/5500 MajesticRing LV2
+
+;Rings Rare
+1/1500 神秘戒指[1d] LV2
+
+;Shoes
+1/700 丝绸靴 LV2
+
+;Belts
+1/900 青铜腰带 LV2
+
+;Shields
+1/20000 PredatorShield LV2
+1/35000 PlasmaShield LV2
+
+;Medals
+1/25000 ArmouredMedal LV2
+1/30000 HollowMedal LV2
+
+;Pads
+1/1800 MysteriousGuards[1d] LV2
+
+;Stone
+1/500 DC攻击石(L) LV2
+1/500 MC石(L) LV2
+1/500 SC石(L) LV2
+1/1500 DC攻击石(XL) LV2
+1/1500 MC石(XL) LV2
+1/1500 SC石(XL) LV2
+1/3500 ItemMineJewl[1d] LV2
+1/3500 ExperienceMineJewl[1d] LV2
+1/5000 BloodJewl[1d] LV2
+
+;Books
+;Warrior
+1/5000 杀人 LV2
+1/5200 刺杀 LV2
+1/8000 半月形 LV2
+1/8500 肩部冲刺 LV2
+
+;Wizard
+1/5000 斥力 LV2
+1/5000 电击 LV2
+1/8000 大火球 LV2
+1/8000 地狱之火 LV2
+1/8000 霹雳火 LV2
+1/8000 传送 LV2
+1/10000 火焰弹 LV2
+1/10500 火墙 LV2
+
+;Taoist
+1/5000 精神之剑 LV2
+1/5000 中毒 LV2
+1/8000 大火球 LV2
+1/8000 召唤骷髅 LV2
+1/8500 隐身 LV2
+1/8500 范围隐身 LV2
+1/8500 灵魂盾牌 LV2
+1/10000 启示 LV2
+1/10000 受祝福的盔甲 LV2
+
+;Assassion
+1/5000 致命之剑 LV2
+1/8000 双击 LV2
+1/8000 障碍物 LV2
+1/10000 轻功 LV2
+
+;Archer
+1/5000 焦点 LV2
+1/5000 直击 LV2
+1/5000 精神状态 LV2
+1/8000 双响炮 LV2
+1/8000 冥想 LV2
+1/8000 元素射击 LV2
+1/10000 爆炸性陷阱 LV2
+1/10000 专注力 LV2
+1/10000 吸血鬼射击 LV2
+
+;Gems
+1/3200 耐用性宝石 LV2
+1/3200 保护宝石 LV2
+1/3200 屠龙宝典 LV2
+
+
+;Level 3
+;Gold
+1/4 Gold 1275 LV3
+
+;Pots + Other
+1/10 (HP)药物XL LV3
+1/10 (MP)药物XL LV3
+1/150 神秘之水 LV3
+
+;Weapons
+1/1500 力量斧 LV3
+1/1500 长弓 LV3
+1/2000 净化者之剑 LV3
+1/2000 武术剑 LV3
+1/2000 钩镰枪 LV3
+1/2000 克利斯之剑 LV3
+
+;Armour
+1/15000 钢制盔甲(男) LV3
+1/15000 钢制盔甲(女) LV3
+1/15000 龙袍(男) LV3
+1/15000 龙袍(女) LV3
+1/15000 泰坦巨人盔甲(男) LV3
+1/15000 泰坦巨人盔甲(女) LV3
+1/50000 黑虎盔甲(男) LV3
+1/50000 黑虎盔甲(女) LV3
+1/50000 莲花盔甲(女) LV3
+1/50000 莲花盔甲(男) LV3
+1/50000 仙鹤盔甲(女) LV3
+1/50000 仙鹤盔甲(男) LV3
+
+;Helmets
+1/10000 伟大的头盔 LV3
+1/10000 道冠 LV3
+1/10000 智慧头盔 LV3
+1/10000 MajesticHelmet LV3
+
+;Helmets Rare
+1/1500 MysteryCap[1d] LV3
+
+;Necklace
+1/3700 英雄项链 LV3
+1/3700 金刚石项链 LV3
+1/3700 安魂曲项链 LV3
+
+;Bracelets
+1/6000 炼金术士 LV3
+1/6000 八卦轮 LV3
+1/6000 吊马轮 LV3
+1/6000 福马轮 LV3
+1/7500 白塔手套 LV3
+1/7500 灵魂改造者 LV3
+1/7500 圣道轮 LV3
+
+;Bracelets Rare
+1/1300 神秘的轮子[1d] LV3
+
+;Rings
+1/3500 高贵之环 LV3
+1/3500 灵魂之环 LV3
+1/3500 大马精神之环 LV3
+1/5500 泰戈尔指环 LV3
+1/5500 雷霆之心 LV3
+1/5500 无边无际指环 LV3
+1/5500 MajesticRing LV3
+
+;Rings Rare
+1/1500 神秘戒指[1d] LV3
+
+;Shoes
+1/700 丝绸靴 LV3
+
+;Belts
+1/900 青铜腰带 LV3
+
+;Shields
+1/20000 PredatorShield LV3
+1/35000 PlasmaShield LV3
+
+;Medals
+1/25000 ArmouredMedal LV3
+1/30000 HollowMedal LV3
+
+;Pads
+1/1800 MysteriousGuards[1d] LV3
+
+;Stone
+1/500 DC攻击石(L) LV3
+1/500 MC石(L) LV3
+1/500 SC石(L) LV3
+1/1500 DC攻击石(XL) LV3
+1/1500 MC石(XL) LV3
+1/1500 SC石(XL) LV3
+1/3500 ItemMineJewl[1d] LV3
+1/3500 ExperienceMineJewl[1d] LV3
+1/5000 BloodJewl[1d] LV3
+
+;Books
+;Warrior
+1/5000 杀人 LV3
+1/5200 刺杀 LV3
+1/8000 半月形 LV3
+1/8500 肩部冲刺 LV3
+
+;Wizard
+1/5000 斥力 LV3
+1/5000 电击 LV3
+1/8000 大火球 LV3
+1/8000 地狱之火 LV3
+1/8000 霹雳火 LV3
+1/8000 传送 LV3
+1/10000 火焰弹 LV3
+1/10500 火墙 LV3
+
+;Taoist
+1/5000 精神之剑 LV3
+1/5000 中毒 LV3
+1/8000 大火球 LV3
+1/8000 召唤骷髅 LV3
+1/8500 隐身 LV3
+1/8500 范围隐身 LV3
+1/8500 灵魂盾牌 LV3
+1/10000 启示 LV3
+1/10000 受祝福的盔甲 LV3
+
+;Assassion
+1/5000 致命之剑 LV3
+1/8000 双击 LV3
+1/8000 障碍物 LV3
+1/10000 轻功 LV3
+
+;Archer
+1/5000 焦点 LV3
+1/5000 直击 LV3
+1/5000 精神状态 LV3
+1/8000 双响炮 LV3
+1/8000 冥想 LV3
+1/8000 元素射击 LV3
+1/10000 爆炸性陷阱 LV3
+1/10000 专注力 LV3
+1/10000 吸血鬼射击 LV3
+
+;Gems
+1/3200 耐用性宝石 LV3
+1/3200 保护宝石 LV3
+1/3200 屠龙宝典 LV3
+
+
+;Level 4
+;Gold
+1/4 Gold 1275 LV4
+
+;Pots + Other
+1/10 (HP)药物XL LV4
+1/10 (MP)药物XL LV4
+1/150 神秘之水 LV4
+
+;Weapons
+1/1500 力量斧 LV4
+1/1500 长弓 LV4
+1/2000 净化者之剑 LV4
+1/2000 武术剑 LV4
+1/2000 钩镰枪 LV4
+1/2000 克利斯之剑 LV4
+
+;Armour
+1/15000 钢制盔甲(男) LV4
+1/15000 钢制盔甲(女) LV4
+1/15000 龙袍(男) LV4
+1/15000 龙袍(女) LV4
+1/15000 泰坦巨人盔甲(男) LV4
+1/15000 泰坦巨人盔甲(女) LV4
+1/50000 黑虎盔甲(男) LV4
+1/50000 黑虎盔甲(女) LV4
+1/50000 莲花盔甲(女) LV4
+1/50000 莲花盔甲(男) LV4
+1/50000 仙鹤盔甲(女) LV4
+1/50000 仙鹤盔甲(男) LV4
+
+;Helmets
+1/10000 伟大的头盔 LV4
+1/10000 道冠 LV4
+1/10000 智慧头盔 LV4
+1/10000 MajesticHelmet LV4
+
+;Helmets Rare
+1/1500 MysteryCap[1d] LV4
+
+;Necklace
+1/3700 英雄项链 LV4
+1/3700 金刚石项链 LV4
+1/3700 安魂曲项链 LV4
+
+;Bracelets
+1/6000 炼金术士 LV4
+1/6000 八卦轮 LV4
+1/6000 吊马轮 LV4
+1/6000 福马轮 LV4
+1/7500 白塔手套 LV4
+1/7500 灵魂改造者 LV4
+1/7500 圣道轮 LV4
+
+;Bracelets Rare
+1/1300 神秘的轮子[1d] LV4
+
+;Rings
+1/3500 高贵之环 LV4
+1/3500 灵魂之环 LV4
+1/3500 大马精神之环 LV4
+1/5500 泰戈尔指环 LV4
+1/5500 雷霆之心 LV4
+1/5500 无边无际指环 LV4
+1/5500 MajesticRing LV4
+
+;Rings Rare
+1/1500 神秘戒指[1d] LV4
+
+;Shoes
+1/700 丝绸靴 LV4
+
+;Belts
+1/900 青铜腰带 LV4
+
+;Shields
+1/20000 PredatorShield LV4
+1/35000 PlasmaShield LV4
+
+;Medals
+1/25000 ArmouredMedal LV4
+1/30000 HollowMedal LV4
+
+;Pads
+1/1800 MysteriousGuards[1d] LV4
+
+;Stone
+1/500 DC攻击石(L) LV4
+1/500 MC石(L) LV4
+1/500 SC石(L) LV4
+1/1500 DC攻击石(XL) LV4
+1/1500 MC石(XL) LV4
+1/1500 SC石(XL) LV4
+1/3500 ItemMineJewl[1d] LV4
+1/3500 ExperienceMineJewl[1d] LV4
+1/5000 BloodJewl[1d] LV4
+
+;Books
+;Warrior
+1/5000 杀人 LV4
+1/5200 刺杀 LV4
+1/8000 半月形 LV4
+1/8500 肩部冲刺 LV4
+
+;Wizard
+1/5000 斥力 LV4
+1/5000 电击 LV4
+1/8000 大火球 LV4
+1/8000 地狱之火 LV4
+1/8000 霹雳火 LV4
+1/8000 传送 LV4
+1/10000 火焰弹 LV4
+1/10500 火墙 LV4
+
+;Taoist
+1/5000 精神之剑 LV4
+1/5000 中毒 LV4
+1/8000 大火球 LV4
+1/8000 召唤骷髅 LV4
+1/8500 隐身 LV4
+1/8500 范围隐身 LV4
+1/8500 灵魂盾牌 LV4
+1/10000 启示 LV4
+1/10000 受祝福的盔甲 LV4
+
+;Assassion
+1/5000 致命之剑 LV4
+1/8000 双击 LV4
+1/8000 障碍物 LV4
+1/10000 轻功 LV4
+
+;Archer
+1/5000 焦点 LV4
+1/5000 直击 LV4
+1/5000 精神状态 LV4
+1/8000 双响炮 LV4
+1/8000 冥想 LV4
+1/8000 元素射击 LV4
+1/10000 爆炸性陷阱 LV4
+1/10000 专注力 LV4
+1/10000 吸血鬼射击 LV4
+
+;Gems
+1/3200 耐用性宝石 LV4
+1/3200 保护宝石 LV4
+1/3200 屠龙宝典 LV4
+
+
+;Level 5
+;Gold
+1/4 Gold 1275 LV5
+
+;Pots + Other
+1/10 (HP)药物XL LV5
+1/10 (MP)药物XL LV5
+1/150 神秘之水 LV5
+
+;Weapons
+1/1500 力量斧 LV5
+1/1500 长弓 LV5
+1/2000 净化者之剑 LV5
+1/2000 武术剑 LV5
+1/2000 钩镰枪 LV5
+1/2000 克利斯之剑 LV5
+
+;Armour
+1/15000 钢制盔甲(男) LV5
+1/15000 钢制盔甲(女) LV5
+1/15000 龙袍(男) LV5
+1/15000 龙袍(女) LV5
+1/15000 泰坦巨人盔甲(男) LV5
+1/15000 泰坦巨人盔甲(女) LV5
+1/50000 黑虎盔甲(男) LV5
+1/50000 黑虎盔甲(女) LV5
+1/50000 莲花盔甲(女) LV5
+1/50000 莲花盔甲(男) LV5
+1/50000 仙鹤盔甲(女) LV5
+1/50000 仙鹤盔甲(男) LV5
+
+;Helmets
+1/10000 伟大的头盔 LV5
+1/10000 道冠 LV5
+1/10000 智慧头盔 LV5
+1/10000 MajesticHelmet LV5
+
+;Helmets Rare
+1/1500 MysteryCap[1d] LV5
+
+;Necklace
+1/3700 英雄项链 LV5
+1/3700 金刚石项链 LV5
+1/3700 安魂曲项链 LV5
+
+;Bracelets
+1/6000 炼金术士 LV5
+1/6000 八卦轮 LV5
+1/6000 吊马轮 LV5
+1/6000 福马轮 LV5
+1/7500 白塔手套 LV5
+1/7500 灵魂改造者 LV5
+1/7500 圣道轮 LV5
+
+;Bracelets Rare
+1/1300 神秘的轮子[1d] LV5
+
+;Rings
+1/3500 高贵之环 LV5
+1/3500 灵魂之环 LV5
+1/3500 大马精神之环 LV5
+1/5500 泰戈尔指环 LV5
+1/5500 雷霆之心 LV5
+1/5500 无边无际指环 LV5
+1/5500 MajesticRing LV5
+
+;Rings Rare
+1/1500 神秘戒指[1d] LV5
+
+;Shoes
+1/700 丝绸靴 LV5
+
+;Belts
+1/900 青铜腰带 LV5
+
+;Shields
+1/20000 PredatorShield LV5
+1/35000 PlasmaShield LV5
+
+;Medals
+1/25000 ArmouredMedal LV5
+1/30000 HollowMedal LV5
+
+;Pads
+1/1800 MysteriousGuards[1d] LV5
+
+;Stone
+1/500 DC攻击石(L) LV5
+1/500 MC石(L) LV5
+1/500 SC石(L) LV5
+1/1500 DC攻击石(XL) LV5
+1/1500 MC石(XL) LV5
+1/1500 SC石(XL) LV5
+1/3500 ItemMineJewl[1d] LV5
+1/3500 ExperienceMineJewl[1d] LV5
+1/5000 BloodJewl[1d] LV5
+
+;Books
+;Warrior
+1/5000 杀人 LV5
+1/5200 刺杀 LV5
+1/8000 半月形 LV5
+1/8500 肩部冲刺 LV5
+
+;Wizard
+1/5000 斥力 LV5
+1/5000 电击 LV5
+1/8000 大火球 LV5
+1/8000 地狱之火 LV5
+1/8000 霹雳火 LV5
+1/8000 传送 LV5
+1/10000 火焰弹 LV5
+1/10500 火墙 LV5
+
+;Taoist
+1/5000 精神之剑 LV5
+1/5000 中毒 LV5
+1/8000 大火球 LV5
+1/8000 召唤骷髅 LV5
+1/8500 隐身 LV5
+1/8500 范围隐身 LV5
+1/8500 灵魂盾牌 LV5
+1/10000 启示 LV5
+1/10000 受祝福的盔甲 LV5
+
+;Assassion
+1/5000 致命之剑 LV5
+1/8000 双击 LV5
+1/8000 障碍物 LV5
+1/10000 轻功 LV5
+
+;Archer
+1/5000 焦点 LV5
+1/5000 直击 LV5
+1/5000 精神状态 LV5
+1/8000 双响炮 LV5
+1/8000 冥想 LV5
+1/8000 元素射击 LV5
+1/10000 爆炸性陷阱 LV5
+1/10000 专注力 LV5
+1/10000 吸血鬼射击 LV5
+
+;Gems
+1/3200 耐用性宝石 LV5
+1/3200 保护宝石 LV5
+1/3200 屠龙宝典 LV5
+
+
+;Level 6
+;Gold
+1/4 Gold 1275 LV6
+
+;Pots + Other
+1/10 (HP)药物XL LV6
+1/10 (MP)药物XL LV6
+1/150 神秘之水 LV6
+
+;Weapons
+1/1500 长弓 LV6
+1/1500 力量斧 LV6
+1/2000 净化者之剑 LV6
+1/2000 武术剑 LV6
+1/2000 钩镰枪 LV6
+1/2000 克利斯之剑 LV6
+
+;Armour
+1/15000 钢制盔甲(男) LV6
+1/15000 钢制盔甲(女) LV6
+1/15000 龙袍(男) LV6
+1/15000 龙袍(女) LV6
+1/15000 泰坦巨人盔甲(男) LV6
+1/15000 泰坦巨人盔甲(女) LV6
+1/50000 黑虎盔甲(男) LV6
+1/50000 黑虎盔甲(女) LV6
+1/50000 莲花盔甲(女) LV6
+1/50000 莲花盔甲(男) LV6
+1/50000 仙鹤盔甲(女) LV6
+1/50000 仙鹤盔甲(男) LV6
+
+;Helmets
+1/10000 伟大的头盔 LV6
+1/10000 道冠 LV6
+1/10000 智慧头盔 LV6
+1/10000 MajesticHelmet LV6
+
+;Helmets Rare
+1/1500 MysteryCap[1d] LV6
+
+;Necklace
+1/3700 英雄项链 LV6
+1/3700 金刚石项链 LV6
+1/3700 安魂曲项链 LV6
+
+;Bracelets
+1/6000 炼金术士 LV6
+1/6000 八卦轮 LV6
+1/6000 吊马轮 LV6
+1/6000 福马轮 LV6
+1/7500 白塔手套 LV6
+1/7500 灵魂改造者 LV6
+1/7500 圣道轮 LV6
+
+;Bracelets Rare
+1/1300 神秘的轮子[1d] LV6
+
+;Rings
+1/3500 高贵之环 LV6
+1/3500 灵魂之环 LV6
+1/3500 大马精神之环 LV6
+1/5500 泰戈尔指环 LV6
+1/5500 雷霆之心 LV6
+1/5500 无边无际指环 LV6
+1/5500 MajesticRing LV6
+
+;Rings Rare
+1/1500 神秘戒指[1d] LV6
+
+;Shoes
+1/700 丝绸靴 LV6
+
+;Belts
+1/900 青铜腰带 LV6
+
+;Shields
+1/20000 PredatorShield LV6
+1/35000 PlasmaShield LV6
+
+;Medals
+1/25000 ArmouredMedal LV6
+1/30000 HollowMedal LV6
+
+;Pads
+1/1800 MysteriousGuards[1d] LV6
+
+;Stone
+1/500 DC攻击石(L) LV6
+1/500 MC石(L) LV6
+1/500 SC石(L) LV6
+1/1500 DC攻击石(XL) LV6
+1/1500 MC石(XL) LV6
+1/1500 SC石(XL) LV6
+1/3500 ItemMineJewl[1d] LV6
+1/3500 ExperienceMineJewl[1d] LV6
+1/5000 BloodJewl[1d] LV6
+
+;Books
+;Warrior
+1/5000 杀人 LV6
+1/5200 刺杀 LV6
+1/8000 半月形 LV6
+1/8500 肩部冲刺 LV6
+
+;Wizard
+1/5000 斥力 LV6
+1/5000 电击 LV6
+1/8000 大火球 LV6
+1/8000 地狱之火 LV6
+1/8000 霹雳火 LV6
+1/8000 传送 LV6
+1/10000 火焰弹 LV6
+1/10500 火墙 LV6
+
+;Taoist
+1/5000 精神之剑 LV6
+1/5000 中毒 LV6
+1/8000 大火球 LV6
+1/8000 召唤骷髅 LV6
+1/8500 隐身 LV6
+1/8500 范围隐身 LV6
+1/8500 灵魂盾牌 LV6
+1/10000 启示 LV6
+1/10000 受祝福的盔甲 LV6
+
+;Assassion
+1/5000 致命之剑 LV6
+1/8000 双击 LV6
+1/8000 障碍物 LV6
+1/10000 轻功 LV6
+
+;Archer
+1/5000 焦点 LV6
+1/5000 直击 LV6
+1/5000 精神状态 LV6
+1/8000 双响炮 LV6
+1/8000 冥想 LV6
+1/8000 元素射击 LV6
+1/10000 爆炸性陷阱 LV6
+1/10000 专注力 LV6
+1/10000 吸血鬼射击 LV6
+
+;Gems
+1/3200 耐用性宝石 LV6
+1/3200 保护宝石 LV6
+1/3200 屠龙宝典 LV6
+
+
+;Level 7
+;Gold
+1/4 Gold 1275 LV7
+
+;Pots + Other
+1/10 (HP)药物XL LV7
+1/10 (MP)药物XL LV7
+1/150 神秘之水 LV7
+
+;Weapons
+1/1500 长弓 LV7
+1/1500 力量斧 LV7
+1/2000 净化者之剑 LV7
+1/2000 武术剑 LV7
+1/2000 钩镰枪 LV7
+1/2000 克利斯之剑 LV7
+
+;Armour
+1/15000 钢制盔甲(男) LV7
+1/15000 钢制盔甲(女) LV7
+1/15000 龙袍(男) LV7
+1/15000 龙袍(女) LV7
+1/15000 泰坦巨人盔甲(男) LV7
+1/15000 泰坦巨人盔甲(女) LV7
+1/50000 黑虎盔甲(男) LV7
+1/50000 黑虎盔甲(女) LV7
+1/50000 莲花盔甲(女) LV7
+1/50000 莲花盔甲(男) LV7
+1/50000 仙鹤盔甲(女) LV7
+1/50000 仙鹤盔甲(男) LV7
+
+;Helmets
+1/10000 伟大的头盔 LV7
+1/10000 道冠 LV7
+1/10000 智慧头盔 LV7
+1/10000 MajesticHelmet LV7
+
+;Helmets Rare
+1/1500 MysteryCap[1d] LV7
+
+;Necklace
+1/3700 英雄项链 LV7
+1/3700 金刚石项链 LV7
+1/3700 安魂曲项链 LV7
+
+;Bracelets
+1/6000 炼金术士 LV7
+1/6000 八卦轮 LV7
+1/6000 吊马轮 LV7
+1/6000 福马轮 LV7
+1/7500 白塔手套 LV7
+1/7500 灵魂改造者 LV7
+1/7500 圣道轮 LV7
+
+;Bracelets Rare
+1/1300 神秘的轮子[1d] LV7
+
+;Rings
+1/3500 高贵之环 LV7
+1/3500 灵魂之环 LV7
+1/3500 大马精神之环 LV7
+1/5500 泰戈尔指环 LV7
+1/5500 雷霆之心 LV7
+1/5500 无边无际指环 LV7
+1/5500 MajesticRing LV7
+
+;Rings Rare
+1/1500 神秘戒指[1d] LV7
+
+;Shoes
+1/700 丝绸靴 LV7
+
+;Belts
+1/900 青铜腰带 LV7
+
+;Shields
+1/20000 PredatorShield LV7
+1/35000 PlasmaShield LV7
+
+;Medals
+1/25000 ArmouredMedal LV7
+1/30000 HollowMedal LV7
+
+;Pads
+1/1800 MysteriousGuards[1d] LV7
+
+;Stone
+1/500 DC攻击石(L) LV7
+1/500 MC石(L) LV7
+1/500 SC石(L) LV7
+1/1500 DC攻击石(XL) LV7
+1/1500 MC石(XL) LV7
+1/1500 SC石(XL) LV7
+1/3500 ItemMineJewl[1d] LV7
+1/3500 ExperienceMineJewl[1d] LV7
+1/5000 BloodJewl[1d] LV7
+
+;Books
+;Warrior
+1/5000 杀人 LV7
+1/5200 刺杀 LV7
+1/8000 半月形 LV7
+1/8500 肩部冲刺 LV7
+
+;Wizard
+1/5000 斥力 LV7
+1/5000 电击 LV7
+1/8000 大火球 LV7
+1/8000 地狱之火 LV7
+1/8000 霹雳火 LV7
+1/8000 传送 LV7
+1/10000 火焰弹 LV7
+1/10500 火墙 LV7
+
+;Taoist
+1/5000 精神之剑 LV7
+1/5000 中毒 LV7
+1/8000 大火球 LV7
+1/8000 召唤骷髅 LV7
+1/8500 隐身 LV7
+1/8500 范围隐身 LV7
+1/8500 灵魂盾牌 LV7
+1/10000 启示 LV7
+1/10000 受祝福的盔甲 LV7
+
+;Assassion
+1/5000 致命之剑 LV7
+1/8000 双击 LV7
+1/8000 障碍物 LV7
+1/10000 轻功 LV7
+
+;Archer
+1/5000 焦点 LV7
+1/5000 直击 LV7
+1/5000 精神状态 LV7
+1/8000 双响炮 LV7
+1/8000 冥想 LV7
+1/8000 元素射击 LV7
+1/10000 爆炸性陷阱 LV7
+1/10000 专注力 LV7
+1/10000 吸血鬼射击 LV7
+
+;Gems
+1/3200 耐用性宝石 LV7
+1/3200 保护宝石 LV7
+1/3200 屠龙宝典 LV7
+
+
+;Level 8
+;Gold
+1/4 Gold 1275 LV8
+
+;Pots + Other
+1/10 (HP)药物XL LV8
+1/10 (MP)药物XL LV8
+1/150 神秘之水 LV8
+
+;Weapons
+1/1500 力量斧 LV8
+1/1500 长弓 LV8
+1/2000 净化者之剑 LV8
+1/2000 武术剑 LV8
+1/2000 钩镰枪 LV8
+1/2000 克利斯之剑 LV8
+
+;Armour
+1/15000 钢制盔甲(男) LV8
+1/15000 钢制盔甲(女) LV8
+1/15000 龙袍(男) LV8
+1/15000 龙袍(女) LV8
+1/15000 泰坦巨人盔甲(男) LV8
+1/15000 泰坦巨人盔甲(女) LV8
+1/50000 黑虎盔甲(男) LV8
+1/50000 黑虎盔甲(女) LV8
+1/50000 莲花盔甲(女) LV8
+1/50000 莲花盔甲(男) LV8
+1/50000 仙鹤盔甲(女) LV8
+1/50000 仙鹤盔甲(男) LV8
+
+;Helmets
+1/10000 伟大的头盔 LV8
+1/10000 道冠 LV8
+1/10000 智慧头盔 LV8
+1/10000 MajesticHelmet LV8
+
+;Helmets Rare
+1/1500 MysteryCap[1d] LV8
+
+;Necklace
+1/3700 英雄项链 LV8
+1/3700 金刚石项链 LV8
+1/3700 安魂曲项链 LV8
+
+;Bracelets
+1/6000 炼金术士 LV8
+1/6000 八卦轮 LV8
+1/6000 吊马轮 LV8
+1/6000 福马轮 LV8
+1/7500 白塔手套 LV8
+1/7500 灵魂改造者 LV8
+1/7500 圣道轮 LV8
+
+;Bracelets Rare
+1/1300 神秘的轮子[1d] LV8
+
+;Rings
+1/3500 高贵之环 LV8
+1/3500 灵魂之环 LV8
+1/3500 大马精神之环 LV8
+1/5500 泰戈尔指环 LV8
+1/5500 雷霆之心 LV8
+1/5500 无边无际指环 LV8
+1/5500 MajesticRing LV8
+
+;Rings Rare
+1/1500 神秘戒指[1d] LV8
+
+;Shoes
+1/700 丝绸靴 LV8
+
+;Belts
+1/900 青铜腰带 LV8
+
+;Shields
+1/20000 PredatorShield LV8
+1/35000 PlasmaShield LV8
+
+;Medals
+1/25000 ArmouredMedal LV8
+1/30000 HollowMedal LV8
+
+;Pads
+1/1800 MysteriousGuards[1d] LV8
+
+;Stone
+1/500 DC攻击石(L) LV8
+1/500 MC石(L) LV8
+1/500 SC石(L) LV8
+1/1500 DC攻击石(XL) LV8
+1/1500 MC石(XL) LV8
+1/1500 SC石(XL) LV8
+1/3500 ItemMineJewl[1d] LV8
+1/3500 ExperienceMineJewl[1d] LV8
+1/5000 BloodJewl[1d] LV8
+
+;Books
+;Warrior
+1/5000 杀人 LV8
+1/5200 刺杀 LV8
+1/8000 半月形 LV8
+1/8500 肩部冲刺 LV8
+
+;Wizard
+1/5000 斥力 LV8
+1/5000 电击 LV8
+1/8000 大火球 LV8
+1/8000 地狱之火 LV8
+1/8000 霹雳火 LV8
+1/8000 传送 LV8
+1/10000 火焰弹 LV8
+1/10500 火墙 LV8
+
+;Taoist
+1/5000 精神之剑 LV8
+1/5000 中毒 LV8
+1/8000 大火球 LV8
+1/8000 召唤骷髅 LV8
+1/8500 隐身 LV8
+1/8500 范围隐身 LV8
+1/8500 灵魂盾牌 LV8
+1/10000 启示 LV8
+1/10000 受祝福的盔甲 LV8
+
+;Assassion
+1/5000 致命之剑 LV8
+1/8000 双击 LV8
+1/8000 障碍物 LV8
+1/10000 轻功 LV8
+
+;Archer
+1/5000 焦点 LV8
+1/5000 直击 LV8
+1/5000 精神状态 LV8
+1/8000 双响炮 LV8
+1/8000 冥想 LV8
+1/8000 元素射击 LV8
+1/10000 爆炸性陷阱 LV8
+1/10000 专注力 LV8
+1/10000 吸血鬼射击 LV8
+
+;Gems
+1/3200 耐用性宝石 LV8
+1/3200 保护宝石 LV8
+1/3200 屠龙宝典 LV8
+

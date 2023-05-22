@@ -1,0 +1,67 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人...
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+Welcome, 欢迎。我能为你做什么?
+我看到你正穿着: 
+{左: <$RING_L> 右: <$RING_R>/CORAL}
+{左: <$BRACELET_L> 右: <$BRACELET_R>/CORAL}
+{<$NECKLACE>/CORAL}
+
+
+<查看/@BuySell> 商店
+<修理/@Repair> Jewellery.
+ 
+<关闭/@exit>
+
+[@BuySell]
+#SAY
+Which item would you like to出售或购买?
+<返回 购买/@BuyBack>
+ 
+<返回/@main>
+
+[@BuyBack]
+#SAY
+这些是仍然可以购买回来的物品.
+ 
+<返回/@main>
+
+[@Repair]
+#SAY
+You can repair various kinds of Jewellery.
+  
+<返回/@main>
+
+[Types]
+5
+6
+7
+
+[Trade]
+娜迦项链
+凤凰珠
+琥珀项链
+灯笼项链
+喇叭戒指
+铁戒指
+白玉戒指
+蓝戒指
+黑戒指
+蛇眼戒指
+珍珠戒指
+金戒指
+钢制手镯
+大手镯
+应变手镯
+和尚手链
+黑檀木手镯

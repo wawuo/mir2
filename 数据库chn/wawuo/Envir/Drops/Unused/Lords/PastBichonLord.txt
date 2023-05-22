@@ -1,0 +1,246 @@
+;Gold
+1/1 Gold 90000 
+
+1/1 (HP)药物XL 
+1/1 (HP)药物XL 
+1/1 (MP)药物XL 
+1/1 (MP)药物XL 
+1/1 太阳药水 
+1/2 太阳药水 
+1/1 太阳药水(中) 
+1/2 太阳药水(中) 
+1/1 太阳药水 
+1/1 太阳药水 
+1/1 太阳药水 
+1/1 太阳药水 
+1/1 太阳药水 
+1/1 太阳药水 
+1/1 太阳药水 
+1/2 太阳药水 
+
+1/1 祝福油 
+
+
+1/1 Awakeningbox 
+1/1 觉醒的灵魂0 
+
+;Weapons
+1/50 冰封之剑 
+1/50 狰狞之弓
+1/50 征服者之矛 
+1/50 混蛋之剑 
+1/100 黑虎之锤 
+1/100 洛托斯之杖 
+1/100 致命之弓
+1/100 鹤鸣扇 
+
+;Weapon Rare
+1/3000 Evil米尔剑
+1/3000 EvilMirStaff
+1/3000 EvilMirFan
+1/3000 EvilMirBlades
+1/3000 LordSlayerBlade
+1/3000 LordSlayerStaff
+1/3000 LordSlayerFan
+1/3000 LordSlayerBlades
+
+;Armour
+1/100 黑虎盔甲(男) 
+1/100 黑虎盔甲(女) 
+1/100 莲花盔甲(男) 
+1/100 莲花盔甲(女) 
+1/100 仙鹤盔甲(男) 
+1/100 仙鹤盔甲(女) 
+1/200 WatcherSuit(男) 
+1/200 WatcherSuit(女) 
+
+;Armour Rare
+1/700 天堂之铠(男) 
+1/700 天堂之铠(女) 
+1/700 HeavenArcheyRobe(男)
+1/700 HeavenArcheyRobe(女)
+1/750 天堂之铠(男) 
+1/750 天堂之铠(女) 
+1/750 HeavenRedArmour(男) 
+1/750 HeavenRedArmour(女) 
+1/750 HeavenGrnArmour(男) 
+1/750 HeavenGrnArmour(女) 
+1/750 HeavenGoldArmour(男) 
+1/750 HeavenGoldArmour(女) 
+1/3000 Evil铠甲(男) 
+1/3000 Evil铠甲(女) 
+1/3000 LordSlayerArmour(男)
+1/3000 LordSlayerArmour(女)
+
+;Helmets
+1/20 闪亮的头盔 
+1/25 PuiYuHelmet 
+
+;Helmets Rare
+1/3000 Evil米尔头盔
+1/3000 LordSlayerHelmet 
+
+;Necklace
+1/75 残缺的项链 
+1/75 巫术之锚 
+1/75 净化的镜子 
+1/150 邪恶三角 
+1/150 净化的十字架 
+1/150 金刚项链 
+
+;Necklace Rare
+1/3000 Evil米尔项链 
+1/3000 LordSlayerNecklace
+
+;Bracelets
+1/50 双天王护身符 
+1/50 神圣护身符 
+1/50 诅咒护身符 
+1/100 WildTitan护身符 
+1/100 Enchanted护身符 
+1/100 FiveElement护身符 
+
+
+;Bracelets Rare
+1/3000 Evil米尔轮
+1/3000 LordSlayerBracelet 
+
+;Rings
+1/50 誓约环 
+1/50 五元素戒指 
+1/50 红宝戒指 
+1/100 恶魔之戒 
+1/100 驱邪戒指 
+1/100 Gold龙戒 
+
+
+;Rings Rare
+1/3000 Evil米尔戒指 
+1/3000 LordSlayerRing
+
+
+;Shoes
+1/20 闪光的鞋子
+
+
+;Shoes Rare
+1/3000 Evil腰带 
+1/3000 LordSlayerBoots
+
+
+;Belts
+1/20 闪亮的腰带 
+
+;Belts Rare
+1/3000 Evil米尔靴 
+1/3000 LordSlayerBelt
+
+;Medals
+1/215 AchievementMedal 
+1/215 ArmouredMedal 
+1/215 MedalofHonor 
+
+
+;Medals Rare
+1/315 OffensiveMedal 
+1/315 DefensiveMedal 
+1/3000 EvilMirMedal 
+
+
+;Shields
+1/200 MidnightShield 
+
+
+;Shields Rare 
+1/440 LunarPlate 
+1/3000 EvilMirShield
+
+;Pads
+1/200 EvolutionPads[14d] 
+1/215 MinoGuards[14d] 
+1/3000 EvilMirGuards 
+
+
+
+;Books
+;Warrior
+1/105 火焰之剑 
+1/110 狮子吼 
+1/115 BladeStorm 
+1/120 十字半月 
+1/125 刀锋雪崩 
+1/130 保护场 
+1/135 愤怒 
+1/140 反击 
+1/145 斩击爆裂 
+1/150 怒击 
+1/155 不朽的皮肤 
+
+
+;Wizard
+1/90 吸血术 
+1/105 冰风暴 
+1/110 火焰破坏者 
+1/115 镜像 
+1/120 火焰场 
+1/125 暴风雪 
+1/130 FrozenRains 
+1/135 魔力助推器 
+1/140 流星打击 
+1/145 LavaKing 
+1/150 冰刺 
+1/155 风暴逃逸 
+1/160 快速移动 
+
+
+;Taoist
+1/90 终极强化器 
+1/100治愈圈 
+1/105 召唤神术 
+1/110 转世 
+1/115 召唤圣德瓦 
+1/120 诅咒 
+1/125 瘟疫 
+1/130 毒云 
+1/135 能量护盾 
+1/140 宠物强化器 
+1/145 HeadShot 
+1/150 HolyShield 
+
+
+;Assassin
+1/80 火焰喷射 
+1/85 CrescentSlash 
+1/105 陷阱 
+1/110 毒剑 
+1/115 月光 
+1/120 猎手 
+1/125 迅捷脚步 
+1/150 黑暗之躯 
+
+1/80 元素屏障
+1/85 捆绑射击
+1/110 召唤蟾蜍
+1/120 毒药射击
+1/125 残废射击
+1/150 召唤蛇类
+
+;Gems/Orbs
+
+1/10 勇敢球 
+1/10 魔法之球 
+1/10 灵魂之球 
+1/10 保护球 
+1/10 屠魔球 
+1/25 精度球 
+1/25 敏捷球 
+1/25 毒药球 
+1/25 冰冻球 
+1/25 风暴球 
+1/25 耐力球 
+1/25 幻觉球 
+
+
+;CraftingMaterials
+1/2 LunarPiece 
+1/2 龙鳞 

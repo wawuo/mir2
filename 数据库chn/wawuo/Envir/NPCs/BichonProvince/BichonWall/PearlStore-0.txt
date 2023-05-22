@@ -1,0 +1,31 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人...
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+Greetings! 有什么事?
+<交易/@PEARLBUY> Creature Pearls.
+ 
+<关闭/@exit>
+ 
+[@PEARLBUY]
+#SAY
+Please select the item you want to buy.
+ 
+<返回/@Main>
+
+[Types]
+36
+
+[Trade]
+神奇宝盒(大)
+神奇宝盒(中)
+神奇宝盒(S)

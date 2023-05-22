@@ -1,0 +1,246 @@
+[@Main]
+#IF
+ISADMIN
+#SAY
+你好 {<$USERNAME>/KHAKI}, 我名叫 {<$NPCNAME>/KHAKI}.
+<Buy/@Buy> Book
+<Sell/@Sell> Book
+ 
+Learn all <Warrior/@Warrior> , <Wizard/@Wizard> , <Taoist/@Taoist> , <Archer/@Archer> , <Assassin/@Assassin> spells.
+
+#ELSEACT
+MOVE 0 300 300
+ 
+[@Sell]
+#SAY
+出售
+ 
+<返回/@Main>
+
+[@Buy]
+#SAY
+购买
+ 
+<返回/@Main>
+
+[@Warrior]
+#Act
+GIVESKILL 击剑 3
+GIVESKILL 杀人 3
+GIVESKILL 刺杀 3
+GIVESKILL 半月形 3
+GIVESKILL 肩部冲刺 3
+GIVESKILL 双闸刀 3
+GIVESKILL 禁锢 3
+GIVESKILL 火焰之剑 3
+GIVESKILL 狮子吼 3
+GIVESKILL 十字半月 3
+GIVESKILL 刀锋雪崩 3
+GIVESKILL 保护场 3
+GIVESKILL 愤怒 3
+GIVESKILL 反击 3
+GIVESKILL 斩击爆裂 3
+GIVESKILL 怒击 3
+GIVESKILL 不朽的皮肤 3
+[@Wizard]
+#ACT
+GIVESKILL 火球 3
+GIVESKILL 斥力 3
+GIVESKILL 电击 3
+GIVESKILL 大火球 3
+GIVESKILL 地狱之火 3
+GIVESKILL 霹雳火 3
+GIVESKILL 传送 3
+GIVESKILL 火焰弹 3
+GIVESKILL 火墙 3
+GIVESKILL 闪电 3
+GIVESKILL 寒霜紧缩 3
+GIVESKILL 雷霆风暴 3
+GIVESKILL 魔法盾 3
+GIVESKILL 亡灵转化 3
+GIVESKILL 吸血术 3
+GIVESKILL 冰风暴 3
+GIVESKILL 火焰破坏者 3
+GIVESKILL 镜像 3
+GIVESKILL 火焰场 3
+GIVESKILL 暴风雪 3
+GIVESKILL 魔力助推器 3
+GIVESKILL 流星打击 3
+GIVESKILL 冰刺 3
+GIVESKILL 风暴逃逸 3
+GIVESKILL 快速移动 3
+[@Taoist]
+#ACT
+GIVESKILL 疗伤 3
+GIVESKILL 精神之剑 3
+GIVESKILL 中毒 3
+GIVESKILL 灵魂火球 3
+GIVESKILL 召唤骷髅 3
+GIVESKILL 躲藏 3
+GIVESKILL 大规模躲藏 3
+GIVESKILL 灵魂盾牌 3
+GIVESKILL 启示 3
+GIVESKILL 受祝福的盔甲 3
+GIVESKILL 能量反击器 3
+GIVESKILL 陷阱六边形 3
+GIVESKILL 净化 3
+GIVESKILL 大规模治疗 3
+GIVESKILL 幻觉 3
+GIVESKILL 终极强化器 3
+GIVESKILL 召唤神术 3
+GIVESKILL 转世 3
+GIVESKILL 召唤圣德瓦 3
+GIVESKILL 诅咒 3
+GIVESKILL 瘟疫 3
+GIVESKILL 毒云 3
+GIVESKILL 能量护盾 3
+GIVESKILL 治愈圈 3
+[@Assassin]
+#ACT
+GIVESKILL 致命之剑 3
+GIVESKILL 双击 3
+GIVESKILL 障碍物 3
+GIVESKILL 闪光冲刺 3
+GIVESKILL 轻功 3
+GIVESKILL 天堂之剑 3
+GIVESKILL 火焰喷射 3
+GIVESKILL 陷阱 3
+GIVESKILL 毒剑 3
+GIVESKILL 月光 3
+GIVESKILL 猎手 3
+GIVESKILL 迅捷脚步 3
+GIVESKILL 黑暗之躯 3
+GIVESKILL 出血 3
+GIVESKILL CrescentSlash 3
+GIVESKILL 月雾 3
+GIVESKILL 猫头鹰 3
+[@Archer]
+#ACT
+GIVESKILL 焦点 
+GIVESKILL 直击 3
+GIVESKILL 双响炮 3
+GIVESKILL 爆炸性陷阱 3
+GIVESKILL 延迟爆炸 3
+GIVESKILL 冥想 3
+GIVESKILL 后撤步 3
+GIVESKILL 元素射击 3
+GIVESKILL 专注力 3
+GIVESKILL 元素屏障 3
+GIVESKILL 召唤吸血鬼 3
+GIVESKILL 吸血鬼射击 3
+GIVESKILL 召唤蟾蜍 3
+GIVESKILL 毒药射击 3
+GIVESKILL 残废射击 3
+GIVESKILL 召唤蛇类 3
+GIVESKILL 汽油弹 3
+GIVESKILL 与自然同在 3
+GIVESKILL 石头陷阱 3
+GIVESKILL 传送门 3
+
+[Types]
+20
+
+[Trade]
+击剑
+杀人
+刺杀
+半月形
+肩部冲刺
+双闸刀
+禁锢
+火焰之剑
+狮子吼
+十字半月
+刀锋雪崩
+保护场
+愤怒
+反击
+斩击爆裂
+怒击
+不朽的皮肤
+火球
+斥力
+电击
+大火球
+地狱之火
+霹雳火
+传送
+火焰弹
+火墙
+闪电
+寒霜紧缩
+雷霆风暴
+魔法盾
+亡灵转化
+吸血术
+冰风暴
+火焰破坏者
+镜像
+火焰场
+暴风雪
+魔力助推器
+流星打击
+冰刺
+风暴逃逸
+快速移动
+疗伤
+精神之剑
+中毒
+灵魂火球
+召唤骷髅
+躲藏
+大规模躲藏
+灵魂盾牌
+启示
+受祝福的盔甲
+能量反击器
+陷阱六边形
+净化
+大规模治疗
+幻觉
+终极强化器
+召唤神术
+转世
+召唤圣德瓦
+诅咒
+瘟疫
+毒云
+能量护盾
+治愈圈
+致命之剑
+双击
+障碍物
+闪光冲刺
+轻功
+天堂之剑
+火焰喷射
+陷阱
+毒剑
+月光
+猎手
+迅捷脚步
+黑暗之躯
+出血
+裂缝
+月雾
+猫头鹰
+焦点
+直击
+双响炮
+爆炸性陷阱
+延迟爆炸
+冥想
+后撤步
+元素射击
+专注力
+元素屏障
+召唤吸血鬼
+吸血鬼射击
+召唤蟾蜍
+毒药射击
+残废射击
+召唤蛇类
+汽油弹
+与自然同在
+石头陷阱
+传送门

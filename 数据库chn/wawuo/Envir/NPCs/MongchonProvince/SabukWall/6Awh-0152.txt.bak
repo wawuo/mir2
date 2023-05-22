@@ -1,0 +1,42 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人...
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+你好 traveller. How can i help you?
+ 
+<Access/@Storage> Storage
+<Purchase/@Buy>
+You have <$PARCELAMOUNT> parcels awaiting collection.
+<Send/@SendParcel> Parcel
+<Collect/@CollectParcel> Parcels
+
+
+[@Storage]
+#SAY
+What item do you want to store or withdraw?
+ 
+<返回/@Main> - <关闭/@exit>
+
+[@Buy]
+#SAY
+What would like to purchase?
+ 
+<返回/@Main> - <关闭/@exit>
+
+[Types]
+1
+
+[Trade]
+勋章
+金条
+金条包
+金柜

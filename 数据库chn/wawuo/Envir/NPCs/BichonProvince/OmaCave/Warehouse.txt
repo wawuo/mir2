@@ -1,0 +1,16 @@
+[@MAIN]
+#SAY
+你好 旅行者 有什么事?
+ 
+<存取/@Storage> Storage
+
+<关闭/@exit>
+
+
+
+[@Storage]
+#SAY
+你想储存或提取什么物品?
+ 
+<返回/@Main> - <关闭/@exit>
+

@@ -1,0 +1,10 @@
+[Recipe]
+Amount 1
+Chance 100
+Gold 1000
+
+[Tools]
+
+[Ingredients]
+太阳药水(中)
+护身符(包)

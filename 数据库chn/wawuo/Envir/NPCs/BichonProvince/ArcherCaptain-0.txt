@@ -1,0 +1,14 @@
+[@Main]
+#SAY
+你好 <$USERNAME>, My name is Jerald.
+I am the Captain of a Archer Regerment 
+We were brought here for the War.
+I'm just hoping we can return home soon
+
+<关闭/@Exit>
+
+[Quests]
+-19
+20
+-20
+21

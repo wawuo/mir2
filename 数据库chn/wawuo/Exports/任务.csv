@@ -1,0 +1,154 @@
+助理的要求,BichonProvince,0,BichonProvince/BorderVillage/1,把叶子送到CraftsLady,,,,1,255,0,31
+手工艺女士的请求,BichonProvince,0,BichonProvince/BorderVillage/2,给助理Jane送姜茶,,,,1,255,1,31
+与屠夫交谈,BichonProvince,0,BichonProvince/BorderVillage/3,在293:603处与屠夫约翰交谈,,,,1,255,2,31
+猎杀屠夫,BichonProvince,0,BichonProvince/BorderVillage/4,在293:603处回到屠夫约翰身边,,,,1,255,3,31
+史密斯的第一次测试,BichonProvince,0,BichonProvince/BorderVillage/5,在297:612处回到铁匠史密斯处,,,,1,255,0,31
+史密斯的第二次测试,BichonProvince,0,BichonProvince/BorderVillage/6,在297:612处回到铁匠史密斯那里。,,,,1,255,5,31
+遇见战士教官,BichonProvince,0,BichonProvince/BorderVillage/7,在110:317处与瓦师傅交谈,,,,4,255,0,1
+击剑技能测试,BichonProvince,0,BichonProvince/BorderVillage/8,在110:317处回到华师傅处,,,,4,255,7,1
+致碧昂丝,BichonProvince,0,BichonProvince/BorderVillage/9,在328:258处与 【比奇城】 的Peter交谈。,,,,4,255,8,1
+与法师教官见面,BichonProvince,0,BichonProvince/BorderVillage/10,在 314:474处与法师交谈,,,,4,255,0,2
+测试火球术,BichonProvince,0,BichonProvince/BorderVillage/11,在 314:474处回到法师身边,,,,4,255,10,2
+致碧昂丝,BichonProvince,0,BichonProvince/BorderVillage/12,在328:258处与 【比奇城】 的Peter交谈。,,,,4,255,11,2
+遇见道士教官,BichonProvince,0,BichonProvince/BorderVillage/13,寻找大祭司 最后一次见到大祭司是在429:475 ,,,,4,255,0,4
+测试疗伤技能,BichonProvince,0,BichonProvince/BorderVillage/14,在429:475处回到大祭司身边,,,,4,255,13,4
+呼叫比奇,BichonProvince,0,BichonProvince/BorderVillage/15,在328:258处与 【比奇城】 的Peter对话。,,,,4,255,14,4
+遇见刺客教官,BichonProvince,0,BichonProvince/BorderVillage/16,在101:411处与刺客克劳德对话,,,,4,255,0,8
+测试致命之剑的技能,BichonProvince,0,BichonProvince/BorderVillage/17,在101:411处回到云的身边,,,,4,255,16,8
+致碧昂斯,BichonProvince,0,BichonProvince/BorderVillage/18,在328:258处与 【比奇城】 中的彼得对话。,,,,4,255,17,8
+迎接射手教官,BichonProvince,0,BichonProvince/BorderVillage/19,在320:477处与船长交谈,,,,4,255,0,16
+测试专注技能,BichonProvince,0,BichonProvince/BorderVillage/20,在320:477处回到船长身边,,,,4,255,19,16
+致碧昂丝,BichonProvince,0,BichonProvince/BorderVillage/21,在328:258处与 【比奇城】 中的Peter对话,,,,4,255,20,16
+森林雪人的威胁,BichonProvince,0,BichonProvince/BichonWall/1,回到 【比奇城】 的《传奇指南》 Peter处,,,,6,255,0,31
+攻击奥马,BichonProvince,0,BichonProvince/BichonWall/2,,,,,7,255,22,31
+帮助张铁匠,BichonProvince,0,BichonProvince/BichonWall/3,在沃玛森林与铁匠 Jang 交谈,,,,7,255,23,31
+狩猎食人植物,WoomyonWoods,0,WoomyonWoods/Wilderness/1,返回 【比奇城】 的《传奇指南》Peter。,,,,7,255,24,31
+解毒剂的原料,BichonProvince,0,BichonProvince/BichonWall/4,返回 【比奇城】 的《传奇指南》Peter处,,,,9,255,25,31
+任务,BichonProvince,0,BichonProvince/BichonWall/5,在酒馆与盟重侦察兵交谈 290:293,,,,9,255,26,31
+寻找网络,BichonProvince,0,BichonProvince/BichonWall/6,在324:291处回到塞缪尔身边,,,,10,255,0,31
+运送维修油,BichonProvince,0,BichonProvince/BichonWall/7,前往 【蛇谷】 ，在517:492处交给Bradly。,,,,10,255,0,31
+丢失的戒指,SerpentValley,0,SerpentValley/Village/1,回到 【蛇谷】 的铁匠 【布莱德利】 处。,,,,10,255,29,31
+递送戒指,SerpentValley,0,SerpentValley/Village/2,将玉石戒指交给蛇谷的 【梅丽莎】 。,,,,10,255,30,31
+送信,SerpentValley,0,SerpentValley/Village/3,将蓝色药丸交给铁匠 【布莱德利】 ,,,,10,255,31,31
+治疗失眠症,SerpentValley,0,SerpentValley/Village/4,返回505:479的 【罗伯特】 处,,,,10,255,0,31
+送出秘方,SerpentValley,0,SerpentValley/Village/5,将配方交给比奇墙的 【手工艺女士】 。,,,,10,255,0,31
+蛇谷,BichonProvince,0,SerpentValley/Village/6,前往蛇谷并与客栈看守人交谈。,,,,10,255,27,31
+蛇酒的原料,SerpentValley,0,SerpentValley/Village/7,在517:466处返回客栈 【看守人】 处。,,,,10,255,35,31
+交付葡萄酒,SerpentValley,0,SerpentValley/Village/8,带着酒回到 【盟重侦察员】 处。,,,,10,255,36,31
+寻找乌木果,SerpentValley,0,SerpentValley/Village/9,在517:466返回 【客栈看守人】 处,,,,10,255,0,31
+向老人问好,SerpentValley,0,SerpentValley/Village/10,前往沃玛森林并拜访 【梅丽莎】 的祖父,,,,12,255,33,31
+打扫卫生,WoomyonWoods,0,WoomyonWoods/Wilderness/2,在312:73回到肖克大师那里,,,,12,255,39,31
+祖父的要求,WoomyonWoods,0,WoomyonWoods/Wilderness/3,前往比奇墙并与莎拉交谈 313:271,,,,12,255,40,31
+去蒙村的路,BichonProvince,0,SerpentValley/Village/16,回到盟重的铁匠铺布鲁斯身边,,,,13,255,0,31
+需要帮助,BichonProvince,0,SerpentValley/Village/11,在蛇谷与罗伯特交谈,,,,13,255,0,31
+帮助桑德福,SerpentValley,0,SerpentValley/Village/12,前往般若岛，与 【桑德福】 交谈。船是从边境村出发的。,,,,13,255,43,31
+红蛇的牙齿,PrajnaIsland,0,PrajnaIsland/PIVillage/1,猎杀红蛇并回到蛇谷的 【罗伯特】 身边。,,,,13,255,44,31
+骷髅骨,BichonProvince,0,BichonProvince/BichonWall/9,在 【比奇城】 回到《传奇指南》 Peter处。,,,,14,255,0,31
+姐姐的戒指,BichonProvince,0,BichonProvince/BichonWall/10,回到比奇墙的 【戴安娜】 身边 306:276,,,,14,255,0,31
+运送物资到边境,BichonProvince,0,BichonProvince/BorderVillage/22,将遗物交给边境村的鲁本,,,,14,255,0,31
+危险的骷髅头,BichonProvince,0,BichonProvince/BichonWall/11,返回 【比奇城】 的 【賈森】 处 296:220,,,,14,255,0,31
+交付烹饪书,BichonProvince,0,WoomyonWoods/Castle-GI/Town/1,将烹饪书交给吉良城堡的吉姆 ,,,,16,255,0,31
+巧妇难为无米之炊,BichonProvince,0,BichonProvince/BichonWall/12,与比奇墙的 手工艺女士交谈 ,,,,16,255,0,31
+坎尼茶的原料,BichonProvince,0,BichonProvince/BichonWall/13,返回比奇墙的 手工艺女士处,,,,16,255,51,31
+运送罐装茶,BichonProvince,0,BichonProvince/BichonWall/14,将 【茶叶】 交给 米尔盖特,,,,16,255,52,31
+矿井里的僵尸,BichonProvince,0,BichonProvince/BichonWall/15,返回 【比奇城】 的铁匠  【比尔】  处,Kill Zombies in BichonDeadMines,,,17,255,0,31
+补给品,BichonProvince,0,BichonProvince/BichonWall/16,返回 【比奇城】 的  【工艺女士】  处,,,,17,255,0,31
+蝙蝠的翅膀,BichonProvince,0,BichonProvince/BichonWall/17,返回 【比奇城】 的屠夫  【萨拉】  处,,,,17,255,0,31
+收集信息,BichonProvince,0,BichonProvince/1,把 【洞穴报告】 带到东南门的 【凯尔】 处。,,,,255,255,0,31
+山洞里的危险,BichonProvince,0,BichonProvince/BichonWall/18,将 【骨骼精英的头颅】 交还给  【比奇城】  的 【凯尔】 ,,,,18,255,57,31
+稀有矿石,BichonProvince,0,BichonProvince/BichonWall/19,返回 【比奇城】 的铁匠  【比尔】 处,,,,18,255,0,31
+帮助农民,BichonProvince,0,BichonProvince/BichonWall/20,返回 【比奇城】 的  【检查员】 处。,,,,18,255,0,31
+兼职工作,BichonProvince,0,WoomyonWoods/Castle-GI/Town/2,前往沃玛森林并与肖克大师交谈,,,,18,255,58,31
+消灭,WoomyonWoods,0,WoomyonWoods/Castle-GI/Town/3,返回沃玛森林的舒克大师处,,,,18,255,61,31
+寻找朋友的遗体,BichonProvince,0,BichonProvince/DeadMine/1,在比奇死矿区找到 【文森特】 的朋友,,,,18,255,0,31
+归还项链,BichonProvince,0,BichonProvince/BichonWall/21,把 【项链】 还给比奇墙的铁匠 【文森特】 。,,,,18,255,63,31
+对僵尸的报复,BichonProvince,0,BichonProvince/DeadMine/2,回到在 比奇墙 的298:317处的 【埃迪】 身边。,,,,18,255,0,31
+最好的健康食品,WoomyonWoods,0,WoomyonWoods/Wilderness/InsectCave/1,回到沃玛森林的肖克大师处,,,,19,255,62,31
+医学研究,WoomyonWoods,0,WoomyonWoods/Wilderness/InsectCave/2,将 【血液】 还给沃玛森林的 【海伦】 ,,,,19,255,0,31
+寻找丢失的物品,WoomyonWoods,0,WoomyonWoods/Wilderness/InsectCave/3,将 【血液】 还给沃玛森林的 【海伦】 ,,,,19,255,67,31
+寻找我的朋友,WoomyonWoods,0,WoomyonWoods/Wilderness/InsectCave/4,在 【昆虫洞】 寻找Helens的朋友 【索霍】 ,,,,19,255,68,31
+中毒的朋友,InsectCave,0,WoomyonWoods/Wilderness/InsectCave/5,找到并归还 【索霍】 的背包,,,,19,255,69,31
+丢失的物品,InsectCave,0,WoomyonWoods/Wilderness/InsectCave/6,把丢失的物品还给  【索霍】 ,,,,19,255,70,31
+朋友的消息,InsectCave,0,WoomyonWoods/TaoistVillage/1 ,回到沃玛森林的 【海伦】 身边,,,,19,255,71,31
+研究报告,WoomyonWoods,0,SerpentValley/Village/13,给蛇谷的 【金博士】 送去 【血液】 。,,,,19,255,72,31
+释放僵尸的灵魂,SerpentValley,0,SerpentValley/Serpent Mines/1,回到易受伤害的儿子身边, At SerpentDeadMine Entrance.,,,0,20,255,0
+歼灭,SerpentValley,0,SerpentValley/Serpent Mines/2,返回蛇谷的 【钱德勒】 处,,,,20,255,0,31
+血腥的剑,SerpentValley,0,SerpentValley/Serpent Mines/3,回到蛇谷的铁匠 【布莱德利】 身边,,,,20,255,0,31
+来自死神的召唤,SerpentValley,0,SerpentValley/Village/14,,,,,20,255,0,31
+隐藏的盒子,MongchonProvince,0,SerpentValley/Serpent Mines/4,,,,,20,255,77,31
+矿区的黑暗,SerpentValley,0,SerpentValley/Serpent Mines/5,在大蛇谷的死亡矿井中寻找黑暗力量,,,,20,255,0,31
+骷髅头的秘密,SerpentDeadMine,0,SerpentValley/Serpent Mines/6,把隐藏的卷轴还给 【金博士】 ,,,,20,255,79,31
+黑暗阴影,SerpentValley,0,SerpentValley/Serpent Mines/7,返回蛇谷的 【金博士】 处,,,,20,255,80,31
+白蛇传,SerpentValley,0,SerpentValley/Serpent Mines/8,归还蛇谷的 【收藏家】 ,,,,21,255,0,31
+衣服的材料,SerpentValley,0,SerpentValley/Village/15,前往 【桃源村】 ，在206:319与 【山姆】 交谈。,,,,21,255,0,31
+缺少的材料,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/2,带着材料回到 【桃源村的 【山姆】 那里。,,,,21,255,83,31
+拯救被诅咒的灵魂,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/3,在 【桃源村】 找 【MK大师】 ,,,,22,255,0,31
+制服订购状态,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/4,前往 【比奇城】 窗帘店，与Ann交谈。,,,,22,255,0,31
+找到马车,BichonProvince,0,WoomyonWoods/TaoistVillage/Tao Village/5,在去 【桃源村】 的路上寻找失踪的马车。,,,,22,255,86,31
+僵尸袭击马车,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/6,在227:269回到 【首席培训师】 那里。,,,,22,255,87,31
+猎杀僵尸,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/7,回到 【桃源村】 的 【首席培训师】 处 227:269,,,,22,255,88,31
+收集材料,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/8,将 【杰拉尔德】 送回 【桃源村】  234:301,,,,22,255,0,31
+帮助伐木者,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/9,将  【木材斧头】  归还给 【桃源村】 的 【西格蒙德】  166:339,,,,22,255,0,31
+深入森林,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/10,返回 【桃源村】 的 【姜文】 处,,,,22,255,0,31
+离家出走的学生,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/11,在 【树形小径】 寻找失踪的学生,,,,22,255,0,31
+坏消息,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/12,将见习戒指还给 【桃源村】 的休伯特 194:297,,,,22,255,93,31
+给父母的信,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/13,将《天书》交给比奇墙酒馆的 【莫古】 先生。,,,,23,255,0,31
+烹饪炖牛肉,BichonProvince,0,BichonProvince/BichonWall/22,将牛肉排骨送至沃玛森林的韩屠夫处。,,,,23,255,0,31
+危险(伍麦恩森林),WoomyonWoods,0,WoomyonWoods/Castle-GI/Town/4,前往沃玛森林并警告 【征服领导】 。,,,,23,255,0,31
+沃玛的怪物狩猎,WoomyonWoods,0,WoomyonWoods/Castle-GI/Town/5,返回沃玛森林的 【征服领导】 处。,,,,23,255,97,31
+猎杀黑帮老大,WoomyonWoods,0,WoomyonWoods/Castle-GI/Town/6,返回到沃玛森林的  【征服领导】 。,,,,23,255,98,31
+致命的攻击,WoomyonWoods,0,WoomyonWoods/Castle-GI/Town/7,返回 【比奇城】 的  【征服管理】 ，并进行更新。,,,,23,255,99,31
+巫门的暴民老大,WoomyonWoods,0,WoomyonWoods/Castle-GI/Town/8,返回肖克大师312:73,,,,23,255,0,31
+盟重之行,BichonProvince,0,BichonProvince/BichonWall/23,经由 【蛇谷】 前往 【盟重土城】 并与 【Edwin】 交谈,,,,24,255,0,31
+异常生物,MongchonProvince,0,MongchonProvince/Bug Cave/1,在 【盟重土城】 回到 【丹尼尔】 身边,,,,24,255,0,31
+失落的剑,MongchonProvince,0,MongchonProvince/Bug Cave/2,归还查理斯丢失的剑。,,,,24,255,0,31
+失落的灵魂,DeathValley,0,MongchonProvince/Bug Cave/3,,,,,24,255,0,31
+失落的灵魂的残骸,DeathValley,0,MongchonProvince/Bug Cave/4,返回地下城202:204的S_1F处的LostSoul,,,,24,255,105,31
+最后的话语,DeathValley,0,MongchonProvince/Bug Cave/5,把项链还给 【盟重土城】 的Rachel,,,,24,255,106,31
+古董书,MongchonProvince,0,MongchonProvince/SabukWall/1,把书还给 【盟重土城】 的收藏者。,,,,25,255,111,31
+寻找更多的古籍,MongchonProvince,0,MongchonProvince/SabukWall/2,把书还给 【盟重土城】 的收藏者。,,,,25,255,108,31
+与王先生见面,MongchonProvince,0,MongchonProvince/SabukWall/3,向东走到沙巴克城，与王先生交谈。,,,,25,255,0,31
+秘密之路,MongchonProvince,0,MongchonProvince/SabukWall/4,找到所有的柱子后回到王先生身边。,,,,25,255,110,31
+秘密道路的安全,MongchonProvince,0,MongchonProvince/SabukWall/5,,,,,25,255,111,31
+失眠,MongchonProvince,0,MongchonProvince/StoneTomb/1,回到蒙村墙的Jessica处,,,,26,255,0,31
+威胁到蒙村,MongchonProvince,0,MongchonProvince/StoneTomb/2,在 【盟重土城】 回到 【盟重代表】 那里。,,,,26,255,0,31
+消灭白板,MongchonProvince,0,MongchonProvince/StoneTomb/3,回到 【盟重土城】 的 【盟重代表】 处。,,,,26,255,114,31
+向经理报告,MongchonProvince,0,MongchonProvince/MudWall/1,在 【比奇城】 与 【征服管理员】 交谈。,,,,26,255,115,31
+检查供应路径,BichonProvince,0,BichonProvince/BichonWall/24,与 【CaveGuide】 对话。,,,,27,255,0,31
+矿区的僵尸,TaoVillage,0,WoomyonWoods/TaoistVillage/WW Mines/1,威胁减少后，回到 【桃源村】 的 【CaveGuide】 处。,,,,27,255,117,31
+给比奇检查员留言,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/14,前往 【比奇城】 ，与341:258处的 【比奇检查员】 对话。,,,,27,255,118,31
+花团锦簇,BichonProvince,0,BichonProvince/BichonWall/25,拿到所有的 【兵团之花】 后，回到 【比奇城】 的 【塞缪尔】 那里。,,,,28,255,0,31
+拯救Prajna,PrajnaIsland,0,PrajnaIsland\PIVillage/2,回到般若岛的检查员那里。,,,,28,255,0,31
+猎杀骷髅1,PrajnaIsland,0,PrajnaIsland/PranjaStoneCave/1,在般若岛回到《传奇指南》 【爱德华】处。,,,,28,255,121,31
+猎杀骷髅2,PrajnaIsland,0,PrajnaIsland/PranjaStoneCave/2,返回到般若岛的《传奇指南》 【爱德华】处。,,,,28,255,122,31
+骷髅头收藏家,PrajnaIsland,0,PrajnaIsland/PranjaStoneCave/3,拿到所有的头骨后回到【收藏家】那里。,,,,29,255,0,31
+访问村长,PrajnaIsland,0,PrajnaIsland/PIVillage/3,走上楼梯，与村长交谈。,,,,31,255,0,31
+村长的要求,PrajnaIsland,0,PrajnaIsland/PIVillage/4,前往 【桃源村】 ，与首【席培训师】交谈。,,,,31,255,125,31
+被盗的书,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/15,把书还给【桃源村】的领路人,,,,31,255,126,31
+归还书籍,TaoVillage,0,WoomyonWoods/TaoistVillage/Tao Village/16,把书还给PrajnaIsland的VillageChief,,,,31,255,127,31
+新毒药,TaoVillage,0,WoomyonWoods/TaoistVillage/TreePath/1,还给【桃源村】的Janey 179:296,,,,32,255,0,31
+通缉令,TaoVillage,0,WoomyonWoods/TaoistVillage/TreePath/2,归还给【桃源村】的调查员,,,,34,255,0,31
+古老的暴徒,PrajnaIsland,0,PrajnaIsland/PranjaTemple/1,还给【般若岛】的检查员,,,,35,255,0,31
+普拉格纳的暴民,PrajnaIsland,0,PrajnaIsland/PranjaTemple/2,返回【般若岛】的村长处,,,,36,255,0,31
+普罗旺斯的守卫,PrajnaIsland,0,PrajnaIsland/PranjaTemple/3,回到【般若岛】的村长处,,,,36,255,132,31
+来自普拉那的成分,PrajnaIsland,0,PrajnaIsland/PIVillage/5,将海藻交给望春墙的女工匠,,,,37,255,0,31
+寻找通往废墟的通道,MongchonProvince,0,MongchonProvince/StoneTomb/4,返回望春壁的望春代表,,,,38,255,0,31
+运送文物,MongchonProvince,0,MongchonProvince/StoneTomb/5,回到【盟重土城】的收藏家身边,,,,39,255,135,31
+稀有药品,MongchonProvince,0,MongchonProvince/StoneTomb/6,返回【盟重土城】的Kevin处 346:334,,,,40,255,0,31
+军队招募,WasteLands,0,WasteLand/Red Cave/1,回到在WasteLand处265:238的挖掘者身边,,,,45,255,0,31
+危险如初,WasteLands,0,WasteLand/Red Cave/2,回到WasteLand 265:238的挖掘者处,,,,45,255,138,31
+栗子的要求,BichonProvince,0,BichonProvince/BichonWall/Board/1,返回【比奇城】管理处。,,,,10,20,0,31
+骨头的收集,BichonProvince,1,BichonProvince/BichonWall/Board/2,返回【比奇城】管理处。,,,,15,22,0,31
+野猪牙,MongchonProvince,2,MongchonProvince/MudWall/Board/1,返回【泥墙】的 管理处 处。,,,,22,32,0,31
+圣剑任务,HolySword Quest,0,HolySword/1,回到学徒那里,,,,35,255,0,31
+圣剑任务,HolySword Quest,0,HolySword/2,返回桃源村的【佩里】处,,,,35,255,143,31
+神圣之剑任务,HolySword Quest,0,HolySword/3,,,,,35,255,144,31
+神圣之剑任务,HolySword Quest,0,HolySword/4,返回到大道士,,,,35,255,145,31
+圣剑任务,HolySword Quest,0,HolySword/5,返回大道士,,,,35,255,146,31
+圣剑任务,HolySword Quest,0,HolySword/6,返回大道士，了解更多信息。,,,,35,255,147,31
+圣剑任务,HolySword Quest,0,HolySword/7,返回大道士,,,,35,255,148,31
+圣剑任务,HolySword Quest,0,HolySword/8,返回大道士,,,,35,255,149,31
+圣剑任务,HolySword Quest,0,HolySword/9,返回大道士,,,,35,255,150,31
+古老的奥玛岩洞,OmaCavern,0,BichonProvince/OmaCavern/1,,,Search for the Ancient Scyther.,,10,255,0,31
+古老洞穴,OmaCavern,0,BichonProvince/OmaCavern/2,回到Stone(石头）处,,,,10,65535,152,31
+皇帝问题,BichonProvince,0,999,,,,Increase the Emperors Morale.,1,65535,0,31

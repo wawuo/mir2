@@ -1,0 +1,1 @@
+BichonProvince/BorderVillage/Transport,0,287,615,传送员_Gilbert,15,100,False,120,False

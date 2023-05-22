@@ -1,0 +1,49 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人...
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+Welcome, 欢迎。我能为你做什么?
+ 
+<查看/@BuySell> 商店
+<修理/@Repair> Bracelets or Gloves.
+ 
+<关闭/@exit>
+
+[@BuySell]
+#SAY
+Which item 想要出售或购买?
+<返回 购买/@BuyBack>
+ 
+<返回/@main>
+
+[@BuyBack]
+#SAY
+这些是仍然可以购买回来的物品.
+ 
+<返回/@main>
+
+[@Repair]
+#SAY
+You can repair various kinds of Bracelets 与 Gloves.
+  
+<返回/@main>
+
+[Types]
+6
+
+[Trade]
+铁手镯
+瘦手镯
+皮手套
+银手镯
+钢制手镯
+大手镯

@@ -1,0 +1,19 @@
+[@Main]
+#SAY
+Welcome, how may I help you?
+ 
+<修理/@Repair> Clothes
+ 
+<关闭/@Exit>
+
+
+[@Repair]
+You can repair Clothes here.
+
+<返回/@Main>
+
+[Types]
+2
+4
+9
+10

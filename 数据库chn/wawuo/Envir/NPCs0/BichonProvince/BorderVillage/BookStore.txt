@@ -1,0 +1,199 @@
+[@Main]
+#IF
+CHECKPKPOINT > 199
+#SAY
+I will not help an evil person like you...
+ 
+ 
+<Close/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+Welcome, How many i help you?
+ 
+<View/@BuySell> Store.
+Listen to the <explanation/@helpbooks> about skills.
+ 
+<Close/@exit>
+
+[@BuySell]
+#SAY
+Please select the Book you either want to Buy or Sell.
+<Buy Back/@BuyBack>
+ 
+<Back/@Main>
+
+[@helpbooks]
+#SAY
+What kind of Books are you interested in?
+ 
+Warrior:  <Skill List/@War1>
+Wizard:   <Skill List/@Wiz1>
+Taoist:   <Skill List/@Tao1>
+Assassin: <Skill List/@Assa1>
+Archer:   <Skill List/@Arc1>
+
+
+[@War1]
+#SAY
+Level  7: 击剑
+Level 15: 杀人
+Level 22: 刺杀
+Level 26: 半月形
+Level 30: 肩部冲刺
+Level 32: TwinDragonBlade
+Level 32: 禁锢
+<More/@War2> <Back/@helpbooks>
+
+[@War2]
+#SAY
+Level 35: 火焰之剑
+Level 36: 狮子吼
+Level 38: 十字半月
+Level 38: 刀锋雪崩
+Level 39: 保护场
+Level 44: 愤怒
+Level 50: 斩击爆裂
+<Back/@helpbooks>
+
+[@Wiz1]
+#SAY
+Level  7: 火球
+Level 12: 斥力
+Level 13: 电击
+Level 15: GreatFireball
+Level 16: Hellfire
+Level 17: Thunderbolt
+<More/@Wiz2> <Back/@helpbooks>
+
+[@Wiz2]
+#SAY
+Level 19: 传送
+Level 22: 火焰弹
+Level 24: 火墙
+Level 26: 闪电
+Level 28: 寒霜紧缩
+Level 30: Thunderstorm
+Level 31: 魔法盾
+Level 32: 亡灵转化
+<More/@Wiz3> <Back/@helpBooks>
+
+[@Wiz3]
+#SAY
+Level 33: 吸血术
+Level 35: IceStrom
+Level 38: 火焰破坏者
+Level 41: 镜像
+Level 42: 火焰场
+Level 44: 暴风雪
+Level 49: 流星打击
+Level 53: IceFreeze
+<Back/@helpBooks>
+
+[@Tao1]
+#SAY
+Level  7: 疗伤
+Level  9: 精神之剑
+Level 14: 中毒
+Level 18: 灵魂火球
+Level 19: 召唤骷髅ton
+Level 20: 隐身
+<More/@Tao2> <Back/@helpbooks>
+
+[@Tao2]
+#SAY
+Level 21: 大规模隐身
+Level 22: 灵魂盾牌
+Level 23: 启示
+Level 25: 受祝福的盔甲
+Level 27: 能量反击器
+Level 28: 陷阱六边形
+Level 30: 净化
+<More/@Tao3> <Back/@helpBooks>
+
+[@Tao3]
+#SAY
+Level 31: 大规模治疗
+Level 31: 幻觉
+Level 33: 终极强化器
+Level 35: 召唤神术
+Level 37: 转世
+Level 38: 召唤圣德瓦
+Level 40: 诅咒
+Level 43: 毒云
+Level 48: CelestalShield
+<Back/@helpBooks>
+
+
+[@Assa1]
+#SAY
+Level  7: 致命之剑
+Level 15: 双击
+Level 20: 障碍物
+Level 25: 闪光冲刺
+Level 27: 轻功
+Level 30: 天堂之剑
+Level 33: 火焰喷射
+<More/@Assa2> <Back/@helpBooks>
+
+[@Assa2]
+#SAY
+Level 33: 陷阱
+Level 34: 毒剑
+Level 36: 月光
+Level 38: 猎手
+Level 40: 迅捷脚步
+Level 46: 黑暗之躯
+Level 47: 出血
+Level 50: 裂缝
+<Back/@helpBooks>
+
+
+[@Arc1]
+#SAY
+Level  7: 焦点
+Level  9: 直击
+Level 11: 精神状态
+Level 14: 双响炮
+Level 19: 冥想
+Level 20: 元素射击
+Level 22: 爆炸性陷阱
+<More/@Arc2> <Back/@helpBooks>
+
+[@Arc2]
+#SAY
+Level 23: 专注力
+Level 26: 吸血鬼射击
+Level 28: 召唤吸血鬼
+Level 30: 后撤步
+Level 31: 延迟爆炸
+Level 33: 元素屏障
+Level 35: 捆绑射击
+<More/@Arc3> <Back/@helpBooks>
+
+[@Arc3]
+#SAY
+Level 37: 召唤蟾蜍
+Level 40: 毒药射击
+Level 43: 残废射击
+Level 46: 召唤蛇类
+Level 48: 汽油弹
+Level 50: 与自然同在
+<Back/@helpBooks>
+
+[Types]
+20
+
+[Trade]
+击剑
+杀人
+火球
+斥力
+疗伤
+精神之剑
+致命之剑
+双击
+焦点
+直击

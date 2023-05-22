@@ -1,0 +1,75 @@
+;Gold
+1/1 Gold 10000
+
+
+;Pots + Other
+1/1 (HP)药物中量 
+1/1 (MP)药物中量 
+1/1 (HP)药物中量 
+1/1 (MP)药物中量 
+1/1 (HP)药物大量
+1/1 (MP)药物大量
+1/1 太阳药水 
+1/1 太阳药水(中)
+
+1/15 祝福油
+1/10 禾马角
+1/10 巫马之心
+
+1/40 觉醒的灵魂0
+1/40 觉醒的灵魂0
+
+
+;Weapons
+
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Medals Rare
+
+
+;Shields
+
+
+;Shields Rare
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+
+
+;CraftingMaterials
+
+
+;Quests
+1/1 巫马之心 Q
+1/10 HeartLocket Q
+1/2 GuardianBlades Q
+1/1 WoomaTempleMap Q

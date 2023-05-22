@@ -1,0 +1,11 @@
+[Recipe]
+Amount 1
+Chance 100
+Gold 500
+
+[Tools]
+
+[Ingredients]
+牛肉
+老人参
+魔法援助(S)

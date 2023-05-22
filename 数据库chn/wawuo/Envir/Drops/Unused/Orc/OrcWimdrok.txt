@@ -1,0 +1,26 @@
+;Gold
+1/5 Gold 1650
+
+;Potions
+1/5 (HP)药物XL
+1/5 (MP)药物XL
+1/10 太阳药水
+1/10 太阳药水
+
+
+1/45100 狰狞之弓
+1/55550 致命之弓
+1/55650 阿普斯弓
+
+1/15000 SmasherNecklace
+1/15000 SmasherGlove
+1/15000 SmasherRing
+1/15000 暴风雪Necklace
+1/15000 暴风雪Glove
+1/15000 暴风雪Ring
+1/15000 MistyNecklace
+1/15000 MistyGlove
+1/15000 MistyRing
+1/15000 SlicerNecklace
+1/15000 SlicerGlove
+1/15000 SlicerRing

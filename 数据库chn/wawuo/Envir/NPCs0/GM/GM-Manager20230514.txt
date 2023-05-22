@@ -1,0 +1,354 @@
+ 
+ 
+ 
+<Back/@Main>
+
+[@Sabuk]
+#SAY
+萨布克墙管理面板
+
+<Start War/End War/@StartWar>             <Statistics/@SWStatistics>
+<Teleport to InnerWall/@InnerWall>
+<Guard Check/@Guards>
+<Gate/Wall Check/@Gates>
+<Repair All/@SWReset>
+
+目前SabukWall的所有者是：<$CONQUESTOWNER(1)>
+
+<返回/@EventManagement> <退出/@Exit>
+
+[@StartWar]
+#ACT
+STARTCONQUEST 1
+
+[@InnerWall]
+#ACT
+MOVE 0150 12 15
+
+[@Guards]
+#SAY
+
+<Revive All/@RepairAll>
+
+<$CONQUESTGUARD(1,1)>   <Repair/@Guard1>
+<$CONQUESTGUARD(1,2)>   <Repair/@Guard2>
+<$CONQUESTGUARD(1,3)>   <Repair/@Guard3>
+<$CONQUESTGUARD(1,4)>   <Repair/@Guard4>
+<$CONQUESTGUARD(1,5)>   <Repair/@Guard5>
+<$CONQUESTGUARD(1,6)>   <Repair/@Guard6>
+<$CONQUESTGUARD(1,7)>   <Repair/@Guard7>
+<$CONQUESTGUARD(1,8)>   <Repair/@Guard8>
+<$CONQUESTGUARD(1,9)>   <Repair/@Guard9>
+<$CONQUESTGUARD(1,10)>   <Repair/@Guard10>
+<$CONQUESTGUARD(1,11)>   <Repair/@Guard11>
+<$CONQUESTGUARD(1,12)>   <Repair/@Guard12>
+
+<Back/@Sabuk>     <Exit/@Exit>
+
+[@Gates]
+#SAY
+
+<修理所有的墙/@RepairAllWalls>
+
+墙和门
+<$CONQUESTWALL(1,1)> <维修/@Wall1>
+<$CONQUESTWALL(1,2)> <维修/@Wall2>
+<$CONQUESTWALL(1,3)> <维修/@Wall3>
+<$CONQUESTGATE(1,1)> <修复/@Gate1>
+
+<打开门/@OpenGate> <关闭门/@CloseGate>
+
+<返回/@Sabuk> <退出/@Exit> 
+
+[@OpenGate]
+#ACT
+OPENGATE 1 1
+LocalMessage "门已打开." Hint
+
+[@CloseGate]
+#ACT
+CLOSEGATE 1 1
+LocalMessage  "门已关闭" Hint
+
+[@RepairAllWalls]
+#ACT
+CONQUESTWALL 1 1
+CONQUESTWALL 1 2
+CONQUESTWALL 1 3
+LocalMessage "所有墙体都已修复."  Hint
+
+[@Wall1]
+#ACT
+CONQUESTWALL 1 1
+LocalMessage "You have Repaired Left Wall! "  Hint
+
+[@Wall2]
+#ACT
+CONQUESTWALL 1 2
+LocalMessage "中心墙已修复."  Hint
+
+[@Wall3]
+#ACT
+CONQUESTWALL 1 3
+LocalMessage "右墙已修复" Hint
+
+[@Gate1]
+#ACT
+CONQUESTGATE 1 1
+LocalMessage "门已修复."  Hint
+
+[@RepairAll]
+#ACT
+CONQUESTGUARD 1 1
+CONQUESTGUARD 1 2
+CONQUESTGUARD 1 3
+CONQUESTGUARD 1 4
+CONQUESTGUARD 1 5
+CONQUESTGUARD 1 6
+CONQUESTGUARD 1 7
+CONQUESTGUARD 1 8
+CONQUESTGUARD 1 9
+CONQUESTGUARD 1 10
+CONQUESTGUARD 1 11
+CONQUESTGUARD 1 12
+LocalMessage "所有守卫都复活了."  Hint
+
+[@Guard1]
+#ACT
+CONQUESTGUARD 1 1
+LocalMessage "1号卫兵复活" Hint
+
+[@Guard2]
+#ACT
+CONQUESTGUARD 1 2
+LocalMessage "守卫2号复活" Hint
+
+[@Guard3]
+#ACT
+CONQUESTGUARD 1 3
+LocalMessage "警卫3号复活" Hint
+
+[@Guard4]
+#ACT
+CONQUESTGUARD 1 4
+LocalMessage "卫队4号复活了" Hint
+
+#ACT
+CONQUESTGUARD 1 5
+CONQUESTGUARD 1 5
+LocalMessage "警卫5号复活" Hint
+
+[@Guard6]
+#ACT
+CONQUESTGUARD 1 6
+LocalMessage "警卫6号复活" Hint
+
+[@Guard7]
+#ACT
+CONQUESTGUARD 1 7
+LocalMessage "第7号卫兵复活了" Hint
+
+[@Guard8]
+#ACT
+CONQUESTGUARD 1 8
+LocalMessage "第8号卫兵复活" Hint
+
+[@Guard8]
+#ACT
+CONQUESTGUARD 1 8
+LocalMessage "第9号卫兵复活了" Hint
+
+[@Guard8]
+#ACT
+CONQUESTGUARD 1 8
+LocalMessage "10号卫兵复活" Hint
+
+[@Guard8]
+#ACT
+CONQUESTGUARD 1 8
+LocalMessage "第11号卫兵复活了" Hint
+
+[@Guard8]
+#ACT
+CONQUESTGUARD 1 8
+LocalMessage "卫队12号复活" Hint
+
+[@Guard8]
+#ACT
+CONQUESTGUARD 1 8
+LocalMessage "SabukWalls/Gate/Guards Repaired/Revived"  Hint
+
+[@SWStatistics]
+#SAY
+下面是一些Sabuk的统计数据.
+ 
+
+Conquest Gold Stored: <$CONQUESTGOLD(1)>
+Conquest Intrest Rate: <$CONQUESTRATE(1)>
+Next Conquest Date: <$CONQUESTSCHEDULE(1)>
+ 
+<返回/@Sabuk> <退出/@退出>
+
+[@Hero]
+#SAY
+英雄管理页面 
+
+<返回/@Main>
+
+<<创建英雄>>/@CreateHero/Green>>
+<<恢复英雄/@ReviveHero/Red>>
+<<封印英雄/@SealHero/Yellow>>
+<<DeleteHero/@DeleteHero/Blue>>
+
+[@ReviveHero]
+#ACT
+ReviveHero
+
+[@SealHero]
+#ACT
+SealHero
+
+[@DeleteHero]
+#IF
+CHECKITEM SealedHero
+#ACT
+GOTO @Found
+#ELSESAY
+你目前没有一个被封印的英雄.
+
+[@Found]
+#ACT
+TAKEITEM SealedHero
+#SAY
+英雄现在已经移交给了诸神.
+
+[@RebirthPanel]
+#SAY
+在这里你可以SET你的重生.
+
+Apply Rebirth          Delete Rebirth             Check Rebirth
+
+<重生1/@RB1> <重生1/@RB1DEL> <重生1/@RB1CHK>
+<重生2/@RB2> <重生2/@RB2DEL> <重生2/@RB2CHK> 
+<重生3/@RB3> <重生3/@RB3DEL> <重生3/@RB3CHK> 
+<所有/@RB123> <所有/@DEL123>
+ 
+<检查主重生标志/@RBMAIN> <删除主重生标志/@RBMAINDEL> <应用主重生标志/@RBMAINADD>
+
+<Back/@Main>
+[@RB1]
+#ACT
+SET [993] 1
+#SAY
+重生1获准.
+<返回/@RebirthPanel> <退出/@Exit>
+
+[@RB2]
+#ACT
+SET [994] 1
+#SAY
+重生2获准.
+<返回/@RebirthPanel> <退出/@Exit>
+
+[@RB3]
+#ACT
+SET [995] 1
+#SAY
+重生3获准.
+<返回/@RebirthPanel> <退出/@Exit>
+
+[@RBMAINADD]
+#ACT
+SET [1000] 1
+#SAY
+授予主重生标志.
+<返回/@RebirthPanel> <退出/@Exit>
+
+[@RB123]
+#ACT
+SET [993] 1
+SET [994] 1
+SET [995] 1
+SET [1000] 1
+#SAY
+所有重生标志都已应用.
+<返回/@RebirthPanel> <退出/@Exit>
+
+[@RB1DEL]
+#ACT
+SET [993] 0
+#SAY
+重生1被清除.
+<返回/@RebirthPanel> <退出/@Exit>
+
+[@RB2DEL]
+#ACT
+SET [993] 0
+#SAY
+重生2被清除.
+<返回/@RebirthPanel> <退出/@Exit>
+
+[@RB3DEL]
+#ACT
+SET [993] 0
+#SAY
+重生3被清除.
+<返回/@RebirthPanel> <退出/@Exit>
+
+[@DEL123]
+#ACT
+SET [993] 0
+#SAY
+SET [995] 0
+SET[1000]0
+#SAY
+所有重生标志被清除.
+<返回/@RebirthPanel> <退出/@Exit>
+
+[@RBMAINDEL]
+#ACT
+SET [993] 0
+#SAY
+主重生清除了.
+<返回/@RebirthPanel> <退出/@Exit>
+
+[@RBMAIN]
+#IF
+CHECK [1000] 1
+#SAY
+你目前有主重生效应.
+<返回/@RebirthPanel> <退出/@Exit>
+#ELSESAY
+你没有主重生效应.
+<返回/@RebirthPanel> <退出/@Exit>
+
+[@RB1CHK]
+#IF
+CHECK [993] 1
+#SAY
+你目前有重生1.
+<返回/@重生面板><退出/@退出>
+#ELSESAY
+你没有重生1.
+<返回/@RebirthPanel> <退出/@Exit>
+
+[@RB2CHK]
+#IF
+CHECK [994] 1
+#SAY
+你目前有重生2.
+<返回/@RebirthPanel> <退出/@Exit>
+#ELSESAY
+你没有重生2.
+<返回/@重生面板> <退出/@退出> 
+
+
+[@RB3CHK]
+#IF
+CHECK [995] 1
+#SAY
+你目前有重生3.
+<返回/@RebirthPanel> <退出/@Exit>
+#ELSESAY
+你没有重生3.
+<返回/@RebirthPanel> <退出/@Exit>

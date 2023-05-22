@@ -1,0 +1,242 @@
+;Gold
+1/1 Gold 50000
+
+;Pots + Other
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 祝福油
+1/10 Golden祝福油
+
+1/1 觉醒的灵魂0
+1/1 觉醒的灵魂0
+
+
+
+;Weapons
+1/100 冰封之剑
+1/100 狰狞之弓
+1/100 征服者之矛
+1/100 混蛋之剑
+1/200 黑虎之锤
+1/200 致命之弓
+1/200 洛托斯之杖
+1/200 鹤鸣扇
+1/300 战神之剑
+1/300 力量之弓
+1/300 巫术之刃
+1/300 创天之剑
+1/400 爆裂之剑
+1/400 恐惧之弓
+1/400 圣血之矛
+1/400 龙血剑
+1/600 阿普斯弓
+1/600 野蛮人之剑
+1/600 生死剑
+1/900 骨头CarvedFan
+1/1300 地狱山刀
+1/2000 PriestSlayer
+1/2000 PriestStaff
+1/2000 PriestFan
+1/2000 PriestSlayers
+1/6000 LordSlayerBlade
+1/6000 LordSlayerStaff
+1/6000 LordSlayerFan
+1/6000 LordSlayerBlades
+
+
+;Armour
+1/1000 天堂之铠(男)
+1/1000 天堂之铠(女)
+1/1000 HeavenArcheyRobe(男)
+1/1000 HeavenArcheyRobe(女)
+1/1200 HeavenGrnArmour(男)
+1/1200 HeavenGrnArmour(女)
+1/1200 HeavenRedArmour(男)
+1/1200 HeavenRedArmour(女)
+1/1200 天堂之铠(男)
+1/1200 天堂之铠(女)
+1/1200 HeavenGoldArmour(男)
+1/1200 HeavenGoldArmour(女)
+1/650 BloodDragonArmour(男)
+1/650 BloodDragonArmour(女)
+1/1300 WargBraveArmour(男)
+1/1300 WargBraveArmour(女)
+1/1300 WargMagicArmour(男)
+1/1300 WargMagicArmour(女)
+1/1300 Warg灵魂护甲(男)
+1/1300 Warg灵魂护甲(女)
+1/1300 WargArmour(男)
+1/1300 WargArmour(女)
+1/2000 RobeOfWarrior(男)
+1/2000 RobeOfWarrior(女)
+1/2000 RobeOfWizard(男)
+1/2000 RobeOfWizard(女)
+1/2000 RobeOfTaoist(男)
+1/2000 RobeOfTaoist(女)
+1/2000 RobeOfAssassin(男)
+1/2000 RobeOfAssassin(女)
+1/2000 RobeOfArcher(男)
+1/2000 RobeOfArcher(女)
+1/6000 LordSlayerArmour(男)
+1/6000 LordSlayerArmour(女)
+
+
+;Helmets
+1/2000 MantisHelmet
+1/90 ApesCrown
+1/60 闪亮的头盔
+1/520 黑暗头盔
+1/100 PuiYuHelmet
+1/450 BloodDragonHelmet
+1/6000 LordSlayerHelmet
+
+;Necklace
+1/2000 RhinoChains
+1/100 邪恶三角
+1/100 净化的十字架
+1/100 金刚项链
+1/150 恶魔面具
+1/150 紫金石
+1/150 鲲鹏之泪
+1/200 (H)恶魔面具
+1/200 (H)紫金石
+1/200 (H)鲲鹏之泪
+1/500 Blood龙纹项链
+1/600 神奇的项链
+1/6000 LordSlayerNecklace
+
+;Bracelets
+1/2000 SlimeBracelet
+1/155 WildTitan护身符
+1/155 Enchanted护身符
+1/155 FiveElement护身符
+1/250 WheelOfLunar
+1/300 (H)WheelOfLunar
+1/500 BloodDragonBrace
+1/600 天体之镯
+1/6000 LordSlayerBracelet
+
+;Rings
+1/2000 BirdRing
+1/155 恶魔之戒
+1/155 驱邪戒指
+1/155 Gold龙戒
+1/120 红魔戒指
+1/120 云戒指
+1/120 毒药戒指
+1/200 (H)红魔戒指
+1/200 (H)云戒指
+1/200 (H)毒药戒指
+1/450 Blood龙戒
+1/600 天使之戒
+1/6000 LordSlayerRing
+
+;Shoes
+1/2000 SpikedBoots
+1/500 Blood龙靴
+1/6000 LordSlayerBoots
+
+;Belts
+1/2000 BarkS陷阱
+1/500 BloodDragonBelt
+1/6000 LordSlayerBelt
+
+;Medals
+1/2000 QueensMedallion
+1/230 ArmouredMedal
+1/250 HollowMedal
+1/820 WargMedal
+
+
+;Shields
+1/2000 ProtectorOfQueen
+1/225 TrophyShield
+1/440 LunarPlate
+1/830 WargShield
+
+;Pads
+1/2000 TreeProtectors
+1/720 ShadowGuards[14d]
+
+;Stone
+1/2000 QueensJewl
+1/830 WargStone
+
+;Runes
+1/400 PinPointRune
+1/400 EvasiveRune
+1/400 EnrageRune
+1/400 IronWallRune
+1/400 SpeedyMagicianRune
+
+;Gems/Orbs
+1/25 勇敢宝石
+1/25 魔法宝石
+1/25 灵魂宝石
+1/20 保护宝石
+1/20 屠龙宝典
+1/32 毒药宝石
+1/32 冰冻宝石
+1/80 风暴宝石
+1/80 准确度宝石
+1/80 敏捷宝石
+1/25 勇敢球
+1/25 魔法之球
+1/25 灵魂之球
+1/20 保护球
+1/20 屠魔球
+1/32 毒药球
+1/32 冰冻球
+1/80 风暴球
+1/80 精度球
+1/80 敏捷球
+
+;Books
+;Warrior
+1/500 反击
+1/500 不朽的皮肤
+1/250 怒击
+1/80 保护场
+1/80 愤怒
+
+;Wizard
+1/80 流星打击
+1/120 魔力助推器
+1/200 风暴逃逸
+1/250 快速移动
+1/500 冰刺
+1/500 LavaKing
+1/500 FrozenRains
+
+;Taoist
+1/80 流星打击
+1/120 魔力助推器
+1/200 风暴逃逸
+1/250 快速移动
+1/400 瘟疫
+1/500 HeadShot
+1/500 HolyShield
+1/2000 FortuneTeller
+
+;Assassin
+1/500 出血
+1/800 迅捷脚步
+1/800 黑暗之躯
+1/1200 月雾
+1/1650 怒击Waves
+1/2000 BackStab
+1/2200 ShadowStep
+
+1/500 毒药射击
+1/800 残废射击
+1/1200 召唤蛇类
+1/1650 汽油弹
+1/2000 与自然同在
+
+;CraftingMaterials

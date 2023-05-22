@@ -1,0 +1,54 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人...
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+你好 traveller, How may I help you?
+ 
+<View/@BuySell> 商店 
+ 
+<关闭/@exit>
+
+[@BuySell]
+#SAY
+What Item would you like to buy or sell?
+<BuyBack/@BuyBack>
+ 
+<返回/@Main>
+
+[@BuyBack]
+#SAY
+这些是仍然可以购买回来的物品.
+ 
+<返回/@Main>
+
+[Types]
+13
+
+[Trade]
+(HP)药物小量 1
+(HP)药物小量 5
+(HP)药物小量 10
+(MP)药物小量 1
+(MP)药物小量 5
+(MP)药物小量 10
+(HP)药物中量 1
+(HP)药物中量 5
+(HP)药物中量 10
+(MP)药物中量 1
+(MP)药物中量 5
+(MP)药物中量 10
+(HP)药物大量 1
+(HP)药物大量 5
+(HP)药物大量 10
+(MP)药物大量 1
+(MP)药物大量 5
+(MP)药物大量 10

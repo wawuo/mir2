@@ -1,0 +1,12 @@
+[Recipe]
+Amount 1
+Chance 100
+Gold 1000
+
+[Tools]
+
+[Ingredients]
+骨头 20
+青铜头盔
+铜矿石 1 12000
+蜘蛛网 10

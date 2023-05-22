@@ -1,0 +1,29 @@
+[@Description]
+Here is the Tea you asked for. Please deliver this 
+before it gets cold.
+
+[@TaskDescription]
+Deliver the {坎尼茶/LightSteelBlue} to {MirGuide/LimeGreen}
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+
+[@CarryItems]
+坎尼茶 2
+
+[@FixedRewards]
+钢扣
+
+[@SelectRewards]
+
+[@ExpReward]
+439
+
+[@GoldReward]
+145
+
+// Pickup - CraftsLady_Alice 0 321 265 
+// Hand In - 

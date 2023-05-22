@@ -1,0 +1,26 @@
+[@Description]
+Hello traveller, I have a favor tou ask you. I lost 
+my sister's ring while hunting in {OmaCave/Yellow}. 
+
+[@TaskDescription]
+Find {奥利维亚斯戒指/LightSteelBlue} in {OmaCave/Yellow}
+
+[@Completion]
+
+
+[@KillTasks]
+
+[@ItemTasks]
+奥利维亚斯戒指 1
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+1400
+
+[@GoldReward]
+1400

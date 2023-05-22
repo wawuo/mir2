@@ -1,0 +1,177 @@
+;Gold
+1/1 Gold 35000
+1/10 金条
+
+;Pots + Other
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/1 太阳药水
+1/2 太阳药水
+1/2 太阳药水
+1/2 太阳药水
+1/2 太阳药水
+1/2 太阳药水
+1/2 太阳药水
+1/1 (HP)药物XL
+1/1 (MP)药物XL
+1/1 (HP)药物XL
+1/1 (MP)药物XL
+1/2 (HP)药物XL
+1/2 (MP)药物XL
+1/2 (HP)药物XL
+1/2 (MP)药物XL
+1/1 太阳药水 
+1/1 太阳药水  
+1/2 太阳药水  
+1/2 太阳药水  
+1/2 太阳药水  
+1/2 太阳药水  
+1/2 太阳药水  
+
+1/1  祝福油
+1/10 Golden祝福油
+
+
+
+1/15 觉醒的灵魂0
+1/15 觉醒的灵魂0
+
+;Weapons
+1/400 冰封之剑
+1/400 狰狞之弓
+1/400 征服者之矛
+1/400 混蛋之剑
+1/800 黑虎之锤
+1/800 洛托斯之杖
+1/800 致命之弓
+1/800 鹤鸣扇
+1/1800 FrozenSlayer
+1/1800 FrozenStaff
+1/1800 FrozenWand
+1/1800 FrozenBow
+1/6000 LordSlayerBlade
+1/6000 LordSlayerStaff
+1/6000 LordSlayerFan
+1/6000 LordSlayerBlades
+
+
+;Armour
+1/200 黑虎盔甲(男)
+1/200 黑虎盔甲(女)
+1/200 莲花盔甲(男)
+1/200 莲花盔甲(女)
+1/200 仙鹤盔甲(男)
+1/200 仙鹤盔甲(女)
+1/700 WatcherSuit(男)
+1/700 WatcherSuit(女)
+1/1400 FrozenArmour(男)
+1/1400 FrozenArmour(女)
+1/6000 LordSlayerArmour(男)
+1/6000 LordSlayerArmour(女)
+
+;Helmets
+1/550 WatcherHelmet
+1/570 PuiYuHelmet
+1/570 黑暗头盔
+1/1470 FrozenHelmet
+1/6000 LordSlayerHelmet
+
+;Necklace
+1/100 金刚项链
+1/100 邪恶三角
+1/100 净化的十字架
+1/1400 FrozenNecklace
+1/6000 LordSlayerNecklace
+
+;Bracelets
+1/100 WildTitan护身符
+1/100 Enchanted护身符
+1/100 FiveElement护身符
+1/500 WatcherGloves
+1/1400 FrozenWheel
+1/6000 LordSlayerBracelet
+
+;Rings
+1/100 Gold龙戒
+1/100 恶魔之戒
+1/100 驱邪戒指
+1/1400 FrozenRing
+1/6000 LordSlayerRing
+
+;Shoes
+1/550 WatcherBoots
+1/500 黑暗之靴
+1/1450 FrozenBoots
+1/6000 LordSlayerBoots
+
+;Belts
+1/100 黑暗腰带
+1/1400 FrozenBelt
+1/6000 LordSlayerBelt
+
+;Medals
+
+
+;Shields
+1/1300 FrozenShield
+
+;Pads
+
+
+;Stone
+1/800 冰冻石
+
+;Gems/Orbs
+1/25 勇敢宝石
+1/25 魔法宝石
+1/25 灵魂宝石
+1/20 保护宝石
+1/20 屠龙宝典
+1/32 毒药宝石
+1/32 冰冻宝石
+1/80 风暴宝石
+1/80 准确度宝石
+1/80 敏捷宝石
+1/25 勇敢球
+1/25 魔法之球
+1/25 灵魂之球
+1/20 保护球
+1/20 屠魔球
+1/32 毒药球
+1/32 冰冻球
+1/80 风暴球
+1/80 精度球
+1/80 敏捷球
+
+
+;Books
+;;Warrior
+1/500 愤怒
+1/800 斩击爆裂
+
+;;Wizard
+1/700 魔力助推器
+1/800 冰刺
+1/900 LavaKing
+1/900 FrozenRains
+
+;;Taoist
+1/500 毒云
+1/700 瘟疫
+1/800 宠物强化器
+1/900 HeadShot
+1/950 HolyShield
+
+
+;;Assassin
+1/900 月雾
+1/900 怒击Waves
+
+;Archer
+1/500 残废射击
+1/700 召唤蛇类
+1/800 汽油弹
+1/900 与自然同在
+
+;CraftingMaterials

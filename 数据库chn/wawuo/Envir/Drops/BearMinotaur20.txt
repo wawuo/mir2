@@ -1,0 +1,2306 @@
+1/2 Gold 20000 LV1
+
+1/1 太阳药水 LV1
+1/1 太阳药水 LV1
+1/1 太阳药水 LV1
+1/1 太阳药水 LV1
+1/1 太阳药水 LV1
+1/1 太阳药水 LV1
+1/1 太阳药水 LV1
+1/1 太阳药水 LV1
+1/1 太阳药水 LV1
+1/1 太阳药水 LV1
+1/1 太阳药水 LV1
+1/1 太阳药水 LV1
+1/1 太阳药水(中) LV1
+1/1 太阳药水(中) LV1
+1/1 太阳药水(中) LV1
+1/1 太阳药水(中) LV1
+1/1 太阳药水(中) LV1
+1/1 太阳药水(中) LV1
+1/1 太阳药水(中) LV1
+1/1 太阳药水 LV1
+1/2 祝福油 LV1
+1/5 金条 LV1
+
+1/140 黑虎盔甲(男) LV1
+1/140 黑虎盔甲(女) LV1
+1/140 莲花盔甲(男) LV1
+1/140 莲花盔甲(女) LV1
+1/140 仙鹤盔甲(男) LV1
+1/140 仙鹤盔甲(女) LV1
+1/140 隐形盔甲(男) LV1
+1/140 隐形盔甲(女) LV1
+1/170 红色黑暗盔甲(男) LV1
+1/170 红色黑暗盔甲(女) LV1
+1/170 蓝色深色护甲(男) LV1
+1/170 蓝色深色护甲(女) LV1
+1/170 鳞甲(男) LV1
+1/170 鳞甲(女) LV1
+1/170 绿色深色护甲(男) LV1
+1/170 绿色深色护甲(女) LV1
+1/170 金色深色护甲(男) LV1
+1/170 金色深色护甲(女)v
+1/400 WatcherSuit(男) LV1
+1/400 WatcherSuit(女) LV1
+1/1700 HeavenRedArmour(男) LV1
+1/1700 HeavenRedArmour(女) LV1
+1/1700 HeavenGrnArmour(男) LV1
+1/1700 HeavenGrnArmour(女) LV1
+1/1700 天堂之铠(男) LV1
+1/1700 天堂之铠(女) LV1
+1/1700 HeavenGoldArmour(男) LV1
+1/1700 HeavenGoldArmour(女) LV1
+
+1/100 玛吉之刃 LV1
+1/300 战神之剑 LV1
+1/300 力量之弓 LV1
+1/300 巫术之刃 LV1
+1/300 创天之剑 LV1
+1/50 冰封之剑 LV1
+1/50 狰狞之弓 LV1
+1/50 锌刀 LV1
+1/50 征服者之矛 LV1
+1/50 混蛋之剑 LV1
+1/450 黑虎之锤 LV1
+1/450 致命之弓 LV1
+1/450 屠宰刀 LV1
+1/450 洛托斯之杖 LV1
+1/450 鹤鸣扇 LV1
+1/700 野蛮人之剑 LV1
+1/700 阿普斯弓 LV1
+1/700 生死剑 LV1
+1/700 狂龙之刃 LV1
+1/700 骨头CarvedFan LV1
+
+1/40 伟大的头盔 LV1
+1/40 智慧头盔 LV1
+1/40 道冠 LV1
+1/40 皇家头盔 LV1
+1/100 闪亮的头盔 LV1
+1/150 PuiYuHelmet LV1
+1/150 WatcherHelmet LV1
+
+
+1/50 誓约环 LV1
+1/50 五元素戒指 LV1
+1/50 红宝戒指 LV1
+1/105 恶魔之戒 LV1
+1/105 驱邪戒指 LV1
+1/155 Gold龙戒 LV1
+
+1/50 双天王护身符 LV1
+1/50 神圣护身符 LV1
+1/50 诅咒护身符 LV1
+1/105 WildTitan护身符 LV1
+1/105 Enchanted护身符 LV1
+1/105 FiveElement护身符 LV1
+1/155 WatcherGloves LV1
+
+1/50 残缺的项链 LV1
+1/50 巫术之锚 LV1
+1/50 净化的镜子 LV1
+1/100 邪恶三角 LV1
+1/100 净化的十字架 LV1
+1/100 金刚项链 LV1
+
+1/10 勇敢球 LV1
+1/10 魔法之球 LV1
+1/10 灵魂之球 LV1
+1/20 保护球 LV1
+1/20 屠魔球 LV1
+1/40 风暴球 LV1
+1/40 敏捷球 LV1
+1/40 精度球 LV1
+1/40 毒药球 LV1
+1/40 冰冻球 LV1
+1/40 幻觉球 LV1
+1/40 耐力球 LV1
+1/45 耐用性球 LV1
+
+1/30 Holy健康石 LV1
+1/30 Holy魔法石 LV1
+1/30 Holy动力石 LV1
+1/40 HolyAcStone LV1
+1/40 HolyAmcStone LV1
+1/40 HolyDefenseStone LV1
+1/30 HolyDC攻击石 LV1
+1/30 HolyMC石 LV1
+1/30 HolySC石 LV1
+
+
+;Boots
+1/300 WatcherBoots LV1
+
+
+;Shield
+1/650 OrcsShield LV1
+
+1/300 DefenderRing LV1
+1/300 DefenderGlove LV1
+1/300 DefenderNecklace LV1
+1/100 (H)恶魔面具 LV1
+1/100 (H)紫金石 LV1
+1/100 (H)鲲鹏之泪 LV1
+1/100 (H)WheelOfLunar LV1
+1/100 (H)红魔戒指 LV1
+1/100 (H)云戒指 LV1
+1/100 (H)毒药戒指 LV1
+1/80 ArmouredMedal LV1
+1/50 HollowMedal LV1
+1/200 AscendedRing LV1
+1/200 AscendedWheel LV1
+1/200 AscendedNecklace LV1
+1/200 AscendedHelmet LV1
+1/200 AscendedBoots LV1
+1/200 AscendedBelt LV1
+
+;other
+1/550 InfernoRing LV1
+1/550 InfernoNecklace LV1
+1/550 InfernoWheel LV1
+1/550 InfernoBoots LV1
+1/550 InfernoBelt LV1
+1/550 InfernoShield LV1
+1/550 InfernoHelmet LV1
+1/1200 HeatsBanes LV1
+1/1200 WidowsWail LV1
+1/1200 ThorsBattleAxe LV1
+1/1200 OathKeeper LV1
+1/450 TrollCap LV1
+1/450 TrollRing LV1
+1/450 TrollBand LV1
+1/450 TrollChains LV1
+1/450 S陷阱ofTrolls LV1
+1/450 TrollLeathers LV1
+1/200 TerrapinNecklace LV1
+1/200 TerrapinBracelet LV1
+1/200 TerrapinRing LV1
+1/300 TerrapinShield LV1
+1/500 TrollsRobe(男) LV1
+1/500 TrollsRobe(女) LV1
+
+1/100 DefensiveMedal LV1
+1/100 OffensiveMedal LV1
+
+1/100 SmasherGlove LV1
+1/100 暴风雪Glove LV1
+1/100 MistyGlove LV1
+1/100 SlicerGlove LV1
+1/100 SmasherNecklace LV1
+1/100 暴风雪Necklace LV1
+1/100 MistyNecklace LV1
+1/100 SlicerNecklace LV1
+1/100 SmasherRing LV1
+1/100 暴风雪Ring LV1
+1/100 MistyRing  LV1
+1/100 SlicerRing LV1
+
+1/900 HavokBraveArmour(男) LV1
+1/900 HavokBraveArmour(女) LV1
+1/900 HavokMagicArmour(男) LV1
+1/900 HavokMagicArmour(女) LV1
+1/900 Havok灵魂护甲(男) LV1
+1/900 Havok灵魂护甲(女) LV1
+1/900 HavokSinArmour(男) LV1
+1/900 HavokSinArmour(女) LV1
+
+1/400 神奇的项链 LV1
+1/400 天体之镯 LV1
+1/400 天使之戒 LV1
+
+1/1200 FrozenBelt LV1
+1/1200 FrozenNecklace LV1
+1/1200 FrozenRing LV1
+1/1200 FrozenBoots LV1
+1/900 FrozenWheel LV1
+1/1200 FrozenSlayer LV1
+1/1200 FrozenStaff LV1
+1/1200 FrozenWand LV1
+1/1200 Frozen匕首s LV1
+1/1200 FrozenBow LV1
+
+;Books
+;Warrior
+1/25 火焰之剑 LV1
+1/30 十字半月 LV1
+1/50 双闸刀 LV1
+1/60 狮子吼 LV1
+1/70 禁锢 LV1
+1/120 SliceN骰子 LV1
+1/140 BladeStorm LV1
+1/150 刀锋雪崩 LV1
+1/700 保护场 LV1
+1/800 愤怒 LV1
+1/900 怒击 LV1
+1/1000 反击 LV1
+1/1500 不朽的皮肤 LV1
+
+;Wizard
+1/10 寒霜紧缩 LV1
+1/25 冰风暴 LV1
+1/30 火焰破坏者 LV1
+1/50 吸血术 LV1
+1/100 DragNet LV1
+1/150 镜像 LV1
+1/190 火焰场 LV1
+1/700 暴风雪 LV1
+1/800 魔力助推器 LV1
+1/900 流星打击 LV1
+1/1000 快速移动 LV1
+1/1100 冰刺 LV1
+1/1200 FrozenRains LV1
+1/1300 LavaKing LV1
+1/1600 风暴逃逸 LV1
+
+;Taoist
+1/50 幻觉 LV1
+1/50 净化 LV1
+1/30 终极强化器 LV1
+1/30 能量反击器 LV1
+1/25 召唤神术 LV1
+1/100治愈圈 LV1
+1/200 召唤圣德瓦 LV1
+1/500 诅咒 LV1
+1/800 转世 LV1
+1/900 毒云 LV1
+1/1100 能量护盾 LV1
+1/1000 宠物强化器 LV1
+1/1300 HolyShield LV1
+1/1600 HeadShot LV1
+
+;Assassin
+1/50 火焰喷射 LV1
+1/75 陷阱 LV1
+1/60 迅捷脚步 LV1
+1/100 CrescentSlash LV1
+1/600 黑暗之躯 LV1
+
+;Archer
+1/50 元素屏障 LV1
+1/60 捆绑射击 LV1
+1/75 召唤蟾蜍 LV1
+1/75 毒药射击 LV1
+1/100 残废射击 LV1
+1/100 召唤蛇类 LV1
+
+;Level2
+1/2 Gold 20000 LV2
+
+1/1 太阳药水 LV2
+1/1 太阳药水 LV2
+1/1 太阳药水 LV2
+1/1 太阳药水 LV2
+1/1 太阳药水 LV2
+1/1 太阳药水 LV2
+1/1 太阳药水 LV2
+1/1 太阳药水 LV2
+1/1 太阳药水 LV2
+1/1 太阳药水 LV2
+1/1 太阳药水 LV2
+1/1 太阳药水 LV2
+1/1 太阳药水(中) LV2
+1/1 太阳药水(中) LV2
+1/1 太阳药水(中) LV2
+1/1 太阳药水(中) LV2
+1/1 太阳药水(中) LV2
+1/1 太阳药水(中) LV2
+1/1 太阳药水(中) LV2
+1/1 太阳药水 LV2
+1/2 祝福油 LV2
+1/5 金条 LV2
+
+1/140 黑虎盔甲(男) LV2
+1/140 黑虎盔甲(女) LV2
+1/140 莲花盔甲(男) LV2
+1/140 莲花盔甲(女) LV2
+1/140 仙鹤盔甲(男) LV2
+1/140 仙鹤盔甲(女) LV2
+1/140 隐形盔甲(男) LV2
+1/140 隐形盔甲(女) LV2
+1/170 红色黑暗盔甲(男) LV2
+1/170 红色黑暗盔甲(女) LV2
+1/170 蓝色深色护甲(男) LV2
+1/170 蓝色深色护甲(女) LV2
+1/170 鳞甲(男) LV2
+1/170 鳞甲(女) LV2
+1/170 绿色深色护甲(男) LV2
+1/170 绿色深色护甲(女) LV2
+1/170 金色深色护甲(男) LV2
+1/170 金色深色护甲(女)v
+1/400 WatcherSuit(男) LV2
+1/400 WatcherSuit(女) LV2
+1/1700 HeavenRedArmour(男) LV2
+1/1700 HeavenRedArmour(女) LV2
+1/1700 HeavenGrnArmour(男) LV2
+1/1700 HeavenGrnArmour(女) LV2
+1/1700 天堂之铠(男) LV2
+1/1700 天堂之铠(女) LV2
+1/1700 HeavenGoldArmour(男) LV2
+1/1700 HeavenGoldArmour(女) LV2
+
+1/100 玛吉之刃 LV2
+1/300 战神之剑 LV2
+1/300 力量之弓 LV2
+1/300 巫术之刃 LV2
+1/300 创天之剑 LV2
+1/50 冰封之剑 LV2
+1/50 狰狞之弓 LV2
+1/50 锌刀 LV2
+1/50 征服者之矛 LV2
+1/50 混蛋之剑 LV2
+1/450 黑虎之锤 LV2
+1/450 致命之弓 LV2
+1/450 屠宰刀 LV2
+1/450 洛托斯之杖 LV2
+1/450 鹤鸣扇 LV2
+1/700 阿普斯弓 LV2
+1/700 野蛮人之剑 LV2
+1/700 生死剑 LV2
+1/700 狂龙之刃 LV2
+1/700 骨头CarvedFan LV2
+
+1/40 伟大的头盔 LV2
+1/40 智慧头盔 LV2
+1/40 道冠 LV2
+1/40 皇家头盔 LV2
+1/100 闪亮的头盔 LV2
+1/150 PuiYuHelmet LV2
+1/150 WatcherHelmet LV2
+
+
+1/50 誓约环 LV2
+1/50 五元素戒指 LV2
+1/50 红宝戒指 LV2
+1/105 恶魔之戒 LV2
+1/105 驱邪戒指 LV2
+1/155 Gold龙戒 LV2
+
+1/50 双天王护身符 LV2
+1/50 神圣护身符 LV2
+1/50 诅咒护身符 LV2
+1/105 WildTitan护身符 LV2
+1/105 Enchanted护身符 LV2
+1/105 FiveElement护身符 LV2
+1/155 WatcherGloves LV2
+
+1/50 残缺的项链 LV2
+1/50 巫术之锚 LV2
+1/50 净化的镜子 LV2
+1/100 邪恶三角 LV2
+1/100 净化的十字架 LV2
+1/100 金刚项链 LV2
+
+1/10 勇敢球 LV2
+1/10 魔法之球 LV2
+1/10 灵魂之球 LV2
+1/20 保护球 LV2
+1/20 屠魔球 LV2
+1/40 风暴球 LV2
+1/40 敏捷球 LV2
+1/40 精度球 LV2
+1/40 毒药球 LV2
+1/40 冰冻球 LV2
+1/40 幻觉球 LV2
+1/40 耐力球 LV2
+1/45 耐用性球 LV2
+
+1/30 Holy健康石 LV2
+1/30 Holy魔法石 LV2
+1/30 Holy动力石 LV2
+1/40 HolyAcStone LV2
+1/40 HolyAmcStone LV2
+1/40 HolyDefenseStone LV2
+1/30 HolyDC攻击石 LV2
+1/30 HolyMC石 LV2
+1/30 HolySC石 LV2
+
+
+;Boots
+1/300 WatcherBoots LV2
+
+
+;Shield
+1/650 OrcsShield LV2
+
+1/300 DefenderRing LV2
+1/300 DefenderGlove LV2
+1/300 DefenderNecklace LV2
+1/100 (H)恶魔面具 LV2
+1/100 (H)紫金石 LV2
+1/100 (H)鲲鹏之泪 LV2
+1/100 (H)WheelOfLunar LV2
+1/100 (H)红魔戒指 LV2
+1/100 (H)云戒指 LV2
+1/100 (H)毒药戒指 LV2
+1/80 ArmouredMedal LV2
+1/50 HollowMedal LV2
+1/200 AscendedRing LV2
+1/200 AscendedWheel LV2
+1/200 AscendedNecklace LV2
+1/200 AscendedHelmet LV2
+1/200 AscendedBoots LV2
+1/200 AscendedBelt LV2
+
+;other
+1/550 InfernoRing LV2
+1/550 InfernoNecklace LV2
+1/550 InfernoWheel LV2
+1/550 InfernoBoots LV2
+1/550 InfernoBelt LV2
+1/550 InfernoShield LV2
+1/550 InfernoHelmet LV2
+1/1200 HeatsBanes LV2
+1/1200 WidowsWail LV2
+1/1200 ThorsBattleAxe LV2
+1/1200 OathKeeper LV2
+1/450 TrollCap LV2
+1/450 TrollRing LV2
+1/450 TrollBand LV2
+1/450 TrollChains LV2
+1/450 S陷阱ofTrolls LV2
+1/450 TrollLeathers LV2
+1/200 TerrapinNecklace LV2
+1/200 TerrapinBracelet LV2
+1/200 TerrapinRing LV2
+1/300 TerrapinShield LV2
+1/500 TrollsRobe(男) LV2
+1/500 TrollsRobe(女) LV2
+
+1/100 DefensiveMedal LV2
+1/100 OffensiveMedal LV2
+
+1/100 SmasherGlove LV2
+1/100 暴风雪Glove LV2
+1/100 MistyGlove LV2
+1/100 SlicerGlove LV2
+1/100 SmasherNecklace LV2
+1/100 暴风雪Necklace LV2
+1/100 MistyNecklace LV2
+1/100 SlicerNecklace LV2
+1/100 SmasherRing LV2
+1/100 暴风雪Ring LV2
+1/100 MistyRing  LV2
+1/100 SlicerRing LV2
+
+1/900 HavokBraveArmour(男) LV2
+1/900 HavokBraveArmour(女) LV2
+1/900 HavokMagicArmour(男) LV2
+1/900 HavokMagicArmour(女) LV2
+1/900 Havok灵魂护甲(男) LV2
+1/900 Havok灵魂护甲(女) LV2
+1/900 HavokSinArmour(男) LV2
+1/900 HavokSinArmour(女) LV2
+
+1/400 神奇的项链 LV2
+1/400 天体之镯 LV2
+1/400 天使之戒 LV2
+
+1/1200 FrozenBelt LV2
+1/1200 FrozenNecklace LV2
+1/1200 FrozenRing LV2
+1/1200 FrozenBoots LV2
+1/900 FrozenWheel LV2
+1/1200 FrozenSlayer LV2
+1/1200 FrozenStaff LV2
+1/1200 FrozenWand LV2
+1/1200 Frozen匕首s LV2
+1/1200 FrozenBow LV2
+
+
+;Books
+;Warrior
+1/25 火焰之剑 LV2
+1/30 十字半月 LV2
+1/50 双闸刀 LV2
+1/60 狮子吼 LV2
+1/70 禁锢 LV2
+1/120 SliceN骰子 LV2
+1/140 BladeStorm LV2
+1/150 刀锋雪崩 LV2
+1/700 保护场 LV2
+1/800 愤怒 LV2
+1/900 怒击 LV2
+1/1000 反击 LV2
+1/1500 不朽的皮肤 LV2
+
+;Wizard
+1/10 寒霜紧缩 LV2
+1/25 冰风暴 LV2
+1/30 火焰破坏者 LV2
+1/50 吸血术 LV2
+1/100 DragNet LV2
+1/150 镜像 LV2
+1/190 火焰场 LV2
+1/700 暴风雪 LV2
+1/800 魔力助推器 LV2
+1/900 流星打击 LV2
+1/1000 快速移动 LV2
+1/1100 冰刺 LV2
+1/1200 FrozenRains LV2
+1/1300 LavaKing LV2
+1/1600 风暴逃逸 LV2
+
+;Taoist
+1/50 幻觉 LV2
+1/50 净化 LV2
+1/30 终极强化器 LV2
+1/30 能量反击器 LV2
+1/25 召唤神术 LV2
+1/100治愈圈 LV2
+1/200 召唤圣德瓦 LV2
+1/500 诅咒 LV2
+1/800 转世 LV2
+1/900 毒云 LV2
+1/1100 能量护盾 LV2
+1/1000 宠物强化器 LV2
+1/1300 HolyShield LV2
+1/1600 HeadShot LV2
+
+;Assassin
+1/50 火焰喷射 LV2
+1/75 陷阱 LV2
+1/60 迅捷脚步 LV2
+1/100 CrescentSlash LV2
+1/600 黑暗之躯 LV2
+
+;Archer
+1/50 元素屏障 LV2
+1/60 捆绑射击 LV2
+1/75 召唤蟾蜍 LV2
+1/75 毒药射击 LV2
+1/100 残废射击 LV2
+1/100 召唤蛇类 LV2
+
+
+;Level3
+1/2 Gold 20000 LV3
+
+1/1 太阳药水 LV3
+1/1 太阳药水 LV3
+1/1 太阳药水 LV3
+1/1 太阳药水 LV3
+1/1 太阳药水 LV3
+1/1 太阳药水 LV3
+1/1 太阳药水 LV3
+1/1 太阳药水 LV3
+1/1 太阳药水 LV3
+1/1 太阳药水 LV3
+1/1 太阳药水 LV3
+1/1 太阳药水 LV3
+1/1 太阳药水(中) LV3
+1/1 太阳药水(中) LV3
+1/1 太阳药水(中) LV3
+1/1 太阳药水(中) LV3
+1/1 太阳药水(中) LV3
+1/1 太阳药水(中) LV3
+1/1 太阳药水(中) LV3
+1/1 太阳药水 LV3
+1/2 祝福油 LV3
+1/5 金条 LV3
+
+1/140 黑虎盔甲(男) LV3
+1/140 黑虎盔甲(女) LV3
+1/140 莲花盔甲(男) LV3
+1/140 莲花盔甲(女) LV3
+1/140 仙鹤盔甲(男) LV3
+1/140 仙鹤盔甲(女) LV3
+1/140 隐形盔甲(男) LV3
+1/140 隐形盔甲(女) LV3
+1/170 红色黑暗盔甲(男) LV3
+1/170 红色黑暗盔甲(女) LV3
+1/170 鳞甲(男) LV3
+1/170 鳞甲(女) LV3
+1/170 蓝色深色护甲(男) LV3
+1/170 蓝色深色护甲(女) LV3
+1/170 绿色深色护甲(男) LV3
+1/170 绿色深色护甲(女) LV3
+1/170 金色深色护甲(男) LV3
+1/170 金色深色护甲(女)v
+1/400 WatcherSuit(男) LV3
+1/400 WatcherSuit(女) LV3
+1/1700 HeavenRedArmour(男) LV3
+1/1700 HeavenRedArmour(女) LV3
+1/1700 HeavenGrnArmour(男) LV3
+1/1700 HeavenGrnArmour(女) LV3
+1/1700 天堂之铠(男) LV3
+1/1700 天堂之铠(女) LV3
+1/1700 HeavenGoldArmour(男) LV3
+1/1700 HeavenGoldArmour(女) LV3
+
+1/100 玛吉之刃 LV3
+1/300 战神之剑 LV3
+1/300 力量之弓 LV3
+1/300 巫术之刃 LV3
+1/300 创天之剑 LV3
+1/50 冰封之剑 LV3
+1/50 狰狞之弓 LV3
+1/50 锌刀 LV3
+1/50 征服者之矛 LV3
+1/50 混蛋之剑 LV3
+1/450 黑虎之锤 LV3
+1/450 屠宰刀 LV3
+1/450 致命之弓 LV3
+1/450 洛托斯之杖 LV3
+1/450 鹤鸣扇 LV3
+1/700 野蛮人之剑 LV3
+1/700 生死剑 LV3
+1/700 阿普斯弓 LV3
+1/700 狂龙之刃 LV3
+1/700 骨头CarvedFan LV3
+
+1/40 伟大的头盔 LV3
+1/40 智慧头盔 LV3
+1/40 道冠 LV3
+1/40 皇家头盔 LV3
+1/100 闪亮的头盔 LV3
+1/150 PuiYuHelmet LV3
+1/150 WatcherHelmet LV3
+
+
+1/50 誓约环 LV3
+1/50 五元素戒指 LV3
+1/50 红宝戒指 LV3
+1/105 恶魔之戒 LV3
+1/105 驱邪戒指 LV3
+1/155 Gold龙戒 LV3
+
+1/50 双天王护身符 LV3
+1/50 神圣护身符 LV3
+1/50 诅咒护身符 LV3
+1/105 WildTitan护身符 LV3
+1/105 Enchanted护身符 LV3
+1/105 FiveElement护身符 LV3
+1/155 WatcherGloves LV3
+
+1/50 残缺的项链 LV3
+1/50 巫术之锚 LV3
+1/50 净化的镜子 LV3
+1/100 邪恶三角 LV3
+1/100 净化的十字架 LV3
+1/100 金刚项链 LV3
+
+1/10 勇敢球 LV3
+1/10 魔法之球 LV3
+1/10 灵魂之球 LV3
+1/20 保护球 LV3
+1/20 屠魔球 LV3
+1/40 风暴球 LV3
+1/40 敏捷球 LV3
+1/40 精度球 LV3
+1/40 毒药球 LV3
+1/40 冰冻球 LV3
+1/40 幻觉球 LV3
+1/40 耐力球 LV3
+1/45 耐用性球 LV3
+
+1/30 Holy健康石 LV3
+1/30 Holy魔法石 LV3
+1/30 Holy动力石 LV3
+1/40 HolyAcStone LV3
+1/40 HolyAmcStone LV3
+1/40 HolyDefenseStone LV3
+1/30 HolyDC攻击石 LV3
+1/30 HolyMC石 LV3
+1/30 HolySC石 LV3
+
+
+;Boots
+1/300 WatcherBoots LV3
+
+
+;Shield
+1/650 OrcsShield LV3
+
+1/300 DefenderRing LV3
+1/300 DefenderGlove LV3
+1/300 DefenderNecklace LV3
+1/100 (H)恶魔面具 LV3
+1/100 (H)紫金石 LV3
+1/100 (H)鲲鹏之泪 LV3
+1/100 (H)WheelOfLunar LV3
+1/100 (H)红魔戒指 LV3
+1/100 (H)云戒指 LV3
+1/100 (H)毒药戒指 LV3
+1/80 ArmouredMedal LV3
+1/50 HollowMedal LV3
+1/200 AscendedRing LV3
+1/200 AscendedWheel LV3
+1/200 AscendedNecklace LV3
+1/200 AscendedHelmet LV3
+1/200 AscendedBoots LV3
+1/200 AscendedBelt LV3
+
+;other
+1/550 InfernoRing LV3
+1/550 InfernoNecklace LV3
+1/550 InfernoWheel LV3
+1/550 InfernoBoots LV3
+1/550 InfernoBelt LV3
+1/550 InfernoShield LV3
+1/550 InfernoHelmet LV3
+1/1200 HeatsBanes LV3
+1/1200 WidowsWail LV3
+1/1200 ThorsBattleAxe LV3
+1/1200 OathKeeper LV3
+1/450 TrollCap LV3
+1/450 TrollRing LV3
+1/450 TrollBand LV3
+1/450 TrollChains LV3
+1/450 S陷阱ofTrolls LV3
+1/450 TrollLeathers LV3
+1/200 TerrapinNecklace LV3
+1/200 TerrapinBracelet LV3
+1/200 TerrapinRing LV3
+1/300 TerrapinShield LV3
+1/500 TrollsRobe(男) LV3
+1/500 TrollsRobe(女) LV3
+
+1/100 DefensiveMedal LV3
+1/100 OffensiveMedal LV3
+
+1/100 SmasherGlove LV3
+1/100 暴风雪Glove LV3
+1/100 MistyGlove LV3
+1/100 SlicerGlove LV3
+1/100 SmasherNecklace LV3
+1/100 暴风雪Necklace LV3
+1/100 MistyNecklace LV3
+1/100 SlicerNecklace LV3
+1/100 SmasherRing LV3
+1/100 暴风雪Ring LV3
+1/100 MistyRing  LV3
+1/100 SlicerRing LV3
+
+1/900 HavokBraveArmour(男) LV3
+1/900 HavokBraveArmour(女) LV3
+1/900 HavokMagicArmour(男) LV3
+1/900 HavokMagicArmour(女) LV3
+1/900 Havok灵魂护甲(男) LV3
+1/900 Havok灵魂护甲(女) LV3
+1/900 HavokSinArmour(男) LV3
+1/900 HavokSinArmour(女) LV3
+
+1/400 神奇的项链 LV3
+1/400 天体之镯 LV3
+1/400 天使之戒 LV3
+
+1/1200 FrozenBelt LV3
+1/1200 FrozenNecklace LV3
+1/1200 FrozenRing LV3
+1/1200 FrozenBoots LV3
+1/900 FrozenWheel LV3
+1/1200 FrozenSlayer LV3
+1/1200 FrozenStaff LV3
+1/1200 FrozenWand LV3
+1/1200 Frozen匕首s LV3
+1/1200 FrozenBow LV3
+
+
+;Books
+;Warrior
+1/25 火焰之剑 LV3
+1/30 十字半月 LV3
+1/50 双闸刀 LV3
+1/60 狮子吼 LV3
+1/70 禁锢 LV3
+1/120 SliceN骰子 LV3
+1/140 BladeStorm LV3
+1/150 刀锋雪崩 LV3
+1/700 保护场 LV3
+1/800 愤怒 LV3
+1/900 怒击 LV3
+1/1000 反击 LV3
+1/1500 不朽的皮肤 LV3
+
+;Wizard
+1/10 寒霜紧缩 LV3
+1/25 冰风暴 LV3
+1/30 火焰破坏者 LV3
+1/50 吸血术 LV3
+1/100 DragNet LV3
+1/150 镜像 LV3
+1/190 火焰场 LV3
+1/700 暴风雪 LV3
+1/800 魔力助推器 LV3
+1/900 流星打击 LV3
+1/1000 快速移动 LV3
+1/1100 冰刺 LV3
+1/1200 FrozenRains LV3
+1/1300 LavaKing LV3
+1/1600 风暴逃逸 LV3
+
+;Taoist
+1/50 幻觉 LV3
+1/50 净化 LV3
+1/30 终极强化器 LV3
+1/30 能量反击器 LV3
+1/25 召唤神术 LV3
+1/100治愈圈 LV3
+1/200 召唤圣德瓦 LV3
+1/500 诅咒 LV3
+1/800 转世 LV3
+1/900 毒云 LV3
+1/1100 能量护盾 LV3
+1/1000 宠物强化器 LV3
+1/1300 HolyShield LV3
+1/1600 HeadShot LV3
+
+;Assassin
+1/50 火焰喷射 LV3
+1/75 陷阱 LV3
+1/60 迅捷脚步 LV3
+1/100 CrescentSlash LV3
+1/600 黑暗之躯 LV3
+
+;Archer
+1/50 元素屏障 LV3
+1/60 捆绑射击 LV3
+1/75 召唤蟾蜍 LV3
+1/75 毒药射击 LV3
+1/100 残废射击 LV3
+1/100 召唤蛇类 LV3
+
+;Level4
+1/2 Gold 20000 LV4
+
+1/1 太阳药水 LV4
+1/1 太阳药水 LV4
+1/1 太阳药水 LV4
+1/1 太阳药水 LV4
+1/1 太阳药水 LV4
+1/1 太阳药水 LV4
+1/1 太阳药水 LV4
+1/1 太阳药水 LV4
+1/1 太阳药水 LV4
+1/1 太阳药水 LV4
+1/1 太阳药水 LV4
+1/1 太阳药水 LV4
+1/1 太阳药水(中) LV4
+1/1 太阳药水(中) LV4
+1/1 太阳药水(中) LV4
+1/1 太阳药水(中) LV4
+1/1 太阳药水(中) LV4
+1/1 太阳药水(中) LV4
+1/1 太阳药水(中) LV4
+1/1 太阳药水 LV4
+1/2 祝福油 LV4
+1/5 金条 LV4
+
+1/140 黑虎盔甲(男) LV4
+1/140 黑虎盔甲(女) LV4
+1/140 莲花盔甲(男) LV4
+1/140 莲花盔甲(女) LV4
+1/140 仙鹤盔甲(男) LV4
+1/140 仙鹤盔甲(女) LV4
+1/140 隐形盔甲(男) LV4
+1/140 隐形盔甲(女) LV4
+1/170 红色黑暗盔甲(男) LV4
+1/170 红色黑暗盔甲(女) LV4
+1/170 蓝色深色护甲(男) LV4
+1/170 蓝色深色护甲(女) LV4
+1/170 鳞甲(男) LV4
+1/170 鳞甲(女) LV4
+1/170 绿色深色护甲(男) LV4
+1/170 绿色深色护甲(女) LV4
+1/170 金色深色护甲(男) LV4
+1/170 金色深色护甲(女)v
+1/400 WatcherSuit(男) LV4
+1/400 WatcherSuit(女) LV4
+1/1700 HeavenRedArmour(男) LV4
+1/1700 HeavenRedArmour(女) LV4
+1/1700 HeavenGrnArmour(男) LV4
+1/1700 HeavenGrnArmour(女) LV4
+1/1700 天堂之铠(男) LV4
+1/1700 天堂之铠(女) LV4
+1/1700 HeavenGoldArmour(男) LV4
+1/1700 HeavenGoldArmour(女) LV4
+
+1/100 玛吉之刃 LV4
+1/300 战神之剑 LV4
+1/300 力量之弓 LV4
+1/300 巫术之刃 LV4
+1/300 创天之剑 LV4
+1/50 冰封之剑 LV4
+1/50 锌刀 LV4
+1/50 狰狞之弓 LV4
+1/50 征服者之矛 LV4
+1/50 混蛋之剑 LV4
+1/450 黑虎之锤 LV4
+1/450 致命之弓 LV4
+1/450 屠宰刀 LV4
+1/450 洛托斯之杖 LV4
+1/450 鹤鸣扇 LV4
+1/700 野蛮人之剑 LV4
+1/700 生死剑 LV4
+1/700 狂龙之刃 LV4
+1/700 骨头CarvedFan LV4
+1/700 阿普斯弓 LV4
+
+1/40 伟大的头盔 LV4
+1/40 智慧头盔 LV4
+1/40 道冠 LV4
+1/40 皇家头盔 LV4
+1/100 闪亮的头盔 LV4
+1/150 PuiYuHelmet LV4
+1/150 WatcherHelmet LV4
+
+
+1/50 誓约环 LV4
+1/50 五元素戒指 LV4
+1/50 红宝戒指 LV4
+1/105 恶魔之戒 LV4
+1/105 驱邪戒指 LV4
+1/155 Gold龙戒 LV4
+
+1/50 双天王护身符 LV4
+1/50 神圣护身符 LV4
+1/50 诅咒护身符 LV4
+1/105 WildTitan护身符 LV4
+1/105 Enchanted护身符 LV4
+1/105 FiveElement护身符 LV4
+1/155 WatcherGloves LV4
+
+1/50 残缺的项链 LV4
+1/50 巫术之锚 LV4
+1/50 净化的镜子 LV4
+1/100 邪恶三角 LV4
+1/100 净化的十字架 LV4
+1/100 金刚项链 LV4
+
+1/10 勇敢球 LV4
+1/10 魔法之球 LV4
+1/10 灵魂之球 LV4
+1/20 保护球 LV4
+1/20 屠魔球 LV4
+1/40 风暴球 LV4
+1/40 敏捷球 LV4
+1/40 精度球 LV4
+1/40 毒药球 LV4
+1/40 冰冻球 LV4
+1/40 幻觉球 LV4
+1/40 耐力球 LV4
+1/45 耐用性球 LV4
+
+1/30 Holy健康石 LV4
+1/30 Holy魔法石 LV4
+1/30 Holy动力石 LV4
+1/40 HolyAcStone LV4
+1/40 HolyAmcStone LV4
+1/40 HolyDefenseStone LV4
+1/30 HolyDC攻击石 LV4
+1/30 HolyMC石 LV4
+1/30 HolySC石 LV4
+
+
+;Boots
+1/300 WatcherBoots LV4
+
+
+;Shield
+1/650 OrcsShield LV4
+
+1/300 DefenderRing LV4
+1/300 DefenderGlove LV4
+1/300 DefenderNecklace LV4
+1/100 (H)恶魔面具 LV4
+1/100 (H)紫金石 LV4
+1/100 (H)鲲鹏之泪 LV4
+1/100 (H)WheelOfLunar LV4
+1/100 (H)红魔戒指 LV4
+1/100 (H)云戒指 LV4
+1/100 (H)毒药戒指 LV4
+1/80 ArmouredMedal LV4
+1/50 HollowMedal LV4
+1/200 AscendedRing LV4
+1/200 AscendedWheel LV4
+1/200 AscendedNecklace LV4
+1/200 AscendedHelmet LV4
+1/200 AscendedBoots LV4
+1/200 AscendedBelt LV4
+
+;other
+1/550 InfernoRing LV4
+1/550 InfernoNecklace LV4
+1/550 InfernoWheel LV4
+1/550 InfernoBoots LV4
+1/550 InfernoBelt LV4
+1/550 InfernoShield LV4
+1/550 InfernoHelmet LV4
+1/1200 HeatsBanes LV4
+1/1200 WidowsWail LV4
+1/1200 ThorsBattleAxe LV4
+1/1200 OathKeeper LV4
+1/450 TrollCap LV4
+1/450 TrollRing LV4
+1/450 TrollBand LV4
+1/450 TrollChains LV4
+1/450 S陷阱ofTrolls LV4
+1/450 TrollLeathers LV4
+1/200 TerrapinNecklace LV4
+1/200 TerrapinBracelet LV4
+1/200 TerrapinRing LV4
+1/300 TerrapinShield LV4
+1/500 TrollsRobe(男) LV4
+1/500 TrollsRobe(女) LV4
+
+1/100 DefensiveMedal LV4
+1/100 OffensiveMedal LV4
+
+1/100 SmasherGlove LV4
+1/100 暴风雪Glove LV4
+1/100 MistyGlove LV4
+1/100 SlicerGlove LV4
+1/100 SmasherNecklace LV4
+1/100 暴风雪Necklace LV4
+1/100 MistyNecklace LV4
+1/100 SlicerNecklace LV4
+1/100 SmasherRing LV4
+1/100 暴风雪Ring LV4
+1/100 MistyRing  LV4
+1/100 SlicerRing LV4
+
+1/900 HavokBraveArmour(男) LV4
+1/900 HavokBraveArmour(女) LV4
+1/900 HavokMagicArmour(男) LV4
+1/900 HavokMagicArmour(女) LV4
+1/900 Havok灵魂护甲(男) LV4
+1/900 Havok灵魂护甲(女) LV4
+1/900 HavokSinArmour(男) LV4
+1/900 HavokSinArmour(女) LV4
+
+1/400 神奇的项链 LV4
+1/400 天体之镯 LV4
+1/400 天使之戒 LV4
+
+1/1200 FrozenBelt LV4
+1/1200 FrozenNecklace LV4
+1/1200 FrozenRing LV4
+1/1200 FrozenBoots LV4
+1/900 FrozenWheel LV4
+1/1200 FrozenSlayer LV4
+1/1200 FrozenStaff LV4
+1/1200 FrozenWand LV4
+1/1200 Frozen匕首s LV4
+1/1200 FrozenBow LV4
+
+;Books
+;Warrior
+1/25 火焰之剑 LV4
+1/30 十字半月 LV4
+1/50 双闸刀 LV4
+1/60 狮子吼 LV4
+1/70 禁锢 LV4
+1/120 SliceN骰子 LV4
+1/140 BladeStorm LV4
+1/150 刀锋雪崩 LV4
+1/700 保护场 LV4
+1/800 愤怒 LV4
+1/900 怒击 LV4
+1/1000 反击 LV4
+1/1500 不朽的皮肤 LV4
+
+;Wizard
+1/10 寒霜紧缩 LV4
+1/25 冰风暴 LV4
+1/30 火焰破坏者 LV4
+1/50 吸血术 LV4
+1/100 DragNet LV4
+1/150 镜像 LV4
+1/190 火焰场 LV4
+1/700 暴风雪 LV4
+1/800 魔力助推器 LV4
+1/900 流星打击 LV4
+1/1000 快速移动 LV4
+1/1100 冰刺 LV4
+1/1200 FrozenRains LV4
+1/1300 LavaKing LV4
+1/1600 风暴逃逸 LV4
+
+;Taoist
+1/50 幻觉 LV4
+1/50 净化 LV4
+1/30 终极强化器 LV4
+1/30 能量反击器 LV4
+1/25 召唤神术 LV4
+1/100治愈圈 LV4
+1/200 召唤圣德瓦 LV4
+1/500 诅咒 LV4
+1/800 转世 LV4
+1/900 毒云 LV4
+1/1100 能量护盾 LV4
+1/1000 宠物强化器 LV4
+1/1300 HolyShield LV4
+1/1600 HeadShot LV4
+
+;Assassin
+1/50 火焰喷射 LV4
+1/75 陷阱 LV4
+1/60 迅捷脚步 LV4
+1/100 CrescentSlash LV4
+1/600 黑暗之躯 LV4
+
+;Archer
+1/50 元素屏障 LV4
+1/60 捆绑射击 LV4
+1/75 召唤蟾蜍 LV4
+1/75 毒药射击 LV4
+1/100 残废射击 LV4
+1/100 召唤蛇类 LV4
+
+
+;Level5
+1/2 Gold 20000 LV5
+
+1/1 太阳药水 LV5
+1/1 太阳药水 LV5
+1/1 太阳药水 LV5
+1/1 太阳药水 LV5
+1/1 太阳药水 LV5
+1/1 太阳药水 LV5
+1/1 太阳药水 LV5
+1/1 太阳药水 LV5
+1/1 太阳药水 LV5
+1/1 太阳药水 LV5
+1/1 太阳药水 LV5
+1/1 太阳药水 LV5
+1/1 太阳药水(中) LV5
+1/1 太阳药水(中) LV5
+1/1 太阳药水(中) LV5
+1/1 太阳药水(中) LV5
+1/1 太阳药水(中) LV5
+1/1 太阳药水(中) LV5
+1/1 太阳药水(中) LV5
+1/1 太阳药水 LV5
+1/2 祝福油 LV5
+1/5 金条 LV5
+
+1/140 黑虎盔甲(男) LV5
+1/140 黑虎盔甲(女) LV5
+1/140 莲花盔甲(男) LV5
+1/140 莲花盔甲(女) LV5
+1/140 仙鹤盔甲(男) LV5
+1/140 仙鹤盔甲(女) LV5
+1/140 隐形盔甲(男) LV5
+1/140 隐形盔甲(女) LV5
+1/170 红色黑暗盔甲(男) LV5
+1/170 红色黑暗盔甲(女) LV5
+1/170 蓝色深色护甲(男) LV5
+1/170 蓝色深色护甲(女) LV5
+1/170 鳞甲(男) LV5
+1/170 鳞甲(女) LV5
+1/170 绿色深色护甲(男) LV5
+1/170 绿色深色护甲(女) LV5
+1/170 金色深色护甲(男) LV5
+1/170 金色深色护甲(女)v
+1/400 WatcherSuit(男) LV5
+1/400 WatcherSuit(女) LV5
+1/1700 HeavenRedArmour(男) LV5
+1/1700 HeavenRedArmour(女) LV5
+1/1700 HeavenGrnArmour(男) LV5
+1/1700 HeavenGrnArmour(女) LV5
+1/1700 天堂之铠(男) LV5
+1/1700 天堂之铠(女) LV5
+1/1700 HeavenGoldArmour(男) LV5
+1/1700 HeavenGoldArmour(女) LV5
+
+1/100 玛吉之刃 LV5
+1/300 战神之剑 LV5
+1/300 力量之弓 LV5
+1/300 巫术之刃 LV5
+1/300 创天之剑 LV5
+1/50 冰封之剑 LV5
+1/50 锌刀 LV5
+1/50 狰狞之弓 LV5
+1/50 征服者之矛 LV5
+1/50 混蛋之剑 LV5
+1/450 黑虎之锤 LV5
+1/450 致命之弓 LV5
+1/450 屠宰刀 LV5
+1/450 洛托斯之杖 LV5
+1/450 鹤鸣扇 LV5
+1/700 野蛮人之剑 LV5
+1/700 生死剑 LV5
+1/700 狂龙之刃 LV5
+1/700 骨头CarvedFan LV5
+1/700 阿普斯弓 LV5
+
+1/40 伟大的头盔 LV5
+1/40 智慧头盔 LV5
+1/40 道冠 LV5
+1/40 皇家头盔 LV5
+1/100 闪亮的头盔 LV5
+1/150 PuiYuHelmet LV5
+1/150 WatcherHelmet LV5
+
+
+1/50 誓约环 LV5
+1/50 五元素戒指 LV5
+1/50 红宝戒指 LV5
+1/105 恶魔之戒 LV5
+1/105 驱邪戒指 LV5
+1/155 Gold龙戒 LV5
+
+1/50 双天王护身符 LV5
+1/50 神圣护身符 LV5
+1/50 诅咒护身符 LV5
+1/105 WildTitan护身符 LV5
+1/105 Enchanted护身符 LV5
+1/105 FiveElement护身符 LV5
+1/155 WatcherGloves LV5
+
+1/50 残缺的项链 LV5
+1/50 巫术之锚 LV5
+1/50 净化的镜子 LV5
+1/100 邪恶三角 LV5
+1/100 净化的十字架 LV5
+1/100 金刚项链 LV5
+
+1/10 勇敢球 LV5
+1/10 魔法之球 LV5
+1/10 灵魂之球 LV5
+1/20 保护球 LV5
+1/20 屠魔球 LV5
+1/40 风暴球 LV5
+1/40 敏捷球 LV5
+1/40 精度球 LV5
+1/40 毒药球 LV5
+1/40 冰冻球 LV5
+1/40 幻觉球 LV5
+1/40 耐力球 LV5
+1/45 耐用性球 LV5
+
+1/30 Holy健康石 LV5
+1/30 Holy魔法石 LV5
+1/30 Holy动力石 LV5
+1/40 HolyAcStone LV5
+1/40 HolyAmcStone LV5
+1/40 HolyDefenseStone LV5
+1/30 HolyDC攻击石 LV5
+1/30 HolyMC石 LV5
+1/30 HolySC石 LV5
+
+
+;Boots
+1/300 WatcherBoots LV5
+
+
+;Shield
+1/650 OrcsShield LV5
+
+1/300 DefenderRing LV5
+1/300 DefenderGlove LV5
+1/300 DefenderNecklace LV5
+1/100 (H)恶魔面具 LV5
+1/100 (H)紫金石 LV5
+1/100 (H)鲲鹏之泪 LV5
+1/100 (H)WheelOfLunar LV5
+1/100 (H)红魔戒指 LV5
+1/100 (H)云戒指 LV5
+1/100 (H)毒药戒指 LV5
+1/80 ArmouredMedal LV5
+1/50 HollowMedal LV5
+1/200 AscendedRing LV5
+1/200 AscendedWheel LV5
+1/200 AscendedNecklace LV5
+1/200 AscendedHelmet LV5
+1/200 AscendedBoots LV5
+1/200 AscendedBelt LV5
+
+;other
+1/550 InfernoRing LV5
+1/550 InfernoNecklace LV5
+1/550 InfernoWheel LV5
+1/550 InfernoBoots LV5
+1/550 InfernoBelt LV5
+1/550 InfernoShield LV5
+1/550 InfernoHelmet LV5
+1/1200 HeatsBanes LV5
+1/1200 WidowsWail LV5
+1/1200 ThorsBattleAxe LV5
+1/1200 OathKeeper LV5
+1/450 TrollCap LV5
+1/450 TrollRing LV5
+1/450 TrollBand LV5
+1/450 TrollChains LV5
+1/450 S陷阱ofTrolls LV5
+1/450 TrollLeathers LV5
+1/200 TerrapinNecklace LV5
+1/200 TerrapinBracelet LV5
+1/200 TerrapinRing LV5
+1/300 TerrapinShield LV5
+1/500 TrollsRobe(男) LV5
+1/500 TrollsRobe(女) LV5
+
+1/100 DefensiveMedal LV5
+1/100 OffensiveMedal LV5
+
+1/100 SmasherGlove LV5
+1/100 暴风雪Glove LV5
+1/100 MistyGlove LV5
+1/100 SlicerGlove LV5
+1/100 SmasherNecklace LV5
+1/100 暴风雪Necklace LV5
+1/100 MistyNecklace LV5
+1/100 SlicerNecklace LV5
+1/100 SmasherRing LV5
+1/100 暴风雪Ring LV5
+1/100 MistyRing  LV5
+1/100 SlicerRing LV5
+
+1/900 HavokBraveArmour(男) LV5
+1/900 HavokBraveArmour(女) LV5
+1/900 HavokMagicArmour(男) LV5
+1/900 HavokMagicArmour(女) LV5
+1/900 Havok灵魂护甲(男) LV5
+1/900 Havok灵魂护甲(女) LV5
+1/900 HavokSinArmour(男) LV5
+1/900 HavokSinArmour(女) LV5
+
+1/400 神奇的项链 LV5
+1/400 天体之镯 LV5
+1/400 天使之戒 LV5
+
+1/1200 FrozenBelt LV5
+1/1200 FrozenNecklace LV5
+1/1200 FrozenRing LV5
+1/1200 FrozenBoots LV5
+1/900 FrozenWheel LV5
+1/1200 FrozenSlayer LV5
+1/1200 FrozenStaff LV5
+1/1200 FrozenWand LV5
+1/1200 Frozen匕首s LV5
+1/1200 FrozenBow LV5
+
+;Books
+;Warrior
+1/25 火焰之剑 LV5
+1/30 十字半月 LV5
+1/50 双闸刀 LV5
+1/60 狮子吼 LV5
+1/70 禁锢 LV5
+1/120 SliceN骰子 LV5
+1/140 BladeStorm LV5
+1/150 刀锋雪崩 LV5
+1/700 保护场 LV5
+1/800 愤怒 LV5
+1/900 怒击 LV5
+1/1000 反击 LV5
+1/1500 不朽的皮肤 LV5
+
+;Wizard
+1/10 寒霜紧缩 LV5
+1/25 冰风暴 LV5
+1/30 火焰破坏者 LV5
+1/50 吸血术 LV5
+1/100 DragNet LV5
+1/150 镜像 LV5
+1/190 火焰场 LV5
+1/700 暴风雪 LV5
+1/800 魔力助推器 LV5
+1/900 流星打击 LV5
+1/1000 快速移动 LV5
+1/1100 冰刺 LV5
+1/1200 FrozenRains LV5
+1/1300 LavaKing LV5
+1/1600 风暴逃逸 LV5
+
+;Taoist
+1/50 幻觉 LV5
+1/50 净化 LV5
+1/30 终极强化器 LV5
+1/30 能量反击器 LV5
+1/25 召唤神术 LV5
+1/100治愈圈 LV5
+1/200 召唤圣德瓦 LV5
+1/500 诅咒 LV5
+1/800 转世 LV5
+1/900 毒云 LV5
+1/1100 能量护盾 LV5
+1/1000 宠物强化器 LV5
+1/1300 HolyShield LV5
+1/1600 HeadShot LV5
+
+;Assassin
+1/50 火焰喷射 LV5
+1/75 陷阱 LV5
+1/60 迅捷脚步 LV5
+1/100 CrescentSlash LV5
+1/600 黑暗之躯 LV5
+
+;Archer
+1/50 元素屏障 LV5
+1/60 捆绑射击 LV5
+1/75 召唤蟾蜍 LV5
+1/75 毒药射击 LV5
+1/100 残废射击 LV5
+1/100 召唤蛇类 LV5
+
+
+;Level6
+1/2 Gold 20000 LV6
+
+1/1 太阳药水 LV6
+1/1 太阳药水 LV6
+1/1 太阳药水 LV6
+1/1 太阳药水 LV6
+1/1 太阳药水 LV6
+1/1 太阳药水 LV6
+1/1 太阳药水 LV6
+1/1 太阳药水 LV6
+1/1 太阳药水 LV6
+1/1 太阳药水 LV6
+1/1 太阳药水 LV6
+1/1 太阳药水 LV6
+1/1 太阳药水(中) LV6
+1/1 太阳药水(中) LV6
+1/1 太阳药水(中) LV6
+1/1 太阳药水(中) LV6
+1/1 太阳药水(中) LV6
+1/1 太阳药水(中) LV6
+1/1 太阳药水(中) LV6
+1/1 太阳药水 LV6
+1/2 祝福油 LV6
+1/5 金条 LV6
+
+1/140 黑虎盔甲(男) LV6
+1/140 黑虎盔甲(女) LV6
+1/140 莲花盔甲(男) LV6
+1/140 莲花盔甲(女) LV6
+1/140 仙鹤盔甲(男) LV6
+1/140 仙鹤盔甲(女) LV6
+1/140 隐形盔甲(男) LV6
+1/140 隐形盔甲(女) LV6
+1/170 红色黑暗盔甲(男) LV6
+1/170 红色黑暗盔甲(女) LV6
+1/170 蓝色深色护甲(男) LV6
+1/170 蓝色深色护甲(女) LV6
+1/170 鳞甲(男) LV6
+1/170 鳞甲(女) LV6
+1/170 绿色深色护甲(男) LV6
+1/170 绿色深色护甲(女) LV6
+1/170 金色深色护甲(男) LV6
+1/170 金色深色护甲(女)v
+1/400 WatcherSuit(男) LV6
+1/400 WatcherSuit(女) LV6
+1/1700 HeavenRedArmour(男) LV6
+1/1700 HeavenRedArmour(女) LV6
+1/1700 HeavenGrnArmour(男) LV6
+1/1700 HeavenGrnArmour(女) LV6
+1/1700 天堂之铠(男) LV6
+1/1700 天堂之铠(女) LV6
+1/1700 HeavenGoldArmour(男) LV6
+1/1700 HeavenGoldArmour(女) LV6
+
+1/100 玛吉之刃 LV6
+1/300 战神之剑 LV6
+1/300 力量之弓 LV6
+1/300 巫术之刃 LV6
+1/300 创天之剑 LV6
+1/50 冰封之剑 LV6
+1/50 狰狞之弓 LV6
+1/50 锌刀 LV6
+1/50 征服者之矛 LV6
+1/50 混蛋之剑 LV6
+1/450 黑虎之锤 LV6
+1/450 屠宰刀 LV6
+1/450 致命之弓 LV6
+1/450 洛托斯之杖 LV6
+1/450 鹤鸣扇 LV6
+1/700 野蛮人之剑 LV6
+1/700 生死剑 LV6
+1/700 狂龙之刃 LV6
+1/700 阿普斯弓 LV6
+1/700 骨头CarvedFan LV6
+
+1/40 伟大的头盔 LV6
+1/40 智慧头盔 LV6
+1/40 道冠 LV6
+1/40 皇家头盔 LV6
+1/100 闪亮的头盔 LV6
+1/150 PuiYuHelmet LV6
+1/150 WatcherHelmet LV6
+
+
+1/50 誓约环 LV6
+1/50 五元素戒指 LV6
+1/50 红宝戒指 LV6
+1/105 恶魔之戒 LV6
+1/105 驱邪戒指 LV6
+1/155 Gold龙戒 LV6
+
+1/50 双天王护身符 LV6
+1/50 神圣护身符 LV6
+1/50 诅咒护身符 LV6
+1/105 WildTitan护身符 LV6
+1/105 Enchanted护身符 LV6
+1/105 FiveElement护身符 LV6
+1/155 WatcherGloves LV6
+
+1/50 残缺的项链 LV6
+1/50 巫术之锚 LV6
+1/50 净化的镜子 LV6
+1/100 邪恶三角 LV6
+1/100 净化的十字架 LV6
+1/100 金刚项链 LV6
+
+1/10 勇敢球 LV6
+1/10 魔法之球 LV6
+1/10 灵魂之球 LV6
+1/20 保护球 LV6
+1/20 屠魔球 LV6
+1/40 风暴球 LV6
+1/40 敏捷球 LV6
+1/40 精度球 LV6
+1/40 毒药球 LV6
+1/40 冰冻球 LV6
+1/40 幻觉球 LV6
+1/40 耐力球 LV6
+1/45 耐用性球 LV6
+
+1/30 Holy健康石 LV6
+1/30 Holy魔法石 LV6
+1/30 Holy动力石 LV6
+1/40 HolyAcStone LV6
+1/40 HolyAmcStone LV6
+1/40 HolyDefenseStone LV6
+1/30 HolyDC攻击石 LV6
+1/30 HolyMC石 LV6
+1/30 HolySC石 LV6
+
+
+;Boots
+1/300 WatcherBoots LV6
+
+
+;Shield
+1/650 OrcsShield LV6
+
+1/300 DefenderRing LV6
+1/300 DefenderGlove LV6
+1/300 DefenderNecklace LV6
+1/100 (H)恶魔面具 LV6
+1/100 (H)紫金石 LV6
+1/100 (H)鲲鹏之泪 LV6
+1/100 (H)WheelOfLunar LV6
+1/100 (H)红魔戒指 LV6
+1/100 (H)云戒指 LV6
+1/100 (H)毒药戒指 LV6
+1/80 ArmouredMedal LV6
+1/50 HollowMedal LV6
+1/200 AscendedRing LV6
+1/200 AscendedWheel LV6
+1/200 AscendedNecklace LV6
+1/200 AscendedHelmet LV6
+1/200 AscendedBoots LV6
+1/200 AscendedBelt LV6
+
+;other
+1/550 InfernoRing LV6
+1/550 InfernoNecklace LV6
+1/550 InfernoWheel LV6
+1/550 InfernoBoots LV6
+1/550 InfernoBelt LV6
+1/550 InfernoShield LV6
+1/550 InfernoHelmet LV6
+1/1200 HeatsBanes LV6
+1/1200 WidowsWail LV6
+1/1200 ThorsBattleAxe LV6
+1/1200 OathKeeper LV6
+1/450 TrollCap LV6
+1/450 TrollRing LV6
+1/450 TrollBand LV6
+1/450 TrollChains LV6
+1/450 S陷阱ofTrolls LV6
+1/450 TrollLeathers LV6
+1/200 TerrapinNecklace LV6
+1/200 TerrapinBracelet LV6
+1/200 TerrapinRing LV6
+1/300 TerrapinShield LV6
+1/500 TrollsRobe(男) LV6
+1/500 TrollsRobe(女) LV6
+
+1/100 DefensiveMedal LV6
+1/100 OffensiveMedal LV6
+
+1/100 SmasherGlove LV6
+1/100 暴风雪Glove LV6
+1/100 MistyGlove LV6
+1/100 SlicerGlove LV6
+1/100 SmasherNecklace LV6
+1/100 暴风雪Necklace LV6
+1/100 MistyNecklace LV6
+1/100 SlicerNecklace LV6
+1/100 SmasherRing LV6
+1/100 暴风雪Ring LV6
+1/100 MistyRing  LV6
+1/100 SlicerRing LV6
+
+1/900 HavokBraveArmour(男) LV6
+1/900 HavokBraveArmour(女) LV6
+1/900 HavokMagicArmour(男) LV6
+1/900 HavokMagicArmour(女) LV6
+1/900 Havok灵魂护甲(男) LV6
+1/900 Havok灵魂护甲(女) LV6
+1/900 HavokSinArmour(男) LV6
+1/900 HavokSinArmour(女) LV6
+
+1/400 神奇的项链 LV6
+1/400 天体之镯 LV6
+1/400 天使之戒 LV6
+
+1/1200 FrozenBelt LV6
+1/1200 FrozenNecklace LV6
+1/1200 FrozenRing LV6
+1/1200 FrozenBoots LV6
+1/900 FrozenWheel LV6
+1/1200 FrozenSlayer LV6
+1/1200 FrozenStaff LV6
+1/1200 FrozenWand LV6
+1/1200 Frozen匕首s LV6
+1/1200 FrozenBow LV6
+
+;Books
+;Warrior
+1/25 火焰之剑 LV6
+1/30 十字半月 LV6
+1/50 双闸刀 LV6
+1/60 狮子吼 LV6
+1/70 禁锢 LV6
+1/120 SliceN骰子 LV6
+1/140 BladeStorm LV6
+1/150 刀锋雪崩 LV6
+1/700 保护场 LV6
+1/800 愤怒 LV6
+1/900 怒击 LV6
+1/1000 反击 LV6
+1/1500 不朽的皮肤 LV6
+
+;Wizard
+1/10 寒霜紧缩 LV6
+1/25 冰风暴 LV6
+1/30 火焰破坏者 LV6
+1/50 吸血术 LV6
+1/100 DragNet LV6
+1/150 镜像 LV6
+1/190 火焰场 LV6
+1/700 暴风雪 LV6
+1/800 魔力助推器 LV6
+1/900 流星打击 LV6
+1/1000 快速移动 LV6
+1/1100 冰刺 LV6
+1/1200 FrozenRains LV6
+1/1300 LavaKing LV6
+1/1600 风暴逃逸 LV6
+
+;Taoist
+1/50 幻觉 LV6
+1/50 净化 LV6
+1/30 终极强化器 LV6
+1/30 能量反击器 LV6
+1/25 召唤神术 LV6
+1/100治愈圈 LV6
+1/200 召唤圣德瓦 LV6
+1/500 诅咒 LV6
+1/800 转世 LV6
+1/900 毒云 LV6
+1/1100 能量护盾 LV6
+1/1000 宠物强化器 LV6
+1/1300 HolyShield LV6
+1/1600 HeadShot LV6
+
+;Assassin
+1/50 火焰喷射 LV6
+1/75 陷阱 LV6
+1/60 迅捷脚步 LV6
+1/100 CrescentSlash LV6
+1/600 黑暗之躯 LV6
+
+;Archer
+1/50 元素屏障 LV6
+1/60 捆绑射击 LV6
+1/75 召唤蟾蜍 LV6
+1/75 毒药射击 LV6
+1/100 残废射击 LV6
+1/100 召唤蛇类 LV6
+
+
+
+;Level7
+1/2 Gold 20000 LV7
+
+1/1 太阳药水 LV7
+1/1 太阳药水 LV7
+1/1 太阳药水 LV7
+1/1 太阳药水 LV7
+1/1 太阳药水 LV7
+1/1 太阳药水 LV7
+1/1 太阳药水 LV7
+1/1 太阳药水 LV7
+1/1 太阳药水 LV7
+1/1 太阳药水 LV7
+1/1 太阳药水 LV7
+1/1 太阳药水 LV7
+1/1 太阳药水(中) LV7
+1/1 太阳药水(中) LV7
+1/1 太阳药水(中) LV7
+1/1 太阳药水(中) LV7
+1/1 太阳药水(中) LV7
+1/1 太阳药水(中) LV7
+1/1 太阳药水(中) LV7
+1/1 太阳药水 LV7
+1/2 祝福油 LV7
+1/5 金条 LV7
+
+1/140 黑虎盔甲(男) LV7
+1/140 黑虎盔甲(女) LV7
+1/140 莲花盔甲(男) LV7
+1/140 莲花盔甲(女) LV7
+1/140 仙鹤盔甲(男) LV7
+1/140 仙鹤盔甲(女) LV7
+1/140 隐形盔甲(男) LV7
+1/140 隐形盔甲(女) LV7
+1/170 红色黑暗盔甲(男) LV7
+1/170 红色黑暗盔甲(女) LV7
+1/170 蓝色深色护甲(男) LV7
+1/170 蓝色深色护甲(女) LV7
+1/170 鳞甲(男) LV7
+1/170 鳞甲(女) LV7
+1/170 绿色深色护甲(男) LV7
+1/170 绿色深色护甲(女) LV7
+1/170 金色深色护甲(男) LV7
+1/170 金色深色护甲(女)v
+1/400 WatcherSuit(男) LV7
+1/400 WatcherSuit(女) LV7
+1/1700 HeavenRedArmour(男) LV7
+1/1700 HeavenRedArmour(女) LV7
+1/1700 HeavenGrnArmour(男) LV7
+1/1700 HeavenGrnArmour(女) LV7
+1/1700 天堂之铠(男) LV7
+1/1700 天堂之铠(女) LV7
+1/1700 HeavenGoldArmour(男) LV7
+1/1700 HeavenGoldArmour(女) LV7
+
+1/100 玛吉之刃 LV7
+1/300 战神之剑 LV7
+1/300 力量之弓 LV7
+1/300 巫术之刃 LV7
+1/300 创天之剑 LV7
+1/50 冰封之剑 LV7
+1/50 狰狞之弓 LV7
+1/50 锌刀 LV7
+1/50 征服者之矛 LV7
+1/50 混蛋之剑 LV7
+1/450 黑虎之锤 LV7
+1/450 致命之弓 LV7
+1/450 屠宰刀 LV7
+1/450 洛托斯之杖 LV7
+1/450 鹤鸣扇 LV7
+1/700 野蛮人之剑 LV7
+1/700 生死剑 LV7
+1/700 狂龙之刃 LV7
+1/700 骨头CarvedFan LV7
+1/700 阿普斯弓 LV7
+
+1/40 伟大的头盔 LV7
+1/40 智慧头盔 LV7
+1/40 道冠 LV7
+1/40 皇家头盔 LV7
+1/100 闪亮的头盔 LV7
+1/150 PuiYuHelmet LV7
+1/150 WatcherHelmet LV7
+
+
+1/50 誓约环 LV7
+1/50 五元素戒指 LV7
+1/50 红宝戒指 LV7
+1/105 恶魔之戒 LV7
+1/105 驱邪戒指 LV7
+1/155 Gold龙戒 LV7
+
+1/50 双天王护身符 LV7
+1/50 神圣护身符 LV7
+1/50 诅咒护身符 LV7
+1/105 WildTitan护身符 LV7
+1/105 Enchanted护身符 LV7
+1/105 FiveElement护身符 LV7
+1/155 WatcherGloves LV7
+
+1/50 残缺的项链 LV7
+1/50 巫术之锚 LV7
+1/50 净化的镜子 LV7
+1/100 邪恶三角 LV7
+1/100 净化的十字架 LV7
+1/100 金刚项链 LV7
+
+1/10 勇敢球 LV7
+1/10 魔法之球 LV7
+1/10 灵魂之球 LV7
+1/20 保护球 LV7
+1/20 屠魔球 LV7
+1/40 风暴球 LV7
+1/40 敏捷球 LV7
+1/40 精度球 LV7
+1/40 毒药球 LV7
+1/40 冰冻球 LV7
+1/40 幻觉球 LV7
+1/40 耐力球 LV7
+1/45 耐用性球 LV7
+
+1/30 Holy健康石 LV7
+1/30 Holy魔法石 LV7
+1/30 Holy动力石 LV7
+1/40 HolyAcStone LV7
+1/40 HolyAmcStone LV7
+1/40 HolyDefenseStone LV7
+1/30 HolyDC攻击石 LV7
+1/30 HolyMC石 LV7
+1/30 HolySC石 LV7
+
+
+;Boots
+1/300 WatcherBoots LV7
+
+
+;Shield
+1/650 OrcsShield LV7
+
+1/300 DefenderRing LV7
+1/300 DefenderGlove LV7
+1/300 DefenderNecklace LV7
+1/100 (H)恶魔面具 LV7
+1/100 (H)紫金石 LV7
+1/100 (H)鲲鹏之泪 LV7
+1/100 (H)WheelOfLunar LV7
+1/100 (H)红魔戒指 LV7
+1/100 (H)云戒指 LV7
+1/100 (H)毒药戒指 LV7
+1/80 ArmouredMedal LV7
+1/50 HollowMedal LV7
+1/200 AscendedRing LV7
+1/200 AscendedWheel LV7
+1/200 AscendedNecklace LV7
+1/200 AscendedHelmet LV7
+1/200 AscendedBoots LV7
+1/200 AscendedBelt LV7
+
+;other
+1/550 InfernoRing LV7
+1/550 InfernoNecklace LV7
+1/550 InfernoWheel LV7
+1/550 InfernoBoots LV7
+1/550 InfernoBelt LV7
+1/550 InfernoShield LV7
+1/550 InfernoHelmet LV7
+1/1200 HeatsBanes LV7
+1/1200 WidowsWail LV7
+1/1200 ThorsBattleAxe LV7
+1/1200 OathKeeper LV7
+1/450 TrollCap LV7
+1/450 TrollRing LV7
+1/450 TrollBand LV7
+1/450 TrollChains LV7
+1/450 S陷阱ofTrolls LV7
+1/450 TrollLeathers LV7
+1/200 TerrapinNecklace LV7
+1/200 TerrapinBracelet LV7
+1/200 TerrapinRing LV7
+1/300 TerrapinShield LV7
+1/500 TrollsRobe(男) LV7
+1/500 TrollsRobe(女) LV7
+
+1/100 DefensiveMedal LV7
+1/100 OffensiveMedal LV7
+
+1/100 SmasherGlove LV7
+1/100 暴风雪Glove LV7
+1/100 MistyGlove LV7
+1/100 SlicerGlove LV7
+1/100 SmasherNecklace LV7
+1/100 暴风雪Necklace LV7
+1/100 MistyNecklace LV7
+1/100 SlicerNecklace LV7
+1/100 SmasherRing LV7
+1/100 暴风雪Ring LV7
+1/100 MistyRing  LV7
+1/100 SlicerRing LV7
+
+1/900 HavokBraveArmour(男) LV7
+1/900 HavokBraveArmour(女) LV7
+1/900 HavokMagicArmour(男) LV7
+1/900 HavokMagicArmour(女) LV7
+1/900 Havok灵魂护甲(男) LV7
+1/900 Havok灵魂护甲(女) LV7
+1/900 HavokSinArmour(男) LV7
+1/900 HavokSinArmour(女) LV7
+
+1/400 神奇的项链 LV7
+1/400 天体之镯 LV7
+1/400 天使之戒 LV7
+
+1/1200 FrozenBelt LV7
+1/1200 FrozenNecklace LV7
+1/1200 FrozenRing LV7
+1/1200 FrozenBoots LV7
+1/900 FrozenWheel LV7
+1/1200 FrozenSlayer LV7
+1/1200 FrozenStaff LV7
+1/1200 FrozenWand LV7
+1/1200 Frozen匕首s LV7
+1/1200 FrozenBow LV7
+
+;Books
+;Warrior
+1/25 火焰之剑 LV7
+1/30 十字半月 LV7
+1/50 双闸刀 LV7
+1/60 狮子吼 LV7
+1/70 禁锢 LV7
+1/120 SliceN骰子 LV7
+1/140 BladeStorm LV7
+1/150 刀锋雪崩 LV7
+1/700 保护场 LV7
+1/800 愤怒 LV7
+1/900 怒击 LV7
+1/1000 反击 LV7
+1/1500 不朽的皮肤 LV7
+
+;Wizard
+1/10 寒霜紧缩 LV7
+1/25 冰风暴 LV7
+1/30 火焰破坏者 LV7
+1/50 吸血术 LV7
+1/100 DragNet LV7
+1/150 镜像 LV7
+1/190 火焰场 LV7
+1/700 暴风雪 LV7
+1/800 魔力助推器 LV7
+1/900 流星打击 LV7
+1/1000 快速移动 LV7
+1/1100 冰刺 LV7
+1/1200 FrozenRains LV7
+1/1300 LavaKing LV7
+1/1600 风暴逃逸 LV7
+
+;Taoist
+1/50 幻觉 LV7
+1/50 净化 LV7
+1/30 终极强化器 LV7
+1/30 能量反击器 LV7
+1/25 召唤神术 LV7
+1/100治愈圈 LV7
+1/200 召唤圣德瓦 LV7
+1/500 诅咒 LV7
+1/800 转世 LV7
+1/900 毒云 LV7
+1/1100 能量护盾 LV7
+1/1000 宠物强化器 LV7
+1/1300 HolyShield LV7
+1/1600 HeadShot LV7
+
+;Assassin
+1/50 火焰喷射 LV7
+1/75 陷阱 LV7
+1/60 迅捷脚步 LV7
+1/100 CrescentSlash LV7
+1/600 黑暗之躯 LV7
+
+;Archer
+1/50 元素屏障 LV7
+1/60 捆绑射击 LV7
+1/75 召唤蟾蜍 LV7
+1/75 毒药射击 LV7
+1/100 残废射击 LV7
+1/100 召唤蛇类 LV7
+
+
+
+;Level8
+1/2 Gold 20000 LV8
+
+1/1 太阳药水 LV8
+1/1 太阳药水 LV8
+1/1 太阳药水 LV8
+1/1 太阳药水 LV8
+1/1 太阳药水 LV8
+1/1 太阳药水 LV8
+1/1 太阳药水 LV8
+1/1 太阳药水 LV8
+1/1 太阳药水 LV8
+1/1 太阳药水 LV8
+1/1 太阳药水 LV8
+1/1 太阳药水 LV8
+1/1 太阳药水(中) LV8
+1/1 太阳药水(中) LV8
+1/1 太阳药水(中) LV8
+1/1 太阳药水(中) LV8
+1/1 太阳药水(中) LV8
+1/1 太阳药水(中) LV8
+1/1 太阳药水(中) LV8
+1/1 太阳药水 LV8
+1/2 祝福油 LV8
+1/5 金条 LV8
+
+1/140 黑虎盔甲(男) LV8
+1/140 黑虎盔甲(女) LV8
+1/140 莲花盔甲(男) LV8
+1/140 莲花盔甲(女) LV8
+1/140 仙鹤盔甲(男) LV8
+1/140 仙鹤盔甲(女) LV8
+1/140 隐形盔甲(男) LV8
+1/140 隐形盔甲(女) LV8
+1/170 红色黑暗盔甲(男) LV8
+1/170 红色黑暗盔甲(女) LV8
+1/170 蓝色深色护甲(男) LV8
+1/170 蓝色深色护甲(女) LV8
+1/170 鳞甲(男) LV8
+1/170 鳞甲(女) LV8
+1/170 绿色深色护甲(男) LV8
+1/170 绿色深色护甲(女) LV8
+1/170 金色深色护甲(男) LV8
+1/170 金色深色护甲(女)v
+1/400 WatcherSuit(男) LV8
+1/400 WatcherSuit(女) LV8
+1/1700 HeavenRedArmour(男) LV8
+1/1700 HeavenRedArmour(女) LV8
+1/1700 HeavenGrnArmour(男) LV8
+1/1700 HeavenGrnArmour(女) LV8
+1/1700 天堂之铠(男) LV8
+1/1700 天堂之铠(女) LV8
+1/1700 HeavenGoldArmour(男) LV8
+1/1700 HeavenGoldArmour(女) LV8
+
+1/100 玛吉之刃 LV8
+1/300 战神之剑 LV8
+1/300 力量之弓 LV8
+1/300 巫术之刃 LV8
+1/300 创天之剑 LV8
+1/50 冰封之剑 LV8
+1/50 狰狞之弓 LV8
+1/50 锌刀 LV8
+1/50 征服者之矛 LV8
+1/50 混蛋之剑 LV8
+1/450 致命之弓 LV8
+1/450 黑虎之锤 LV8
+1/450 屠宰刀 LV8
+1/450 洛托斯之杖 LV8
+1/450 鹤鸣扇 LV8
+1/700 野蛮人之剑 LV8
+1/700 生死剑 LV8
+1/700 狂龙之刃 LV8
+1/700 骨头CarvedFan LV8
+1/700 阿普斯弓 LV8
+
+1/40 伟大的头盔 LV8
+1/40 智慧头盔 LV8
+1/40 道冠 LV8
+1/40 皇家头盔 LV8
+1/100 闪亮的头盔 LV8
+1/150 PuiYuHelmet LV8
+1/150 WatcherHelmet LV8
+
+
+1/50 誓约环 LV8
+1/50 五元素戒指 LV8
+1/50 红宝戒指 LV8
+1/105 恶魔之戒 LV8
+1/105 驱邪戒指 LV8
+1/155 Gold龙戒 LV8
+
+1/50 双天王护身符 LV8
+1/50 神圣护身符 LV8
+1/50 诅咒护身符 LV8
+1/105 WildTitan护身符 LV8
+1/105 Enchanted护身符 LV8
+1/105 FiveElement护身符 LV8
+1/155 WatcherGloves LV8
+
+1/50 残缺的项链 LV8
+1/50 巫术之锚 LV8
+1/50 净化的镜子 LV8
+1/100 邪恶三角 LV8
+1/100 净化的十字架 LV8
+1/100 金刚项链 LV8
+
+1/10 勇敢球 LV8
+1/10 魔法之球 LV8
+1/10 灵魂之球 LV8
+1/20 保护球 LV8
+1/20 屠魔球 LV8
+1/40 风暴球 LV8
+1/40 敏捷球 LV8
+1/40 精度球 LV8
+1/40 毒药球 LV8
+1/40 冰冻球 LV8
+1/40 幻觉球 LV8
+1/40 耐力球 LV8
+1/45 耐用性球 LV8
+
+1/30 Holy健康石 LV8
+1/30 Holy魔法石 LV8
+1/30 Holy动力石 LV8
+1/40 HolyAcStone LV8
+1/40 HolyAmcStone LV8
+1/40 HolyDefenseStone LV8
+1/30 HolyDC攻击石 LV8
+1/30 HolyMC石 LV8
+1/30 HolySC石 LV8
+
+
+;Boots
+1/300 WatcherBoots LV8
+
+
+;Shield
+1/650 OrcsShield LV8
+
+1/300 DefenderRing LV8
+1/300 DefenderGlove LV8
+1/300 DefenderNecklace LV8
+1/100 (H)恶魔面具 LV8
+1/100 (H)紫金石 LV8
+1/100 (H)鲲鹏之泪 LV8
+1/100 (H)WheelOfLunar LV8
+1/100 (H)红魔戒指 LV8
+1/100 (H)云戒指 LV8
+1/100 (H)毒药戒指 LV8
+1/80 ArmouredMedal LV8
+1/50 HollowMedal LV8
+1/200 AscendedRing LV8
+1/200 AscendedWheel LV8
+1/200 AscendedNecklace LV8
+1/200 AscendedHelmet LV8
+1/200 AscendedBoots LV8
+1/200 AscendedBelt LV8
+
+;other
+1/550 InfernoRing LV8
+1/550 InfernoNecklace LV8
+1/550 InfernoWheel LV8
+1/550 InfernoBoots LV8
+1/550 InfernoBelt LV8
+1/550 InfernoShield LV8
+1/550 InfernoHelmet LV8
+1/1200 HeatsBanes LV8
+1/1200 WidowsWail LV8
+1/1200 ThorsBattleAxe LV8
+1/1200 OathKeeper LV8
+1/450 TrollCap LV8
+1/450 TrollRing LV8
+1/450 TrollBand LV8
+1/450 TrollChains LV8
+1/450 S陷阱ofTrolls LV8
+1/450 TrollLeathers LV8
+1/200 TerrapinNecklace LV8
+1/200 TerrapinBracelet LV8
+1/200 TerrapinRing LV8
+1/300 TerrapinShield LV8
+1/500 TrollsRobe(男) LV8
+1/500 TrollsRobe(女) LV8
+
+1/100 DefensiveMedal LV8
+1/100 OffensiveMedal LV8
+
+1/100 SmasherGlove LV8
+1/100 暴风雪Glove LV8
+1/100 MistyGlove LV8
+1/100 SlicerGlove LV8
+1/100 SmasherNecklace LV8
+1/100 暴风雪Necklace LV8
+1/100 MistyNecklace LV8
+1/100 SlicerNecklace LV8
+1/100 SmasherRing LV8
+1/100 暴风雪Ring LV8
+1/100 MistyRing  LV8
+1/100 SlicerRing LV8
+
+1/900 HavokBraveArmour(男) LV8
+1/900 HavokBraveArmour(女) LV8
+1/900 HavokMagicArmour(男) LV8
+1/900 HavokMagicArmour(女) LV8
+1/900 Havok灵魂护甲(男) LV8
+1/900 Havok灵魂护甲(女) LV8
+1/900 HavokSinArmour(男) LV8
+1/900 HavokSinArmour(女) LV8
+
+1/400 神奇的项链 LV8
+1/400 天体之镯 LV8
+1/400 天使之戒 LV8
+
+1/1200 FrozenBelt LV8
+1/1200 FrozenNecklace LV8
+1/1200 FrozenRing LV8
+1/1200 FrozenBoots LV8
+1/900 FrozenWheel LV8
+1/1200 FrozenSlayer LV8
+1/1200 FrozenStaff LV8
+1/1200 FrozenWand LV8
+1/1200 Frozen匕首s LV8
+1/1200 FrozenBow LV8
+
+;Books
+;Warrior
+1/25 火焰之剑 LV8
+1/30 十字半月 LV8
+1/50 双闸刀 LV8
+1/60 狮子吼 LV8
+1/70 禁锢 LV8
+1/120 SliceN骰子 LV8
+1/140 BladeStorm LV8
+1/150 刀锋雪崩 LV8
+1/700 保护场 LV8
+1/800 愤怒 LV8
+1/900 怒击 LV8
+1/1000 反击 LV8
+1/1500 不朽的皮肤 LV8
+
+;Wizard
+1/10 寒霜紧缩 LV8
+1/25 冰风暴 LV8
+1/30 火焰破坏者 LV8
+1/50 吸血术 LV8
+1/100 DragNet LV8
+1/150 镜像 LV8
+1/190 火焰场 LV8
+1/700 暴风雪 LV8
+1/800 魔力助推器 LV8
+1/900 流星打击 LV8
+1/1000 快速移动 LV8
+1/1100 冰刺 LV8
+1/1200 FrozenRains LV8
+1/1300 LavaKing LV8
+1/1600 风暴逃逸 LV8
+
+;Taoist
+1/50 幻觉 LV8
+1/50 净化 LV8
+1/30 终极强化器 LV8
+1/30 能量反击器 LV8
+1/25 召唤神术 LV8
+1/100治愈圈 LV8
+1/200 召唤圣德瓦 LV8
+1/500 诅咒 LV8
+1/800 转世 LV8
+1/900 毒云 LV8
+1/1100 能量护盾 LV8
+1/1000 宠物强化器 LV8
+1/1300 HolyShield LV8
+1/1600 HeadShot LV8
+
+;Assassin
+1/50 火焰喷射 LV8
+1/75 陷阱 LV8
+1/60 迅捷脚步 LV8
+1/100 CrescentSlash LV8
+1/600 黑暗之躯 LV8
+
+;Archer
+1/50 元素屏障 LV8
+1/60 捆绑射击 LV8
+1/75 召唤蟾蜍 LV8
+1/75 毒药射击 LV8
+1/100 残废射击 LV8
+1/100 召唤蛇类 LV8
+
+
+

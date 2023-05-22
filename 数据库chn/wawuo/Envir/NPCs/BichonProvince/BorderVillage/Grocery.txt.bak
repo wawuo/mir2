@@ -1,0 +1,62 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人...
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+你好 旅行者。我能帮你做什么?
+
+I see you're holding: {<$TORCH>/CORAL}
+I see you're holding: {<$AMULET>/CORAL}
+
+<查看/@BuySell> 商店 
+ 
+<关闭/@exit>
+
+[@BuySell]
+#SAY
+你想购买或出售什么物品?
+<返回购买/@BuyBack>
+ 
+<返回/@Main>
+
+[@BuyBack]
+#SAY
+这些是仍然可以购买回来的物品.
+ 
+<返回/@Main>
+
+[Types]
+8
+12
+13
+
+[Trade]
+(HP)药物小量
+(HP)药物小量
+(HP)药物小量
+(MP)药物小量
+(MP)药物小量
+(MP)药物小量
+(HP)药物中量
+(HP)药物中量
+(HP)药物中量
+(MP)药物中量
+(MP)药物中量
+(MP)药物中量
+蜡烛
+火炬
+随机传送卷
+地牢逃脱
+护身符
+
+
+[Quests]
+-48

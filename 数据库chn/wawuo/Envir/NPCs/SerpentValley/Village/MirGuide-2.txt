@@ -1,0 +1,853 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人...
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+欢迎来到米尔世界。
+指导新手是我的工作。
+有什么我可以帮忙的吗？
+
+<Hunting info by each level/@hunting>
+<Combat & Skill info/@combat>
+<Basic information/@basic>
+
+[@hunting]
+#SAY
+以你在米尔世界的水平，知道在哪里打猎是明智的。
+你可以随时问我，我很乐意为你提供指导。
+<level 1~11/@level1-11>
+<level 11~21/@level11-21>
+<level 21~30/@level21-30>
+<level 31~40/@level31-40>
+<level 41+/@level41>
+
+<回到主页面/@main>
+
+[@level1-11]
+#SAY
+开始在镇子周围打猎与进一步移动。
+比奇省, 沃玛森林, 盟重省, 桃源村、
+和吉良城堡是主要的狩猎区。
+请按B键查看整个地图。
+
+<LV1~3/@lvl1-3>      <LV3~7/@lvl3-7>      <LV7~11/@lvl7-11>
+
+<返回/@hunting>                           <回到主页面/@main>
+
+[@lvl1-3]
+#SAY
+如果你想安全地打猎，可以在城镇附近试试母鸡、鹿和羊。
+他们不会攻击你，你可以击倒他们并挖他们的肉
+<肉/@slicemeat>卖给村里的屠夫
+
+
+<返回/@level1-11>                              <回到主页面/@main>
+
+[@slicemeat]
+#SAY
+切肉： 对鸡、鹿等家畜身上按（Alt+左键）点击这些动物的
+尸体会出现切肉动作，获得肉类。
+
+采矿： 装备镐头进行采矿。左键会自动进行采矿。
+获得的矿物将作为原材料用于制作物品或出售。
+
+<返回/@basic>              <到下一步/@slicemeatnext>
+
+[@slicemeatnext]
+#SAY
+Medicinal 材料: You can acquire some medicinal 材料 from dead body of
+some monsters when taken such slicing meat action.
+( SpittingSpider, CannibalPlant, CaveMaggot )
+
+Item: You can acquire some item from dead body of some
+monsters when taken such slicing meat action.
+( SpiderBat, ToxicGhoul, Dung, etc )
+
+<返回/@basic>                <回到主页面/@main>
+
+[@lvl3-7]
+#SAY
+Once you go far away from town, hunt HookingCat, RakingCat, Yob, Wolf,
+ShellNipper, Keratoid 与 etc.
+
+<返回/@level1-11>            <回到主页面/@main>
+
+[@lvl7-11]
+#SAY
+You can learn a special skill from Level 7.
+The combat abillity will be increased, so try Oma, ForestYeti, CannibalPlant,
+VisceralWorm, SpittingSpider 与 etc at this time.
+But be specially aware of poison from Spitting Spider.
+
+<返回/@level1-11>              <回到主页面/@main>
+
+[@level11-21]
+#SAY
+从第11级就可以进入地牢了。这是一个黑暗的地方，蜡烛
+和传送门卷轴被认为是必不可少的物品。
+此外，准备好足够的药水，因为它们远离城镇。
+
+<LV 11~14/@lvl11-14>      <LV 14~17/@lvl14-17>      <LV 17~22/@lvl17-22>
+
+<返回/@hunting>                    <回到主页面/@main>
+
+[@lvl11-14]
+#SAY
+如果你希望安全狩猎，可以试试红蛇、
+虎蛇，与在蛇谷与奥玛战士。
+如果你是一个学习了地狱之火技能的巫师，
+那么你就可以尝试一下，这是最值得推荐的。
+
+<返回/@level11-21>         <回到主页面/@main>
+
+[@lvl14-17]
+#SAY
+如果你希望获得更高的经验。去比丘省西北部的OmaCave
+的西北方。这是米尔世界的第一个地牢，在那里出现了CaveBat、
+CaveMaggot, 与Skeleton出现。
+带上蜡烛、传送门卷轴和足够的药水。
+它位于离城镇很远的地方。
+但要特别注意CaveMaggot的毒药。你会被麻痹。
+<返回/@level11-21>                 <回到主页面/@main>
+
+[@lvl17-22]
+#SAY
+去比奇省西部的死亡矿井或伍米扬森林西南部的昆虫洞。
+在沃玛森林的西南方。这个地方可能会让你很难受，
+因为被杀死的僵尸会不断复活几次。巫师的霹雳火在这
+个地方非常有效。
+
+<返回/@level11-21>                   <回到主页面/@main>
+
+[@level21-30]
+#SAY
+建议去死亡谷，沃玛神庙、
+矿物矿在20级的前半段。
+而在30至35级时去斜角石墓或树径。
+在战斗中会有不可阻挡的紧张气氛。
+
+<返回/@hunting>                      <回到主页面/@main>
+
+[@level31-40]
+#SAY
+PrajnaIsland是30-40级的最佳狩猎区。
+Prajna field, PrajnaStoneCave是30级前半段的好地方。
+30级的一半。
+35至40级时去PrajnaTemple。
+红谷是这个级别的一个替代选择。
+
+<返回/@hunting>                   <回到主页面/@main>
+
+[@level41]
+#SAY
+一旦你达到了这个级别，就去蒙村东部的祖玛寺。
+省。建议结伴而行，因为在这里单干是非常困难的。
+当你习惯了这个地方后，去Prajna野外的时间石旁的PastBichon
+在Prajna地区。
+你会遇到可怕的怪物与火龙。
+
+<返回/@hunting>                   <回到主页面/@main>
+
+[@combat]
+#SAY
+你必须是一个坚强的斗士，才能在米尔世界生存。第一个要求是
+使自己熟悉各种技能和战斗。
+技能。随时可以问我，我很乐意为你提供指导。
+
+<Skill learning & method/@skilllearning>
+<Warrior skill/@warrskill>
+<Wizard skill/@wizskill>
+<Taoist skill/@taoskill>
+<Combat Technic/@combattech>
+
+<回到主页面/@main>
+
+[@skilllearning]
+#SAY
+1) 获得你的水平的技能书。(初级和中级技能书在镇上的书店出售。
+镇上的书店出售。高级技能书将在猎杀怪物时获得）。
+技能书会消失，并显示信息。
+2) 双击你库存中的技能书。
+如果它与你的工作和等级相符、
+它就会消失并出现成功信息。
+3) 打开技能屏幕（F11），激活所学技能。
+(决定哪一个键将被用于快速插槽）。
+
+<返回/@combat>                                    <Go to Next/@skilllearningnext>
+
+[@skilllearningnext]
+#SAY
+4) Detailed explanation is displayed in skill type section.
+
+<返回/@combat>                       <回到主页面/@main>
+
+[@warrskill]
+#SAY
+Warrior skill type:
+Select any skill you wish to know.
+Remember, Warrior skills are all melee type.
+
+<击剑 7/@fencing>      <肩部冲刺 30/@sdash>     <LionsRoar 36/@lionsroar>
+<杀人 15/@slaying>     <双闸刀 32/@tdb>     <CrossHalfmoon 38/@chm>
+<刺杀 22/@thrusting>     <En陷阱ment 32/@en陷阱ment>     <刀锋雪崩 38/@BA>
+<Halfmoon 26/@halfmoon>     <火焰之剑 35/@fsword>     <愤怒 44/@rage>
+<保护场 39/@profield>
+
+<返回/@combat>                 <回到主页面/@main>
+
+[@wizskill]
+#SAY
+巫师技能第1页：
+巫师技能的特点是都是远距离攻击，有些则是多段攻击。
+多重攻击。但它会消耗很多MP。
+
+<Fireball 7/@fireball>     <Hellfire 16/@hellfire>     <火墙 24/@fwall>
+<斥力 12/@repulse>     <Thunderbolt 17/@tbolt>     <闪电 26/@lightning>
+<ElecShock 13/@eshock>     <传送 19/@tele>     <寒霜紧缩 28/@fcrunch>
+<大火球 15/@gfball>     <火焰弹 22/@fbang>     <Thunderstorm 30/@tstorm>
+
+<返回/@combat>              <Go to Next/@wizskill2>
+
+[@wizskill2]
+#SAY
+Wizard skill page 2:
+
+<魔法盾 31/@mshield>     <镜像 41/@mirror>
+<亡灵转化 32/@turnundead>     <火焰场 42/@ffield>
+<吸血术 33/@vamp>     <暴风雪 44/@blizzard>
+<冰风暴 35/@冰风暴>   <流星打击 49/@meteor>
+<火焰破坏者 38/@fdisrupt>
+
+<返回/@combat>                   <回到主页面/@main>
+
+[@taoskill]
+#SAY
+Taoist skill page 1:
+Only Taoists can use tallisman or poison as one of the skills.
+
+<疗伤 7/@healing>     <召唤骷髅 19/@summonskel>     <启示 23/@rev>
+<精神之剑 9/@ssword>     <躲藏 20/@hiding>     <受祝福的盔甲 25/@blessarm>
+<中毒 14/@poison>     <大规模躲藏 21/@masshide>     <能量反击器 27/@energyrep>
+<灵魂火球 18/@sfb>   <灵魂盾牌 22/@soulshield>   <陷阱六边形 28/@陷阱hex>
+
+<返回/@combat>                         <Go to Next/@taoskill2>
+
+[@taoskill2]
+#SAY
+Taoist skill page 2:
+
+<净化 30/@puri>     <大规模治疗 31/@massheal>     <幻觉 31/@halluc>
+<终极强化器 33/@ultimateenhance>     <召唤神术 35/@summonshin>     <转世 37/@rein>
+<召唤圣德瓦 38/@summondeva>     <诅咒 40/@curse>     <毒云 43/@poisoncloud>
+
+<返回/@combat>                         <回到主页面/@main>
+
+[@fencing]
+#SAY
+击剑 (Level 7)
+
+HItting accuracy will be increased in accordance with practice level.
+
+<返回/@warrskill>                     <回到主页面/@main>
+
+[@slaying]
+#SAY
+杀人 (Level 15)
+
+HItting accuracy 与 destructive power will be increased
+in accordance with practice level.
+
+<返回/@warrskill>                     <回到主页面/@main>
+
+[@thrusting]
+#SAY
+刺杀 (Level 22)
+
+Attack two people straight in a row. Click to activate or deactivate the skill.
+No MP will be consumed.
+
+<返回/@warrskill>                     <回到主页面/@main>
+
+[@halfmoon]
+#SAY
+半月形 (Level 26)
+
+Damage 4 enemies at once near by. MP will be consumed.
+
+<返回/@warrskill>                     <回到主页面/@main>
+
+[@sdash]
+#SAY
+肩部冲刺 (Level 30)
+
+Push away enemies by charging them with his shoulder, inflicting damage if
+they hit any obstacles. Skill will be ineffective at higher level enemy.
+MP will be consumed.
+
+<返回/@warrskill>                     <回到主页面/@main>
+
+[@tdb]
+#SAY
+双闸刀 (Level 32)
+
+The art of making multiple power attacks that have the energy equivalent to
+two identical drakes rising the sky.
+It has a low chance of making the enemy stunned for a while.
+(Stunned Enemies get 1.5 times more damage than when they are hit under
+normal condition).
+
+<返回/@warrskill>                     <回到主页面/@main>
+
+[@en陷阱ment]
+#SAY
+En陷阱ment (Level 32)
+
+Pull one enemy nearby.
+MP will be consumed.
+
+<返回/@warrskill>                     <回到主页面/@main>
+
+[@fsword]
+#SAY
+火焰之剑 (Level 35)
+
+Powerful hit on enemy.
+Keep clicking skill key 与 left click the target in 15 seconds.
+MP will be consumed.
+
+<返回/@warrskill>                     <回到主页面/@main>
+
+[@lionsroar]
+#SAY
+LionsRoar (Level 36)
+
+Paralyze enemies within 5x5 square range for certain probability.
+Skill will be ineffective at higher level enemy.
+MP will be consumed.
+
+<返回/@warrskill>                     <回到主页面/@main>
+
+[@chm]
+#SAY
+双闸刀 (Level 38)
+
+All the enemies nearby 8 o'clock direction at once.
+Skill key must be clicked. MP will be consumed.
+
+<返回/@warrskill>                     <回到主页面/@main>
+
+[@BA]
+#SAY
+刀锋雪崩 (Level 38)
+
+Multiple area attack against enemies a distance away.
+MP will be consumed.
+
+<返回/@warrskill>                     <回到主页面/@main>
+
+[@rage]
+#SAY
+愤怒 (Level 44)
+
+Enhances your inner force to increase its power for a certain time.
+Defense power 与 duration time will depend on the skill level.
+Once the skill has been used, you will have to wait to use it again.
+
+<返回/@warrskill>                     <回到主页面/@main>
+
+[@profield]
+#SAY
+保护场 (Level 39)
+
+Concentrate inner force 与 spreads it to all the parts of your body. 
+This will enhance the protection from enemies.
+Defense power 与 duration time will depend on the skill level.
+Once the skill has been used, you will have to wait to use it again.
+
+<返回/@warrskill>                     <回到主页面/@main>
+
+[@fireball]
+#SAY
+Fireball (Level 7)
+
+Long distance flaming attack which is basic skill of Wizard as a beginner.
+Flame attack can damage the target distance away.
+
+<返回/@wizskill>                     <回到主页面/@main>
+
+[@repulse]
+#SAY
+斥力 (Level 12)
+
+Allows you to push away mobs 与 people at 8 o'clock direction.
+Skill will be ineffective at higher level enemy.
+MP will be consumed.
+
+<返回/@wizskill>                     <回到主页面/@main>
+
+[@eshock]
+#SAY
+ElecShock (Level 13)
+
+A skill that paralyses or confuses enemies by emitting a strong electric shock
+in a flash. It's also useful for taming monsters.
+Skill will be ineffective at higher level enemy.
+MP will be consumed.
+
+<返回/@wizskill>                     <回到主页面/@main>
+
+[@gfball]
+#SAY
+大火球 (Level 15)
+
+More powerful skill of the basic fireball.
+MP will be consumed.
+
+<返回/@wizskill>                     <回到主页面/@main>
+
+[@hellfire]
+#SAY
+Hellfire (Level 16)
+
+Throws a column of flame straight ahead of the caster. (5 square range)
+MP will be consumed.
+                                
+<返回/@wizskill>                     <回到主页面/@main>
+
+[@tbolt]
+#SAY
+Thunderbolt (Level 17)
+
+Attacks enemies by calling a thunderbolt that will hit the target from the sky.
+Specialized on undead type monsters.
+MP will be consumed.
+
+<返回/@wizskill>                     <回到主页面/@main>
+
+[@tele]
+#SAY
+传送 (Level 19)
+
+Allows a wizard to move instantly to a random place in a Marian Province.
+Skill training will increase the chance of landing near towns.
+MP will be consumed.
+
+<返回/@wizskill>                     <回到主页面/@main>
+
+[@fbang]
+#SAY
+火焰弹 (Level 22)
+
+Create a 3x3 square high temperature fire flash,
+instantly damaging every enemy in range.
+MP will be consumed.
+
+<返回/@wizskill>                     <回到主页面/@main>
+
+[@fwall]
+#SAY
+火墙 (Level 24)
+
+A strong flame around targeted area with 3x3 square range.
+MP will be consumed.
+
+<返回/@wizskill>                     <回到主页面/@main>
+
+[@lightning]
+#SAY
+闪电 (Level 26)
+Throws a boly of lightning forwards from the casters hands.
+It damages all objects(9-10 enemies) in its path.
+MP will be consumed.
+
+<返回/@wizskill>                     <回到主页面/@main>
+
+[@fcrunch]
+#SAY
+寒霜紧缩 (Level 28)
+
+The art of freezing that uses the force of ice.
+When it is cast, it randomly freezes enemies 与 after they are frozen, their
+speed drops significantly.
+MP will be consumed.
+
+<返回/@wizskill>                     <回到主页面/@main>
+
+[@tstorm]
+#SAY
+Thunderstorm (Level 30)
+
+Specialized skill on Undead type monsters.
+5x5 square range attack around player(max.24 enemies).
+MP will be consumed.
+
+<返回/@wizskill>                     <回到主页面/@main>
+
+[@mshield]
+#SAY
+魔法盾 (Level 31)
+
+Creates a shield which protects damage from monsters.
+Duration time depends on the skill level.
+MP will be consumed.
+
+<返回/@wizskill>                     <回到主页面/@main>
+
+[@turnundead]
+#SAY
+亡灵转化 (Level 32)
+
+Specialized in undead type monsters.
+As the skill level reaches max, one shot one kill will be possible.
+MP will be consumed.
+
+<返回/@wizskill>                     <回到主页面/@main>
+
+[@vamp]
+#SAY
+吸血术 (Level 33)
+Absorbs strength of enemy to recover players strength.
+MP will be consumed.
+
+<返回/@wizskill>                     <回到主页面/@main>
+
+[@冰风暴]
+#SAY
+冰风暴 (Level 35)
+
+Brings snow storm in a targetted area (5x5 square).
+MP will be consumed.
+
+<返回/@wizskill>                     <回到主页面/@main>
+
+[@fdisrupt]
+#SAY
+火焰破坏者 (Level 38)
+
+Create a powerful column on enemy no matter of any obstacles.
+(Physical objects).
+MP will be consumed.
+
+<返回/@wizskill>                     <回到主页面/@main>
+
+[@mirror]
+#SAY
+镜像 (Level 41)
+
+Create an image 与 fight enemy together. Image appears when skill is
+clicked, click once more will remove image.
+MP will continously be consumed while the image is in use.
+
+<返回/@wizskill>                     <回到主页面/@main>
+
+[@ffield]
+#SAY
+火焰场 (Level 42)
+
+5x5 square range attack with a dreadful flame. (Max. 24 enemies at once)
+MP will be consumed.
+
+<返回/@wizskill>                     <回到主页面/@main>
+
+[@blizzard]
+#SAY
+暴风雪 (Level 44)
+
+Attacks all monsters in a certain area with meteors of fire falling from the sky.
+This will burn all the objects within the area.
+It has a very long casting time but gives a higher damage than the 暴风雪 skill.
+If the caster is attacked while using the skill, it will be cancelled.
+The damage inflicted raises with the skill level.
+
+<返回/@wizskill>                     <回到主页面/@main>
+
+[@meteor]
+#SAY
+流星打击 (Level 49)
+
+Attacks all monsters in a certain area with meteors of fire falling from the sky.
+This will burn all the objects within the area. 
+It has a very long casting time but gives a higher damage than the 暴风雪 skill.
+If the caster is attacked while using the skill, it will be cancelled. 
+The damage inflicted raises with the skill level.
+
+<返回/@wizskill>                     <回到主页面/@main>
+
+[@healing]
+#SAY
+疗伤 (Level 7)
+Heal himself or other players.
+MP will be consumed.
+
+<返回/@taoskill>                     <回到主页面/@main>
+
+[@ssword]
+#SAY
+精神之剑 (Level 9)
+
+Increase attack accuracy.
+
+<返回/@taoskill>                     <回到主页面/@main>
+
+[@poison]
+#SAY
+中毒 (Level 14)
+
+Poison that keeps giving damage over certain time to enemies.
+MP 与 Poison will be consumed.
+
+<返回/@taoskill>                     <回到主页面/@main>
+
+[@sfb]
+#SAY
+灵魂火球 (Level 18)
+
+Executes long-distance attacks like a wizards fireball skill,
+by hurling an amulet.
+MP 与 amulet will be consumed.
+
+<返回/@taoskill>                     <回到主页面/@main>
+
+[@summonskel]
+#SAY
+召唤骷髅 (Level 19)
+
+Create a familiar by making his shape through strong magic 与 resurrecting
+a spirit of strong power into this shape.
+MP 与 amulet will be consumed.
+
+<返回/@taoskill>                     <回到主页面/@main>
+
+[@hiding]
+#SAY
+躲藏 (Level 20)
+
+Makes invisible to mobs by hiding traces. 躲藏 will allow player not to be
+seen if unless do not move or attack after exercising this skill.
+It's a useful skill to make any situation 1 on 1, as you can hide 与 use a
+distance attack 与 only attacked mobs will approach you.
+
+<返回/@taoskill>                     <回到主页面/@main>
+
+[@masshide]
+#SAY
+大规模躲藏 (Level 21)
+
+Upgrade version of hiding skill which also affect other players to be invisible.
+Max. 9 people can be invisible if all are in 3x3 square area.
+MP 与 amulet will be consumed.
+
+<返回/@taoskill>                     <回到主页面/@main>
+
+[@soulshield]
+#SAY
+灵魂盾牌 (Level 22)
+
+Increases magic defensive power.
+Its duration will be extended according to practice levels 与 SC power.
+MP 与 amulet will be consumed.
+
+<返回/@taoskill>                     <回到主页面/@main>
+
+[@rev]
+#SAY
+启示 (Level 23)
+Reveals other HP (players or mobs).
+Its duration will be extended according to practice levels 与 SC power.
+MP will be consumed.
+
+<返回/@taoskill>                     <回到主页面/@main>
+
+[@blessarm]
+#SAY
+受祝福的盔甲 (Level 25)
+
+Increases physical defensive power which also affects people around
+the player. Duration time increases are practices level.
+MP 与 amulet will be consumed.
+
+<返回/@taoskill>                     <回到主页面/@main>
+
+[@energyrep]
+#SAY
+能量反击器 (Level 27)
+
+A wave of energy that sends anything stood next to them
+at 8o'clock direction reeling backwards.
+This skill is ineffective at higher level enemy.
+MP will be consumed.
+
+<返回/@taoskill>                     <回到主页面/@main>
+
+[@陷阱hex]
+#SAY
+陷阱六边形 (Level 28)
+
+陷阱 a mob - confining it from the outer world.
+This 陷阱 will disappear if approach nearby hexagon.
+陷阱ped mob can evade it when they are attacked from distance.
+The 陷阱 Hexagon emits light to indicate its boundary.
+His skill is ineffective at higher level enemy.
+MP 与 amulet will be consumed.
+
+<返回/@taoskill>                     <回到主页面/@main>
+
+[@puri]
+#SAY
+净化 (Level 30)
+
+Purifies poisoned or corrupted body by dark foce.
+MP 与 amulet will be consumed.
+
+<返回/@taoskill>                     <回到主页面/@main>
+
+[@massheal]
+#SAY
+大规模治疗 (Level 31)
+
+Heal several players at once 3X3 square max. 9 people.
+MP will be consumed.
+
+<返回/@taoskill>                     <回到主页面/@main>
+
+[@halluc]
+#SAY
+幻觉 (Level 31)
+
+Distracts enemy in chaos to fight each other.
+MP 与 amulet will be consumed.
+
+<返回/@taoskill>                     <回到主页面/@main>
+
+[@ultimateenhance]
+#SAY
+终极强化器 (Level 33)
+
+Increases physical attack.
+MP 与 amulet will be consumed.
+
+<返回/@taoskill>                     <回到主页面/@main>
+
+[@summonshin]
+#SAY
+召唤神术 (Level 35)
+
+Summons a powerful fire breathing beast called Shinsu that will act as
+his or her own familiar.
+MP 与 amulet will be consumed.
+
+<返回/@taoskill>                     <回到主页面/@main>
+
+[@summondeva]
+#SAY
+召唤圣德瓦 (Level 38)
+
+Summons a HolyDeva.
+MP 与 amulet will be consumed.
+
+<返回/@taoskill>                     <回到主页面/@main>
+
+[@curse]
+#SAY
+诅咒 (Level 40)
+
+Reduces mob attacks (Attack Speed, DC, MC, SC)
+
+<返回/@taoskill>                     <回到主页面/@main>
+
+[@rein]
+#SAY
+转世 (Level 37)
+
+A supreme skill of Taoists which can revive a dead player.
+This skill requires long casting time 与 cast can be cancelled if attacked.
+So it is suggested to clean up the area 与 cast the skill with alliance protection.
+Success rate depends on the skill level. It requires an 护身符 of Revival.
+
+<返回/@taoskill>                     <回到主页面/@main>
+
+[@poisoncloud]
+#SAY
+毒云 (Level 43)
+
+Throw the amulet 与 a very strong poison cloud will appear in the area.
+This requires high concentration of Taoism 与 mentality.
+Once the skill has been used, you will have to wait to use it again.
+It requires Grey Poison.
+
+<返回/@taoskill>                     <回到主页面/@main>
+
+[@basic]
+#SAY
+These are the basic info. You must know as beginner.
+
+<Basic control(rooting etc)/@basiccontrol>
+<Shop & NPC function/@shop>
+<Collection (slice meat, mining etc)/@slicemeat>
+<Production(Craft&upgrade)/@craft>
+<Check other user info./@checkother>
+<Command(part, guild, chat 与 etc)/@command>
+
+<回到主页面/@main>
+
+[@basiccontrol]
+#SAY
+Basic control:
+
+*Item root: Left click to root the item in ground. If inventory is full or heavy
+enough, you can't root anymore.
+If other has priority, it will take some time to root the item.
+*Item dispose: Open the inventory 与 left click the item
+that will be disposed 与 click ground.
+
+<返回/@basic>                               <回到主页面/@main>
+
+[@shop]
+#SAY
+<Item shop/@34678>
+*Weapon  *Accessory  *Clothing  *Blacksmith  *Regent  *Peddler
+<Special shop/36487>
+*肉类 store  *Lottery  *Bookstore  *Warehouse
+<Special structure/@37894>
+*Palace  *Competing room
+<Special NPC/@37682>
+*CraftLady  *SignPost  *Coordinate  *Guard
+
+<返回/@basic>                               <回到主页面/@main>
+
+[@craft]
+#SAY
+Production (Craft & Upgrade)
+
+This will be provided later.
+
+<返回/@basic>                               <回到主页面/@main>
+
+[@checkother]
+#SAY
+Check other user info. <Ctrl+right click> to check the equipped item,
+guild information 与 etc.
+
+<返回/@basic>                               <回到主页面/@main>
+
+[@command]
+#SAY
+<Chat/@54678>          <Group/@46783>          <Guild/@54768>
+
+*Private chat          *Group shout          *Guild shout
+*Shout                             *Block guild chat
+*Ban private chat                            *Withdraw guild
+*Ban shout
+
+<返回/@basic>                               <回到主页面/@main>
+
+[Quests]
+110

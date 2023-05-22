@@ -1,0 +1,90 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人...
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+你好 旅行者 有什么事?
+ 
+<存取/@Storage> Storage
+<交换/@mbind> 材料
+<交易/@Buy>
+你有  <$PARCELAMOUNT>  包裹等待领取.
+<发送/@SendParcel> 包裹
+<收取t/@CollectParcel> 包裹s
+
+
+[@Storage]
+#SAY
+你想储存或提取什么物品?
+ 
+<返回/@Main> - <关闭/@exit>
+
+[@Buy]
+#SAY
+想购买什么?
+ 
+<返回/@Main> - <关闭/@exit>
+
+[@mbind]
+#SAY
+I can exchange 金条s,Bundles 与 Chests back in {Gold/Gold}.
+你想怎样.
+ 
+交换: <金条/@GBar>  变成  {Gold/GOLD} --收费{(2000 Gold)/Gold}
+交换: <金条包/@GBBundle>  变成  {Gold/GOLD} --收费{(10000 Gold)/Gold}
+交换: <金柜/@GChest>  变成  {Gold/GOLD} --收费{(20000 Gold)/Gold}
+<返回/@main> - <关闭/@exit>
+
+[@GBar]
+#IF
+CHECKITEM 金条 1
+#ACT
+TAKEITEM 金条 1
+GIVEGOLD 998000
+#ELSESAY
+你没有 金条 用来交换...
+请搞清楚再来.
+ 
+<返回/@mbind> - <关闭/@exit>
+
+[@GBBundle]
+#IF
+CHECKITEM 金条包 1
+#ACT
+TAKEITEM 金条包 1
+GIVEGOLD 4990000
+#ELSESAY
+你没有 金条包 用来交换...
+请搞清楚再来.
+ 
+<返回/@mbind> - <关闭/@exit>
+
+[@GChest]
+#IF
+CHECKITEM 金柜 1
+#ACT
+TAKEITEM 金柜 1
+GIVEGOLD 9980000
+#ELSESAY
+你没有 金柜 用来交换...
+请搞清楚再来.
+ 
+<返回/@mbind> - <关闭/@exit>
+
+
+[Types]
+1
+
+[Trade]
+勋章
+金条
+金条包
+金柜

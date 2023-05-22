@@ -1,0 +1,28 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人...
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+Your the Traveler, I keep hearing about.
+Welcome to MudWall. Your good deed's around the these Land's.
+are greatly admired.
+Please speak with the Local Vendor's im sure they would welcome any
+help.
+<关闭/@exit>
+
+[Quests]
+114
+-114
+115
+-115
+116
+135
+-135

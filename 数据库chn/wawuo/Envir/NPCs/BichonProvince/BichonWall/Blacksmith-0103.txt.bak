@@ -1,0 +1,106 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人...
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+你好, Are you looking for something particular? 
+How can I be of assistance.
+ 
+<查看/@BuySell> 商店
+<修理/@Repair> Weapon.
+ 
+<关闭/@exit>
+
+[@BuySell]
+#SAY
+Which item would you like to出售或购买?
+<返回 购买/@BuyBack>
+ 
+<返回/@main>
+
+[@BuyBack]
+#SAY
+这些是仍然可以购买回来的物品.
+ 
+<返回/@main>
+
+[@Repair]
+#SAY
+你是不是想修理 weapon?
+Show me the weapon that needs it.
+ 
+<返回/@main>
+
+
+[Types]
+1
+14
+
+[Trade]
+木剑
+木弓
+剑侠情缘
+匕首
+乌木剑
+乌木弓
+青铜剑
+锋利的华剑
+短剑
+短弓
+铁剑
+骨弓
+青铜斧
+钩状剑
+三叉戟
+弯刀
+速度的刀刃
+复合弓
+镐头
+
+[Quests]
+63
+-64
+
+[@talk]
+#IF
+CHECK [539] 1
+#ACT
+GOTO @MAIN1-1
+#ELSEACT
+GOTO @MAIN1-2
+
+[@MAIN1-1]
+#SAY
+你好 again traveler.. How are you on this fine day? 
+ 
+<关闭/@exit>
+
+[@MAIN1-2]
+#IF
+CHECKQUEST 155 1
+#SAY
+Well you have proven yourself to me. 
+I shall inform those will <listen/@listen>.
+<关闭/@exit>
+#ELSESAY
+How can I trust you? I don't even know who you are.
+Maybe you could do something for me? 
+ 
+<关闭/@exit>
+
+[@listen]
+#ACT
+SET [539] 1
+#SAY
+Farewell traveler.
+ 
+<关闭/@exit>
+

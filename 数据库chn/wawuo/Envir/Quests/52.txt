@@ -1,0 +1,26 @@
+[@Description]
+Did you want me to make you {坎尼茶/LightSteelBlue}? Hmm.. 
+I ran out of Ingredients. Do you think you can 
+get me 10 {食人叶/LightSteelBlue} and 10 {食人花籽/LightSteelBlue}?
+
+[@TaskDescription]
+Collect 10 {食人叶/LightSteelBlue} and {食人花籽's/LightSteelBlue} from 
+{CannibalPlant's/Crimson}
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+食人叶 10
+食人花籽 10
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+
+[@GoldReward]

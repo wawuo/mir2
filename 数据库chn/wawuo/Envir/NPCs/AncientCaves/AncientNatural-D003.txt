@@ -1,0 +1,40 @@
+;;3F
+;;Quest 153
+[@MAIN]
+#IF
+CHECKQUEST 153 1
+#SAY
+带有古代符号的神秘石头.
+"古老的地下城 <限一人/@omacavea>" {Level10~22./KHAKI}
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @MAIN-1
+#ELSESAY
+带有未知符号的神秘石头.
+
+[@MAIN-1]
+#IF
+CHECK [535] 1
+#ACT
+SET [536] 1
+#ELSESAY
+一块有未知符号的神秘石头
+ 
+ 
+<关闭/@exit>
+
+[@omacavea]
+#IF
+LEVEL > 9 
+LEVEL < 22
+#ACT
+MOVE D001A
+#ELSESAY
+什么都没有发生.
+
+[Quests]
+152
+-152
+153
+-153

@@ -1,0 +1,6 @@
+;Gold
+1/5 Gold 1850
+
+;Potions
+1/10 (HP)药物XL
+1/10 (MP)药物XL

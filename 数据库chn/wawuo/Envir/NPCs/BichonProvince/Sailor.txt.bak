@@ -1,0 +1,53 @@
+[@main]
+#SAY
+ 这艘船会去很多地方。船即将启程
+ 乘客们，请登船.
+ 
+ <To 般若岛/@brdmove> 缴费 2,000 支付20个        金币和会费.
+ <To White Valley/@brdmove1> 缴费 10,000 支付20个        金币和会费.
+ <谈谈/@talk> 关于每个边界的问题s.
+
+[@talk]
+#SAY
+ 你想谈哪一个方面?
+ <般若岛/@talkPI>
+ <White Valley/@talkWV>
+ <返回/@main>
+
+[@talkPI]
+ 般若岛 充满了横冲直撞的怪兽。
+ 一些勇士可能会利用这个机会来提高和提升他们的声誉和名气。
+ 他们的声誉和名声，但对当地人来说，这不是什么，只是地狱。
+
+ <返回/@talk>
+
+[@talkWV]
+#SAY
+ White Valley 是刚刚被发现的新地方。
+ 里面的邪恶是巨大的。但财富更多。
+
+ <返回/@talk>
+ 
+[@brdmove]
+#IF
+CHECKGOLD > 2000
+#ACT
+TAKEGOLD 2000
+Move 5 124 353
+#ELSESAY
+你没有足够的 {Gold/Gold} 来使用我的服务!
+消失吧，不要再浪费我的时间了!!
+
+<退出/@exit>
+
+[@brdmove1]
+#IF
+CHECKGOLD > 10000
+#ACT
+TAKEGOLD 10000
+MOVE WHITEVILLAGE 67 93
+#ELSESAY
+你没有足够的 {Gold/Gold} 来使用我的服务!
+消失吧，不要再浪费我的时间了!!!
+
+<退出/@exit>

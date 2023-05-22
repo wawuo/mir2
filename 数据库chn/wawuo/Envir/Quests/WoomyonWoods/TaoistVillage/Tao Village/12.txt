@@ -1,0 +1,28 @@
+[@Description]
+After searching the {Crushed骨头's/LimeGreen} it's missing 
+the {受训者戒指/LightSteelBlue}.
+
+[@TaskDescription]
+Retrieve the {受训者戒指/LightSteelBlue} by killing {VenomSpider/Crimson}.
+
+[@Completion]
+
+[@KillTasks]
+
+[@ItemTasks]
+受训者戒指 1
+
+[@CarryItems]
+
+[@FixedRewards]
+
+[@SelectRewards]
+
+[@ExpReward]
+7000
+
+[@GoldReward]
+7000
+
+// Pickup - Crushed骨头s 12 36 368
+// Hand In - 

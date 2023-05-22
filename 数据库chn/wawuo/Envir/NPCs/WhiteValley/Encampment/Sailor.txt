@@ -1,0 +1,49 @@
+[@main]
+#SAY
+ The boat goes many places. The boat will depart soon
+ Passengers, Please board the ship.
+ 
+ <To Bichon Province/@wvmove> Pay 10,000 {Gold/Gold} 与 Board.
+ <To 般若岛/@wvmove1> Pay 12,000 {Gold/Gold} 与 Board.
+ <Talk/@talk> about each frontiers.
+ 
+[@talk]
+#SAY
+ Which frontier do you want to talk about?
+
+ <般若岛/@talkPI> 
+ <返回/@main>
+
+[@talkPI]
+ 般若岛 is full of rampaging monsters.
+ Some braves may take this opportunity to boost 与 raise
+ their reputation 与 fame but for the locals,it ain't nothing but just hell.
+
+ <返回/@talk>
+
+
+[@wvmove]
+#IF
+CHECKGOLD > 10000
+#ACT
+TAKEGOLD 10000
+MOVE 0 253 673
+BREAK
+#ELSESAY
+You Dont Have enough {Gold/Gold} to use my Service!
+Be gone, don't waste my time again!
+ 
+<退出/@exit>
+
+[@wvmove1]
+#IF
+CHECKGOLD > 12000
+#ACT
+TAKEGOLD 12000
+Move 5 124 353
+break
+#ELSESAY
+You Dont Have enough {Gold/Gold} to use my Service!
+Be gone, don't waste my time again!
+ 
+<退出/@exit>

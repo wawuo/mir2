@@ -1,0 +1,1403 @@
+;;Level 1
+;Gold
+1/1 Gold 35000 LV1
+1/10 金条 LV1
+
+;Pots + Other
+1/1 (HP)药物XL LV1
+1/2 (HP)药物XL LV1
+1/1 (MP)药物XL LV1
+1/2 (MP)药物XL LV1
+1/1 太阳药水 LV1
+1/1 太阳药水 LV1
+1/1 太阳药水(中) LV1
+1/1 太阳药水(中) LV1
+1/1 太阳药水 LV1
+1/1 太阳药水 LV1
+1/2 太阳药水 LV1
+1/2 太阳药水 LV1
+1/1 太阳药水 LV1
+1/2 太阳药水 LV1
+
+
+1/1 祝福油 LV1
+1/10 Golden祝福油 LV1
+
+
+1/10 觉醒的灵魂0 LV1
+1/10 觉醒的灵魂0 LV1
+
+1/75 TrollKingRune LV1
+
+;Weapons
+1/450 战神之剑 LV1
+1/450 力量之弓 LV1
+1/450 巫术之刃 LV1
+1/450 创天之剑 LV1
+1/800 冰封之剑 LV1
+1/800 狰狞之弓 LV1
+1/800 征服者之矛 LV1
+1/800 混蛋之剑 LV1
+1/1000 黑虎之锤 LV1
+1/1000 洛托斯之杖 LV1
+1/1000 致命之弓 LV1
+1/1000 鹤鸣扇 LV1
+
+;Weapons Rare
+1/1600 WidowsWail LV1
+1/1600 ThorsBattleAxe LV1
+1/1600 OathKeeper LV1
+
+;Armour
+1/300 黑虎盔甲(男) LV1
+1/300 黑虎盔甲(女) LV1
+1/300 莲花盔甲(男) LV1
+1/300 莲花盔甲(女) LV1
+1/300 仙鹤盔甲(男) LV1
+1/300 仙鹤盔甲(女) LV1
+
+;Armour Rare
+1/1000 TrollsRobe(男) LV1
+1/1000 TrollsRobe(女) LV1
+
+;Helmets
+1/40 伟大的头盔 LV1
+1/40 智慧头盔 LV1
+1/40 道冠 LV1
+1/40 皇家头盔 LV1
+1/450 闪亮的头盔 LV1
+1/460 PuiYuHelmet LV1
+
+;Helmets Rare
+1/1000 TrollCap LV1
+
+;Necklace
+1/100 残缺的项链 LV1
+1/100 巫术之锚 LV1
+1/100 净化的镜子 LV1
+1/205 邪恶三角 LV1
+1/205 净化的十字架 LV1
+1/205 金刚项链 LV1
+
+;Necklace Rare
+1/1000 TrollChains LV1
+
+;Bracelets
+1/100 双天王护身符 LV1
+1/100 神圣护身符 LV1
+1/100 诅咒护身符 LV1
+1/205 WildTitan护身符 LV1
+1/205 Enchanted护身符 LV1
+1/205 FiveElement护身符 LV1
+
+;Bracelets Rare
+1/1000 TrollBand LV1
+
+;Rings
+1/100 誓约环 LV1
+1/100 五元素戒指 LV1
+1/100 红宝戒指 LV1
+1/205 恶魔之戒 LV1
+1/205 驱邪戒指 LV1
+1/205 Gold龙戒 LV1
+
+;Rings Rare
+1/1000 TrollRing LV1
+
+;Shoes
+1/1075 TrollLeathers LV1
+
+;Belts
+1/1050 S陷阱ofTrolls LV1
+
+;Medals
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+;Warrior
+1/105 火焰之剑 LV1
+1/110 狮子吼 LV1
+1/115 BladeStorm LV1
+1/120 十字半月 LV1
+1/125 刀锋雪崩 LV1
+1/130 保护场 LV1
+1/135 愤怒 LV1
+1/140 怒击 LV1
+
+;Wizard
+1/105 冰风暴 LV1
+1/110 火焰破坏者 LV1
+1/115 镜像 LV1
+1/120 火焰场 LV1
+1/135 暴风雪 LV1
+1/140 魔力助推器 LV1
+
+;Taoist
+1/105 召唤神术 LV1
+1/110 转世 LV1
+1/115 召唤圣德瓦 LV1
+1/120 诅咒 LV1
+1/125 毒云 LV1
+1/135 宠物强化器 LV1
+1/140 能量护盾 LV1
+
+;Assassin
+1/105 陷阱 LV1
+1/110 毒剑 LV1
+1/115 月光 LV1
+1/120 猎手 LV1
+1/125 迅捷脚步 LV1
+1/130 黑暗之躯 LV1
+1/135 出血 LV1
+
+1/105 延迟爆炸 LV1
+1/110 元素屏障 LV1
+1/115 捆绑射击 LV1
+1/120 召唤蟾蜍 LV1
+1/125 毒药射击 LV1
+1/130 残废射击 LV1
+1/135 召唤蛇类 LV1
+
+;CraftingMaterials
+
+
+;Quests
+
+;;Level 2
+;Gold
+1/1 Gold 35000 LV2
+1/10 金条 LV2
+
+;Pots + Other
+1/1 (HP)药物XL LV2
+1/2 (HP)药物XL LV2
+1/1 (MP)药物XL LV2
+1/2 (MP)药物XL LV2
+1/1 太阳药水 LV2
+1/1 太阳药水 LV2
+1/1 太阳药水(中) LV2
+1/1 太阳药水(中) LV2
+1/1 太阳药水 LV2
+1/1 太阳药水 LV2
+1/2 太阳药水 LV2
+1/2 太阳药水 LV2
+1/1 太阳药水 LV2
+1/2 太阳药水 LV2
+
+
+1/1 祝福油 LV2
+1/10 Golden祝福油 LV2
+
+
+1/10 觉醒的灵魂0 LV2
+1/10 觉醒的灵魂0 LV2
+
+1/75 TrollKingRune LV2
+
+;Weapons
+1/450 战神之剑 LV2
+1/450 力量之弓 LV2
+1/450 巫术之刃 LV2
+1/450 创天之剑 LV2
+1/800 冰封之剑 LV2
+1/800 狰狞之弓 LV2
+1/800 征服者之矛 LV2
+1/800 混蛋之剑 LV2
+1/1000 黑虎之锤 LV2
+1/1000 洛托斯之杖 LV2
+1/1000 致命之弓 LV2
+1/1000 鹤鸣扇 LV2
+
+;Weapons Rare
+1/1600 WidowsWail LV2
+1/1600 ThorsBattleAxe LV2
+1/1600 OathKeeper LV2
+
+;Armour
+1/300 黑虎盔甲(男) LV2
+1/300 黑虎盔甲(女) LV2
+1/300 莲花盔甲(男) LV2
+1/300 莲花盔甲(女) LV2
+1/300 仙鹤盔甲(男) LV2
+1/300 仙鹤盔甲(女) LV2
+
+;Armour Rare
+1/1000 TrollsRobe(男) LV2
+1/1000 TrollsRobe(女) LV2
+
+;Helmets
+1/40 伟大的头盔 LV2
+1/40 智慧头盔 LV2
+1/40 道冠 LV2
+1/40 皇家头盔 LV2
+1/450 闪亮的头盔 LV2
+1/460 PuiYuHelmet LV2
+
+;Helmets Rare
+1/1000 TrollCap LV2
+
+;Necklace
+1/100 残缺的项链 LV2
+1/100 巫术之锚 LV2
+1/100 净化的镜子 LV2
+1/205 邪恶三角 LV2
+1/205 净化的十字架 LV2
+1/205 金刚项链 LV2
+
+;Necklace Rare
+1/1000 TrollChains LV2
+
+;Bracelets
+1/100 双天王护身符 LV2
+1/100 神圣护身符 LV2
+1/100 诅咒护身符 LV2
+1/205 WildTitan护身符 LV2
+1/205 Enchanted护身符 LV2
+1/205 FiveElement护身符 LV2
+
+;Bracelets Rare
+1/1000 TrollBand LV2
+
+;Rings
+1/100 誓约环 LV2
+1/100 五元素戒指 LV2
+1/100 红宝戒指 LV2
+1/205 恶魔之戒 LV2
+1/205 驱邪戒指 LV2
+1/205 Gold龙戒 LV2
+
+;Rings Rare
+1/1000 TrollRing LV2
+
+;Shoes
+1/1075 TrollLeathers LV2
+
+;Belts
+1/1050 S陷阱ofTrolls LV2
+
+;Medals
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+;Warrior
+1/105 火焰之剑 LV2
+1/110 狮子吼 LV2
+1/115 BladeStorm LV2
+1/120 十字半月 LV2
+1/125 刀锋雪崩 LV2
+1/130 保护场 LV2
+1/135 愤怒 LV2
+1/140 怒击 LV2
+
+;Wizard
+1/105 冰风暴 LV2
+1/110 火焰破坏者 LV2
+1/115 镜像 LV2
+1/120 火焰场 LV2
+1/135 暴风雪 LV2
+1/140 魔力助推器 LV2
+
+;Taoist
+1/105 召唤神术 LV2
+1/110 转世 LV2
+1/115 召唤圣德瓦 LV2
+1/120 诅咒 LV2
+1/125 毒云 LV2
+1/135 宠物强化器 LV2
+1/140 能量护盾 LV2
+
+;Assassin
+1/105 陷阱 LV2
+1/110 毒剑 LV2
+1/115 月光 LV2
+1/120 猎手 LV2
+1/125 迅捷脚步 LV2
+1/130 黑暗之躯 LV2
+1/135 出血 LV2
+
+1/105 延迟爆炸 LV2
+1/110 元素屏障 LV2
+1/115 捆绑射击 LV2
+1/120 召唤蟾蜍 LV2
+1/125 毒药射击 LV2
+1/130 残废射击 LV2
+1/135 召唤蛇类 LV2
+
+
+
+;CraftingMaterials
+
+
+;Quests
+
+;;Level 3
+;Gold
+1/1 Gold 35000 LV3
+1/10 金条 LV3
+
+;Pots + Other
+1/1 (HP)药物XL LV3
+1/2 (HP)药物XL LV3
+1/1 (MP)药物XL LV3
+1/2 (MP)药物XL LV3
+1/1 太阳药水 LV3
+1/1 太阳药水 LV3
+1/1 太阳药水(中) LV3
+1/1 太阳药水(中) LV3
+1/1 太阳药水 LV3
+1/1 太阳药水 LV3
+1/2 太阳药水 LV3
+1/2 太阳药水 LV3
+1/1 太阳药水 LV3
+1/2 太阳药水 LV3
+
+
+1/1 祝福油 LV3
+1/10 Golden祝福油 LV3
+
+
+1/10 觉醒的灵魂0 LV3
+1/10 觉醒的灵魂0 LV3
+
+1/75 TrollKingRune LV3
+
+;Weapons
+1/450 战神之剑 LV3
+1/450 力量之弓 LV3
+1/450 巫术之刃 LV3
+1/450 创天之剑 LV3
+1/800 冰封之剑 LV3
+1/800 狰狞之弓 LV3
+1/800 征服者之矛 LV3
+1/800 混蛋之剑 LV3
+1/1000 黑虎之锤 LV3
+1/1000 致命之弓 LV3
+1/1000 洛托斯之杖 LV3
+1/1000 鹤鸣扇 LV3
+
+;Weapons Rare
+1/1600 WidowsWail LV3
+1/1600 ThorsBattleAxe LV3
+1/1600 OathKeeper LV3
+
+;Armour
+1/300 黑虎盔甲(男) LV3
+1/300 黑虎盔甲(女) LV3
+1/300 莲花盔甲(男) LV3
+1/300 莲花盔甲(女) LV3
+1/300 仙鹤盔甲(男) LV3
+1/300 仙鹤盔甲(女) LV3
+
+;Armour Rare
+1/1000 TrollsRobe(男) LV3
+1/1000 TrollsRobe(女) LV3
+
+;Helmets
+1/40 伟大的头盔 LV3
+1/40 智慧头盔 LV3
+1/40 道冠 LV3
+1/40 皇家头盔 LV3
+1/450 闪亮的头盔 LV3
+1/460 PuiYuHelmet LV3
+
+;Helmets Rare
+1/1000 TrollCap LV3
+
+;Necklace
+1/100 残缺的项链 LV3
+1/100 巫术之锚 LV3
+1/100 净化的镜子 LV3
+1/205 邪恶三角 LV3
+1/205 净化的十字架 LV3
+1/205 金刚项链 LV3
+
+;Necklace Rare
+1/1000 TrollChains LV3
+
+;Bracelets
+1/100 双天王护身符 LV3
+1/100 神圣护身符 LV3
+1/100 诅咒护身符 LV3
+1/205 WildTitan护身符 LV3
+1/205 Enchanted护身符 LV3
+1/205 FiveElement护身符 LV3
+
+;Bracelets Rare
+1/1000 TrollBand LV3
+
+;Rings
+1/100 誓约环 LV3
+1/100 五元素戒指 LV3
+1/100 红宝戒指 LV3
+1/205 恶魔之戒 LV3
+1/205 驱邪戒指 LV3
+1/205 Gold龙戒 LV3
+
+;Rings Rare
+1/1000 TrollRing LV3
+
+;Shoes
+1/1075 TrollLeathers LV3
+
+;Belts
+1/1050 S陷阱ofTrolls LV3
+
+;Medals
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+;Warrior
+1/105 火焰之剑 LV3
+1/110 狮子吼 LV3
+1/115 BladeStorm LV3
+1/120 十字半月 LV3
+1/125 刀锋雪崩 LV3
+1/130 保护场 LV3
+1/135 愤怒 LV3
+1/140 怒击 LV3
+
+;Wizard
+1/105 冰风暴 LV3
+1/110 火焰破坏者 LV3
+1/115 镜像 LV3
+1/120 火焰场 LV3
+1/135 暴风雪 LV3
+1/140 魔力助推器 LV3
+
+;Taoist
+1/105 召唤神术 LV3
+1/110 转世 LV3
+1/115 召唤圣德瓦 LV3
+1/120 诅咒 LV3
+1/125 毒云 LV3
+1/135 宠物强化器 LV3
+1/140 能量护盾 LV3
+
+;Assassin
+1/105 陷阱 LV3
+1/110 毒剑 LV3
+1/115 月光 LV3
+1/120 猎手 LV3
+1/125 迅捷脚步 LV3
+1/130 黑暗之躯 LV3
+1/135 出血 LV3
+
+1/105 延迟爆炸 LV3
+1/110 元素屏障 LV3
+1/115 捆绑射击 LV3
+1/120 召唤蟾蜍 LV3
+1/125 毒药射击 LV3
+1/130 残废射击 LV3
+1/135 召唤蛇类 LV3
+
+;CraftingMaterials
+
+
+;Quests
+
+;;Level 4
+;Gold
+1/1 Gold 35000 LV4
+1/10 金条 LV4
+
+;Pots + Other
+1/1 (HP)药物XL LV4
+1/2 (HP)药物XL LV4
+1/1 (MP)药物XL LV4
+1/2 (MP)药物XL LV4
+1/1 太阳药水 LV4
+1/1 太阳药水 LV4
+1/1 太阳药水(中) LV4
+1/1 太阳药水(中) LV4
+1/1 太阳药水 LV4
+1/1 太阳药水 LV4
+1/2 太阳药水 LV4
+1/2 太阳药水 LV4
+1/1 太阳药水 LV4
+1/2 太阳药水 LV4
+
+
+1/1 祝福油 LV4
+1/10 Golden祝福油 LV4
+
+
+1/10 觉醒的灵魂0 LV4
+1/10 觉醒的灵魂0 LV4
+
+1/75 TrollKingRune LV4
+
+;Weapons
+1/450 战神之剑 LV4
+1/450 力量之弓 LV4
+1/450 巫术之刃 LV4
+1/450 创天之剑 LV4
+1/800 冰封之剑 LV4
+1/800 狰狞之弓 LV4
+1/800 征服者之矛 LV4
+1/800 混蛋之剑 LV4
+1/1000 黑虎之锤 LV4
+1/1000 致命之弓 LV4
+1/1000 洛托斯之杖 LV4
+1/1000 鹤鸣扇 LV4
+
+;Weapons Rare
+1/1600 WidowsWail LV4
+1/1600 ThorsBattleAxe LV4
+1/1600 OathKeeper LV4
+
+;Armour
+1/300 黑虎盔甲(男) LV4
+1/300 黑虎盔甲(女) LV4
+1/300 莲花盔甲(男) LV4
+1/300 莲花盔甲(女) LV4
+1/300 仙鹤盔甲(男) LV4
+1/300 仙鹤盔甲(女) LV4
+
+;Armour Rare
+1/1000 TrollsRobe(男) LV4
+1/1000 TrollsRobe(女) LV4
+
+;Helmets
+1/40 伟大的头盔 LV4
+1/40 智慧头盔 LV4
+1/40 道冠 LV4
+1/40 皇家头盔 LV4
+1/450 闪亮的头盔 LV4
+1/460 PuiYuHelmet LV4
+
+;Helmets Rare
+1/1000 TrollCap LV4
+
+;Necklace
+1/100 残缺的项链 LV4
+1/100 巫术之锚 LV4
+1/100 净化的镜子 LV4
+1/205 邪恶三角 LV4
+1/205 净化的十字架 LV4
+1/205 金刚项链 LV4
+
+;Necklace Rare
+1/1000 TrollChains LV4
+
+;Bracelets
+1/100 双天王护身符 LV4
+1/100 神圣护身符 LV4
+1/100 诅咒护身符 LV4
+1/205 WildTitan护身符 LV4
+1/205 Enchanted护身符 LV4
+1/205 FiveElement护身符 LV4
+
+;Bracelets Rare
+1/1000 TrollBand LV4
+
+;Rings
+1/100 誓约环 LV4
+1/100 五元素戒指 LV4
+1/100 红宝戒指 LV4
+1/205 恶魔之戒 LV4
+1/205 驱邪戒指 LV4
+1/205 Gold龙戒 LV4
+
+;Rings Rare
+1/1000 TrollRing LV4
+
+;Shoes
+1/1075 TrollLeathers LV4
+
+;Belts
+1/1050 S陷阱ofTrolls LV4
+
+;Medals
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+;Warrior
+1/105 火焰之剑 LV4
+1/110 狮子吼 LV4
+1/115 BladeStorm LV4
+1/120 十字半月 LV4
+1/125 刀锋雪崩 LV4
+1/130 保护场 LV4
+1/135 愤怒 LV4
+1/140 怒击 LV4
+
+;Wizard
+1/105 冰风暴 LV4
+1/110 火焰破坏者 LV4
+1/115 镜像 LV4
+1/120 火焰场 LV4
+1/135 暴风雪 LV4
+1/140 魔力助推器 LV4
+
+;Taoist
+1/105 召唤神术 LV4
+1/110 转世 LV4
+1/115 召唤圣德瓦 LV4
+1/120 诅咒 LV4
+1/125 毒云 LV4
+1/135 宠物强化器 LV4
+1/140 能量护盾 LV4
+
+;Assassin
+1/105 陷阱 LV4
+1/110 毒剑 LV4
+1/115 月光 LV4
+1/120 猎手 LV4
+1/125 迅捷脚步 LV4
+1/130 黑暗之躯 LV4
+1/135 出血 LV4
+
+1/105 延迟爆炸 LV4
+1/110 元素屏障 LV4
+1/115 捆绑射击 LV4
+1/120 召唤蟾蜍 LV4
+1/125 毒药射击 LV4
+1/130 残废射击 LV4
+1/135 召唤蛇类 LV4
+
+
+
+;CraftingMaterials
+
+
+;Quests
+
+;;Level 5
+;Gold
+1/1 Gold 35000 LV5
+1/10 金条 LV5
+
+;Pots + Other
+1/1 (HP)药物XL LV5
+1/2 (HP)药物XL LV5
+1/1 (MP)药物XL LV5
+1/2 (MP)药物XL LV5
+1/1 太阳药水 LV5
+1/1 太阳药水 LV5
+1/1 太阳药水(中) LV5
+1/1 太阳药水(中) LV5
+1/1 太阳药水 LV5
+1/1 太阳药水 LV5
+1/2 太阳药水 LV5
+1/2 太阳药水 LV5
+1/1 太阳药水 LV5
+1/2 太阳药水 LV5
+
+
+1/1 祝福油 LV5
+1/10 Golden祝福油 LV5
+
+
+1/10 觉醒的灵魂0 LV5
+1/10 觉醒的灵魂0 LV5
+
+1/75 TrollKingRune LV5
+
+;Weapons
+1/450 战神之剑 LV5
+1/450 力量之弓 LV5
+1/450 巫术之刃 LV5
+1/450 创天之剑 LV5
+1/800 冰封之剑 LV5
+1/800 狰狞之弓 LV5
+1/800 征服者之矛 LV5
+1/800 混蛋之剑 LV5
+1/1000 黑虎之锤 LV5
+1/1000 洛托斯之杖 LV5
+1/1000 致命之弓 LV5
+1/1000 鹤鸣扇 LV5
+
+;Weapons Rare
+1/1600 WidowsWail LV5
+1/1600 ThorsBattleAxe LV5
+1/1600 OathKeeper LV5
+
+;Armour
+1/300 黑虎盔甲(男) LV5
+1/300 黑虎盔甲(女) LV5
+1/300 莲花盔甲(男) LV5
+1/300 莲花盔甲(女) LV5
+1/300 仙鹤盔甲(男) LV5
+1/300 仙鹤盔甲(女) LV5
+
+;Armour Rare
+1/1000 TrollsRobe(男) LV5
+1/1000 TrollsRobe(女) LV5
+
+;Helmets
+1/40 伟大的头盔 LV5
+1/40 智慧头盔 LV5
+1/40 道冠 LV5
+1/40 皇家头盔 LV5
+1/450 闪亮的头盔 LV5
+1/460 PuiYuHelmet LV5
+
+;Helmets Rare
+1/1000 TrollCap LV5
+
+;Necklace
+1/100 残缺的项链 LV5
+1/100 巫术之锚 LV5
+1/100 净化的镜子 LV5
+1/205 邪恶三角 LV5
+1/205 净化的十字架 LV5
+1/205 金刚项链 LV5
+
+;Necklace Rare
+1/1000 TrollChains LV5
+
+;Bracelets
+1/100 双天王护身符 LV5
+1/100 神圣护身符 LV5
+1/100 诅咒护身符 LV5
+1/205 WildTitan护身符 LV5
+1/205 Enchanted护身符 LV5
+1/205 FiveElement护身符 LV5
+
+;Bracelets Rare
+1/1000 TrollBand LV5
+
+;Rings
+1/100 誓约环 LV5
+1/100 五元素戒指 LV5
+1/100 红宝戒指 LV5
+1/205 恶魔之戒 LV5
+1/205 驱邪戒指 LV5
+1/205 Gold龙戒 LV5
+
+;Rings Rare
+1/1000 TrollRing LV5
+
+;Shoes
+1/1075 TrollLeathers LV5
+
+;Belts
+1/1050 S陷阱ofTrolls LV5
+
+;Medals
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+;Warrior
+1/105 火焰之剑 LV5
+1/110 狮子吼 LV5
+1/115 BladeStorm LV5
+1/120 十字半月 LV5
+1/125 刀锋雪崩 LV5
+1/130 保护场 LV5
+1/135 愤怒 LV5
+1/140 怒击 LV5
+
+;Wizard
+1/105 冰风暴 LV5
+1/110 火焰破坏者 LV5
+1/115 镜像 LV5
+1/120 火焰场 LV5
+1/135 暴风雪 LV5
+1/140 魔力助推器 LV5
+
+;Taoist
+1/105 召唤神术 LV5
+1/110 转世 LV5
+1/115 召唤圣德瓦 LV5
+1/120 诅咒 LV5
+1/125 毒云 LV5
+1/135 宠物强化器 LV5
+1/140 能量护盾 LV5
+
+;Assassin
+1/105 陷阱 LV5
+1/110 毒剑 LV5
+1/115 月光 LV5
+1/120 猎手 LV5
+1/125 迅捷脚步 LV5
+1/130 黑暗之躯 LV5
+1/135 出血 LV5
+
+1/105 延迟爆炸 LV5
+1/110 元素屏障 LV5
+1/115 捆绑射击 LV5
+1/120 召唤蟾蜍 LV5
+1/125 毒药射击 LV5
+1/130 残废射击 LV5
+1/135 召唤蛇类 LV5
+
+
+
+;CraftingMaterials
+
+
+;Quests
+
+;;Level 6
+;Gold
+1/1 Gold 35000 LV6
+1/10 金条 LV6
+
+;Pots + Other
+1/1 (HP)药物XL LV6
+1/2 (HP)药物XL LV6
+1/1 (MP)药物XL LV6
+1/2 (MP)药物XL LV6
+1/1 太阳药水 LV6
+1/1 太阳药水 LV6
+1/1 太阳药水(中) LV6
+1/1 太阳药水(中) LV6
+1/1 太阳药水 LV6
+1/1 太阳药水 LV6
+1/2 太阳药水 LV6
+1/2 太阳药水 LV6
+1/1 太阳药水 LV6
+1/2 太阳药水 LV6
+
+
+1/1 祝福油 LV6
+1/10 Golden祝福油 LV6
+
+
+1/10 觉醒的灵魂0 LV6
+1/10 觉醒的灵魂0 LV6
+
+1/75 TrollKingRune LV6
+
+;Weapons
+1/450 战神之剑 LV6
+1/450 力量之弓 LV6
+1/450 巫术之刃 LV6
+1/450 创天之剑 LV6
+1/800 冰封之剑 LV6
+1/800 狰狞之弓 LV6
+1/800 征服者之矛 LV6
+1/800 混蛋之剑 LV6
+1/1000 黑虎之锤 LV6
+1/1000 致命之弓 LV6
+1/1000 洛托斯之杖 LV6
+1/1000 鹤鸣扇 LV6
+
+;Weapons Rare
+1/1600 WidowsWail LV6
+1/1600 ThorsBattleAxe LV6
+1/1600 OathKeeper LV6
+
+;Armour
+1/300 黑虎盔甲(男) LV6
+1/300 黑虎盔甲(女) LV6
+1/300 莲花盔甲(男) LV6
+1/300 莲花盔甲(女) LV6
+1/300 仙鹤盔甲(男) LV6
+1/300 仙鹤盔甲(女) LV6
+
+;Armour Rare
+1/1000 TrollsRobe(男) LV6
+1/1000 TrollsRobe(女) LV6
+
+;Helmets
+1/40 伟大的头盔 LV6
+1/40 智慧头盔 LV6
+1/40 道冠 LV6
+1/40 皇家头盔 LV6
+1/450 闪亮的头盔 LV6
+1/460 PuiYuHelmet LV6
+
+;Helmets Rare
+1/1000 TrollCap LV6
+
+;Necklace
+1/100 残缺的项链 LV6
+1/100 巫术之锚 LV6
+1/100 净化的镜子 LV6
+1/205 邪恶三角 LV6
+1/205 净化的十字架 LV6
+1/205 金刚项链 LV6
+
+;Necklace Rare
+1/1000 TrollChains LV6
+
+;Bracelets
+1/100 双天王护身符 LV6
+1/100 神圣护身符 LV6
+1/100 诅咒护身符 LV6
+1/205 WildTitan护身符 LV6
+1/205 Enchanted护身符 LV6
+1/205 FiveElement护身符 LV6
+
+;Bracelets Rare
+1/1000 TrollBand LV6
+
+;Rings
+1/100 誓约环 LV6
+1/100 五元素戒指 LV6
+1/100 红宝戒指 LV6
+1/205 恶魔之戒 LV6
+1/205 驱邪戒指 LV6
+1/205 Gold龙戒 LV6
+
+;Rings Rare
+1/1000 TrollRing LV6
+
+;Shoes
+1/1075 TrollLeathers LV6
+
+;Belts
+1/1050 S陷阱ofTrolls LV6
+
+;Medals
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+;Warrior
+1/105 火焰之剑 LV6
+1/110 狮子吼 LV6
+1/115 BladeStorm LV6
+1/120 十字半月 LV6
+1/125 刀锋雪崩 LV6
+1/130 保护场 LV6
+1/135 愤怒 LV6
+1/140 怒击 LV6
+
+;Wizard
+1/105 冰风暴 LV6
+1/110 火焰破坏者 LV6
+1/115 镜像 LV6
+1/120 火焰场 LV6
+1/135 暴风雪 LV6
+1/140 魔力助推器 LV6
+
+;Taoist
+1/105 召唤神术 LV6
+1/110 转世 LV6
+1/115 召唤圣德瓦 LV6
+1/120 诅咒 LV6
+1/125 毒云 LV6
+1/135 宠物强化器 LV6
+1/140 能量护盾 LV6
+
+;Assassin
+1/105 陷阱 LV6
+1/110 毒剑 LV6
+1/115 月光 LV6
+1/120 猎手 LV6
+1/125 迅捷脚步 LV6
+1/130 黑暗之躯 LV6
+1/135 出血 LV6
+
+1/105 延迟爆炸 LV6
+1/110 元素屏障 LV6
+1/115 捆绑射击 LV6
+1/120 召唤蟾蜍 LV6
+1/125 毒药射击 LV6
+1/130 残废射击 LV6
+1/135 召唤蛇类 LV6
+
+
+;CraftingMaterials
+
+
+;Quests
+
+;;Level 7
+;Gold
+1/1 Gold 35000 LV7
+1/10 金条 LV7
+
+;Pots + Other
+1/1 (HP)药物XL LV7
+1/2 (HP)药物XL LV7
+1/1 (MP)药物XL LV7
+1/2 (MP)药物XL LV7
+1/1 太阳药水 LV7
+1/1 太阳药水 LV7
+1/1 太阳药水(中) LV7
+1/1 太阳药水(中) LV7
+1/1 太阳药水 LV7
+1/1 太阳药水 LV7
+1/2 太阳药水 LV7
+1/2 太阳药水 LV7
+1/1 太阳药水 LV7
+1/2 太阳药水 LV7
+
+
+1/1 祝福油 LV7
+1/10 Golden祝福油 LV7
+
+
+1/10 觉醒的灵魂0 LV7
+1/10 觉醒的灵魂0 LV7
+
+1/75 TrollKingRune LV7
+
+;Weapons
+1/450 战神之剑 LV7
+1/450 力量之弓 LV7
+1/450 巫术之刃 LV7
+1/450 创天之剑 LV7
+1/800 冰封之剑 LV7
+1/800 狰狞之弓 LV7
+1/800 征服者之矛 LV7
+1/800 混蛋之剑 LV7
+1/1000 黑虎之锤 LV7
+1/1000 致命之弓 LV7
+1/1000 洛托斯之杖 LV7
+1/1000 鹤鸣扇 LV7
+
+;Weapons Rare
+1/1600 WidowsWail LV7
+1/1600 ThorsBattleAxe LV7
+1/1600 OathKeeper LV7
+
+;Armour
+1/300 黑虎盔甲(男) LV7
+1/300 黑虎盔甲(女) LV7
+1/300 莲花盔甲(男) LV7
+1/300 莲花盔甲(女) LV7
+1/300 仙鹤盔甲(男) LV7
+1/300 仙鹤盔甲(女) LV7
+
+;Armour Rare
+1/1000 TrollsRobe(男) LV7
+1/1000 TrollsRobe(女) LV7
+
+;Helmets
+1/40 伟大的头盔 LV7
+1/40 智慧头盔 LV7
+1/40 道冠 LV7
+1/40 皇家头盔 LV7
+1/450 闪亮的头盔 LV7
+1/460 PuiYuHelmet LV7
+
+;Helmets Rare
+1/1000 TrollCap LV7
+
+;Necklace
+1/100 残缺的项链 LV7
+1/100 巫术之锚 LV7
+1/100 净化的镜子 LV7
+1/205 邪恶三角 LV7
+1/205 净化的十字架 LV7
+1/205 金刚项链 LV7
+
+;Necklace Rare
+1/1000 TrollChains LV7
+
+;Bracelets
+1/100 双天王护身符 LV7
+1/100 神圣护身符 LV7
+1/100 诅咒护身符 LV7
+1/205 WildTitan护身符 LV7
+1/205 Enchanted护身符 LV7
+1/205 FiveElement护身符 LV7
+
+;Bracelets Rare
+1/1000 TrollBand LV7
+
+;Rings
+1/100 誓约环 LV7
+1/100 五元素戒指 LV7
+1/100 红宝戒指 LV7
+1/205 恶魔之戒 LV7
+1/205 驱邪戒指 LV7
+1/205 Gold龙戒 LV7
+
+;Rings Rare
+1/1000 TrollRing LV7
+
+;Shoes
+1/1075 TrollLeathers LV7
+
+;Belts
+1/1050 S陷阱ofTrolls LV7
+
+;Medals
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+;Warrior
+1/105 火焰之剑 LV7
+1/110 狮子吼 LV7
+1/115 BladeStorm LV7
+1/120 十字半月 LV7
+1/125 刀锋雪崩 LV7
+1/130 保护场 LV7
+1/135 愤怒 LV7
+1/140 怒击 LV7
+
+;Wizard
+1/105 冰风暴 LV7
+1/110 火焰破坏者 LV7
+1/115 镜像 LV7
+1/120 火焰场 LV7
+1/135 暴风雪 LV7
+1/140 魔力助推器 LV7
+
+;Taoist
+1/105 召唤神术 LV7
+1/110 转世 LV7
+1/115 召唤圣德瓦 LV7
+1/120 诅咒 LV7
+1/125 毒云 LV7
+1/135 宠物强化器 LV7
+1/140 能量护盾 LV7
+
+;Assassin
+1/105 陷阱 LV7
+1/110 毒剑 LV7
+1/115 月光 LV7
+1/120 猎手 LV7
+1/125 迅捷脚步 LV7
+1/130 黑暗之躯 LV7
+1/135 出血 LV7
+
+1/105 延迟爆炸 LV7
+1/110 元素屏障 LV7
+1/115 捆绑射击 LV7
+1/120 召唤蟾蜍 LV7
+1/125 毒药射击 LV7
+1/130 残废射击 LV7
+1/135 召唤蛇类 LV7
+
+
+
+;CraftingMaterials
+
+
+;Quests
+
+;;Level 8
+;Gold
+1/1 Gold 35000 LV8
+1/10 金条 LV8
+
+;Pots + Other
+1/1 (HP)药物XL LV8
+1/2 (HP)药物XL LV8
+1/1 (MP)药物XL LV8
+1/2 (MP)药物XL LV8
+1/1 太阳药水 LV8
+1/1 太阳药水 LV8
+1/1 太阳药水(中) LV8
+1/1 太阳药水(中) LV8
+1/1 太阳药水 LV8
+1/1 太阳药水 LV8
+1/2 太阳药水 LV8
+1/2 太阳药水 LV8
+1/1 太阳药水 LV8
+1/2 太阳药水 LV8
+
+
+1/1 祝福油 LV8
+1/10 Golden祝福油 LV8
+
+
+1/10 觉醒的灵魂0 LV8
+1/10 觉醒的灵魂0 LV8
+
+1/75 TrollKingRune LV8
+
+;Weapons
+1/450 战神之剑 LV8
+1/450 力量之弓 LV8
+1/450 巫术之刃 LV8
+1/450 创天之剑 LV8
+1/800 冰封之剑 LV8
+1/800 狰狞之弓 LV8
+1/800 征服者之矛 LV8
+1/800 混蛋之剑 LV8
+1/1000 黑虎之锤 LV8
+1/1000 致命之弓 LV8
+1/1000 洛托斯之杖 LV8
+1/1000 鹤鸣扇 LV8
+
+;Weapons Rare
+1/1600 WidowsWail LV8
+1/1600 ThorsBattleAxe LV8
+1/1600 OathKeeper LV8
+
+;Armour
+1/300 黑虎盔甲(男) LV8
+1/300 黑虎盔甲(女) LV8
+1/300 莲花盔甲(男) LV8
+1/300 莲花盔甲(女) LV8
+1/300 仙鹤盔甲(男) LV8
+1/300 仙鹤盔甲(女) LV8
+
+;Armour Rare
+1/1000 TrollsRobe(男) LV8
+1/1000 TrollsRobe(女) LV8
+
+;Helmets
+1/40 伟大的头盔 LV8
+1/40 智慧头盔 LV8
+1/40 道冠 LV8
+1/40 皇家头盔 LV8
+1/450 闪亮的头盔 LV8
+1/460 PuiYuHelmet LV8
+
+;Helmets Rare
+1/1000 TrollCap LV8
+
+;Necklace
+1/100 残缺的项链 LV8
+1/100 巫术之锚 LV8
+1/100 净化的镜子 LV8
+1/205 邪恶三角 LV8
+1/205 净化的十字架 LV8
+1/205 金刚项链 LV8
+
+;Necklace Rare
+1/1000 TrollChains LV8
+
+;Bracelets
+1/100 双天王护身符 LV8
+1/100 神圣护身符 LV8
+1/100 诅咒护身符 LV8
+1/205 WildTitan护身符 LV8
+1/205 Enchanted护身符 LV8
+1/205 FiveElement护身符 LV8
+
+;Bracelets Rare
+1/1000 TrollBand LV8
+
+;Rings
+1/100 誓约环 LV8
+1/100 五元素戒指 LV8
+1/100 红宝戒指 LV8
+1/205 恶魔之戒 LV8
+1/205 驱邪戒指 LV8
+1/205 Gold龙戒 LV8
+
+;Rings Rare
+1/1000 TrollRing LV8
+
+;Shoes
+1/1075 TrollLeathers LV8
+
+;Belts
+1/1050 S陷阱ofTrolls LV8
+
+;Medals
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+;Warrior
+1/105 火焰之剑 LV8
+1/110 狮子吼 LV8
+1/115 BladeStorm LV8
+1/120 十字半月 LV8
+1/125 刀锋雪崩 LV8
+1/130 保护场 LV8
+1/135 愤怒 LV8
+1/140 怒击 LV8
+
+;Wizard
+1/105 冰风暴 LV8
+1/110 火焰破坏者 LV8
+1/115 镜像 LV8
+1/120 火焰场 LV8
+1/135 暴风雪 LV8
+1/140 魔力助推器 LV8
+
+;Taoist
+1/105 召唤神术 LV8
+1/110 转世 LV8
+1/115 召唤圣德瓦 LV8
+1/120 诅咒 LV8
+1/125 毒云 LV8
+1/135 宠物强化器 LV8
+1/140 能量护盾 LV8
+
+;Assassin
+1/105 陷阱 LV8
+1/110 毒剑 LV8
+1/115 月光 LV8
+1/120 猎手 LV8
+1/125 迅捷脚步 LV8
+1/130 黑暗之躯 LV8
+1/135 出血 LV8
+
+1/105 延迟爆炸 LV8
+1/110 元素屏障 LV8
+1/115 捆绑射击 LV8
+1/120 召唤蟾蜍 LV8
+1/125 毒药射击 LV8
+1/130 残废射击 LV8
+1/135 召唤蛇类 LV8
+
+
+
+;CraftingMaterials
+
+
+;Quests
+

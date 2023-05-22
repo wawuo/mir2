@@ -1,0 +1,143 @@
+;Gold
+1/1 Gold 30000
+
+;Pots + Other
+1/1 (HP)药物大量
+1/1 (MP)药物大量
+1/1 (HP)药物大量
+1/1 (MP)药物大量
+1/1 (HP)药物XL
+1/1 (MP)药物XL
+1/1 (HP)药物XL
+1/1 (MP)药物XL
+1/1 太阳药水(中)
+1/1 太阳药水(中)
+1/1 太阳药水(中)
+1/1 祝福油
+1/2 祝福油
+
+1/10 觉醒的灵魂0
+
+
+;Weapons
+1/900 冰封之剑
+1/900 狰狞之弓
+1/900 征服者之矛
+1/900 混蛋之剑
+1/1100 黑虎之锤
+1/1100 致命之弓
+1/1100 洛托斯之杖
+1/1100 鹤鸣扇
+1/1300 地狱山刀
+
+;Armour
+1/1650 BloodDragonArmour(男)
+1/1650 BloodDragonArmour(女)
+
+;Helmets
+1/390 ApesCrown
+1/500 闪亮的头盔
+1/520 黑暗头盔
+1/460 PuiYuHelmet
+1/1450 BloodDragonHelmet
+
+;Necklace
+1/155 邪恶三角
+1/155 净化的十字架
+1/155 金刚项链
+1/630 恶魔面具
+1/630 紫金石
+1/630 鲲鹏之泪
+1/800 (H)恶魔面具
+1/800 (H)紫金石
+1/800 (H)鲲鹏之泪
+1/1550 Blood龙纹项链
+
+;Bracelets
+1/155 WildTitan护身符
+1/155 Enchanted护身符
+1/155 FiveElement护身符
+1/600 WheelOfLunar
+1/800 (H)WheelOfLunar
+1/1550 BloodDragonBrace
+
+;Rings
+1/155 恶魔之戒
+1/155 驱邪戒指
+1/155 Gold龙戒
+1/620 红魔戒指
+1/620 云戒指
+1/620 毒药戒指
+1/800 (H)红魔戒指
+1/800 (H)云戒指
+1/800 (H)毒药戒指
+1/1450 Blood龙戒
+
+;Belt
+1/1500 BloodDragonBelt
+
+;Boot
+1/1500 Blood龙靴
+
+
+;Shields
+1/225 TrophyShield
+1/440 LunarPlate
+
+;Medals
+1/230 ArmouredMedal
+1/250 HollowMedal
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+;;Warrior
+1/800 保护场
+1/800 愤怒
+1/800 反击
+1/800 斩击爆裂
+1/800 怒击
+1/900 不朽的皮肤
+
+;;Wizard
+1/800 冰刺
+1/800 流星打击
+1/800 魔力助推器
+1/900 风暴逃逸
+1/900 快速移动
+1/1500 LavaKing
+1/1550 FrozenRains
+
+;;Taoist
+1/800 毒云
+1/800 转世
+1/900 宠物强化器
+1/900 瘟疫
+1/900 能量护盾
+1/1650 HeadShot
+1/1800 HolyShield
+
+;;Assassion
+1/800 迅捷脚步
+1/800 黑暗之躯
+1/900 出血
+1/900 月雾
+1/1650 怒击Waves
+1/1650 ShadowStep
+
+;Archer
+1/800 毒药射击
+1/800 残废射击
+1/900 召唤蛇类
+1/90 汽油弹
+1/1650 与自然同在
+
+;CraftingMaterials
+
+
+;Quests

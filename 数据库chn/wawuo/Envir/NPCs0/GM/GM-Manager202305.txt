@@ -1,0 +1,437 @@
+[@Main]
+#IF
+身份证
+#SAY
+管理像你这样的游戏大师的事务是一种乐趣。
+今天你想让我执行什么功能<$DATE>？
+
+<建设申请/@CreateGuildCheck> , <查看市场/@MARKET> , <英雄管理/@Hero> .
+<杀死我的宠物/@KillPets> , <打开我的仓库/@STORAGE> , <重置任务标志/@ResetQuestFlags> , <重生面板/@Rebirth Panel
+<重生面板/@RebirthPanel> , <事件管理页面/@EventManagement> .
+ 
+<退出/@Exit> , <退出/@Exit>
+#ELSEACT
+MOVE 0 300 300
+
+[@CreateGuildCheck]
+#IF
+checkgold < 1000000
+#ACT
+Givegold 1000000
+GOTO @CheckLevel
+#ELSEACT
+GOTO @CheckLevel
+
+[@CheckLevel]
+#IF
+LEVEL < 22
+#ACT
+改变LEVEL 22
+GOTO @GiveHorn
+#ELSEACT
+GOTO @GiveHorn
+
+[@给角]
+#ACT
+CHECKITEM 禾马角 1
+捐赠号角1
+GOTO @Createguild
+#ELSEACT
+转到 @创建建筑
+
+
+[@KillPets]
+#ACT
+清除宠物
+提示："你的宠物现在已经按照你的要求死了"。温馨提示
+
+
+[@CREATEGUILD]
+
+[@存储]
+#SAY
+相信我，我正在照看你的东西。
+ 
+ 
+ 
+ 
+ 
+菜单： <主菜单/@主菜单> - <退出/@退出>。
+
+
+[@ResetQuestFlags]
+#ACT
+设置[500]0
+设置[501]0
+设置[502]0
+设置[503]0
+设置[504]0
+SET [505] 0
+设置[506]0
+设置[507]0
+设置[508]0
+SET [509] 0
+设置 [510] 0
+LINEMESSAGE "所有任务标志已被重置"。提示
+
+[@EventManagement]
+#SAY
+这可以用来启动全局事件和其他东西，因为
+服务器的发展，并随着时间的推移加入更多的功能。
+
+<<SabukWall/@Sabuk>>
+ 
+ 
+ 
+ 
+ 
+<<返回/@主>>
+
+[@Sabuk]
+#SAY
+萨布克墙管理面板
+
+<<开始战争/结束战争/@StartWar><统计/@SWStatistics></@Sabuk
+<电传到内墙/@InnerWall></@InnerWall
+<护卫检查/@护卫>
+<门/墙检查/@门> <门/墙检查/@门
+<修复所有/@SWReset></@SWReset
+
+目前SabukWall的所有者是： <$conquestowner(1)>
+
+<返回/@EventManagement> <退出/@Exit></@Exit
+
+[@StartWar]
+#ACT
+startconquest 1
+
+[@内墙]
+#ACT
+移动 0150 12 15
+
+[@守卫]
+#SAY
+
+<修复所有/@修复所有> <$CONQUESTGUARD(1,1)> <修复/@Guard1>
+
+<$CONQUESTGUARD(1,1)> <Repair/@Guard1> <$CONQUESTGUARD(1,1)> <Repair/@Guard1>
+<$CONQUESTGUARD(1,2)> <Repair/@Guard2> <$CONQUESTGUARD(1,2)> <Repair/@Guard2>
+<$CONQUESTGUARD(1,3)> <维修/@Guard3>
+<$CONQUESTGUARD(1,4)> <维修/@Guard4> <$CONQUESTGUARD(1,4)
+<$CONQUESTGUARD(1,5)> <Repair/@Guard5> <$CONQUESTGUARD(1,5)> <Repair/@Guard5>
+<$CONQUESTGUARD(1,6)> <维修/@Guard6> <$CONQUESTGUARD(1,6)> <维修/@Guard6>
+<$CONQUESTGUARD(1,7)> <维修/@Guard7>
+<$CONQUESTGUARD(1,8)> <维修/@Guard8> <$CONQUESTGUARD(1,8)> <维修/@Guard8>
+<$CONQUESTGUARD(1,9)> <维修/@Guard9> <$CONQUESTGUARD(1,9)
+<$CONQUESTGUARD(1,10)> <维修/@Guard10> <$CONQUESTGUARD(1,10)> <维修/@Guard10>
+<$CONQUESTGUARD(1,11)> <维修/@Guard11> <$CONQUESTGUARD(1,11)> <维修/@Guard11>
+<$CONQUESTGUARD(1,12)> <维修/@Guard12>
+
+<返回/@Sabuk> <退出/@退出>
+
+[@盖茨]
+#SAY
+
+<修理所有的墙/@RepairAllWalls>。
+
+墙和门
+<$CONQUESTWALL(1,1)> <维修/@Wall1>
+<$CONQUESTWALL(1,2)> <Repair/@Wall2> <$CONQUESTWALL(1,2)
+<$CONQUESTWALL(1,3)> <Repair/@Wall3>
+<$CONQUESTGATE(1,1)> <修复/@Gate1> <修复/@Gate1
+
+<打开门/@OpenGate> <关闭门/@CloseGate>。
+
+<返回/@Sabuk><退出/@Exit></@Exit
+
+[@打开门]
+#ACT
+打开门 1 1
+LocalMessage "Gate Opened." 提示
+
+[@关闭门]
+#ACT
+关闭门 1 1
+本地信息 "门已关闭"。提示
+
+[@RepairAllWalls]
+#ACT
+征服墙 1 1
+征服墙 1 2
+征服墙 1 3
+LocalMessage "所有墙体都已修复。" 温馨提示
+
+[@Wall1]
+#ACT
+征服墙 1 1
+LocalMessage "You have Repaired Left Wall! 温馨提示
+
+[@Wall2]#ACT
+#ACT
+征服墙 1 2
+LocalMessage "中心墙已修复。" 提示
+
+[@Wall3]#ACT征服墙
+#ACT
+征服墙 1 3
+本地信息 "右墙已修复"。温馨提示
+
+[@关卡1]
+#ACT
+征服门 1 1
+本地信息 "门已修复。" 提示
+
+[@RepairAll]
+#ACT
+征服卫士 1 1
+征服守卫1 2
+征服卫士1 3
+征服卫士1 4
+Conquestguard 1 5
+Conquestguard 1 6
+Conquestguard 1 7
+Conquestguard 1 8
+Conquestguard 1 9
+Conquestguard 1 10
+Conquestguard 1 11
+征服者 1 12
+LocalMessage "所有守卫都复活了。" 提示
+
+[@守卫1]
+#ACT
+征服守卫 1 1
+本地信息 "1号卫兵复活"。提示
+
+[@守卫2]
+#ACT
+征服守卫1 2
+本地信息 "守卫2号复活"。提示
+
+[@守卫3]
+#ACT
+征服守卫1 3
+本地信息 "警卫3号复活"。提示
+
+[@守卫4]
+#ACT
+征服卫士1 4
+本地信息 "卫队4号复活了"。提示
+
+[@守卫5]
+#ACT
+征服卫士1 5
+本地信息 "警卫5号复活"。提示
+
+[@守卫6]
+#ACT
+征服卫士1 6
+本地信息 "警卫6号复活"。提示
+
+[@守卫7]
+#ACT
+征服卫士1 7
+本地信息 "第7号卫兵复活了"。提示
+
+[@守卫8]
+#ACT
+征服卫士1 8
+本地信息 "第8号卫兵复活"。提示
+
+[@守卫9]
+#ACT
+征服卫士1 9
+本地信息 "第9号卫兵复活了"。提示
+
+[@守卫10]
+#ACT
+征服守卫1 10
+本地信息 "10号卫兵复活"。提示
+
+[@Guard11]#ACT
+#ACT
+征服卫士1 11
+本地信息 "第11号卫兵复活了"。提示
+
+[@守卫12]
+#ACT
+征服卫士1 12
+本地信息 "卫队12号复活"。提示
+
+[@SWReset]
+#ACT
+Conquestrepairall 1
+本地信息 "SabukWalls/Gate/Guards Repaired/Revived" 提示
+
+[@SWStatistics] [@SWStatistics
+#SAY
+下面是一些Sabuk的统计数据。
+ 
+
+储存的征服金： <$conquestgold(1)>
+征服利息率： <$conquestrate(1)> 征服利率
+下一次征服的日期： <$conquestschedule(1)>
+ 
+<返回/@Sabuk> <退出/@退出
+
+[@Hero]
+#SAY
+英雄管理页面 
+
+<返回/@Main>
+
+<<创建英雄>>/@创建英雄/绿色>>。
+<<恢复英雄/@恢复英雄/红>><<恢复英雄/@恢复英雄/红
+<<封印英雄/@封印英雄/黄>>><<封印英雄/@封印英雄/黄>>>。
+<<DeleteHero/@DeleteHero/Blue>><<DeleteHero>>
+
+[@ReviveHero]
+#ACT
+重获新生
+
+[@SealHero] [@SealHero
+#ACT
+封印英雄
+
+[@DeleteHero]
+#IF
+CHECKITEM 封印的英雄
+#ACT
+GOTO @Found
+#ELSESAY
+你目前没有一个被封印的英雄。
+
+[@Found]
+#ACT
+取出封印的英雄
+#SAY
+英雄现在已经移交给了诸神。
+
+[@重生面板]
+#SAY
+在这里你可以设置你的重生。
+
+应用重生 删除重生 检查重生
+
+<重生1/@RB1> <重生1/@RB1DEL> <重生1/@RB1CHK>
+<重生2/@RB2> <重生2/@RB2DEL> <重生2/@RB2CHK> <重生2/@RB2CHK
+<重生3/@RB3> <重生3/@RB3DEL> <重生3/@RB3CHK> <重生3/@RB3CHK
+<所有/@RB123> <所有/@DEL123>
+ 
+<检查主重生标志/@RBMAIN> <删除主重生标志/@RBMAINDEL> <应用主重生标志/@RBMAINADD>。
+
+<返回/@Main>
+[@RB1]
+#ACT
+设置 [993] 1
+#SAY
+重生1获准。
+<返回/@重生面板> <退出/@退出>
+
+[@RB2]
+#ACT
+设置 [994] 1
+#SAY
+重生2获准。
+<返回/@重生面板> <退出/@退出>
+
+[@RB3]
+#ACT
+设置 [995] 1
+#SAY
+重生3获准。
+<返回/@RebirthPanel> <退出/@退出>
+
+[@RBMAINADD]
+#ACT
+设置 [1000] 1
+#SAY
+授予主重生标志。
+<返回/@重生面板> <退出/@退出>
+
+[@RB123]
+#ACT
+设置 [993] 1
+设置 [994] 1
+设置 [995] 1
+设置[1000]1
+#SAY
+所有重生标志都已应用。
+<返回/@重生面板> <退出/@退出
+
+[@RB1DEL]
+#ACT
+设置 [993] 0
+#SAY
+重生1被清除。
+<返回/@重生面板> <退出/@退出></@重生面板
+
+[@RB2DEL]
+#ACT
+设置 [994] 0
+#SAY
+重生2被清除。
+<返回/@重生面板> <退出/@退出>
+
+[@RB3DEL]
+#ACT
+设置 [995] 0
+#SAY
+重生3被清除。
+<返回/@重生面板> <退出/@退出>
+
+[@DEL123]
+#ACT
+设置 [993] 0
+设置[994]0
+设置 [995] 0
+设置[1000]0
+#SAY
+所有重生标志被清除。
+<返回/@重生面板> <退出/@退出
+
+[@RBMAINDEL]
+#ACT
+设置 [1000] 0
+#SAY
+主重生清除了。
+<返回/@重生面板> <退出/@退出>
+
+[@RBMAIN]
+#IF
+CHECK [1000] 1
+#SAY
+你目前有主重生效应。
+<返回/@重生面板><退出/@退出>
+#ELSESAY
+你没有主重生效应。
+<返回/@重生面板> <Exit/@Exit> #ELSESAY 你没有主重生效果。
+
+[[@RB1CHK]
+#IF
+CHECK [993] 1
+#SAY
+你目前有重生1。
+<返回/@重生面板><退出/@退出>
+#ELSESAY
+你没有重生1。
+<返回/@重生面板> <Exit/@Exit> #ELSESAY 你没有重生1。
+
+[@RB2CHK]
+#IF
+CHECK [994] 1
+#SAY
+你目前有重生2。
+<返回/@RebirthPanel> <退出/@Exit>
+#ELSESAY
+你没有重生2。
+<返回/@重生面板> <退出/@退出> #ELSESAY你没有重生2。
+
+[@RB3CHK]
+#IF
+CHECK [995] 1
+#SAY
+你目前有重生3。
+<返回/@RebirthPanel> <退出/@Exit>
+#ELSESAY
+你没有重生3。
+<返回/@重生面板> <Exit/@Exit> #ELSESAY 你没有重生3。

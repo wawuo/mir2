@@ -1,0 +1,54 @@
+1/1 Gold 750
+
+;Pots + Other
+1/6 (HP)药物大量
+1/6 (MP)药物大量
+
+1/40 觉醒的灵魂0
+1/40 觉醒的灵魂0
+
+
+;Weapons
+
+
+;Armour
+
+
+;Helmets
+
+
+;Necklace
+
+
+;Bracelets
+
+
+;Rings
+
+
+;Shoes
+
+
+;Belts
+
+
+;Medals
+
+
+;Shields
+
+
+;Pads
+
+
+;Stone
+
+
+;Books
+
+
+;CraftingMaterials
+
+
+;Quests
+

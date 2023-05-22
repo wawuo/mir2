@@ -1,0 +1,12 @@
+[Recipe]
+Amount 1
+Chance 20
+Gold 10000
+
+[Tools]
+工艺书
+
+[Ingredients]
+MC石
+魔药(大)
+(MP)药物XL

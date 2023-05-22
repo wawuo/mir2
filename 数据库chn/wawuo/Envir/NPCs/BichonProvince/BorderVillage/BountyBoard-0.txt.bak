@@ -1,0 +1,32 @@
+[@Main]
+#IF
+CHECKPKPOINT > 100
+#SAY
+目前的悬赏名单:
+                    
+                    ====特别赏金====
+                    <Newbie Guild Recruitment/@NR1> {Level1~25./KHAKI}
+
+
+[@NR1]
+#IF
+LEVEL <= 25
+#ACT
+GOTO @NR2
+#ELSESAY
+抱歉 <$USERNAME>, 你的等级过高.
+ 
+<Back/@Main>
+
+[@NR2]
+#IF
+INGUILD NewbieGuild
+#SAY
+<$USERNAME>, 您目前在一个行会中.
+请在离开这个行会后再次尝试.
+ 
+<Back/@Main>
+#ELSEACT
+AddToGuild NewbieGuild
+ADDNAMELIST NewbieGuild
+LocalMessage "恭喜你，你已经加入了 新的行会." Hint

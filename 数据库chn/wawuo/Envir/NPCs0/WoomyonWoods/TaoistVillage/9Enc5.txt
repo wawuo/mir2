@@ -1,0 +1,107 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+I will not help an evil person like you...
+ 
+ 
+<Close/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+Hello there <$USERNAME>,
+I'm currently on the look out for many types of materials
+ 
+Did you know material's can make many wonderful items
+which can help on your travels?
+I pay well.. if ever wish to sell anything come back
+and ill take alook.
+ 
+<Sell/@Sell> Materials.
+ 
+<Close/@exit>
+
+[@Sell]
+#SAY
+Show me the Material's..
+
+[RECIPE]	
+(HP)药物XL
+(MP)药物XL
+复兴护身符
+小贩火炬
+GrenPoison
+红色毒药
+黑线
+白线
+红线
+饺子
+牛肉饺子
+骨头饺子
+鸡肉饺子
+鸡蛋饺子
+骨头汤
+鸡肉汤
+蛋汤
+草药茶
+肉汤
+鸡汤
+大骨
+缝制物品
+骨锤
+鱼饵
+骨质疏松器
+帽子
+骨骼之翼(男)
+骨骼之翼(女)
+虫子手镯
+虫子颈链
+虫子戒指
+翡翠腰带
+翡翠手镯
+翡翠链
+翡翠戒指
+翡翠鞋
+红玉腰带
+红玉手镯
+红玉项链
+红玉戒指
+红玉鞋
+白金腰带
+白金手镯
+白金项链
+白金戒指
+白金鞋
+翡翠腰带(H)
+翡翠手镯(H)
+翡翠项链(H)
+翡翠戒指(H)
+翡翠鞋(H)
+红玉腰带(H)
+红色玉石手镯(H)
+红色玉石项链(H)
+红玉戒指(H)
+红色玉石鞋(H)
+白金腰带(H)
+白金手镯(H)
+白金项链(H)
+白金戒指(H)
+白金鞋(H)
+准确度宝石
+敏捷宝石
+勇敢宝石
+耐力宝石
+幻觉宝石
+耐用性宝石
+屠龙宝典
+冰冻宝石
+魔法宝石
+毒药宝石
+保护宝石
+灵魂宝石
+风暴宝石
+
+[Types]
+16

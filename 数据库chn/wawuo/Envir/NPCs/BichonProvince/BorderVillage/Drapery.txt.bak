@@ -1,0 +1,60 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样邪恶的人......
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+你好旅行者。我能为你做什么? 
+
+我看到你穿着: {<$ARMOUR>/CORAL}
+我看到你穿着: {<$HELMET>/CORAL}
+我看到你穿着: {<$BELT>/CORAL}
+我看到你穿着: {<$BOOTS>/CORAL}
+
+<查看/@BuySell> 商店
+<修理/@Repair> 布帘.
+ 
+<关闭/@exit>
+
+[@BuySell]
+#SAY
+有什么相买或卖的?
+<返回 购买/@BuyBack>
+ 
+<返回/@main>
+
+[@BuyBack]
+#SAY
+这些是仍可购买的物品.
+ 
+<返回/@main>
+
+[@Repair]
+#SAY
+您需要修理窗帘吗？
+ 
+<返回/@main>
+
+
+[Types]
+2
+4
+9
+10
+
+[Trade]
+布衣(男)
+布衣(女)
+轻甲(男)
+轻甲(女)
+青铜头盔
+双闸刀
+皮腰带
+低帮鞋

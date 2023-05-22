@@ -1,0 +1,36 @@
+[@MAIN]
+#IF
+CHECKPKPOINT > 199
+#SAY
+我不会帮助像你这样的恶人...
+ 
+ 
+<关闭/@exit>
+#ELSEACT
+GOTO @Main-1
+
+[@Main-1]
+#SAY
+你好 Traveler. 
+Do you have anything for sale? 
+<出售/@Sell> Items
+
+<关闭/@exit>
+
+[@Sell]
+#SAY
+What do you have for trade?
+
+[TYPES]
+5
+6
+7
+11
+16
+18
+20
+
+
+[Quests]
+124
+-124

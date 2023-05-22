@@ -1,0 +1,6 @@
+;Crafting Materials
+1/2 蛆虫药丸 
+1/10 蛆虫药丸 
+
+;Quests
+1/1 MaggotGuts Q
