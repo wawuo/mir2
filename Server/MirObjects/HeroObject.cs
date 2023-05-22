@@ -758,70 +758,81 @@ namespace Server.MirObjects
             ProcessAI(); // 处理 AI
             ProcessTarget(); // 处理目标
             ProcessRoam(); // 处理漫游
+              //这些方法是用来处理角色的自动药水、AI、堆叠、搜索、漫游和攻击目标等行为的。
+              //`ProcessAutoPot` 方法用于处理自动药水。如果当前时间小于 `AutoPotTime`，则返回。否则，更新 `AutoPotTime` 为当前时间加上 `AutoPotDelay`。然后，如果角色的生命值百分比小于 `AutoHPPercent` 并且 `HPItemIndex` 大于 0 且 `PotHealthAmount` 小于等于 0，则尝试使用生命药水。如果角色的魔法值百分比小于 `AutoMPPercent` 并且 `MPItemIndex` 大于 0 且 `PotManaAmount` 小于等于 0，则尝试使用魔法药水。
+              //`TryAutoPot` 方法用于尝试使用药水。它遍历角色的背包，查找与给定索引匹配的物品。如果找到匹配的物品，则使用该物品并返回。
+              //`ProcessAI` 方法用于处理 AI。如果 `NextMagicSpell` 不为 None，则返回。然后调用 `ProcessFriend` 方法处理友方单位。如果 `NextMagicSpell` 不为 None，则返回。最后调用 `ProcessAttack` 方法处理攻击。
+              //`ProcessStacking` 方法用于处理堆叠。它首先检查角色是否被堆叠。如果角色能够移动并且（主人在角色前面或角色被堆叠），则尝试沿着当前方向行走。如果行走失败，则随机选择一个方向并沿着该方向行走。
+              //`ProcessSearch` 方法用于处理搜索。如果当前时间小于 `SearchTime` 或主人的宠物模式为 Follow 或 None，则返回。否则，更新 `SearchTime` 为当前时间加上 `SearchDelay`。然后，如果目标为空或随机数为 0，则调用 `FindTarget` 方法查找目标。
+              //`ProcessRoam` 方法用于处理漫游。如果有目标或当前时间小于 `RoamTime`，则返回。否则，如果有主人，则移动到主人的背后；否则，更新 `RoamTime` 为当前时间加上 `RoamDelay`。
+              //其他方法（如 `ProcessFriend`, `ProcessAttack`, `ProcessTarget`, 和 `Attack`) 是虚方法，可以在派生类中重写以提供具体实现。
+
         }
 
         protected void ProcessAutoPot()
         {
-            if (Envir.Time < AutoPotTime) return;
+            if (Envir.Time < AutoPotTime) return; // 如果当前时间小于 AutoPotTime，则返回
 
-            AutoPotTime = Envir.Time + AutoPotDelay;
+            AutoPotTime = Envir.Time + AutoPotDelay; // 更新 AutoPotTime 为当前时间加上 AutoPotDelay
 
+            // 如果角色的生命值百分比小于 AutoHPPercent 并且 HPItemIndex 大于 0 且 PotHealthAmount 小于等于 0
             if (PercentHealth < AutoHPPercent && HPItemIndex > 0 && PotHealthAmount <= 0)
-                TryAutoPot(HPItemIndex);
+                TryAutoPot(HPItemIndex); // 尝试使用生命药水
 
+            // 如果角色的魔法值百分比小于 AutoMPPercent 并且 MPItemIndex 大于 0 且 PotManaAmount 小于等于 0
             if (PercentMana < AutoMPPercent && MPItemIndex > 0 && PotManaAmount <= 0)
-                TryAutoPot(MPItemIndex);
+                TryAutoPot(MPItemIndex); // 尝试使用魔法药水
         }
 
         protected void TryAutoPot(int ItemIndex)
         {
-            for (int i = 0; i < Info.Inventory.Length; i++)
+            for (int i = 0; i < Info.Inventory.Length; i++) // 遍历角色的背包
             {
                 UserItem item = Info.Inventory[i];
-                if (item == null) continue;
-                if (item.Info.Index != ItemIndex) continue;
+                if (item == null) continue; // 如果物品为空，则继续循环
+                if (item.Info.Index != ItemIndex) continue; // 如果物品索引不匹配，则继续循环
 
-                UseItem(item.UniqueID);
+                UseItem(item.UniqueID); // 使用物品
                 return;
             }
         }
 
-        protected void ProcessAI() 
-        {           
-            if (NextMagicSpell != Spell.None) return;            
-            ProcessFriend();
+        protected void ProcessAI()
+        {
+            if (NextMagicSpell != Spell.None) return; // 如果 NextMagicSpell 不为 None，则返回           
+            ProcessFriend(); // 处理友方单位
 
-            if (NextMagicSpell != Spell.None) return;
-            ProcessAttack();
+            if (NextMagicSpell != Spell.None) return; // 如果 NextMagicSpell 不为 None，则返回
+            ProcessAttack(); // 处理攻击
         }
 
         protected virtual void ProcessStacking()
         {
-            Stacking = CheckStacked();
+            Stacking = CheckStacked(); // 检查角色是否被堆叠
 
-            if (CanMove && ((Owner != null && Owner.Front == CurrentLocation) || Stacking))
+            if (CanMove && ((Owner != null && Owner.Front == CurrentLocation) || Stacking)) // 如果角色能够移动并且（主人在角色前面或角色被堆叠）
             {
-                if (!Walk(Direction))
+                if (!Walk(Direction)) // 尝试沿着当前方向行走，如果行走失败
                 {
                     MirDirection dir = Direction;
 
-                    switch (Envir.Random.Next(3)) 
+                    switch (Envir.Random.Next(3))
                     {
                         case 0:
                             for (int i = 0; i < 7; i++)
                             {
-                                dir = Functions.NextDir(dir);
+                                dir = Functions.NextDir(dir); // 获取下一个方向
 
-                                if (Walk(dir))
+                                if (Walk(dir)) // 尝试沿着该方向行走，如果成功则跳出循环
                                     break;
                             }
                             break;
                         default:
                             for (int i = 0; i < 7; i++)
                             {
-                                dir = Functions.PreviousDir(dir);
+                                dir = Functions.PreviousDir(dir); // 获取上一个方向
 
-                                if (Walk(dir))
+                                if (Walk(dir)) // 尝试沿着该方向行走，如果成功则跳出循环
                                     break;
                             }
                             break;
@@ -834,29 +845,30 @@ namespace Server.MirObjects
 
         protected virtual void ProcessSearch()
         {
-            if (Envir.Time < SearchTime) return;
-            if (Owner.Info.HeroBehaviour == HeroBehaviour.Follow || !Mount.CanAttack) return;
+            if (Envir.Time < SearchTime) return; // 如果当前时间小于 SearchTime，则返回
+            if (Owner.Info.HeroBehaviour == HeroBehaviour.Follow || !Mount.CanAttack) return; // 如果主人的宠物模式为 Follow 或宠物不能攻击，则返回
 
-            SearchTime = Envir.Time + SearchDelay;
+            SearchTime = Envir.Time + SearchDelay; // 更新 SearchTime 为当前时间加上 SearchDelay
 
-            if (Target == null || Envir.Random.Next(3) == 0)
-                FindTarget();
+            if (Target == null || Envir.Random.Next(3) == 0) // 如果目标为空或随机数为 0
+                FindTarget(); // 查找目标
         }
 
         protected virtual void ProcessRoam()
         {
-            if (Target != null || Envir.Time < RoamTime) return;
+            if (Target != null || Envir.Time < RoamTime) return; // 如果有目标或当前时间小于 RoamTime，则返回
 
-            if (Owner != null)
+            if (Owner != null) // 如果有主人
             {
-                MoveTo(Owner.Back);
+                MoveTo(Owner.Back); // 移动到主人的背后
                 return;
             }
 
-            RoamTime = Envir.Time + RoamDelay;
+            RoamTime = Envir.Time + RoamDelay; // 更新 RoamTime 为当前时间加上 RoamDelay
         }
-        protected virtual void ProcessFriend() { }
-        protected virtual void ProcessAttack() { }
+        protected virtual void ProcessFriend() { } // 虚方法，可以在派生类中重写以提供具体实现
+        protected virtual void ProcessAttack() { } // 虚方法，可以在派生类中重写以提供具体实现
+
         protected virtual void ProcessTarget()
         {
             if (CanCast && NextMagicSpell != Spell.None)
